@@ -1,0 +1,492 @@
+<html>
+<!DOCTYPE html>
+ 
+<!--
+
+
+         ANGELINA REVAMP / 028 / SUGARCODES / TUMBLR
+         CREATED & DESIGNED BY AUTUMN
+       
+        - fonts from google fonts
+        - icons from cappuccicons / by suiomi
+        - base code(s) by seyche, silbrigthemes & neonbikethemes
+        - responsive video code by nouvae
+        - npf photosets fix by glenthemes
+        - style my tootltips by malihu (https://manos.malihu.gr)
+        - css photoset & fix by annasthms and eggdesign
+        - special thanks to alyofrp's tab tutorial
+        
+
+       
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact 
+
+        This work is protected by a creative commons
+        Attribution-NonCommercial-NoDerivatives 4.0 International
+        (CC BY-NC-ND 4.0)
+        license.
+-->
+ 
+<head>
+   
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}<meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0, width=device-width" /><title>{Title}</title>
+ 
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+    
+    <!-- THEME SPECIFICS -->
+    
+    <link href="https://dl.dropbox.com/s/dhvjdx5oesbping/angelinarevamp.css" rel="stylesheet">
+ 
+    <!-- STYLED TOOLTIPS -->
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script><script src="https://dl.dropbox.com/s/q8akoadfqm16u6r/sugarmytooltips.js"></script>
+  
+    <!-- ICONS FONT -->
+  
+    <script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
+
+    
+    <!-- META TAGGED INFORMATION -->
+    
+    
+        <meta name="color:Background" content="#f6f6f6"/>
+    <meta name="color:Container" content="#eeeeee"/>
+    <meta name="color:Borders" content="#e7e5e5"/>
+    <meta name="color:Posts" content="#ffffff"/>
+    <meta name="color:Accent One" content="#5c5360"/>
+    <meta name="color:Accent Two" content="#90a58b"/>
+    <meta name="color:Text" content="#4f4f4f"/>
+
+    <meta name="image:Background" content=""/>
+    <meta name="image:Header" content="https://static.tumblr.com/blgwozc/spkr5trun/1000x400.png"/>
+    <meta name="image:Sidebar" content="https://static.tumblr.com/blgwozc/gXDr5trug/375x200.png"/>
+    
+    <meta name="text:Title" content="title here."/>
+    <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna."/>
+    
+    <meta name="text:Link One URL" content="/"/>
+    <meta name="text:Link One" content="link one"/>
+    <meta name="text:Link Two URL" content="/"/>
+    <meta name="text:Link Two" content="link two"/>
+    <meta name="text:Link Three URL" content="/"/>
+    <meta name="text:Link Three" content="link three"/>
+    <meta name="text:Link Four URL" content="/"/>
+    <meta name="text:Link Four" content="link four"/>
+    <meta name="text:Link Five URL" content="/"/>
+    <meta name="text:Link Five" content="link five"/>
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    
+<style type="text/css">
+
+
+body { color:{color:Text}; background-color:{color:Background}; background-attachment:fixed!important; background-image:url('{image:Background}');!important;  }
+
+                        /* FORMATTING */
+
+::-webkit-scrollbar-track { background:{color:Accent One}; }
+
+::-webkit-scrollbar-thumb { background:{color:Accent Two}; }
+ 
+#s-m-t-tooltip { color:{color:Posts}; background:{color:Accent One}; }
+   
+h1 { color:{color:Posts}; background:{color:Accent One}; }
+   
+h2 { color:{color:Accent One}; }
+   
+h2 i { color:{color:Accent One}; }
+   
+h2 b { color:{color:Accent One}; }
+   
+hr { color:{color:Posts}; background:{color:Accent One}; border-color: {color:Borders}; }
+   
+pre {  color:{color:Text}; }
+ 
+b, strong { color:{color:Accent Two}; }
+   
+i, italic { color: {color:Accent One}; }	
+   
+a { color:{color:Accent One}; }
+ 
+a:hover {  color: {color:Accent Two}; }
+
+blockquote { border-left:2px solid {color:Accent Two}; background:{color:Container}; }
+   
+ul li:before {  color:{color:Accent One}; }
+
+#more { color:{color:Accent Two}; background:{color:Container}; }
+
+                        /* POSTS */
+                        
+#postcontainer { margin-bottom:150px; background:{color:Container}; {block:Permalink}margin-bottom:145px;{/block:Permalink}}                        
+
+#posts { background:{color:Posts}; }
+
+#audio { background:{color:Container}; }
+
+#question { background:{color:Container}; }
+    
+#asker { color:{color:Posts}; background:{color:Accent One}; }
+
+#asker b { color:{color:Accent Two}; }
+    
+#asker a{ color:{color:Posts}; }
+
+.even .label { color:{color:Accent One}; }
+
+.odd .label { color:{color:Accent One}; }
+
+.odd { background:{color:Background}; }
+ 
+.even { background:{color:Container}; }
+
+                        /* POST INFO */
+
+#tags { opacity:0; display:none; margin:-25px; background:{color:Container}; color:{color:Accent One}; {block:Permalink}opacity:1; margin-top:25px; display:block;{/block:Permalink} }
+
+#tags a { border-bottom:2px solid {color:Accent Two}; }
+   
+#tags a:hover { color:{color:Accent Two}; }
+
+#info { color:{color:Posts}; background:{color:Accent One}; }
+
+#info a { color:{color:Posts}; }
+    
+#notes li { background:{color:Posts}; }
+
+                        /* CONTAINER */
+
+#container { background:{color:Container}; }  
+
+#menubar { background:{color:Accent One}; }
+
+#navigation { background:{color:Accent One} }
+
+#navigate { background:{color:Accent One}; }
+
+#navigate span { color:{color:Posts}; }
+
+#navigate a { color:{color:Accent Two}; }
+
+#navigate a:hover { color:{color:Accent One}; }
+
+                        /* SIDEBAR */
+
+#sidebar {  background:{color:Container}; margin-bottom:180px; {block:Permalink}margin-bottom:150px;{/block:Permalink}; }
+
+#box { background:{color:Posts}; }
+
+#boxtitle { color:{color:Posts}; background:{color:Accent One}; }
+ 
+#update { background:{color:Container}; }
+
+#d { background:{color:Accent One}; color:{color:Posts}; }
+
+#members { background:{color:Container}; }
+
+#member {color:{color:Accent Two};}
+
+#member span { color:{color:Text}; }
+
+#projects { background:{color:Container}; }
+
+#project { background:{color:Posts}; }
+
+#project::-webkit-scrollbar { width:0px; }
+
+#ptitle { color:{color:Posts}; background:{color:Accent One}; } 
+
+#exlink { background:{color:Accent One}; color:{color:Posts}; }
+
+#exlink:hover { background:{color:Accent Two}; }
+
+                        /* FOOTER */
+
+#pagination { background:{color:Accent One}; }
+
+#copyright { color:{color:Posts}; }
+
+#pagi { border-left:1px solid {color:Borders}; color:{color:Posts}; }
+
+#pagi a, .current { color:{color:Posts}; background:{color:Accent Two}; }
+
+#pagi a:hover { background:{color:Container}; color:{color:Accent Two}; }
+
+#credit a { color:{color:Accent Two}; }  
+
+
+#sugarhoney { position:fixed; bottom:0;left:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+
+                     
+</style>
+</head>  
+<body>
+
+
+
+<div id="menubar">
+    <div id="navigation">
+        <div id="navigate">
+            <span>{text:Title}</span>
+            <a href="{text:Link One URL}">{text:Link One}</a>
+            <a href="{text:Link Two URL}">{text:Link Two}</a>
+            <a href="{text:Link Three URL}">{text:Link Three}</a>
+            <a href="{text:Link Four URL}">{text:Link Four}</a>
+            <a href="{text:Link Five URL}">{text:Link Five}</a>
+        </div>
+    </div>
+</div>
+<div id="container">
+
+<div id="header"><img src="{image:Header}"></div>
+
+<div id="sidebar">
+
+<div id="box">
+    <div id="boxtitle">{text:Title}</div>
+    <div id="description">
+    <img src="{image:Sidebar}">
+        {text:Description}
+    </div>
+</div>
+
+
+                    <!-- UPDATE BOX -->
+
+<div id="box">
+    <div id="boxtitle">updates</div>
+    <div id="description">
+        <div id="update"><div id="d">00.00</div> update here</div>
+        <div id="update"><div id="d">00.00</div> update here</div>
+        <div id="update"><div id="d">00.00</div> update here</div>
+        <div id="update"><div id="d">00.00</div> update here</div>
+    </div>
+</div>
+
+                    <!-- MEMBERS BOX -->
+
+<div id="box">
+    <div id="boxtitle">members</div>
+    <div id="description">
+
+                    <!-- MEMBER ONE -->
+        
+        <div id="members">
+            <img src="https://static.tumblr.com/blgwozc/22Br5trsr/90.png">
+            <div id="member">member name <br>
+            <span>memberurlhere / role</span></div>
+        </div>
+        
+                    <!-- MEMBER TWO -->
+                    
+        <div id="members">
+            <img src="https://static.tumblr.com/blgwozc/22Br5trsr/90.png">
+            <div id="member">member name <br>
+            <span>memberurlhere / role</span></div>
+        </div>
+        
+    </div>
+</div>
+
+                    <!-- AFFILIATES BOX -->
+ 
+<div id="box">
+    <div id="boxtitle">affiliates</div>
+    <div id="affiliates">
+        
+        <a href="/" title="name">
+        <img src="https://static.tumblr.com/blgwozc/FVlr5trrr/85.png"></a>
+        <a href="/" title="name">
+        <img src="https://static.tumblr.com/blgwozc/FVlr5trrr/85.png"></a>
+        <a href="/" title="name">
+        <img src="https://static.tumblr.com/blgwozc/FVlr5trrr/85.png"></a>
+        <a href="/" title="name">
+        <img src="https://static.tumblr.com/blgwozc/FVlr5trrr/85.png"></a>
+        
+        <a href="/" title="name">
+        <img src="https://static.tumblr.com/blgwozc/FVlr5trrr/85.png"></a>
+        <a href="/" title="name">
+        <img src="https://static.tumblr.com/blgwozc/FVlr5trrr/85.png"></a>
+        <a href="/" title="name">
+        <img src="https://static.tumblr.com/blgwozc/FVlr5trrr/85.png"></a>
+        <a href="/" title="name">
+        <img src="https://static.tumblr.com/blgwozc/FVlr5trrr/85.png"></a>
+        
+        
+    </div>
+</div>
+
+                    <!-- PROJECTS BOX -->
+
+<div id="box"> 
+    <div id="boxtitle">projects</div>
+    <div id="description">
+
+
+                    <!-- PROJECT ONE -->        
+        <div id="projects">
+            <img src="https://static.tumblr.com/blgwozc/Ewgr5trp8/375x150.png">
+            <div id="project">
+                project description. 
+            </div>
+            <div id="ptitle">project title</div>
+        </div>
+        
+                    <!-- PROJECT TWO -->        
+        <div id="projects">
+            <img src="https://static.tumblr.com/blgwozc/Ewgr5trp8/375x150.png">
+            <div id="project">
+                project description. 
+            </div>
+            <div id="ptitle">project title</div>
+        </div>        
+ 
+    </div>
+</div>
+
+                    <!-- EXTRA BOX -->
+
+<div id="box">
+    <div id="boxtitle">extra box</div>
+    <div id="description">
+        extra box content
+    </div>
+</div>
+
+                    <!-- EXTRA LINKS BOX -->
+
+<div id="box"> 
+    <div id="boxtitle">important links</div>
+    <div id="affiliates">
+        
+       <a href="/"><div id="exlink">extra link</div></a> 
+       <a href="/"><div id="exlink">extra link</div></a> 
+       <a href="/"><div id="exlink">extra link</div></a> 
+       <a href="/"><div id="exlink">extra link</div></a> 
+       <a href="/"><div id="exlink">extra link</div></a> 
+       <a href="/"><div id="exlink">extra link</div></a> 
+ 
+    </div>
+</div>
+
+                    <!-- BLOG STATISTICS BOX -->
+
+<div id="box">
+    <div id="boxtitle">statistics</div>
+    <div id="description">
+        <div id="update"><div id="d">blog type</div> statistic here</div>
+        <div id="update"><div id="d">design team</div> statistic here</div>
+        <div id="update"><div id="d">online now</div> statistic here</div>
+        <div id="update"><div id="d">total hits</div> statistic here</div>
+        <div id="update"><div id="d">established</div> statistic here</div>
+    </div>
+</div>
+
+                    <!-- DISCLAIMER BOX -->
+
+<div id="box">
+    <div id="boxtitle">disclaimer</div>
+    <div id="description">
+        lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna. maecenas dui neque, rhoncus sed, vehicula vitae, auctor at, nisi. aenean id massa ut lacus molestie porta. curabitur sit amet quam id libero suscipit venenatis.
+    </div>
+</div>
+
+</div> 
+
+<div id="postcontainer">
+
+    {block:Posts}
+ 
+<div id="posts">
+
+{block:Date}<div id="info"><a href="{Permalink}" title="with {NoteCount} Notes">permalink</a></div>{/block:Date} 
+
+                    <!-- POST TITLES -->
+
+{block:Title}<h1>{Title}</h1>{/block:Title}
+
+                    <!-- TEXT POSTS -->
+
+{block:Text}{Body}{/block:Text}
+
+                    <!-- QUOTE POSTS -->
+ 
+{block:Quote}<div id="quote">{Quote}</div><div id="source">— {Source}</div>{/block:Quote}
+
+                    <!-- LINK POSTS -->
+ 
+{block:Link}<a href="{URL}" class="link" {Target}> <h2>{Name}</h2></a>
+{block:Description}<p>{Description}</p>{/block:Description}{/block:Link}
+
+                    <!-- PHOTO POSTS -->
+ 
+{block:Photo}<center><img src="{PhotoURL-500}"/></center>{block:Caption}{Caption}{/block:Caption}{/block:Photo}
+
+                    <!-- PHOTOSET POSTS -->
+
+{block:Photoset}<div class="photo">{Photoset}</div>{block:Caption}<div id="caption">{Caption}</div>{/block:Caption}{/block:Photoset}
+
+                    <!-- CHAT POSTS -->
+ 
+{block:Chat}<div class="chat">{block:Lines}<div class="{Alt}">{block:Label}<span class="label">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</span>{/block:Label}{Line}</div>{/block:Lines}</div>{/block:Chat} 
+
+                    <!-- VIDEO POSTS -->
+
+{block:Video}{Video-500}{block:Caption}{Caption}{/block:Caption}{/block:Video}
+
+                    <!-- ASK POSTS -->
+ 
+{block:Answer}<div id="question">{Question}</div><div id="asker"><b>{Asker}</b> asked</div>{Answer}{/block:Answer}
+
+                    <!-- AUDIO POSTS -->
+
+{block:Audio}{block:AudioPlayer}<div id="audio">{block:AlbumArt}<div id="audioimg"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}<div id="player">{AudioPlayerWhite}</div><div id="trackdetails">{block:TrackName}<b>Track:</b> {TrackName} <br/>{/block:TrackName}{block:Artist}<b>Artist:</b> {Artist} <br/>{/block:Artist}{block:Album}<b>Album:</b> {Album} <br/>{/block:Album}</div></div>{/block:AudioPlayer}<br><br>{block:Caption}{Caption}{/block:Caption}{/block:Audio}
+
+                    <!-- READ MORES -->
+
+{block:More}<a href="{Permalink}"><div id="more">continue to post...</div></a>{/block:More}
+
+<div class="contentsource" style="display:none;"> {block:ContentSource} Source: <a href="{SourceURL}">{SourceTitle} </a> {/block:ContentSource} {block:RebloggedFrom} Via: <a href="{ReblogParentURL}">{ReblogParentName}</a> {/block:RebloggedFrom}</div>
+ 
+                    <!-- PERMALINK, INFO & TAGS -->
+
+{block:Date}<div id="tags">{block:Tags} <a href="{TagURL}"> {Tag} </a>{/block:Tags}</div>{/block:Date}    
+</div>
+
+
+                    <!-- POST NOTES -->
+
+{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+
+{/block:Posts}
+
+
+</div>
+
+</div>
+
+<div id="footer" style="z-index:9999999;">
+    <div id="pagination">
+    
+    <div id="copyright"> {Name}
+    <div id="credit"> by <a href="https://sugarcodes.tumblr.com/" target="_blank">sugarcodes</a> | powered by tumblr</div>
+    </div>
+        
+    <div id="pagi">
+       <div style="margin-left:90px"> {block:Pagination}{block:PreviousPage}<a href="{PreviousPage}" class="jump" style="background:transparent;"><span class="fas fa-angle-left"></span></a>{/block:PreviousPage}{block:JumpPagination length="5"}{block:CurrentPage}<div class="current">{PageNumber}</div>{/block:CurrentPage}{block:JumpPage}<a href="{URL}">{PageNumber}</a>{/block:JumpPage}{/block:JumpPagination}{block:NextPage}<a href="{NextPage}" class="jump" style="background:transparent;"><span class="fas fa-angle-right"></span></a>{/block:NextPage}{/block:Pagination}</div>
+    </div>    
+    </div>
+</div>
+
+
+<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div>
+ <!-- DO NOT REMOVE CREDIT!! -->
+ 
+ </body>
+</html>
