@@ -1,0 +1,762 @@
+<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ 
+
+<!--
+
+
+         RYLAND / 006 / SUGARCODES / TUMBLR
+         CREATED & DESIGNED BY AUTUMN
+       
+        - fonts from google fonts
+        - icons from cappuccicons / by suiomi
+        - base code(s) by seyche, silbrigthemes & neonbikethemes
+        - responsive video code by nouvae
+        - npf photosets fix by glenthemes
+        - style my tootltips by malihu (https://manos.malihu.gr)
+        - css photoset & fix by annasthms and eggdesign
+        
+
+       
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact 
+
+        This work is protected by a creative commons
+        Attribution-NonCommercial-NoDerivatives 4.0 International
+        (CC BY-NC-ND 4.0)
+        license.
+
+-->  
+
+<head>
+    
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}<meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0, width=device-width" /><title>{Title}</title>
+ 
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+   
+    <meta name="color:Background" content="#f6f6f6"/>
+    <meta name="color:Container" content="#eeeeee"/>
+    <meta name="color:Borders" content="#e7e5e5"/>
+    <meta name="color:Posts" content="#ffffff"/>
+    <meta name="color:Link" content="#90a58b"/>
+    <meta name="color:Accent One" content="#d39c9c"/>
+    <meta name="color:Accent Two" content="#5c5360"/>
+    <meta name="color:Text" content="#4f4f4f"/>
+   
+    <meta name="text:Title" content="title here."/>
+   
+    <meta name="text:Link One URL" content="/" />
+    <meta name="text:Link One" content="index" />
+    <meta name="text:Link Two URL" content="/" />
+    <meta name="text:Link Two" content="contact" />
+    <meta name="text:Link Three URL" content="/" />
+    <meta name="text:Link Three" content="tags" />
+    
+    <meta name="image:Background" content="" />
+    <meta name="image:Header" content="https://static.tumblr.com/blgwozc/Xwbr5n0vm/620x200.png"/>
+    
+     <meta name="select:Posts Width" content="500px" />
+     <meta name="select:Posts Width" content="300px" />
+     <meta name="select:Posts Width" content="350px" />
+     <meta name="select:Posts Width" content="400px" />
+     <meta name="select:Posts Width" content="450px" />
+     <meta name="select:Posts Width" content="540px" />
+     
+     <meta name="select:Scrollbar Width" content="0px" />
+     <meta name="select:Scrollbar Width" content="2px" />
+     <meta name="select:Scrollbar Width" content="5px" />
+     <meta name="select:Scrollbar Width" content="10px" />
+     
+     <meta name="select:Body Font" content="Montserrat" />
+     <meta name="select:Body Font" content="Lato" />
+     <meta name="select:Body Font" content="Nanum Gothic" />
+     <meta name="select:Body Font" content="Nunito" />
+     <meta name="select:Body Font" content="Open Sans" />
+     <meta name="select:Body Font" content="Quicksand" />
+     <meta name="select:Body Font" content="Roboto" />
+     <meta name="select:Body Font" content="Rubik" />
+     <meta name="select:Body Font" content="Work Sans" />
+     <meta name="select:Body Font" content="Muli" />
+
+     <meta name="select:Bold Font" content="DM Serif Display" />
+     <meta name="select:Bold Font" content="Archivo Black" />
+     <meta name="select:Bold Font" content="DM Serif Text" />
+     <meta name="select:Bold Font" content="Fredoka One" />
+     <meta name="select:Bold Font" content="Fugaz One" />
+     <meta name="select:Bold Font" content="Literata" />
+     <meta name="select:Bold Font" content="Notable" />
+     <meta name="select:Bold Font" content="Patua One" />
+     <meta name="select:Bold Font" content="Righteous" />
+     <meta name="select:Bold Font" content="Ultra" />
+     
+     <meta name="select:Body Font Size" content="10px" />
+     <meta name="select:Body Font Size" content="8px" />
+     <meta name="select:Body Font Size" content="9px" />
+     <meta name="select:Body Font Size" content="11px" />
+     <meta name="select:Body Font Size" content="12px" />
+     
+     <meta name="select:Photoset Gutter" content="10px" />
+     <meta name="select:Photoset Gutter" content="5px" />
+     <meta name="select:Photoset Gutter" content="1px" />
+     <meta name="select:Photoset Gutter" content="0px" />
+     
+     <meta name="select:Bold Font Size" content="11px" />
+     <meta name="select:Bold Font Size" content="12px" />
+     <meta name="select:Bold Font Size" content="15px" />
+     <meta name="select:Bold Font Size" content="18px" />
+     <meta name="select:Bold Font Size" content="20px" />
+     
+     <meta name="if:Gradient Effect" content="0" />
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<link href="https://static.tumblr.com/0podkko/oDSpg7y88/photosets.css" rel="stylesheet">
+
+<script src="https://dl.dropbox.com/s/e9i5ycsca7fbbye/dinotooltips.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script> 
+<script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script>
+    <script src="//pull.cappuccicons.com/cpf.js"></script>
+
+
+<script src="https://dl.dropbox.com/s/ej01ms586led34m/dinopopup.js"></script>
+
+<link href="https://dl.dropbox.com/s/mv4qm78rai2e7r7/dinocredit.css" rel="stylesheet">
+    
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black|DM+Serif+Display|DM+Serif+Text|Fredoka+One|Fugaz+One|Literata|Notable|Patua+One|Righteous|Ultra&display=swap" rel="stylesheet">
+    
+<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Muli|Nanum+Gothic|Nunito|Open+Sans|Quicksand|Roboto|Rubik|Work+Sans&display=swap" rel="stylesheet">
+
+<style type="text/css">
+ 
+body {
+    font-family: '{select:Body Font}', sans-serif;
+    font-size:{select:Body Font Size};
+    letter-spacing:.5px;
+    color:{color:Text};
+    text-align:justify;
+    text-transform:lowercase;
+    background-color:{color:Background};
+    background-attachment:fixed!important;
+    background-image:url('{image:Background}');!important
+}
+ 
+::-webkit-scrollbar {
+    width:{select:Scrollbar Width};
+    
+}
+ 
+::-webkit-scrollbar-track {
+    background:{color:Accent One};
+}
+ 
+::-webkit-scrollbar-thumb {
+    background:{color:Borders};
+    height:20px;
+}
+ 
+::-webkit-scrollbar-thumb:window-inactive {
+    background: transparent;
+}
+ 
+#s-m-t-tooltip {
+    max-width:300px;
+    margin:15px;
+    font-size:8px;
+    font-family: '{select:Body Font}', sans-serif;
+    letter-spacing:1px;
+    text-align:center;
+    text-transform:uppercase;
+    padding:10px;
+    padding-left:30px;
+    padding-right:30px;
+    font-weight:bold;
+    color:{color:Text};
+    background:{color:Background};
+    border:1px solid {color:Borders};
+    z-index:999999;
+        {block:ifGradientEffect}
+    background: linear-gradient(to right, {color:Accent One}, {color:Accent Two});
+    color:{color:Posts};
+    {/block:ifGradientEffect}
+}
+ 
+   
+h1 {
+    font-weight:bold;
+    font-size:20px;
+    margin-top:0px;
+    text-align:center;
+    letter-spacing:1px;
+    text-transform:none;
+    font-family:'{select:Bold Font}';
+    text-transform:uppercase;
+    color:{color:Accent Two};
+    background:{color:Container};
+    padding:15px;
+        {block:ifGradientEffect}
+    background: linear-gradient(to right, {color:Accent One}, {color:Accent Two});
+    color:{color:Posts};
+    {/block:ifGradientEffect}
+}
+   
+h2 {
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style:none;
+    text-align:center;
+    font-weight:bold;
+    line-height:100%;
+    font-family:'{select:Bold Font}';
+    text-transform:uppercase;
+    color:{color:Accent One};
+}
+   
+h2 i {
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style:none;
+    text-align:center;
+    font-weight:bold;
+    line-height:100%;
+    font-family:'{select:Bold Font}';
+    text-transform:uppercase;
+    color:{color:Accent One};
+}
+   
+h2 b {
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style:none;
+    text-align:center;
+    font-weight:bold;
+    line-height:100%;
+    font-family:'{select:Bold Font}';
+    text-transform:uppercase;
+    color:{color:Accent One};
+}
+   
+h5 {
+    text-align:center;
+    font-family:'{select:Bold Font}';
+    font-size:11px;
+    color:{color:Accent Two};
+    background:{color:Borders};
+    padding:7px;
+}
+ 
+hr {
+    width:50px;
+    margin-left:0px;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    border-color: {color:Borders};
+}
+   
+pre {
+    font-size:{select:Body Font Size};
+    font-family: '{select:Body Font}', sans-serif;
+    width:{select:Posts Width};
+    text-align: left;
+    word-break: break-all;
+    color:{color:Text};
+}
+ 
+b, strong {
+    color: {color:Accent One};
+    font-family:'{select:Bold Font}';
+    font-size:{select:Bold Font Size};
+    font-weight:normal;
+}
+   
+i b {
+    font-style:none;
+    text-decoration:none;
+    font-weight:normal;
+}
+   
+i, italic {
+    color: {color:Accent Two};
+}
+   
+small, sup, sub {
+    font-size:{select:Body Font Size};
+}
+   
+a {
+    color: {color:Link};
+    text-decoration: none;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+}
+ 
+a:hover {
+    color: {color:Accent Two};
+    text-decoration: none;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+}
+
+blockquote {
+    width:calc({select:Posts Width} - 60px);
+    border-left:2px solid {color:Accent Two};
+    background:{color:Container};
+    padding:5px;
+    margin-left:10px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+blockquote blockquote {
+    width:calc({select:Posts Width} - 110px);
+    border-left:2px solid {color:Accent Two};
+    background:{color:Posts};
+    padding:5px;
+    margin-left:5px;
+    padding-left:20px;
+    padding-right:20px;
+}
+   
+ul {
+    border-left:2px solid {color:Borders};
+    padding:5px;
+    margin-left:10px;
+}
+   
+ul li {
+    list-style:none;
+    margin-left:10px;
+}
+   
+ul li:before {
+    color:{color:Accent One};
+    content:"›";
+    font-size:1em;
+    padding-right:.5em;
+    position:relative;
+    top:.1em;
+}
+ 
+ol {
+    margin-left:-25px;
+}
+ 
+ 
+img {
+    max-width:100%;
+}
+
+#container {
+    margin:120px auto;
+    background:{color:Container};
+    width:calc({select:Posts Width} + 120px);
+    border:{color:Borders} 1px solid;
+    height:535px;
+    overflow:auto;
+}
+
+#sidebar {
+    
+    height:200px;
+    width:calc({select:Posts Width} + 120px);
+    border-bottom:{color:Borders} 1px solid;
+    position:fixed;
+    display:block;
+    z-index:9999999999999999999999999;
+    background:url('{image:Header}');
+}
+
+#navigation {
+    position:fixed;
+    margin-top:535px;
+    margin-left:-1px;
+    padding:20px;
+    font-size:14px;
+    text-align:right;
+    font-family:'{select:Bold Font}';
+    background:{color:Posts};
+    width:calc({select:Posts Width} + 80px);
+    border-bottom:{color:Borders} 1px solid;
+    border-left:{color:Borders} 1px solid;
+    border-right:{color:Borders} 1px solid;
+}
+
+#navigation span {
+    float:left;
+}
+
+#link {
+    display:inline-block;
+    margin-left:15px;
+}
+
+#postcon {
+    margin-top:240px;
+}
+
+.posts {
+    width:{select:Posts Width};
+    background:{color:Posts};
+    border:{color:Borders} 1px solid;
+    padding:20px;
+    margin:0 auto;
+    margin-bottom:40px;
+}
+
+[photoset-layout] {
+  grid-column-gap:{select:Photoset Gutter}; 
+  grid-row-gap:{select:Photoset Gutter};
+  grid-gap:{select:Photoset Gutter};
+    
+}
+
+.tumblr_audio_player {
+    height: 90px;
+    width: 100px;
+    -moz-transform: scale(0.60, 0.60); 
+    -webkit-transform: scale(0.60, 0.60); 
+    -o-transform: scale(0.60, 0.60);
+    -ms-transform: scale(0.60, 0.60);
+    transform: scale(0.60, 0.60); 
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+}
+
+    
+#playerbutton {
+    width: 19px;
+    height: 19px;
+    margin-top:-60px;
+    margin-left:20px;
+    background-color: #ffffff;
+    padding: 10px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    opacity: .4;
+    filter: alpha(opacity=40);
+    -moz-opacity: 0.4;
+    -khtml-opacity: 0.4; 
+    transition: opacity .7s ease-in-out;
+    -moz-transition: opacity .7s ease-in-out;
+    -webkit-transition: opacity .7s ease-in-out;
+   
+}
+            
+#playerbuttonbg:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1; 
+}
+    
+#newbutton {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius:100px;
+    margin-top:0px;
+    margin-left:0px;
+    overflow: hidden;
+}
+    
+
+#audioimg {
+    left: 60px;
+    top: 60px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    overflow: hidden;
+    width: 79px;
+    height: 79px;
+    display:inline-block;
+}
+            
+#audioimg img {
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;                
+}
+    
+#trackdetails {
+    width:calc({select:Posts Width} - 120px);
+    font-size:{select:Body Font Size};
+    font-family: '{select:Body Font}', sans-serif;
+    line-height:14px;
+    display:inline-block;
+    padding:15px 10px 20px 10px;
+    min-height:70px;
+    float:right;
+    margin-top:-65px;
+}
+    
+.audioplayer {
+    display:inline-block;
+}
+
+iframe#youtube_iframe {
+    width: {select:Posts Width};
+    height: auto;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+    
+iframe.spotify_audio_player {
+    width: {select:Posts Width};
+    max-height:80px;
+}
+    
+#quote {
+    color: {color:Accent One};
+    font-family:'{select:Bold Font}';
+    font-size:18px;
+    text-align:center;
+    font-weight:normal;
+}
+    
+#source {
+    text-align:right;
+    margin-top:10px;
+}
+    
+#question {
+    padding:20px;
+    background:{color:Container};
+    max-height:95px;
+    margin-bottom:20px;
+    border:1px solid {color:Borders};
+}
+    
+#asker {
+    color: {color:Accent One};
+	font-family:'{select:Bold Font}';
+	font-size:22px;
+	font-weight:normal;
+	text-align:right;
+    font-style:normal;
+    margin-right:20px;
+    margin-top:-35px;
+    margin-bottom:10px;
+}
+    
+#asker a{
+    color: {color:Accent Two}; 
+}
+ 
+ 
+.info {
+    width:{select:Posts Width};
+    margin:-20px;
+    padding:20px;
+    margin-bottom:20px;
+    text-transform:uppercase;
+    font-family:{select:Bold Font};
+    font-size:11px; 
+    text-align:center;
+    {block:ifGradientEffect}
+    background: linear-gradient(to right, {color:Accent One}, {color:Accent Two});
+    color:{color:Posts};
+    {/block:ifGradientEffect}
+    border-bottom:1px solid {color:Borders};
+}
+
+.info a{
+    {block:ifGradientEffect}
+    color:{color:Posts};
+    {/block:ifGradientEffect}
+}
+ 
+.tags {
+    width:calc({select:Posts Width} + 20px);
+    padding:10px;
+    margin:-20px;
+    margin-bottom:20px;
+    text-align:center;
+    background:{color:Borders};
+    line-height:9px;
+    text-transform:uppercase;
+    font-size:9px;
+    -moz-transition-duration:0.5s;
+    -webkit-transition-duration:0.5s;
+    -o-transition-duration:0.5s;
+}
+   
+.tags a {
+    background-color:none;
+    color:{color:Accent Two};
+}
+   
+.tags a:hover {
+    text-decoration:none;
+    color:{color:Accent One};
+}
+
+.postsnote {
+    margin-left:20px;
+}
+
+.postsnote ol, .notes-bottom ul {
+    padding: 0;
+    list-style: none;
+}
+    
+.postsnote li {
+    padding:5px;
+    margin:0 auto;
+    margin-bottom:5px;
+    width:calc({select:Posts Width} + 20px);
+    padding:10px;
+    text-transform:uppercase;
+    text-align:center;
+    border:1px solid {color:Borders};
+    background:{color:Posts};
+    font-size:9px;
+    font-family: '{select:Body Font}', sans-serif;
+    text-align:center;
+}
+
+.postsnote li img.avatar {
+    display:none;
+    visibility:hidden;
+}
+
+.postsnote .note .retags {
+    display:none;
+    visibility:hidden;
+}
+    
+.postsnote blockquote {
+    display:none;
+}
+
+{block:AskPage} 
+.info, .tags {
+    display:none;
+}
+{/block:AskPage}
+
+{block:SubmitPage}
+.info, .tags {
+    display:none;
+}
+{/block:SubmitPage}
+
+#tagged {
+    font-size:20px;
+    color:{color:Accent Two};
+    width:{select:Posts Width};
+    padding:20px;
+    background:{color:Posts};
+    border:1px solid {color:Borders};
+    margin:40px auto;
+    text-align:center;
+    font-family:{select:Bold Font};
+    margin-bottom:40px;
+}
+
+
+#pagination {
+    font-size:20px;
+    color:{color:Accent Two};
+    width:{select:Posts Width};
+    padding:20px;
+    background:{color:Posts};
+    border:1px solid {color:Borders};
+    margin:40px auto;
+    text-align:center;
+    font-family:{select:Bold Font};
+    margin-bottom:40px;
+}
+
+
+#sugarhoney { position:fixed; bottom:0; left:0;  margin:15px;  z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+
+</style>
+</head>
+<body>
+
+<div id="container">
+
+<div id="navigation">
+    <span>{text:Title}</span>
+    <a href="{text:Link One Url}"><div id="link">{text:Link One}</div></a>
+    <a href="{text:Link Two Url}"><div id="link">{text:Link Two}</div></a>
+    <a href="{text:Link Three Url}"><div id="link">{text:Link Three}</div></a>
+</div>
+<div id="sidebar">
+</div>
+<div id="postcon">
+
+{block:TagPage} <div id="tagged">━ filed under: <a href="#">{tag}</a> ━ </div> {/block:TagPage}{block:SearchPage}<div id="tagged">━ <a href="#">[ {SearchResultCount} results ]</a> filed under <a href="#">[ {SearchQuery} ]</a> ━ </div>{/block:SearchPage}
+
+
+{block:Posts}
+
+<div class="posts">
+ 
+{block:Date}<a href="{Permalink}"><div class="info">
+━ posted {TimeAgo} with {NoteCount} notes ━</a></div>
+{block:PermalinkPage}<div class="tags">{block:Tags}<a href="{TagURL}"><span style="color:{color:Accent One};">&nbsp;━&nbsp;&nbsp; </span>{Tag}&nbsp;&nbsp;</a>{/block:Tags}</div>{/block:PermalinkPage}
+{/block:Date}
+
+
+
+{block:Text}{block:Title}<h1>{Title}</h1>{/block:Title}{Body}{/block:Text}
+ 
+{block:Quote}<div id="quote">{Quote}</div><div id="source">— {Source}</div>{/block:Quote}
+ 
+{block:Link}<a href="{URL}" class="link" {Target}> <h2>{Name}</h2></a>
+{block:Description}<p>{Description}</p>{/block:Description}{/block:Link}
+ 
+{Block:Photo}{LinkOpenTag}<img src="{PhotoURL-500}" alt="{PhotoAlt}"/>{LinkCloseTag}{block:Caption}{Caption}{/block:Caption}{/Block:Photo}
+
+
+{block:Photoset}<div class="photoset-grid" photoset-layout="{PhotosetLayout}">{block:Photos}<div><img src="{PhotoURL-HighRes}" /></div>{/block:Photos}</div>{block:Caption}{Caption}{/block:Caption}{/block:Photoset}
+ 
+{block:Chat}{block:Title}<t>{Title}</t><br>{/block:Title}{block:Lines}{block:Label}<b>{Label}</b>{/block:Label} {Line}<br>{/block:Lines}{/block:Chat} 
+{block:Video}{Video-500}{block:Caption}{Caption}{/block:Caption}{/block:Video}
+ 
+{block:Answer}<div id="question">{Question}</div><div id="asker">{Asker} asked</div>{Answer}{/block:Answer}
+
+{block:Audio}{block:AudioPlayer}<div id="audioplayer">{block:AlbumArt}<div id="audioimg"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}<div id="playerbutton"><div id="newbutton"><div id="playerbutton2">{AudioPlayerWhite}</div></div></div><div id="trackdetails">{block:TrackName}<b>Track:</b> {TrackName} <br/>{/block:TrackName}{block:Artist}<b>Artist:</b> {Artist} <br/>{/block:Artist}{block:Album}<b>Album:</b> {Album} <br/>{/block:Album}{block:PlayCount}<b>Plays:</b> {PlayCount}{/block:PlayCount}</div></div>{/block:AudioPlayer}<br><br>{block:Caption}{Caption}{/block:Caption}{/block:Audio}
+
+<div class="contentsource" style="display:none;"> {block:ContentSource} Source: <a href="{SourceURL}">{SourceTitle} </a> {/block:ContentSource} {block:RebloggedFrom} Via: <a href="{ReblogParentURL}">{ReblogParentName}</a> {/block:RebloggedFrom}</div>
+
+</div>
+
+{block:PostNotes}<div class="postsnote">{PostNotes}</div>{/block:PostNotes}
+
+{/block:Posts}
+
+{block:Pagination}
+<div id="pagination">
+{block:PreviousPage}<a href="{PreviousPage}">back</a> / {/block:PreviousPage}
+{block:NextPage}<a href="{NextPage}">forth</a>{/block:NextPage}
+</div>
+{/block:Pagination}
+</div>
+
+</div>
+ 
+<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div>
+ <!-- DO NOT REMOVE CREDIT!! -->
+        
+
+</body>
+</html>
