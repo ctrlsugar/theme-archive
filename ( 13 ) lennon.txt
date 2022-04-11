@@ -1,0 +1,472 @@
+<html>
+<!DOCTYPE html>
+ 
+ 
+<!--
+
+
+         LENNON / 013 / SUGARCODES / TUMBLR
+         CREATED & DESIGNED BY AUTUMN
+       
+        - fonts from google fonts
+        - icons from cappuccicons / by suiomi
+        - base code(s) by seyche, silbrigthemes & neonbikethemes
+        - responsive video code by nouvae
+        - npf photosets fix by glenthemes
+        - style my tootltips by malihu (https://manos.malihu.gr)
+        - css photoset & fix by annasthms and eggdesign
+        - special thanks to alyofrp's tab tutorial
+        
+
+       
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact 
+
+        This work is protected by a creative commons
+        Attribution-NonCommercial-NoDerivatives 4.0 International
+        (CC BY-NC-ND 4.0)
+        license.
+-->
+ 
+ 
+<head>
+    
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}<meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0, width=device-width" /><title>{Title}</title>
+ 
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+   
+    <meta name="color:Background" content="#151414"/>
+    <meta name="color:Container" content="#0f0f0f"/>
+    <meta name="color:Borders" content="#0c0c0c"/>
+    <meta name="color:Posts" content="#010101"/>
+    <meta name="color:Link" content="#90a58b"/>
+    <meta name="color:Accent One" content="#d39c9c"/>
+    <meta name="color:Accent Two" content="#5c5360"/>
+    <meta name="color:Text" content="#818181"/>
+
+    <meta name="text:Title" content="title here" />
+    <meta name="text:Subtitle" content="subtitle here" />
+
+    <meta name="text:Link One URL" content="/" />
+    <meta name="text:Link One" content="index" />
+    <meta name="text:Link Two URL" content="/" />
+    <meta name="text:Link Two" content="contact" />
+    <meta name="text:Link Three URL" content="/" />
+    <meta name="text:Link Three" content="about" />
+    <meta name="text:Link Four URL" content="/" />
+    <meta name="text:Link Four" content="tags" />
+    
+    <meta name="image:Background" content="" />
+     
+     <meta name="select:Scrollbar Width" content="0px" />
+     <meta name="select:Scrollbar Width" content="2px" />
+     <meta name="select:Scrollbar Width" content="5px" />
+     <meta name="select:Scrollbar Width" content="10px" />
+     
+     <meta name="select:Body Font Size" content="10px" />
+     <meta name="select:Body Font Size" content="8px" />
+     <meta name="select:Body Font Size" content="9px" />
+     <meta name="select:Body Font Size" content="11px" />
+     <meta name="select:Body Font Size" content="12px" />
+     
+     <meta name="select:Photoset Gutter" content="10px" />
+     <meta name="select:Photoset Gutter" content="5px" />
+     <meta name="select:Photoset Gutter" content="1px" />
+     <meta name="select:Photoset Gutter" content="0px" />
+     
+     <meta name="select:Bold Font Size" content="11px" />
+     <meta name="select:Bold Font Size" content="12px" />
+     <meta name="select:Bold Font Size" content="15px" />
+     <meta name="select:Bold Font Size" content="18px" />
+     <meta name="select:Bold Font Size" content="20px" />
+     
+     <meta name="select:Border Radius" content="0px" />
+     <meta name="select:Border Radius" content="2px" />
+     <meta name="select:Border Radius" content="5px" />
+     <meta name="select:Border Radius" content="10px" />
+     
+     
+     
+     <!-- IMPORTED SCRIPTS -->
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<link href="https://static.tumblr.com/0podkko/oDSpg7y88/photosets.css" rel="stylesheet">
+
+<link href="https://static.tumblr.com/hax88go/fWCpwc65d/rawr.css" rel="stylesheet">
+
+<link href="https://dl.dropbox.com/s/xh664hqc7r80oxt/lennon.css" rel="stylesheet">
+
+<script src="https://dl.dropbox.com/s/e9i5ycsca7fbbye/dinotooltips.js"></script>
+
+<script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
+
+
+<style type="text/css">
+
+body {
+    color:{color:Text};
+    background-color:{color:Background};
+    background-image:url('{image:Background}');!important
+}
+ 
+::-webkit-scrollbar {
+    width:{select:Scrollbar Width};
+    
+}
+ 
+::-webkit-scrollbar-track {
+    background:{color:Accent One};
+}
+ 
+::-webkit-scrollbar-thumb {
+    background:{color:Borders};
+}
+ 
+::-webkit-scrollbar-thumb:window-inactive {
+    background: transparent;
+}
+ 
+#s-m-t-tooltip {
+    color:{color:Accent One};
+    background:{color:Container};
+    border:1px solid {color:Borders};
+    border-radius:{select:Border Radius};
+}
+ 
+   
+h1 {
+    color:{color:Accent Two};
+    background:{color:Container};
+    border-radius:{select:Border Radius};
+}
+   
+h2 {
+    color:{color:Accent One};
+}
+   
+h2 i {
+    color:{color:Accent One};
+}
+   
+h2 b {
+    color:{color:Accent One};
+}
+   
+h5 {
+    color:{color:Accent Two};
+    background:{color:Container};
+    border-radius:{select:Border Radius};
+}
+
+h4 {
+    color:{color:Posts};
+    background:{color:Accent One};
+    border-radius:{select:Border Radius};
+}
+ 
+hr {
+    border-color: {color:Borders};
+}
+   
+pre {
+    color:{color:Text};
+}
+ 
+b, strong {
+    color: {color:Accent One};
+} 
+   
+i, italic {
+    color: {color:Accent Two};
+}
+a {
+    color: {color:Link};
+}
+ 
+a:hover {
+    color: {color:Accent Two};
+}
+
+blockquote {
+    border-left:2px solid {color:Accent Two};
+    border-top-right-radius:{select:Border Radius};
+    border-bottom-right-radius:{select:Border Radius};
+}
+
+blockquote blockquote {
+    border-left:2px solid {color:Accent One};
+}
+
+blockquote blockquote blockquote {
+    border-left:2px solid {color:Accent Two};
+    
+}
+
+blockquote blockquote blockquote blockquote {
+    border-left:2px solid {color:Accent One};
+}
+
+blockquote blockquote blockquote blockquote blockquote {
+    border-left:2px solid {color:Accent Two};
+}
+
+ul li:before {
+    color:{color:Accent One};
+}    
+
+#container {
+    background:{color:Container};
+    border-radius:{select:Border Radius};
+}
+
+#nlink {
+    color:{color:Posts};
+    background:{color:Accent One};
+}
+
+#subtitle a {
+    color:{color:Accent One};
+}
+
+.posts {
+    background:{color:Posts};
+    border:1px solid {color:Borders};
+    border-radius:{select:Border Radius};
+}
+
+[photoset-layout] {
+  grid-column-gap:{select:Photoset Gutter}; 
+  grid-row-gap:{select:Photoset Gutter};
+  grid-gap:{select:Photoset Gutter};
+    
+}
+
+#audio {
+    background:{color:Container};
+    border-radius:{select:Border Radius};
+    border:1px solid {color:Borders};
+}
+    
+#audioimg {
+    border-top-left-radius:{select:Border Radius};
+    border-bottom-left-radius:{select:Border Radius};
+}
+            
+#audioimg img {
+    border-right:1px solid {color:Borders};
+    border-top-left-radius:{select:Border Radius};
+    border-bottom-left-radius:{select:Border Radius};
+}
+    
+#quote {
+    color: {color:Accent One};
+}
+
+#question {
+    background:{color:Container};
+    border:1px solid {color:Borders};
+    border-top-left-radius:{select:Border Radius};
+    border-top-right-radius:{select:Border Radius};
+}
+    
+#asker {
+    color: {color:Posts};
+    background:{color:Accent One};
+    border:1px solid {color:Borders};
+    border-bottom-left-radius:{select:Border Radius};
+    border-bottom-right-radius:{select:Border Radius};
+}
+    
+#asker a{
+    color: {color:Posts}; 
+}
+
+.odd, .even {
+    border-radius:{select:Border Radius};
+}
+
+.odd {
+    background:{color:Background};
+    border:1px solid {color:Borders};
+}
+ 
+.even {
+    background:{color:Container};
+    border:1px solid {color:Borders};
+}
+
+.even .label {
+    color:{color:Link};
+}
+
+.odd .label {
+    color:{color:Accent One};
+}
+ 
+.info {
+    border-bottom:1px solid {color:Borders};
+}
+
+.tags {
+    background:{color:Container};
+    color:{color:Accent One};
+}
+   
+.tags a {
+    color:{color:Accent One};
+}
+   
+.tags a:hover {
+    color:{color:Accent Two};
+}
+ 
+#notes li {
+    border:1px solid {color:Borders};
+    background:{color:Posts};
+    border-radius:{select:Border Radius};
+}
+
+{block:AskPage} 
+.info, .tags {
+    display:none;
+}
+{/block:AskPage}
+
+{block:SubmitPage}
+.info, .tags {
+    display:none;
+}
+{/block:SubmitPage}
+
+{block:AskPage} 
+.info, .tags {
+    display:none;
+}
+{/block:AskPage}
+
+{block:SubmitPage}
+.info, .tags {
+    display:none;
+}
+{/block:SubmitPage}
+
+#tagged {
+    color:{color:Accent Two};
+    border-radius:{select:Border Radius};
+    background:{color:Posts};
+    border:1px solid {color:Borders};
+}
+
+
+
+.muse { 
+    background:{color:Posts};
+    border-radius:{select:Border Radius};
+    border:{color:Borders} solid 1px;
+}
+
+.section {
+    background:{color:Container};
+}
+
+.muse img {
+    border-radius:{select:Border Radius};
+}
+
+.muse #link {
+    color:{color:Posts};
+    background:{color:Accent Two};
+    border-radius:{select:Border Radius};
+}
+
+.muse #link:hover {
+    background:{color:Accent One};
+}
+
+.muse #stats p{
+    background:{color:Container};
+     border-radius:{select:Border Radius};
+}
+
+#sugarhoney { position:fixed; bottom:0; left:0;  margin:15px;  z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+
+
+</style>
+</head>
+<body>
+
+
+
+<div id="container">
+<div id="subtitle">
+    <a>{text:Title}</a> <span>{text:Subtitle}</span>
+</div>
+
+
+ {block:TagPage} <div id="tagged">  filed under: <a href="#"> {tag} </a>   </div> {/block:TagPage}{block:SearchPage}<div id="tagged">  <a href="#">[ {SearchResultCount} results ]</a> filed under <a href="#">[ {SearchQuery} ]</a>   </div>{/block:SearchPage}
+
+{block:Posts}
+
+<div class="posts">
+
+ 
+{block:Date}<a href="{Permalink}"><div class="info">posted {TimeAgo}    </a></div>{block:PermalinkPage}<div class="tags">{block:Tags}<a href="{TagURL}">→ {Tag} </a>{/block:Tags}</div>{/block:PermalinkPage}
+{/block:Date}
+
+{block:Title}<h1>{Title}</h1>{/block:Title}
+
+{block:Text}{Body}{/block:Text}
+ 
+{block:Quote}<div id="quote">{Quote}</div><div id="source">— {Source}</div>{/block:Quote}
+ 
+{block:Link}<a href="{URL}" class="link" {Target}> <h2>{Name}</h2></a>
+{block:Description}<p>{Description}</p>{/block:Description}{/block:Link}
+ 
+{block:Photo}<center><img src="{PhotoURL-500}"/></center>{block:Caption}{Caption}{/block:Caption}{/block:Photo}
+
+{block:Photoset}<div class="photoset-grid" photoset-layout="{PhotosetLayout}">{block:Photos}<div><img src="{PhotoURL-HighRes}" /></div>{/block:Photos}</div>{block:Caption}{Caption}{/block:Caption}{/block:Photoset}
+ 
+{block:Chat}<div class="chat">{block:Lines}<div class="{Alt}">{block:Label}<span class="label">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</span>{/block:Label}{Line}</div>{/block:Lines}</div>{/block:Chat} 
+
+{block:Video}{Video-500}{block:Caption}{Caption}{/block:Caption}{/block:Video}
+ 
+{block:Answer}<div id="question">{Question}</div><div id="asker">{Asker} asked</div>{Answer}{/block:Answer}
+
+{block:Audio}{block:AudioPlayer}<div id="audio">{block:AlbumArt}<div id="audioimg"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}<div id="player">{AudioPlayerWhite}</div><div id="trackdetails">{block:TrackName}<b>Track:</b> {TrackName} <br/>{/block:TrackName}{block:Artist}<b>Artist:</b> {Artist} <br/>{/block:Artist}{block:Album}<b>Album:</b> {Album} <br/>{/block:Album}</div></div>{/block:AudioPlayer}<br><br>{block:Caption}{Caption}{/block:Caption}{/block:Audio}
+
+<div class="contentsource" style="display:none;"> {block:ContentSource} Source: <a href="{SourceURL}">{SourceTitle} </a> {/block:ContentSource} {block:RebloggedFrom} Via: <a href="{ReblogParentURL}">{ReblogParentName}</a> {/block:RebloggedFrom}</div>
+
+</div>
+{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+
+
+{/block:Posts}
+<div id="navibar">
+<a href="{text:Link One URL}"><div id="nlink">01. <span>{text:Link One}</span></div></a>
+<a href="{text:Link Two URL}"><div id="nlink">02. <span>{text:Link Two}</span></div></a>
+<a href="{text:Link Three URL}"><div id="nlink">03. <span>{text:Link Three}</span></div></a>
+<a href="{text:Link Four URL}"><div id="nlink">04. <span>{text:Link Four}</span></div></a>
+{block:NextPage}<a href="{NextPage}"><div id="nlink"> >> <span>forward</span></div></a>{/block:NextPage}
+{block:PreviousPage}<a href="{PreviousPage}"><div id="nlink"> << <span>backward</span></div></a>{/block:PreviousPage}
+</div>
+</div>
+
+
+
+<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div>
+ <!-- DO NOT REMOVE CREDIT!! -->
+
+
+
+</body>
+</html>
