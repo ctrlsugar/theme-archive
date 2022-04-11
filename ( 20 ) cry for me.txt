@@ -1,0 +1,482 @@
+<html>
+<!DOCTYPE html>
+ 
+ 
+<!--
+
+
+         CRY FOR ME / 020 / SUGARCODES / TUMBLR
+         CREATED & DESIGNED BY AUTUMN
+       
+        - fonts from google fonts
+        - icons from cappuccicons / by suiomi
+        - base code(s) by seyche, silbrigthemes & neonbikethemes
+        - responsive video code by nouvae
+        - npf photosets fix by glenthemes
+        - style my tootltips by malihu (https://manos.malihu.gr)
+        - css photoset & fix by annasthms and eggdesign
+        - special thanks to alyofrp's tab tutorial
+        
+
+       
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact 
+
+        This work is protected by a creative commons
+        Attribution-NonCommercial-NoDerivatives 4.0 International
+        (CC BY-NC-ND 4.0)
+        license.
+-->
+
+
+<head>
+   
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}<meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0, width=device-width" /><title>{Title}</title>
+ 
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+<!-- THEME SPECIFICS --> 
+
+<link href="https://dl.dropbox.com/s/e6bwnmij05llwp5/sugarbase.css" rel="stylesheet"><link href="https://dl.dropbox.com/s/4thl2g2mc35pn3c/cry.css" rel="stylesheet">
+  
+<!-- STYLED TOOLTIPS -->
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script><script src="https://dl.dropbox.com/s/q8akoadfqm16u6r/sugarmytooltips.js"></script>
+  
+<!-- ICONS FONT -->
+  
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+<script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
+
+        
+<!-- GOOGLE FONTS -->        
+  
+<link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+
+<!-- META TAGGED INFORMATION -->
+  
+ <meta name="color:Background" content="#151414"/>
+    <meta name="color:Container" content="#0f0f0f"/>
+    <meta name="color:Posts" content="#010101"/>
+    <meta name="color:Link" content="#769f96"/>
+    <meta name="color:Accent One" content="#e5aaaa"/>
+    <meta name="color:Accent Two" content="#795353"/>
+    <meta name="color:Text" content="#818181"/>
+    
+    <meta name="image:Background" content="" />
+    <meta name="image:Header" content="https://static.tumblr.com/blgwozc/m8xr5ti6q/825x325.png" />
+    <meta name="image:Sidebar" content="https://static.tumblr.com/blgwozc/qiXr5ti6k/300x175.png" />
+    
+    <meta name="if:Header Image" content="1"/>
+    <meta name="if:App Count Preview" content="1"/>
+    
+    <meta name="text:Title" content="welcome." />
+    <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna." />
+    
+    <meta name="text:Link One Url" content="" />
+    <meta name="text:Link One" content="Link One" />
+    <meta name="text:Link Two Url" content="" />
+    <meta name="text:Link Two" content="Link Two" />
+    <meta name="text:Link Three Url" content="" />
+    <meta name="text:Link Three" content="Link Two" />
+    <meta name="text:Link Four Url" content="" />
+    <meta name="text:Link Four" content="Link Two" />
+    <meta name="text:Link Five Url" content="" />
+    <meta name="text:Link Five" content="Link Two" />
+    
+    <meta name="text:Application Count" content="00" />
+    <meta name="text:Next Acceptance Date" content="Thursday, October 24" />
+     <meta name="text:Application Count URL" content="" />
+    
+    
+    
+<style>
+
+body { 
+    background:{color:Background};
+    background-image:url('{image:Background}');!important
+    background-position:top left;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:100% auto;
+}
+
+h1, h5, #s-m-t-tooltip, #audio, #question, .even, #info, #navigation, input[type="text"], h2 { 
+    background:{color:Background};
+}    
+
+body, pre, #searchinput, #adminsubtitle {
+    color:{color:Text};
+}
+ 
+::-webkit-scrollbar-track, h4, #asker, #counter, #link:hover, #boxtitle, #breakdown, .mw:hover, #evlink, #exlink:hover, .stat {
+    background:{color:Accent One};
+}
+ 
+::-webkit-scrollbar-thumb, #apps, #date, #faceclaim, #breakdown:hover, .mw, #evlink:hover, #exlink  {
+    background:{color:Accent Two};
+}
+ 
+#s-m-t-tooltip, h2, h2 i, h2 b, i, italic, ul li:before, #quote, .odd .label, #wanted p span {
+    color:{color:Accent One};
+}    
+   
+h1, h5, b, strong, a:hover, #credit a, #admininfo {
+    color:{color:Accent Two};
+}
+
+h4, #counter, #link, #asker, #asker a, #boxtitle, #apps, #date, #faceclaim, #breakdown, .stat, .mw, #evlink, #exlink  {
+    color:{color:Posts};
+}
+ 
+hr {
+    border-color: {color:Container};
+}
+   
+a, .even .label, #info a {
+    color:{color:Link};
+}
+
+#posts, #sidebox, #notes li, #wanted p, #evtitle {
+    background:{color:Posts};
+}
+ 
+blockquote,
+blockquote blockquote blockquote,
+blockquote blockquote blockquote blockquote blockquote {
+    border-left:2px solid {color:Accent Two};
+}    
+
+blockquote blockquote,
+blockquote blockquote blockquote blockquote {
+    border-left:2px solid {color:Accent One};
+}
+
+#container, #count, #update, #plus, #sidebar, .odd, #credit, #mw, #event, #admin, #stat {
+    background:{color:Container};
+}
+
+#link {
+    background:{color:Link};
+}
+
+#audioimg img {
+    border-right:1px solid {color:Container};
+}    
+
+{block:AskPage} 
+.info, .tags {
+    display:none;
+}
+{/block:AskPage}
+
+{block:SubmitPage}
+.info, .tags {
+    display:none;
+}
+{/block:SubmitPage}
+
+
+#sugarhoney { position:fixed; bottom:0; right:0;  margin:15px; margin-bottom:90px;  z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+
+
+</style> 
+</head>  
+<body>
+
+
+</div>
+
+
+</div>
+
+<div id="navigation">
+{block:PreviousPage}
+ <a href="{PreviousPage}"><div id="link" style="position:fixed;left:10px;">previous</div></a> 
+{/block:PreviousPage}
+<div id="nav">
+
+ <a href="{text:Link One Url}"><div id="link">{text:Link One}</div></a> 
+ <a href="{text:Link Two Url}"><div id="link">{text:Link Two}</div></a> 
+ <a href="{text:Link Three Url}"><div id="link">{text:Link Three}</div></a> 
+ <a href="{text:Link Four Url}"><div id="link">{text:Link Four}</div></a> 
+ <a href="{text:Link Five Url}"><div id="link">{text:Link Five}</div></a> 
+
+<form action="/search" method="get"><input type="text" name="q" value="{SearchQuery}" placeholder="search blog"><input type="submit"  id="searchinput"/></form> 
+
+
+</div>  
+
+{block:NextPage}
+  <a href="{NextPage}"><div id="link" style="position:fixed;margin-top:-25px;right:10px;">forward</div></a> 
+  {/block:NextPage}
+</div> 
+
+<div id="container">   
+
+{block:ifHeaderImage}
+<div id="header">
+    <img src="{image:Header}">
+</div>
+{/block:ifHeaderImage}
+
+
+<div id="sidebar">
+
+<!-- DESCRIPTION -->
+<div id="sidebox">
+<img src="{image:Sidebar}">
+    {text:Description}
+<div id="boxtitle">{text:Title} 
+<span class="fas fa-star"></span></div></div>
+
+<!-- APPLICATION COUNT -->
+<div id="sidebox">
+<div id="count">
+   <div id="apps">{text:Application Count}</div> 
+   <div id="app">next acceptance<br><b>{text:Next Acceptance Date}</b></div>
+</div>
+
+{block:ifAppCountPreview}
+<div id="plus"><div id="faceclaim">+ 01</div> face claim</div>
+<div id="plus"><div id="faceclaim">+ 01</div> face claim</div>
+<div id="plus"><div id="faceclaim">+ 01</div> face claim</div>
+<div id="plus"><div id="faceclaim">+ 01</div> face claim</div>
+<div id="plus"><div id="faceclaim">+ 01</div> face claim</div>
+{/block:ifAppCountPreview}
+
+<a href="{text:Application Count URL}"><div id="breakdown">view full application count</div></a>
+
+<div id="boxtitle">application count. <span class="fas fa-bars"></span></div>
+</div>
+
+<!-- BLOG UPDATES -->
+<div id="sidebox">
+
+<!-- UPDATE HERE -->
+<div id="update"><div id="date">00.00</div> update here</div>
+<!-- UPDATE HERE -->
+<div id="update"><div id="date">00.00</div> update here</div>
+<!-- UPDATE HERE -->
+<div id="update"><div id="date">00.00</div> update here</div>
+<!-- UPDATE HERE -->
+<div id="update"><div id="date">00.00</div> update here</div>
+
+<div id="boxtitle">blog updates. 
+<span class="fas fa-check"></span></div></div>
+
+<!-- BLOG AFFILIATES -->
+<div id="sidebox" class="affiliates">
+
+<!-- AFFILIATE -->
+<a href="/" title="AFFILIATE TITLE HERE" id="affiliate">
+<img src="https://static.tumblr.com/blgwozc/M1ar5ti7d/75.png"></a>
+<!-- AFFILIATE -->
+<a href="/" title="AFFILIATE TITLE HERE" id="affiliate">
+<img src="https://static.tumblr.com/blgwozc/M1ar5ti7d/75.png"></a>
+<!-- AFFILIATE -->
+<a href="/" title="AFFILIATE TITLE HERE" id="affiliate">
+<img src="https://static.tumblr.com/blgwozc/M1ar5ti7d/75.png"></a>
+<!-- AFFILIATE -->
+<a href="/" title="AFFILIATE TITLE HERE" id="affiliate">
+<img src="https://static.tumblr.com/blgwozc/M1ar5ti7d/75.png"></a>
+<!-- AFFILIATE -->
+<a href="/" title="AFFILIATE TITLE HERE" id="affiliate">
+<img src="https://static.tumblr.com/blgwozc/M1ar5ti7d/75.png"></a>
+<!-- AFFILIATE -->
+<a href="/" title="AFFILIATE TITLE HERE" id="affiliate">
+<img src="https://static.tumblr.com/blgwozc/M1ar5ti7d/75.png"></a>
+<!-- AFFILIATE -->
+
+<div id="boxtitle">affiliates. 
+<span class="fas fa-users"></span></div></div>
+
+<!-- WANTED CONNECTIONS -->
+<div id="sidebox"><div class="wanted">
+
+
+<!-- WANTED CONNECTION -->
+<div id="mw">
+    <img src="https://static.tumblr.com/blgwozc/WqMr5ti8h/250x60.png">
+    <div id="wanted">
+<p><span>connection type</span> relationship</p>
+<p><span>requested by</span> username</p>
+    <a href=""><div class="mw">more information</div></a>
+</div></div>
+
+
+</div>    
+<div id="boxtitle">most wanted. 
+<span class="fas fa-heart"></span></div></div>
+
+<!-- UPCOMING EVENTS -->
+<div id="sidebox">
+
+<!-- EVENT ONE -->
+    <div id="event">
+       <img src="https://static.tumblr.com/blgwozc/Inrr5ti93/230x130.png">
+       <div id="evtitle">
+           lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. 
+       </div>
+     <div class="event">
+       <div id="evlink">type</div>
+       <div id="evlink">00.00</div>
+       <a href="/"><div id="evlink">+more</div></a>
+   </div>
+</div>
+
+
+<div id="boxtitle">upcoming events. 
+<span class="fas fa-calendar"></span></div></div>
+
+<!-- EXTRA SIDEBAR -->
+<div id="sidebox">
+
+sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. suspendisse sed ligula. sed volutpat odio non turpis gravida luctus. praesent elit pede, iaculis facilisis, vehicula mattis, tempus non, arcu.
+
+<div id="boxtitle">extra sidebox. 
+<span class="fas fa-burn"></span></div></div>
+
+<!-- ADMIN TEAM -->
+<div id="sidebox">
+
+<!-- START OF ADMIN -->    
+    <div id="admin">
+        <img src="https://static.tumblr.com/blgwozc/XQ9r5ti9p/60.png">
+            <div id="admininfo">  admin one
+            <div id="adminsubtitle">( admin mascot )
+    </div></div></div>
+<!-- END OF ADMIN -->
+<!-- START OF ADMIN -->    
+    <div id="admin">
+        <img src="https://static.tumblr.com/blgwozc/XQ9r5ti9p/60.png">
+            <div id="admininfo">  admin one
+            <div id="adminsubtitle">( admin mascot )
+    </div></div></div>
+<!-- END OF ADMIN -->
+
+<div id="boxtitle">blog affiliates. 
+<span class="fas fa-user-cog"></span></div></div>
+
+
+<!-- WEEKLY UPDATES -->
+<div id="sidebox">
+
+<div id="update"><div id="date">mon</div> development task</div>
+<div id="update"><div id="date">fri</div> ask meme activity</div>
+
+<div id="boxtitle">weekly schedule. 
+<span class="fas fa-bell"></span></div></div>
+
+<!-- IMPORTANT LINKS -->
+<div id="sidebox"><div id="extra">
+
+<a href="/"><div id="exlink">extra link</div></a>
+<a href="/"><div id="exlink">extra link</div></a>
+<a href="/"><div id="exlink">extra link</div></a>
+<a href="/"><div id="exlink">extra link</div></a>
+<a href="/"><div id="exlink">extra link</div></a>
+<a href="/"><div id="exlink">extra link</div></a>
+
+
+</div><div id="boxtitle">important links. 
+<span class="fas fa-link"></span></div></div>
+
+<!-- BLOG STATISTICS -->
+<div id="sidebox">
+
+<div id="stat"><div class="stat">blog type</div> roleplay main</div>
+<div id="stat"><div class="stat">established</div> 00.00.00</div>
+<div id="stat"><div class="stat">online</div> 00</div>
+<div id="stat"><div class="stat">total hits</div> 00</div>
+<div id="stat"><div class="stat">theme by</div> <a href="https://sugardesigns.tumblr.com/">sugardesigns</a></div>
+
+<div id="boxtitle">blog statistics. 
+<span class="fas fa-chart-bar"></span></div>
+</div>
+
+<!-- START OF DISCLAIMER -->
+<div id="sidebox">
+
+sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. suspendisse sed ligula. sed volutpat odio non turpis gravida luctus. praesent elit pede, iaculis facilisis, vehicula mattis, tempus non, arcu.
+
+<div id="boxtitle">disclaimer. 
+<span class="fas fa-exclamation-triangle"></span></div></div>
+
+</div>
+
+<div id="postcontainer"> 
+{block:Posts}
+
+<div id="posts">
+
+<!-- TEXT POSTS -->
+
+{block:Title}<h1>{Title}</h1>{/block:Title}{block:Text}{Body}{/block:Text}
+ 
+<!-- QUOTE POSTS -->
+
+{block:Quote}<div id="quote">{Quote}</div><div id="source">— {Source}</div>{/block:Quote}
+
+<!-- LINK POSTS -->
+
+{block:Link}<a href="{URL}" class="link" {Target}> <h2>{Name}</h2></a>
+{block:Description}<p>{Description}</p>{/block:Description}{/block:Link}
+ 
+<!-- PHOTO POSTS -->
+
+{block:Photo}<center><img src="{PhotoURL-500}"/></center>{block:Caption}{Caption}{/block:Caption}{/block:Photo}
+
+<!-- PHOTOSET POSTS -->
+
+{block:Photoset}{Photoset}{block:Caption}{Caption}{/block:Caption}{/block:Photoset} 
+
+<!-- CHAT POSTS -->
+  
+{block:Chat}<div class="chat">{block:Lines}<div class="{Alt}">{block:Label}<span class="label">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</span>{/block:Label}{Line}</div>{/block:Lines}</div>{/block:Chat} 
+
+<!-- VIDEO POSTS -->
+
+{block:Video}{Video-500}{block:Caption}{Caption}{/block:Caption}{/block:Video}
+ 
+<!-- ASK POSTS -->
+
+{block:Answer}<div id="question">{Question}</div><div id="asker"><b>{Asker}</b> asked</div>{Answer}{/block:Answer} 
+
+<!-- AUDIO POSTS -->
+ 
+{block:Audio}{block:AudioPlayer}<div id="audio">{block:AlbumArt}<div id="audioimg"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}<div id="player">{AudioPlayerWhite}</div><div id="trackdetails">{block:TrackName}<b>Track:</b> {TrackName} <br/>{/block:TrackName}{block:Artist}<b>Artist:</b> {Artist} <br/>{/block:Artist}{block:Album}<b>Album:</b> {Album} <br/>{/block:Album}</div></div>{/block:AudioPlayer}<br><br>{block:Caption}{Caption}{/block:Caption}{/block:Audio}
+
+<!-- SOURCE & VIA -->
+
+<div class="contentsource" style="display:none;"> {block:ContentSource} Source: <a href="{SourceURL}">{SourceTitle} </a> {/block:ContentSource} {block:RebloggedFrom} Via: <a href="{ReblogParentURL}">{ReblogParentName}</a> {/block:RebloggedFrom}</div>
+
+<!-- POST INFORMATION & TAGS -->
+
+<div id="info"><span class="fas fa-tags" id="tagicon"></span><div id="tag">{block:Tags} <a href="{TagURL}">( {Tag} )</a>{/block:Tags}</div><div id="perma"><a href="{Permalink}" title="posted {TimeAgo} with {NoteCount} Note"><span class="fas fa-ellipsis-h"></span></a></div>
+    
+</div></div>
+
+<!-- POST NOTES -->
+{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+{/block:Posts}
+</div>
+
+<!-- END OF POSTS -->
+
+</div>
+
+<!-- END OF CONTAINER -->
+
+<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div>
+ <!-- DO NOT REMOVE CREDIT!! -->
+
+</body>
+      
+
+</html>
