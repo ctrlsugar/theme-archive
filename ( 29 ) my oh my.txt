@@ -1,0 +1,684 @@
+<html>
+<!DOCTYPE html>
+ 
+<!--
+
+
+         MY OH MY / 029 / SUGARCODES / TUMBLR
+         CREATED & DESIGNED BY AUTUMN
+       
+        - fonts from google fonts
+        - icons from cappuccicons / by suiomi
+        - base code(s) by seyche, silbrigthemes & neonbikethemes
+        - responsive video code by nouvae
+        - npf photosets fix by glenthemes
+        - style my tootltips by malihu (https://manos.malihu.gr)
+        - css photoset & fix by annasthms and eggdesign
+        - special thanks to alyofrp's tab tutorial
+        
+
+       
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact 
+
+        This work is protected by a creative commons
+        Attribution-NonCommercial-NoDerivatives 4.0 International
+        (CC BY-NC-ND 4.0)
+        license.
+-->
+ 
+<head>
+ 
+ 
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}<meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0, width=device-width" /><title>{Title}</title>
+ 
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+  
+<!-- THEME SPECIFICS -->
+<link href="https://dl.dropbox.com/s/mwx4v3nn7iyu7ul/myohmy.css" rel="stylesheet">
+  
+<!-- STYLED TOOLTIPS -->
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script><script src="https://dl.dropbox.com/s/q8akoadfqm16u6r/sugarmytooltips.js"></script>
+  
+<!-- ICONS FONT -->
+  
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">   <script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
+<!-- GOOGLE FONTS -->        
+  
+<link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+
+<!-- TABS & POP UP SCRIPTS -->
+  
+<script type="text/javascript" src="https://dl.dropbox.com/s/fpj2xxabjm4uszc/lollipop.js"></script><script type="text/javascript" src="https://dl.dropbox.com/s/le4na2nlvi5hz8v/sugartab.js"></script><script type="text/javascript" src="https://dl.dropbox.com/s/2slj1mdny38t0rg/sugarpop.js"></script>
+
+<!-- META TAGGED INFORMATION -->
+  
+    <meta name="color:Background" content="#f6f6f6"/>
+    <meta name="color:Container" content="#eeeeee"/>
+    <meta name="color:Borders" content="#e7e5e5"/>
+    <meta name="color:Posts" content="#ffffff"/>
+    <meta name="color:Accent One" content="#d39c9c"/>
+    <meta name="color:Accent Two" content="#90a58b"/>
+    <meta name="color:Text" content="#4f4f4f"/>
+    
+    <meta name="image:Background" content="" />
+    <meta name="image:Sidebar" content="https://static.tumblr.com/blgwozc/aq8r5ts6f/350x150.png" />
+    
+    <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna." />
+    <meta name="text:Rules" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna." />
+    
+    <meta name="text:Link One" content="link one" />
+    <meta name="text:Link One URL" content="/" />
+    <meta name="text:Link Two" content="link two" />
+    <meta name="text:Link Two URL" content="/" />
+    <meta name="text:Link Three" content="link three" />
+    <meta name="text:Link Three URL" content="/" />
+    <meta name="text:Link Four" content="link four" />
+    <meta name="text:Link Four URL" content="/" />
+    
+<style>
+
+body { background-attachment:fixed!important; background-image:url('{image:Background}');!important color:{color:Text}; background-color:{color:Background}; }
+
+                        /* FORMATTING */
+ 
+#s-m-t-tooltip { color:{color:Accent One}; background:{color:Container}; }
+   
+h1 { color:{color:Accent Two}; background:{color:Container}; }
+   
+h2 { color:{color:Accent One}; }
+   
+h2 i { color:{color:Accent One}; }
+   
+h2 b { color:{color:Accent One}; }
+   
+hr { color:{color:Posts}; background:{color:Accent One}; border-color: {color:Borders}; }
+   
+pre { color:{color:Text}; }
+ 
+b, strong { color: {color:Accent Two}; }
+   
+i, italic { color: {color:Accent One}; }
+   
+a { color:{color:Accent One}; }
+ 
+a:hover { color: {color:Accent Two}; }
+
+blockquote { border-left:2px solid {color:Accent Two}; background:{color:Container}; }
+   
+ul li:before { color:{color:Accent One}; }
+
+                        /* CONTAINER */
+
+#container { background:{color:Container}; }
+
+#navigation { background:{color:Borders}; }
+
+#sidebar { background:{color:Posts}; }
+
+                        /* SIDEBAR TABS */
+
+.tab button { background:{color:Accent One}; color:{color:Posts}; }
+
+.tab button:hover { background:{color:Accent One}; }
+
+.tab button.active { background:{color:Accent Two}; }
+
+#rules { background:{color:Posts}; }
+
+#other { background:{color:Posts}; }
+
+                        /* POP UP TABS */
+
+.popup_block { background:{color:Container}; }
+
+#t { background:{color:Accent One}; }
+
+#popnav a { color:{color:Posts}; }
+    
+#t:hover { background:{color:Accent One}; }  
+
+#stat { color:{color:Posts}; background:{color:Accent Two}; }
+
+#name { background:{color:Accent One}; color:{color:Posts}; }
+
+                        /* POSTS */
+
+#posts { background:{color:Posts}; }
+
+#audio { background:{color:Container}; }
+
+#audioimg { border-right:1px solid {color:Borders}; }
+    
+#quote { color:{color:Accent One}; }
+    
+#question { background:{color:Container}; }
+    
+#asker { color:{color:Posts}; background:{color:Accent One}; }
+
+#asker b {color:{color:Accent One}; }
+    
+#asker a{ color:{color:Posts}; }
+
+.even .label { color:{color:Accent One}; }
+
+.odd .label { color:{color:Accent One}; }
+
+.odd { background:{color:Background}; }
+ 
+.even { background:{color:Container}; }
+
+                        /* POST INFO */
+
+#tags { background:{color:Borders}; color:{color:Accent One}; }
+   
+#tags span { color:{color:Accent One}; }
+   
+#tags a:hover { color:{color:Accent Two}; }
+   
+#notes li { background:{color:Posts}; }
+
+#credit { color:{color:Accent Two}; }
+
+#sugarhoney { position:fixed; bottom:0;left:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+
+
+
+</style>
+</head>
+<body>
+
+
+<!-- MUSE ONE  -->
+<div id="one" class="popup_block">
+<img src="https://static.tumblr.com/blgwozc/aq8r5ts6f/350x150.png">
+<div id="popnav">
+    <a href=""><div id="t">
+    <span class="fas fa-user"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fas fa-tag"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fab fa-pinterest-p"></span></div></a>
+</div>
+
+<div id="statistics">
+    <div id="stat">stat one</div> <div id="stat">stat two</div>
+    <div id="stat">stat three</div> <div id="stat">stat four</div>
+    <div id="stat">stat five</div> <div id="stat">stat six</div>
+    
+    <div id="biography">
+        muse biography goes here
+    </div>
+</div>
+
+<div id="name"> character name </div>
+</div>
+
+<!-- MUSE TWO  -->
+<div id="two" class="popup_block">
+<img src="https://static.tumblr.com/blgwozc/aq8r5ts6f/350x150.png">
+<div id="popnav">
+    <a href=""><div id="t">
+    <span class="fas fa-user"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fas fa-tag"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fab fa-pinterest-p"></span></div></a>
+</div>
+
+<div id="statistics">
+    <div id="stat">stat one</div> <div id="stat">stat two</div>
+    <div id="stat">stat three</div> <div id="stat">stat four</div>
+    <div id="stat">stat five</div> <div id="stat">stat six</div>
+    
+    <div id="biography">
+        muse <b>two</b> biography goes here
+    </div>
+</div>
+
+<div id="name"> character name </div>
+</div>
+
+<!-- MUSE THREE  -->
+<div id="three" class="popup_block">
+<img src="https://static.tumblr.com/blgwozc/aq8r5ts6f/350x150.png">
+<div id="popnav">
+    <a href=""><div id="t">
+    <span class="fas fa-user"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fas fa-tag"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fab fa-pinterest-p"></span></div></a>
+</div>
+
+<div id="statistics">
+    <div id="stat">stat one</div> <div id="stat">stat two</div>
+    <div id="stat">stat three</div> <div id="stat">stat four</div>
+    <div id="stat">stat five</div> <div id="stat">stat six</div>
+    
+    <div id="biography">
+        muse <b>three</b> biography goes here
+    </div>
+</div>
+
+<div id="name"> character name </div>
+</div>
+
+<!-- MUSE FOUR  -->
+<div id="four" class="popup_block">
+<img src="https://static.tumblr.com/blgwozc/aq8r5ts6f/350x150.png">
+<div id="popnav">
+    <a href=""><div id="t">
+    <span class="fas fa-user"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fas fa-tag"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fab fa-pinterest-p"></span></div></a>
+</div>
+
+<div id="statistics">
+    <div id="stat">stat one</div> <div id="stat">stat two</div>
+    <div id="stat">stat three</div> <div id="stat">stat four</div>
+    <div id="stat">stat five</div> <div id="stat">stat six</div>
+    
+    <div id="biography">
+        muse <b>four</b> biography goes here
+    </div>
+</div>
+
+<div id="name"> character name </div>
+</div>
+
+<!-- MUSE FIVE  -->
+<div id="five" class="popup_block">
+<img src="https://static.tumblr.com/blgwozc/aq8r5ts6f/350x150.png">
+<div id="popnav">
+    <a href=""><div id="t">
+    <span class="fas fa-user"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fas fa-tag"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fab fa-pinterest-p"></span></div></a>
+</div>
+
+<div id="statistics">
+    <div id="stat">stat one</div> <div id="stat">stat two</div>
+    <div id="stat">stat three</div> <div id="stat">stat four</div>
+    <div id="stat">stat five</div> <div id="stat">stat six</div>
+    
+    <div id="biography">
+        muse <b>five</b> biography goes here
+    </div>
+</div>
+
+<div id="name"> character name </div>
+</div>
+
+<!-- MUSE SIX  -->
+<div id="six" class="popup_block">
+<img src="https://static.tumblr.com/blgwozc/aq8r5ts6f/350x150.png">
+<div id="popnav">
+    <a href=""><div id="t">
+    <span class="fas fa-user"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fas fa-tag"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fab fa-pinterest-p"></span></div></a>
+</div>
+
+<div id="statistics">
+    <div id="stat">stat one</div> <div id="stat">stat two</div>
+    <div id="stat">stat three</div> <div id="stat">stat four</div>
+    <div id="stat">stat five</div> <div id="stat">stat six</div>
+    
+    <div id="biography">
+        muse <b>six</b> biography goes here
+    </div>
+</div>
+
+<div id="name"> character name </div>
+</div>
+
+<!-- MUSE SEVEN  -->
+<div id="seven" class="popup_block">
+<img src="https://static.tumblr.com/blgwozc/aq8r5ts6f/350x150.png">
+<div id="popnav">
+    <a href=""><div id="t">
+    <span class="fas fa-user"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fas fa-tag"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fab fa-pinterest-p"></span></div></a>
+</div>
+
+<div id="statistics">
+    <div id="stat">stat one</div> <div id="stat">stat two</div>
+    <div id="stat">stat three</div> <div id="stat">stat four</div>
+    <div id="stat">stat five</div> <div id="stat">stat six</div>
+    
+    <div id="biography">
+        muse <b>seven</b> biography goes here
+    </div>
+</div>
+
+<div id="name"> character name </div>
+</div>
+
+<!-- MUSE EIGHT  -->
+<div id="eight" class="popup_block">
+<img src="https://static.tumblr.com/blgwozc/aq8r5ts6f/350x150.png">
+<div id="popnav">
+    <a href=""><div id="t">
+    <span class="fas fa-user"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fas fa-tag"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fab fa-pinterest-p"></span></div></a>
+</div>
+
+<div id="statistics">
+    <div id="stat">stat one</div> <div id="stat">stat two</div>
+    <div id="stat">stat three</div> <div id="stat">stat four</div>
+    <div id="stat">stat five</div> <div id="stat">stat six</div>
+    
+    <div id="biography">
+        muse <b>eight</b> biography goes here
+    </div>
+</div>
+
+<div id="name"> character name </div>
+</div>
+
+<!-- MUSE NINE  -->
+<div id="nine" class="popup_block">
+<img src="https://static.tumblr.com/blgwozc/aq8r5ts6f/350x150.png">
+<div id="popnav">
+    <a href=""><div id="t">
+    <span class="fas fa-user"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fas fa-tag"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fab fa-pinterest-p"></span></div></a>
+</div>
+
+<div id="statistics">
+    <div id="stat">stat one</div> <div id="stat">stat two</div>
+    <div id="stat">stat three</div> <div id="stat">stat four</div>
+    <div id="stat">stat five</div> <div id="stat">stat six</div>
+    
+    <div id="biography">
+        muse <b>nine</b> biography goes here
+    </div>
+</div>
+
+<div id="name"> character name </div>
+</div>
+
+<!-- MUSE TEN  -->
+<div id="ten" class="popup_block">
+<img src="https://static.tumblr.com/blgwozc/aq8r5ts6f/350x150.png">
+<div id="popnav">
+    <a href=""><div id="t">
+    <span class="fas fa-user"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fas fa-tag"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fab fa-pinterest-p"></span></div></a>
+</div>
+
+<div id="statistics">
+    <div id="stat">stat one</div> <div id="stat">stat two</div>
+    <div id="stat">stat three</div> <div id="stat">stat four</div>
+    <div id="stat">stat five</div> <div id="stat">stat six</div>
+    
+    <div id="biography">
+        muse <b>ten</b> biography goes here
+    </div>
+</div>
+
+<div id="name"> character name </div>
+</div>
+
+<!-- MUSE ELEVEN  -->
+<div id="eleven" class="popup_block">
+<img src="https://static.tumblr.com/blgwozc/aq8r5ts6f/350x150.png">
+<div id="popnav">
+    <a href=""><div id="t">
+    <span class="fas fa-user"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fas fa-tag"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fab fa-pinterest-p"></span></div></a>
+</div>
+
+<div id="statistics">
+    <div id="stat">stat one</div> <div id="stat">stat two</div>
+    <div id="stat">stat three</div> <div id="stat">stat four</div>
+    <div id="stat">stat five</div> <div id="stat">stat six</div>
+    
+    <div id="biography">
+        muse <b>eleven</b> biography goes here
+    </div>
+</div>
+
+<div id="name"> character name </div>
+</div>
+
+<!-- MUSE TWELVE  -->
+<div id="twelve" class="popup_block">
+<img src="https://static.tumblr.com/blgwozc/aq8r5ts6f/350x150.png">
+<div id="popnav">
+    <a href=""><div id="t">
+    <span class="fas fa-user"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fas fa-tag"></span></div></a>
+    
+    <a href=""><div id="t">
+    <span class="fab fa-pinterest-p"></span></div></a>
+</div>
+
+<div id="statistics">
+    <div id="stat">stat one</div> <div id="stat">stat two</div>
+    <div id="stat">stat three</div> <div id="stat">stat four</div>
+    <div id="stat">stat five</div> <div id="stat">stat six</div>
+    
+    <div id="biography">
+        muse <b>twelve</b> biography goes here
+    </div>
+</div>
+
+<div id="name"> character name </div>
+</div>
+
+<!-- -->
+
+<div id="container">
+
+<div id="navigation">
+    <div id="navi">
+    {block:PreviousPage}
+    <a href="{PreviousPage}">< previous</a>
+    {/block:PreviousPage}    
+        <a href="{text:Link One URL}">{text:Link One}</a>
+        <a href="{text:Link Two URL}">{text:Link Two}</a>
+        <a href="{text:Link Three URL}">{text:Link Three}</a>
+        <a href="{text:Link Four URL}">{text:Link Four}</a>
+    {block:NextPage}
+        <a href="{NextPage}">forward ></a>
+    {/block:NextPage}    
+    </div>
+</div>
+
+    
+    <div id="sidebar">
+    <div id="sideimg">
+        <img src="{image:Sidebar}">
+    </div>
+    
+    <div class="tab">
+<button class="tablinks" onclick="openlollipop(event, 'about')">about</button>
+<button class="tablinks" onclick="openlollipop(event, 'rules')">rules</button>
+<button class="tablinks" onclick="openlollipop(event, 'other')">muses</button>
+</div>
+
+
+<div id="about">
+    {text:Description}
+</div>
+
+<div id="rules" class="tabcontent">
+    {text:Rules}
+</div>
+
+<div id="other" class="tabcontent">
+
+<!-- START OF MUSE -->  
+    <a class="poplight" href="#?w=350" rel="one" title="muse name">
+    <div id="mu"> <img src="https://static.tumblr.com/blgwozc/s3Kr5tr9z/80.png">
+    </div></a>
+<!-- END OF MUSE -->
+
+<!-- START OF MUSE -->  
+    <a class="poplight" href="#?w=350" rel="two" title="muse name">
+    <div id="mu"> <img src="https://static.tumblr.com/blgwozc/s3Kr5tr9z/80.png">
+    </div></a>
+<!-- END OF MUSE -->
+
+<!-- START OF MUSE -->  
+    <a class="poplight" href="#?w=350" rel="three" title="muse name">
+    <div id="mu"> <img src="https://static.tumblr.com/blgwozc/s3Kr5tr9z/80.png">
+    </div></a>
+<!-- END OF MUSE -->
+
+<!-- START OF MUSE -->  
+    <a class="poplight" href="#?w=350" rel="four" title="muse name">
+    <div id="mu"> <img src="https://static.tumblr.com/blgwozc/s3Kr5tr9z/80.png">
+    </div></a>
+<!-- END OF MUSE -->
+
+<!-- START OF MUSE -->  
+    <a class="poplight" href="#?w=350" rel="five" title="muse name">
+    <div id="mu"> <img src="https://static.tumblr.com/blgwozc/s3Kr5tr9z/80.png">
+    </div></a>
+<!-- END OF MUSE -->
+
+<!-- START OF MUSE -->  
+    <a class="poplight" href="#?w=350" rel="six" title="muse name">
+    <div id="mu"> <img src="https://static.tumblr.com/blgwozc/s3Kr5tr9z/80.png">
+    </div></a>
+<!-- END OF MUSE -->
+
+<!-- START OF MUSE -->  
+    <a class="poplight" href="#?w=350" rel="seven" title="muse name">
+    <div id="mu"> <img src="https://static.tumblr.com/blgwozc/s3Kr5tr9z/80.png">
+    </div></a>
+<!-- END OF MUSE -->
+
+<!-- START OF MUSE -->  
+    <a class="poplight" href="#?w=350" rel="eight" title="muse name">
+    <div id="mu"> <img src="https://static.tumblr.com/blgwozc/s3Kr5tr9z/80.png">
+    </div></a>
+<!-- END OF MUSE -->
+
+<!-- START OF MUSE -->  
+    <a class="poplight" href="#?w=350" rel="nine" title="muse name">
+    <div id="mu"> <img src="https://static.tumblr.com/blgwozc/s3Kr5tr9z/80.png">
+    </div></a>
+<!-- END OF MUSE -->
+
+<!-- START OF MUSE -->  
+    <a class="poplight" href="#?w=350" rel="ten" title="muse name">
+    <div id="mu"> <img src="https://static.tumblr.com/blgwozc/s3Kr5tr9z/80.png">
+    </div></a>
+<!-- END OF MUSE -->
+
+<!-- START OF MUSE -->  
+    <a class="poplight" href="#?w=350" rel="eleven" title="muse name">
+    <div id="mu"> <img src="https://static.tumblr.com/blgwozc/s3Kr5tr9z/80.png">
+    </div></a>
+<!-- END OF MUSE -->
+
+<!-- START OF MUSE -->  
+    <a class="poplight" href="#?w=350" rel="twelve" title="muse name">
+    <div id="mu"> <img src="https://static.tumblr.com/blgwozc/s3Kr5tr9z/80.png">
+    </div></a>
+<!-- END OF MUSE -->
+
+</div>
+</div>
+
+{block:Posts}
+ 
+<div id="posts">
+
+{block:Title}<h1>{Title}</h1>{/block:Title}
+
+{block:Text}{Body}{/block:Text}
+ 
+{block:Quote}<div id="quote">{Quote}</div><div id="source">— {Source}</div>{/block:Quote}
+ 
+{block:Link}<a href="{URL}" class="link" {Target}> <h2>{Name}</h2></a>
+{block:Description}<p>{Description}</p>{/block:Description}{/block:Link}
+ 
+{block:Photo}<center><img src="{PhotoURL-500}"/></center>{block:Caption}{Caption}{/block:Caption}{/block:Photo}
+
+{block:Photoset}<div class="photo">{Photoset}</div>{block:Caption}<div id="caption">{Caption}</div>{/block:Caption}{/block:Photoset}
+ 
+{block:Chat}<div class="chat">{block:Lines}<div class="{Alt}">{block:Label}<span class="label">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</span>{/block:Label}{Line}</div>{/block:Lines}</div>{/block:Chat} 
+
+{block:Video}{Video-500}{block:Caption}{Caption}{/block:Caption}{/block:Video}
+ 
+{block:Answer}<div id="question">{Question}</div><div id="asker"><b>{Asker}</b> asked</div>{Answer}{/block:Answer}
+
+{block:Audio}{block:AudioPlayer}<div id="audio">{block:AlbumArt}<div id="audioimg"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}<div id="player">{AudioPlayerWhite}</div><div id="trackdetails">{block:TrackName}<b>Track:</b> {TrackName} <br/>{/block:TrackName}{block:Artist}<b>Artist:</b> {Artist} <br/>{/block:Artist}{block:Album}<b>Album:</b> {Album} <br/>{/block:Album}</div></div>{/block:AudioPlayer}<br><br>{block:Caption}{Caption}{/block:Caption}{/block:Audio}
+
+{block:More}<a href="{Permalink}"><div id="more">continue to post...</div></a>{/block:More}
+
+<div class="contentsource" style="display:none;"> {block:ContentSource} Source: <a href="{SourceURL}">{SourceTitle} </a> {/block:ContentSource} {block:RebloggedFrom} Via: <a href="{ReblogParentURL}">{ReblogParentName}</a> {/block:RebloggedFrom}</div>
+
+{block:Date}<div id="tags"><span class="lnr lnr-tag"></span>{block:Tags} <a href="{TagURL}"> {Tag} </a>{/block:Tags} <a href="{Permalink}" style="" title="posted {TimeAgo} with {NoteCount} Notes"><span class="lnr lnr-star" style="right:0;position:absolute;margin-right:15px;"></span></a></div>{/block:Date}
+    
+</div>
+
+{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+
+{/block:Posts}
+
+</div>
+
+<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div>
+ <!-- DO NOT REMOVE CREDIT!! -->
+</body>
+
+   
+
+</html>
