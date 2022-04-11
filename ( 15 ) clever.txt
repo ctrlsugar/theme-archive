@@ -1,0 +1,433 @@
+<html>
+<!DOCTYPE html>
+ 
+ 
+<!--
+
+
+         CLEVER / 015 / SUGARCODES / TUMBLR
+         CREATED & DESIGNED BY AUTUMN
+       
+        - fonts from google fonts
+        - icons from cappuccicons / by suiomi
+        - base code(s) by seyche, silbrigthemes & neonbikethemes
+        - responsive video code by nouvae
+        - npf photosets fix by glenthemes
+        - style my tootltips by malihu (https://manos.malihu.gr)
+        - css photoset & fix by annasthms and eggdesign
+        - special thanks to alyofrp's tab tutorial
+        
+
+       
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact 
+
+        This work is protected by a creative commons
+        Attribution-NonCommercial-NoDerivatives 4.0 International
+        (CC BY-NC-ND 4.0)
+        license.
+-->
+ 
+
+<head>
+
+    
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}<meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0, width=device-width" /><title>{Title}</title>
+ 
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+    
+    <meta name="if:Extra Text Box" content="0" />
+    <meta name="if:Muses Box" content="0" />
+    <meta name="if:Updates Box" content="" />
+   
+    <meta name="color:Background" content="#f6f6f6"/>
+    <meta name="color:Container" content="#eeeeee"/>
+    <meta name="color:Borders" content="#e7e5e5"/>
+    <meta name="color:Posts" content="#ffffff"/>
+    <meta name="color:Link" content="#90a58b"/>
+    <meta name="color:Accent One" content="#d39c9c"/>
+    <meta name="color:Accent Two" content="#5c5360"/>
+    <meta name="color:Text" content="#4f4f4f"/>
+ 
+    <meta name="image:Background" content="" />
+    <meta name="image:Sidebar" content="https://static.tumblr.com/blgwozc/4ler5rl9l/210x130.png" />
+    <meta name="image:Muse One" content="https://static.tumblr.com/blgwozc/3qJr5rl96/65x90.png" />
+    <meta name="image:Muse Two" content="https://static.tumblr.com/blgwozc/3qJr5rl96/65x90.png" />
+    <meta name="image:Muse Three" content="https://static.tumblr.com/blgwozc/3qJr5rl96/65x90.png" />
+    
+    <meta name="text:Title" content="welcome" />
+    <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna." /> 
+
+    <meta name="text:Link One URL" content="/" />
+    <meta name="text:Link One" content="index" />
+    <meta name="text:Link Two URL" content="/" />
+    <meta name="text:Link Two" content="contact" />
+    <meta name="text:Link Three URL" content="/" />
+    <meta name="text:Link Three" content="about" />
+    <meta name="text:Link Four URL" content="/" />
+    <meta name="text:Link Four" content="rules" />
+    <meta name="text:Link Five URL" content="/" />
+    <meta name="text:Link Five" content="tags" />
+    
+    <meta name="text:Extra Sidebox Title" content="Extra Sidebox" />
+    <meta name="text:Extra Sidebox Content" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris." />
+    
+    <meta name="text:Muse One" content="character name" />
+    <meta name="text:Muse One URL" content="#" />
+    <meta name="text:Muse Two" content="character name" />
+    <meta name="text:Muse Two URL" content="#" />
+    <meta name="text:Muse Three" content="character name" />
+    <meta name="text:Muse Three URL" content="#" />
+    
+    <meta name="text:Update One Date" content="00.00"/>
+    <meta name="text:Update One" content="Update One"/>
+    <meta name="text:Update Two Date" content="00.00"/>
+    <meta name="text:Update Two" content="Update Two"/>
+    <meta name="text:Update Three Date" content="00.00"/>
+    <meta name="text:Update Three" content="Update Three"/>
+    
+ 
+     <!-- IMPORTED SCRIPTS -->
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script><link href="https://static.tumblr.com/0podkko/oDSpg7y88/photosets.css" rel="stylesheet"><script src="https://dl.dropbox.com/s/e9i5ycsca7fbbye/dinotooltips.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script><link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+<link rel="stylesheet" href="https://dl.dropbox.com/s/cfsct2w90mtsyd1/clever.css">
+<script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
+
+
+<style type="text/css">
+
+body {
+    color:{color:Text};
+    background-color:{color:Background};
+    background-image:url('{image:Background}');!important
+}
+ 
+::-webkit-scrollbar-track {
+    background:{color:Accent One};
+}
+ 
+::-webkit-scrollbar-thumb {
+    background:{color:Borders};
+}
+ 
+#s-m-t-tooltip {
+    color:{color:Accent One};
+    background:{color:Container};
+}
+   
+h1 {
+    color:{color:Accent Two};
+    background:{color:Container};
+}
+   
+h2 {
+    color:{color:Accent One};
+}
+   
+h2 i {
+    color:{color:Accent One};
+}
+   
+h2 b {
+    color:{color:Accent One};
+}
+
+h4 {
+    color:{color:Posts};
+    background:{color:Accent One};
+}
+ 
+hr {
+    border-color: {color:Borders};
+}
+   
+pre {
+    color:{color:Text};
+}
+ 
+b, strong {
+    color: {color:Accent Two};
+}
+   
+i, italic {
+    color: {color:Accent One};
+}
+   
+a {
+    color: {color:Link};
+}
+ 
+a:hover {
+    color: {color:Accent Two};
+}
+
+blockquote {
+    border-left:2px solid {color:Accent Two};
+}
+
+blockquote blockquote {
+    border-left:2px solid {color:Accent One};
+}
+
+blockquote blockquote blockquote {
+    border-left:2px solid {color:Accent Two};
+    
+}
+
+blockquote blockquote blockquote blockquote {
+    border-left:2px solid {color:Accent One};
+}
+
+blockquote blockquote blockquote blockquote blockquote {
+    border-left:2px solid {color:Accent Two};
+}
+ul li:before {
+    color:{color:Accent One};
+}
+
+#container {
+    background:{color:Container};
+}
+
+#sidebox {
+    background:{color:Posts};
+}
+
+h1.sidebox {
+    background:{color:Accent Two};
+    color:{color:Posts};
+    border-bottom:3px solid {color:Borders};
+}
+
+#stat {
+    background:{color:Container};
+}
+
+#stats {
+    background:{color:Accent Two};
+    color:{color:Posts};
+}
+
+#link {
+    color:{color:Posts};
+    background:{color:Accent One};
+}
+
+#pagination {
+    background:{color:Posts};
+}
+
+.posts {
+    background:{color:Posts};
+}
+
+#audio {
+    background:{color:Container};
+}
+            
+#audioimg img {
+    border-right:1px solid {color:Borders};
+}
+    
+#quote {
+    color: {color:Accent One};
+}
+    
+#question {
+    background:{color:Container};
+}
+    
+#asker {
+    color: {color:Posts};
+    background:{color:Accent One};
+}
+
+#asker b {
+    color: {color:Link}; 
+}
+    
+#asker a {
+    color: {color:Posts}; 
+}
+
+.odd {
+    background:{color:Background};
+}
+ 
+.even {
+    background:{color:Container};
+}
+
+.even .label {
+    color:{color:Link};
+}    
+
+.odd .label {
+    color:{color:Accent One};
+}
+
+#tags {
+    background:{color:Background};
+    color:{color:Accent One};
+}
+   
+#tags span {
+    color:{color:Accent One};
+}
+   
+#tags a:hover {
+    color:{color:Accent Two};
+}
+    
+#notes li {
+    background:{color:Posts};
+}
+
+
+{block:AskPage} 
+.info, .tags {
+    display:none;
+}
+{/block:AskPage}
+
+{block:SubmitPage}
+.info, .tags {
+    display:none;
+}
+{/block:SubmitPage}
+
+{block:AskPage} 
+.info, .tags {
+    display:none;
+}
+{/block:AskPage}
+
+{block:SubmitPage}
+.info, .tags {
+    display:none;
+}
+{/block:SubmitPage}
+
+#tagged {
+    color:{color:Accent Two};
+    background:{color:Posts};
+}
+
+#tagged b {
+    color:{color:Accent Two};
+}
+
+#sugarhoney { position:fixed; bottom:0; left:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+
+    
+</style>
+</head>
+<body>
+
+
+<div id="container">
+  
+<div id="navigation">
+<a href="{text:Link One URL}"><div id="link">01. <span>{text:Link One}</span></div></a>
+<a href="{text:Link Two URL}"><div id="link">02. <span>{text:Link Two}</span></div></a>
+<a href="{text:Link Three URL}"><div id="link">03. <span>{text:Link Three}</span></div></a>
+<a href="{text:Link Four URL}"><div id="link">04. <span>{text:Link Four}</span></div></a>
+<a href="{text:Link Five URL}"><div id="link">05. <span>{text:Link Five}</span></div></a>
+</div>
+
+<div id="sidebar">
+
+<div id="sidebox">
+    <h1 class="sidebox"><span class="lnr lnr-star"></span> {text:Title}</h1>
+    <div id="sideimg"><img src="{image:Sidebar}"></div>
+    <div id="description">{text:Description}</div>        
+</div>
+
+{block:ifExtraTextBox}
+<div id="sidebox">
+    <h1 class="sidebox"><span class="lnr lnr-star"></span>{text:Extra Sidebox Title}</h1>
+    <div id="muse">
+    {text:Extra Sidebox Content}
+   </div>
+</div>
+{/block:ifExtraTextBox}
+
+{block:ifMusesBox}
+<div id="sidebox">
+    <h1 class="sidebox"><span class="lnr lnr-star"></span>{text:Extra Sidebox Title}</h1>
+    <div id="muse">
+    
+    <a href="{text:Muse One Url}" title="{text:Muse One}"><img src="{image:Muse One}"></a>
+    <a href="{text:Muse Two Url}" title="{text:Muse Two}"><img src="{image:Muse Two}"></a>
+    <a href="{text:Muse Three Url}" title="{text:Muse Three}"><img src="{image:Muse Three}"></a>
+    
+   </div>
+</div>
+{/block:ifMusesBox}
+
+{block:ifUpdatesBox}
+<div id="sidebox">
+    <h1 class="sidebox"><span class="lnr lnr-star"></span> {text:Extra Sidebox Title}</h1>
+    <div id="muse">
+    
+        <div id="stat"><div id="stats">{text:Update One Date}</div>{text:Update One}</div>
+        <div id="stat"><div id="stats">{text:Update Two Date}</div>{text:Update Two}</div>
+        <div id="stat"><div id="stats">{text:Update Three Date}</div>{text:Update Three}</div>
+        
+    </div>
+</div>
+{/block:ifUpdatesBox}
+
+<div id="pagination"><b>{block:PreviousPage}<a href="{PreviousPage}">back</a>{/block:PreviousPage} {block:NextPage}<a href="{NextPage}" style="float:right;">forth</a>{/block:NextPage}</b></div>
+
+</div>
+
+{block:TagPage} <div id="tagged">  <b>filed under:</b> <a href="#"> {tag} </a>   </div> {/block:TagPage}{block:SearchPage}<div id="tagged">  <a href="#">[ {SearchResultCount} results ]</a> filed under <a href="#">[ {SearchQuery} ]</a>   </div>{/block:SearchPage}
+
+{block:Posts}
+ 
+<div class="posts">
+
+{block:Title}<h1>{Title}</h1>{/block:Title}
+
+{block:Text}{Body}{/block:Text}
+ 
+{block:Quote}<div id="quote">{Quote}</div><div id="source">— {Source}</div>{/block:Quote}
+ 
+{block:Link}<a href="{URL}" class="link" {Target}> <h2>{Name}</h2></a>
+{block:Description}<p>{Description}</p>{/block:Description}{/block:Link}
+ 
+{block:Photo}<center><img src="{PhotoURL-500}"/></center>{block:Caption}{Caption}{/block:Caption}{/block:Photo}
+
+{block:Photoset}<div class="photoset-grid" photoset-layout="{PhotosetLayout}">{block:Photos}<div><img src="{PhotoURL-HighRes}" /></div>{/block:Photos}</div>{block:Caption}{Caption}{/block:Caption}{/block:Photoset}
+   
+{block:Chat}<div class="chat">{block:Lines}<div class="{Alt}">{block:Label}<span class="label">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</span>{/block:Label}{Line}</div>{/block:Lines}</div>{/block:Chat} 
+
+{block:Video}{Video-500}{block:Caption}{Caption}{/block:Caption}{/block:Video}
+ 
+{block:Answer}<div id="question">{Question}</div><div id="asker"><b>{Asker}</b> asked</div>{Answer}{/block:Answer}
+
+{block:Audio}{block:AudioPlayer}<div id="audio">{block:AlbumArt}<div id="audioimg"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}<div id="player">{AudioPlayerWhite}</div><div id="trackdetails">{block:TrackName}<b>Track:</b> {TrackName} <br/>{/block:TrackName}{block:Artist}<b>Artist:</b> {Artist} <br/>{/block:Artist}{block:Album}<b>Album:</b> {Album} <br/>{/block:Album}</div></div>{/block:AudioPlayer}<br><br>{block:Caption}{Caption}{/block:Caption}{/block:Audio}
+
+<div class="contentsource" style="display:none;"> {block:ContentSource} Source: <a href="{SourceURL}">{SourceTitle} </a> {/block:ContentSource} {block:RebloggedFrom} Via: <a href="{ReblogParentURL}">{ReblogParentName}</a> {/block:RebloggedFrom}</div>
+
+<div id="tags"><span class="lnr lnr-tag"></span>{block:Tags} <a href="{TagURL}">( {Tag} )</a>{/block:Tags} <a href="{Permalink}" style="float:right;" title="posted {TimeAgo} with {NoteCount} Notes"><span class="lnr lnr-star" style="margin-right:-30px;"></span></a></div>
+    
+</div>
+
+{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+
+{/block:Posts}
+
+</div>
+ 
+<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div> <!-- DO NOT REMOVE CREDIT!! -->
+
+
+</body>
+</html>
