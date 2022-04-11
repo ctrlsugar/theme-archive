@@ -1,0 +1,889 @@
+<html>
+<!DOCTYPE html>
+ 
+ 
+<!--
+
+
+         SANTIAGO / 014 / SUGARCODES / TUMBLR
+         CREATED & DESIGNED BY AUTUMN
+       
+        - fonts from google fonts
+        - icons from cappuccicons / by suiomi
+        - base code(s) by seyche, silbrigthemes & neonbikethemes
+        - responsive video code by nouvae
+        - npf photosets fix by glenthemes
+        - style my tootltips by malihu (https://manos.malihu.gr)
+        - css photoset & fix by annasthms and eggdesign
+        - special thanks to alyofrp's tab tutorial
+        
+
+       
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact 
+
+        This work is protected by a creative commons
+        Attribution-NonCommercial-NoDerivatives 4.0 International
+        (CC BY-NC-ND 4.0)
+        license.
+-->
+ 
+ 
+<head>
+
+    
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}<meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0, width=device-width" /><title>{Title}</title>
+ 
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+   
+   
+    <meta name="color:Background" content="#0c0c0c"/>
+    <meta name="color:Container" content="#181717"/>
+    <meta name="color:Borders" content="#121212"/>
+    <meta name="color:Posts" content="#232222"/>
+    <meta name="color:Link" content="#d78866"/>
+    <meta name="color:Accent One" content="#39625b"/>
+    <meta name="color:Accent Two" content="#8c4140"/>
+    <meta name="color:Text" content="#8c8c8c"/>
+    
+    <meta name="image:Background" content="" />
+    <meta name="image:Header" content="https://static.tumblr.com/blgwozc/Cdnr5rkxg/850x350.png" />
+    <meta name="image:Sidebar" content="https://static.tumblr.com/blgwozc/Jzkr5rkwh/260.png" />
+    
+    <meta name="image:Admin One" content="https://static.tumblr.com/blgwozc/alUr5rkxo/50.png"/>
+    <meta name="image:Admin Two" content="https://static.tumblr.com/blgwozc/alUr5rkxo/50.png"/>
+    
+    <meta name="image:Most Wanted One" content="https://static.tumblr.com/blgwozc/WfRr5rkyc/90x60.png"/>
+    <meta name="image:Most Wanted Two" content="https://static.tumblr.com/blgwozc/WfRr5rkyc/90x60.png"/>
+    
+    <meta name="image:Event One" content="https://static.tumblr.com/blgwozc/2SBr5rkz7/190x120.png"/>
+    <meta name="image:Event Two" content="https://static.tumblr.com/blgwozc/2SBr5rkz7/190x120.png"/>
+    
+    <meta name="image:Affiliate One" content="https://static.tumblr.com/blgwozc/GTqr5rkzt/65x95.png" />
+    <meta name="image:Affiliate Two" content="https://static.tumblr.com/blgwozc/GTqr5rkzt/65x95.png" />
+    <meta name="image:Affiliate Three" content="https://static.tumblr.com/blgwozc/GTqr5rkzt/65x95.png" />
+
+    <meta name="if:Event One" content="1"/>
+    <meta name="if:Event Two" content="0"/>
+    
+    <meta name="if:Extra Sidebox" content="1" />
+
+    <meta name="text:Link One URL" content="/" />
+    <meta name="text:Link One" content="index" />
+    <meta name="text:Link Two URL" content="/" />
+    <meta name="text:Link Two" content="contact" />
+    <meta name="text:Link Three URL" content="/" />
+    <meta name="text:Link Three" content="tags" />
+    <meta name="text:Link Four URL" content="/" />
+    <meta name="text:Link Four" content="tags" />
+    <meta name="text:Link Five URL" content="/" />
+    <meta name="text:Link Five" content="tags" />
+    <meta name="text:Link Six URL" content="/" />
+    <meta name="text:Link Six" content="tags" />
+    
+    <meta name="text:Title" content="welcome" />
+    <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna." />    
+  
+    <meta name="text:Total Application Count" content="+05"/>    
+        
+    <meta name="text:Non Binary" content="+01"/>
+    <meta name="text:Female" content="+04"/>
+    <meta name="text:Male" content="+01"/>
+    
+    <meta name="text:Application Count Url" content="/count"/>
+    
+    <meta name="text:Update One Date" content="00.00"/>
+    <meta name="text:Update One" content="Update One"/>
+    <meta name="text:Update Two Date" content="00.00"/>
+    <meta name="text:Update Two" content="Update Two"/>
+    <meta name="text:Update Three Date" content="00.00"/>
+    <meta name="text:Update Three" content="Update Three"/>
+    <meta name="text:Update Four Date" content="00.00"/>
+    <meta name="text:Update Four" content="Update Four"/>
+    
+    <meta name="text:Admin One" content="Admin X"/>
+    <meta name="text:Admin One Subtitle" content="admin subtitle"/>
+    <meta name="text:Admin Two" content="Admin Z"/>
+    <meta name="text:Admin Two Subtitle" content="admin subtitle"/>
+    
+    <meta name="text:Most Wanted One URL" content="/"/>
+    <meta name="text:Most Wanted One" content="most wanted"/>
+    <meta name="text:Most Wanted Two URL" content="/"/>
+    <meta name="text:Most Wanted Two" content="most wanted"/>
+    
+    <meta name="text:Extra Link One Url" content="/"/>
+    <meta name="text:Extra Link One" content="extra link"/>
+    <meta name="text:Extra Link Two Url" content="/"/>
+    <meta name="text:Extra Link Two" content="extra link"/>
+    <meta name="text:Extra Link Three Url" content="/"/>
+    <meta name="text:Extra Link Three" content="extra link"/>
+    <meta name="text:Extra Link Four Url" content="/"/>
+    <meta name="text:Extra Link Four" content="extra link"/>
+    <meta name="text:Extra Link Five Url" content="/"/>
+    <meta name="text:Extra Link Five" content="extra link"/>
+    <meta name="text:Extra Link Six Url" content="/"/>
+    <meta name="text:Extra Link Six" content="extra link"/>
+    
+    <meta name="text:Event One Title" content="event title"/>
+    <meta name="text:Event One Date" content="00.00" />
+    <meta name="text:Event One Type" content="task" />
+    <meta name="text:Event One URL" content="/" />
+    <meta name="text:Event Two Title" content="event title" />
+    <meta name="text:Event Two Date" content="00.00" />
+    <meta name="text:Event Two Type" content="event" />
+    <meta name="text:Event Two URL" content="/" />
+    
+    <meta name="text:Affiliate One URL" content="/" />
+    <meta name="text:Affiliate One" content="Affiliate Name" />
+    <meta name="text:Affiliate Two URL" content="/" />
+    <meta name="text:Affiliate Two" content="Affiliate Name" />
+    <meta name="text:Affiliate Three URL" content="/" />
+    <meta name="text:Affiliate Three" content="Affiliate Name" /> 
+    
+    <meta name="text:Statistic One Title" content="Statistic" />
+    <meta name="text:Statistic One" content="stat here" />
+    <meta name="text:Statistic Two Title" content="Statistic" />
+    <meta name="text:Statistic Two" content="stat here" />
+    <meta name="text:Statistic Three Title" content="Statistic" />
+    <meta name="text:Statistic Three" content="stat here" />
+    <meta name="text:Statistic Four Title" content="Statistic" />
+    <meta name="text:Statistic Four" content="stat here" />
+    <meta name="text:Statistic Five Title" content="Statistic" />
+    <meta name="text:Statistic Five" content="stat here" />
+    
+    <meta name="text:Disclaimer" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris."/>
+    
+    <meta name="text:Extra Sidebox Title" content="Extra Sidebox" />
+    <meta name="text:Extra Sidebox Content" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris." />
+    
+    <meta name="select:Posts Width" content="500px" />
+    <meta name="select:Posts Width" content="250px" />
+    <meta name="select:Posts Width" content="300px" />
+    <meta name="select:Posts Width" content="350px" />
+    <meta name="select:Posts Width" content="400px" />
+    <meta name="select:Posts Width" content="450px" />
+    <meta name="select:Posts Width" content="540px" />
+     
+     <meta name="select:Scrollbar Width" content="0px" />
+     <meta name="select:Scrollbar Width" content="2px" />
+     <meta name="select:Scrollbar Width" content="5px" />
+     <meta name="select:Scrollbar Width" content="10px" />
+     
+     <meta name="select:Body Font Size" content="10px" />
+     <meta name="select:Body Font Size" content="8px" />
+     <meta name="select:Body Font Size" content="9px" />
+     <meta name="select:Body Font Size" content="11px" />
+     <meta name="select:Body Font Size" content="12px" />
+     
+     <meta name="select:Photoset Gutter" content="10px" />
+     <meta name="select:Photoset Gutter" content="5px" />
+     <meta name="select:Photoset Gutter" content="1px" />
+     <meta name="select:Photoset Gutter" content="0px" />
+     
+     <meta name="select:Border Radius" content="0px" />
+     <meta name="select:Border Radius" content="2px" />
+     <meta name="select:Border Radius" content="5px" />
+     <meta name="select:Border Radius" content="10px" />
+ 
+     <!-- IMPORTED SCRIPTS -->
+     
+<link href="https://dl.dropbox.com/s/e8jl0123muh85jq/santiago.css" rel="stylesheet">     
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<link href="https://static.tumblr.com/0podkko/oDSpg7y88/photosets.css" rel="stylesheet">
+
+<link href="https://static.tumblr.com/hax88go/fWCpwc65d/rawr.css" rel="stylesheet">
+
+<script src="https://dl.dropbox.com/s/e9i5ycsca7fbbye/dinotooltips.js"></script>
+
+<script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+<script src="https://dl.dropbox.com/s/ubvf8v5rnmfkwhh/dinoaugust.js"></script>
+
+<script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
+
+
+<style type="text/css">
+body {
+    font-size: {select:Body Font Size};
+    color:{color:Text};
+    background-color:{color:Background};
+    background-image:url('{image:Background}');!important
+}
+ 
+::-webkit-scrollbar {
+    width:{select:Scrollbar Width};   
+}
+ 
+::-webkit-scrollbar-track {
+    background:{color:Accent One};
+}
+ 
+::-webkit-scrollbar-thumb {
+    background:{color:Borders};
+}
+ 
+#s-m-t-tooltip {
+    color:{color:Accent One};
+    background:{color:Container};
+    border-radius:{select:Border Radius};
+}
+   
+h1 {
+    color:{color:Accent Two};
+    background:{color:Container};
+    border-radius:{select:Border Radius};
+}
+   
+h2 {
+    color:{color:Accent One};
+}
+   
+h2 i {
+    color:{color:Accent One};
+}
+   
+h2 b {
+    color:{color:Accent One};
+}
+   
+h5 {
+    color:{color:Accent Two};
+    background:{color:Container};
+    border-radius:{select:Border Radius};
+}
+
+h4 {
+    color:{color:Posts};
+    background:{color:Accent One};
+    border-radius:{select:Border Radius};
+}
+ 
+hr {
+    border-color: {color:Borders};
+}
+   
+pre {
+    width:{select:Posts Width};
+    color:{color:Text};
+}
+ 
+b, strong {
+    color: {color:Accent One};
+}
+    
+i, italic {
+    color: {color:Accent Two};
+}
+   
+small, sup, sub {
+	font-size: {select:Body Font Size};
+}
+   
+a {
+    color: {color:Link};
+}
+ 
+a:hover {
+    color: {color:Accent Two};
+}
+
+blockquote {
+    width:calc({select:Posts Width} - 37px);
+    border-left:2px solid {color:Accent Two};
+    border-top-right-radius:{select:Border Radius};
+    border-bottom-right-radius:{select:Border Radius};
+}
+
+blockquote blockquote {
+    border-left:2px solid {color:Accent One};
+}
+
+blockquote blockquote blockquote {
+    border-left:2px solid {color:Accent Two};
+    
+}
+
+blockquote blockquote blockquote blockquote {
+    border-left:2px solid {color:Accent One};
+    width:calc({select:Posts Width} - 87px);
+}
+
+blockquote blockquote blockquote blockquote blockquote {
+    border-left:2px solid {color:Accent Two};
+}
+
+ul li:before {
+    color:{color:Accent One};
+}
+
+#container {
+    width:calc({select:Posts Width} + 350px);
+    background:{color:Container};
+    border-radius:{select:Border Radius};
+}
+
+#header {
+   width:calc({select:Posts Width} + 350px); 
+   border-radius:{select:Border Radius};
+}
+
+#header img {
+    width:calc({select:Posts Width} + 350px); 
+    border-radius:{select:Border Radius};
+}
+
+#sidebox {
+    background:{color:Posts};
+    border-radius:{select:Border Radius};
+}
+
+h1.sidebox {
+    background:{color:Accent Two};
+    color:{color:Posts};
+    border-bottom:3px solid {color:Borders};
+}
+
+#stat {
+    background:{color:Container};
+    border-radius:{select:Border Radius};
+    text-align:right;
+}
+
+#stats {
+    background:{color:Accent Two};
+    color:{color:Posts};
+    border-top-left-radius:{select:Border Radius};
+    border-bottom-left-radius:{select:Border Radius};
+}
+
+#mostwanted {
+    background:{color:Container};
+    border-radius:{select:Border Radius};
+}
+
+#mostwanted img {
+    border-radius:{select:Border Radius};
+}
+
+#mw { 
+    color:{color:Container};
+    background:{color:Accent Two};
+    border-radius:{select:Border Radius};
+}
+
+#event {
+    background:{color:Container};
+    border-radius:{select:Border Radius};
+}
+
+#event img {
+    border-radius:{select:Border Radius};
+}
+
+#evtitle {
+    color:{color:Container};
+    background:{color:Accent Two};
+    border-radius:{select:Border Radius};
+}
+
+#evlink:hover {
+    background:{color:Accent Two};
+}
+
+#evlink {
+    background:{color:Posts};
+    border-radius:{select:Border Radius};
+}
+
+#affiliates {
+    margin:-5px;
+    border-radius:{select:Border Radius};
+}
+
+#affiliates img {
+    border-radius:{select:Border Radius};
+}
+
+#navigation {
+    background:{color:Container};
+}
+
+#navborder {
+    border-bottom:5px solid {color:Accent One};
+}
+
+#navi {
+   width:calc({select:Posts Width} + 410px);
+   background:{color:Container};
+}
+
+#exlink {
+    background:{color:Accent Two};
+    color:{color:Posts};
+    border-radius:{select:Border Radius};
+}
+
+#exlink:hover {
+    background:{color:Accent One};
+}
+
+#navibar {
+    margin-left:calc({select:Posts Width} + 390px);
+}
+
+#nlink {
+    color:{color:Posts};
+    border-radius:{select:Border Radius};
+    background:{color:Accent One};
+}
+
+#totalcount {
+    border-radius:{select:Border Radius};
+    background:{color:Container};
+}
+
+#breakdown {
+    border-radius:{select:Border Radius};
+    background:{color:Accent One};
+    color:{color:Posts};
+}
+
+#breakdown:hover {
+    background:{color:Accent Two};
+}
+
+#admin {
+	background:{color:Container};
+    border-radius:{select:Border Radius};	
+}
+
+#admin img {
+	border-top-left-radius:{select:Border Radius};
+	border-bottom-left-radius:{select:Border Radius};
+}
+
+#admininfo {
+	background:{color:Posts};
+	color:{color:Accent One};
+	border-bottom-right-radius:{select:Border Radius};
+	border-top-right-radius:{select:Border Radius};
+}
+
+#adminsubtitle {
+	color:{color:Accent Two};   
+}
+
+.posts {
+    width:{select:Posts Width};
+    background:{color:Posts};
+    border-radius:{select:Border Radius};
+}
+
+[photoset-layout] {
+  grid-column-gap:{select:Photoset Gutter}; 
+  grid-row-gap:{select:Photoset Gutter};
+  grid-gap:{select:Photoset Gutter};    
+}
+
+#audio {
+    background:{color:Container};
+    border-radius:{select:Border Radius};
+}
+
+#audioimg {
+    border-top-left-radius:{select:Border Radius};
+    border-bottom-left-radius:{select:Border Radius};
+}
+            
+#audioimg img {
+    border-right:1px solid {color:Borders};
+    border-top-left-radius:{select:Border Radius};
+    border-bottom-left-radius:{select:Border Radius};
+}
+    
+#trackdetails {
+    width:calc({select:Posts Width} - 140px);
+}
+
+iframe#youtube_iframe {
+    width: {select:Posts Width};
+}
+    
+iframe.spotify_audio_player {
+    width: {select:Posts Width};
+}
+    
+#quote {
+    color: {color:Accent One};
+}
+    
+#question {
+    background:{color:Container};
+    border-top-left-radius:{select:Border Radius};
+    border-top-right-radius:{select:Border Radius};
+}
+    
+#asker {
+    color: {color:Posts};
+    background:{color:Accent One};
+    border-bottom-left-radius:{select:Border Radius};
+    border-bottom-right-radius:{select:Border Radius};
+}
+    
+#asker a{
+    color: {color:Posts}; 
+}
+
+.odd, .even {
+    border-radius:{select:Border Radius};
+}
+
+.odd {
+    background:{color:Background};
+}
+ 
+.even {
+    background:{color:Container};
+}
+
+.even .label {
+    color:{color:Link};
+}
+
+.odd .label {
+    color:{color:Accent One};
+}
+ 
+.info {
+    width:{select:Posts Width};
+    background:{color:Posts};  
+    border-top-left-radius:{select:Border Radius};
+    border-top-right-radius:{select:Border Radius};
+    border-bottom:3px solid {color:Borders};
+}
+
+#tags {
+    background:{color:Background};
+    color:{color:Accent One};
+    border-bottom-left-radius:{select:Border Radius};
+    border-bottom-right-radius:{select:Border Radius};
+}
+   
+#tags span {
+    color:{color:Accent One};
+}
+   
+#tags a:hover {
+    color:{color:Accent Two};
+}
+    
+#notes li {
+    width:calc({select:Posts Width} + 30px);
+    background:{color:Posts};
+    border-radius:{select:Border Radius};
+}
+
+{block:AskPage} 
+.info, .tags {
+    display:none;
+}
+{/block:AskPage}
+
+{block:SubmitPage}
+.info, .tags {
+    display:none;
+}
+{/block:SubmitPage}
+
+{block:AskPage} 
+.info, .tags {
+    display:none;
+}
+{/block:AskPage}
+
+{block:SubmitPage}
+.info, .tags {
+    display:none;
+}
+{/block:SubmitPage}
+
+#tagged {
+    color:{color:Accent Two};
+    width:calc({select:Posts Width} + 10px);
+    border-radius:{select:Border Radius};
+    background:{color:Posts};
+}
+
+#tagged b{
+    color:{color:Accent Two};
+}
+
+#pagination span {
+    background:{color:Accent One};
+    border-radius:{select:Border Radius};
+    color:{color:Accent Two}; 
+}
+
+#pagination a {
+    background:{color:Accent Two};
+    border-radius:{select:Border Radius};
+    color:{color:Accent One};
+}
+
+
+#sugarhoney { position:fixed; bottom:0; left:0;  margin:15px; margin-bottom:105px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+
+    
+</style>
+</head>
+<body>
+
+
+
+<div id="navigation">
+    <div id="navborder">
+        <div id="navi">
+{block:IndexPage}
+<div id="pagination">{block:Pagination}{block:PreviousPage}<a href="{PreviousPage}" class="jump">←</a>{/block:PreviousPage}{block:JumpPagination length="7"}{block:CurrentPage}<span class="current">{PageNumber}</span>{/block:CurrentPage}{block:JumpPage}<a href="{URL}">{PageNumber}</a>{/block:JumpPage}{/block:JumpPagination}{block:NextPage}<a href="{NextPage}" class="jump">→</a>{/block:NextPage}{/block:Pagination}</div>
+</div>{/block:IndexPage}
+        </div>
+    </div>
+</div>
+<div id="container">
+  
+<div id="navibar">
+<a href="{text:Link One URL}"><div id="nlink">01. <span>{text:Link One}</span></div></a>
+<a href="{text:Link Two URL}"><div id="nlink">02. <span>{text:Link Two}</span></div></a>
+<a href="{text:Link Three URL}"><div id="nlink">03. <span>{text:Link Three}</span></div></a>
+<a href="{text:Link Four URL}"><div id="nlink">04. <span>{text:Link Four}</span></div></a>
+<a href="{text:Link Five URL}"><div id="nlink">05. <span>{text:Link Five}</span></div></a>
+</div>
+
+<div id="header">
+    <img src="{image:Header}">
+</div>
+
+<div id="sidebar">
+
+<div id="sidebox">
+    <h1 class="sidebox"><span class="lnr lnr-star"></span> {text:Title}</h1>
+    <div id="sideimg"><img src="{image:Sidebar}"></div>
+            {text:Description}
+</div>
+
+<!-- -------------------- APPLICATION COUNT -------------------- -->
+
+<div id="sidebox">
+<h1 class="sidebox"><span class="lnr lnr-user"></span> application count</h1>
+    
+    <div id="totalcount">total count {text:Total Application Count}</div>
+ 
+    <div id="stat"><div id="stats"> {text:Non Binary} </div> Non-Binary</div>
+    <div id="stat"><div id="stats"> {text:Female}  </div> Female</div>
+    <div id="stat"><div id="stats"> {text:Male}  </div> Male</div>
+
+    <a href="{text:Application Count Url}"><div id="breakdown"> view breakdown</div></a>
+
+</div>
+
+<!-- -------------------- ROLEPLAY UPDATES -------------------- -->
+
+<div id="sidebox">
+<h1 class="sidebox"><span class="lnr lnr-menu"></span> roleplay updates</h1>
+
+<div id="stat"><div id="stats">{text:Update One Date}</div>{text:Update One}</div>
+<div id="stat"><div id="stats">{text:Update Two Date}</div>{text:Update Two}</div>
+<div id="stat"><div id="stats">{text:Update Three Date}</div>{text:Update Three}</div>
+<div id="stat"><div id="stats">{text:Update Four Date}</div>{text:Update Four}</div>
+
+</div>
+
+<!-- -------------------- EXTRA SIDEBOX -------------------- -->
+
+{block:ifExtraSidebox}
+<div id="sidebox">
+    <h1 class="sidebox"><span class="lnr lnr-star"></span> {text:Extra Sidebox Title}</h1>
+    {text:Extra Sidebox Content}
+</div>
+{/block:ifExtraSidebox}
+
+<!-- -------------------- THE ADMIN TEAM -------------------- -->
+
+<div id="sidebox">
+    <h1 class="sidebox"><span class="lnr lnr-users"></span> admin team</h1>
+
+<!-- START OF ADMIN -->    
+    <div id="admin">
+        <img src="{image:Admin One}">
+            <div id="admininfo">    {text:Admin One}
+            <div id="adminsubtitle">{text:Admin One Subtitle}
+    </div></div></div>
+<!-- END OF ADMIN -->
+
+<!-- START OF ADMIN -->    
+    <div id="admin">
+        <img src="{image:Admin Two}">
+            <div id="admininfo">    {text:Admin Two}
+            <div id="adminsubtitle">{text:Admin Two Subtitle}
+    </div></div></div>
+<!-- END OF ADMIN -->
+
+</div>
+
+<!-- -------------------- MOST WANTED -------------------- -->
+
+<div id="sidebox">
+    <h1 class="sidebox"><span class="lnr lnr-heart"></span> most wanted</h1>
+    
+        <!-- WANTED CONNECTION -->
+    <a href="{text:Most Wanted One Url}">  
+    <div id="mostwanted">
+       <img src="{image:Most Wanted One}">
+       <div id="mw">{text:Most Wanted One}</div>
+   </div></a>
+
+        <!-- WANTED CONNECTION -->
+    <a href="{text:Most Wanted Two Url}">  
+    <div id="mostwanted">
+       <img src="{image:Most Wanted Two}">
+       <div id="mw">{text:Most Wanted Two}</div>
+   </div></a>
+
+</div>  
+
+<!-- -------------------- IMPORTANT LINKS -------------------- -->
+
+<div id="sidebox">
+    <h1 class="sidebox"><span class="lnr lnr-link"></span> important links</h1>
+    
+<div id="extra">
+
+<a href="{text:Extra Link One Url}"><div id="exlink">{text:Extra Link One}</div></a>
+<a href="{text:Extra Link Two Url}"><div id="exlink">{text:Extra Link Two}</div></a>
+<a href="{text:Extra Link Three Url}"><div id="exlink">{text:Extra Link Three}</div></a>
+<a href="{text:Extra Link Four Url}"><div id="exlink">{text:Extra Link Four}</div></a>
+<a href="{text:Extra Link Five Url}"><div id="exlink">{text:Extra Link Five}</div></a>
+<a href="{text:Extra Link Six Url}"><div id="exlink">{text:Extra Link Six}</div></a>
+    
+</div>
+</div>
+
+<!-- -------------------- UPCOMING EVENTS -------------------- -->
+
+<div id="sidebox">
+    <h1 class="sidebox"><span class="lnr lnr-calendar-full"></span> upcoming events</h1>
+    
+   <!-- UPCOMING EVENT -->
+    {block:ifEventOne}
+    <div id="event">
+       <img src="{image:Event One}">
+       <div id="evtitle">{text:Event One Title}</div>
+       <div id="evlink">{text:Event One Date}</div>
+       <div id="evlink">{text:Event One Type}</div></a>
+       <a href="{text:Event One URL}"><div id="evlink">info</div></a>
+   </div>
+   {/block:ifEventOne}
+
+   <!-- UPCOMING EVENT -->
+    {block:ifEventTwo}
+    <div id="event">
+       <img src="{image:Event Two}">
+       <div id="evtitle">{text:Event Two Title}</div>
+       <div id="evlink">{text:Event Two Date}</div>
+       <div id="evlink">{text:Event Two Type}</div></a>
+       <a href="{text:Event Two URL}"><div id="evlink">info</div></a>
+   </div>
+   {/block:ifEventTwo}   
+   
+</div>
+
+<!-- -------------------- BLOG AFFILIATES -------------------- -->
+
+<div id="sidebox">
+    <h1 class="sidebox"><span class="lnr lnr-star"></span> affiliates</h1>
+    <div id="affiliates">
+        <a href="{text:Affiliate One URL}" title="{text:Affiliate One}"><img src="{image:Affiliate One}"></a>
+        <a href="{text:Affiliate Two URL}" title="{text:Affiliate Two}"><img src="{image:Affiliate Two}"></a>
+        <a href="{text:Affiliate Three URL}" title="{text:Affiliate Three}"><img src="{image:Affiliate Three}"></a>
+   </div>
+
+</div>
+
+<!-- -------------------- BLOG STATISTICS -------------------- -->
+
+<div id="sidebox">
+    <h1 class="sidebox"><span class="lnr lnr-menu"></span> blog statistics</h1>
+    
+   <div id="stat"><div id="stats">{text:Statistic One Title}</div> {text:Statistic One}</div>
+   <div id="stat"><div id="stats">{text:Statistic One Title}</div> {text:Statistic One}</div>
+   <div id="stat"><div id="stats">{text:Statistic One Title}</div> {text:Statistic One}</div>
+   <div id="stat"><div id="stats">{text:Statistic One Title}</div> {text:Statistic One}</div>
+   <div id="stat"><div id="stats">{text:Statistic One Title}</div> {text:Statistic One}</div>
+
+</div>
+
+<!-- -------------------- BLOG DISCLAIMER -------------------- -->
+
+<div id="sidebox">
+    <h1 class="sidebox"><span class="lnr lnr-warning"></span> disclaimer</h1>
+        {text:Disclaimer} 
+</div>
+</div>
+
+{block:TagPage} <div id="tagged">  <b>filed under:</b> <a href="#"> {tag} </a>   </div> {/block:TagPage}{block:SearchPage}<div id="tagged">  <a href="#">[ {SearchResultCount} results ]</a> filed under <a href="#">[ {SearchQuery} ]</a>   </div>{/block:SearchPage}
+
+{block:Posts}
+ 
+<div class="posts">
+ 
+{block:Date}<div class="info"><a href="{Permalink}" title="posted {timeago}">
+ <span class="lnr lnr-star"></span> permalink</a></span> <a href="{ReblogURL}" title="Reblog Post" style="float:right;"><span class="lnr lnr-sync"></span> reblog</a>
+</div>{/block:Date}
+
+{block:Title}<h1>{Title}</h1>{/block:Title}
+
+{block:Text}{Body}{/block:Text}
+ 
+{block:Quote}<div id="quote">{Quote}</div><div id="source">— {Source}</div>{/block:Quote}
+ 
+{block:Link}<a href="{URL}" class="link" {Target}> <h2>{Name}</h2></a>
+{block:Description}<p>{Description}</p>{/block:Description}{/block:Link}
+ 
+{block:Photo}<center><img src="{PhotoURL-500}"/></center>{block:Caption}{Caption}{/block:Caption}{/block:Photo}
+
+{block:Photoset}<div class="photoset-grid" photoset-layout="{PhotosetLayout}">{block:Photos}<div><img src="{PhotoURL-HighRes}" /></div>{/block:Photos}</div>{block:Caption}{Caption}{/block:Caption}{/block:Photoset}
+ 
+{block:Chat}<div class="chat">{block:Lines}<div class="{Alt}">{block:Label}<span class="label">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</span>{/block:Label}{Line}</div>{/block:Lines}</div>{/block:Chat} 
+
+{block:Video}{Video-500}{block:Caption}{Caption}{/block:Caption}{/block:Video}
+ 
+{block:Answer}<div id="question">{Question}</div><div id="asker">{Asker} asked</div>{Answer}{/block:Answer}
+
+{block:Audio}{block:AudioPlayer}<div id="audio">{block:AlbumArt}<div id="audioimg"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}<div id="player">{AudioPlayerWhite}</div><div id="trackdetails">{block:TrackName}<b>Track:</b> {TrackName} <br/>{/block:TrackName}{block:Artist}<b>Artist:</b> {Artist} <br/>{/block:Artist}{block:Album}<b>Album:</b> {Album} <br/>{/block:Album}</div></div>{/block:AudioPlayer}<br><br>{block:Caption}{Caption}{/block:Caption}{/block:Audio}
+
+<div class="contentsource" style="display:none;"> {block:ContentSource} Source: <a href="{SourceURL}">{SourceTitle} </a> {/block:ContentSource} {block:RebloggedFrom} Via: <a href="{ReblogParentURL}">{ReblogParentName}</a> {/block:RebloggedFrom}</div>
+{block:HasTags}
+<div id="tags"><span class="lnr lnr-tag"></span>{block:Tags} <a href="{TagURL}"> # {Tag} </a>{/block:Tags} </div>{/block:HasTags}
+</div>
+{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+
+
+{/block:Posts}
+
+</div>
+ 
+<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div> <!-- DO NOT REMOVE CREDIT!! -->
+
+</body>
+</html>
