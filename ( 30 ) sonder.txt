@@ -1,0 +1,403 @@
+<html>
+<!DOCTYPE html>
+ 
+<!--
+
+
+         SONDER / 030 / SUGARCODES / TUMBLR
+         CREATED & DESIGNED BY AUTUMN
+       
+        - fonts from google fonts
+        - icons from cappuccicons / by suiomi
+        - base code(s) by seyche, silbrigthemes & neonbikethemes
+        - responsive video code by nouvae
+        - npf photosets fix by glenthemes
+        - style my tootltips by malihu (https://manos.malihu.gr)
+        - css photoset & fix by annasthms and eggdesign
+        - special thanks to alyofrp's tab tutorial
+        
+
+       
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact 
+
+        This work is protected by a creative commons
+        Attribution-NonCommercial-NoDerivatives 4.0 International
+        (CC BY-NC-ND 4.0)
+        license.
+-->
+ 
+<head>
+   
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}<meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0, width=device-width" /><title>{Title}</title>
+ 
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+<!-- THEME SPECIFICS --> 
+
+<script src="https://dl.dropbox.com/s/nblwh70cu3ww4w4/sucre.js"></script><link href="https://dl.dropbox.com/s/93teuhouk3afun4/sonder.css" rel="stylesheet">
+
+<!-- STYLED TOOLTIPS -->
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script><script src="https://dl.dropbox.com/s/q8akoadfqm16u6r/sugarmytooltips.js"></script>
+  
+<!-- ICONS FONT -->
+  
+<script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
+
+        
+<!-- GOOGLE FONTS -->        
+  
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Manjari:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+
+<!-- META TAGGED INFORMATION -->
+  
+    <meta name="color:Background" content="#f6f6f6"/>
+    <meta name="color:Container" content="#eeeeee"/>
+    <meta name="color:Borders" content="#e7e5e5"/>
+    <meta name="color:Posts" content="#ffffff"/>
+    <meta name="color:Link" content="#90a58b"/>
+    <meta name="color:Accent One" content="#d39c9c"/>
+    <meta name="color:Accent Two" content="#5c5360"/>
+    <meta name="color:Text" content="#4f4f4f"/>
+    
+    <meta name="image:Background" content=""/>
+    <meta name="image:Sidebar" content="https://static.tumblr.com/blgwozc/7fCr5trfj/150x450.png"/>
+    
+    <meta name="image:Admin One" content="https://static.tumblr.com/blgwozc/dqtr5tsvr/40.png"/>
+    <meta name="image:Admin Two" content="https://static.tumblr.com/blgwozc/dqtr5tsvr/40.png"/>
+    <meta name="image:Admin Three" content="https://static.tumblr.com/blgwozc/dqtr5tsvr/40.png"/>
+    
+    <meta name="image:Navigation Header" content="https://static.tumblr.com/blgwozc/vRvr5tsw6/950x200.png"/>
+    
+    <meta name="text:Title" content="title here"/>
+    <meta name="text:Description" content="orem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna. maecenas dui neque, rhoncus sed, vehicula vitae, auctor at, nisi."/>
+    
+    <meta name="text:Admin One" content="admin one"/>
+    <meta name="text:Admin Two" content="admin two"/>
+    <meta name="text:Admin Three" content="admin three"/>
+    
+    <meta name="text:Plot Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna. maecenas dui neque, rhoncus sed, vehicula vitae, auctor at, nisi. aenean id massa ut lacus molestie porta. curabitur sit amet quam id libero suscipit venenatis.<br><br>
+    lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna. maecenas dui neque, rhoncus sed, vehicula vitae, auctor at, nisi. aenean id massa ut." />
+    
+    <meta name="text:Link One" content=""/>
+    <meta name="text:Link Two" content=""/>
+    <meta name="text:Link Three" content=""/>
+    <meta name="text:Link Four" content=""/>
+    <meta name="text:Link Five" content=""/>
+    <meta name="text:Link Six" content=""/>
+    <meta name="text:Link Seven" content=""/>
+    <meta name="text:Link Eight" content=""/>
+ 
+ 
+<style type="text/css">
+ 
+body { background:{color:Background}; color:{color:Text}; background-image:url('{image:Background}');!important background-position:top left; background-attachment:fixed; background-repeat:no-repeat; background-size:100% auto; }
+
+#s-m-t-tooltip { color:{color:Accent One}; background:{color:Container}; }
+   
+h1 { color:{color:Accent Two}; background:{color:Container}; }
+   
+h2 { color:{color:Accent One}; }
+   
+h2 b, h2 i { color:{color:Accent One}; }
+   
+hr { color:{color:Posts}; background:{color:Accent One}; border-color: {color:Borders}; }
+
+#more { color:{color:Accent Two}; background:{color:Container}; }
+   
+pre { background:{color:Container}; text-align: left; color:{color:Text}; }
+ 
+b, strong { color: {color:Accent Two}; }
+   
+i, italic { color: {color:Accent One}; }
+   
+a { color:{color:Accent One}; }
+ 
+a:hover { color:{color:Accent Two}; }
+   
+ul li:before { color:{color:Accent One}; }
+ 
+::-webkit-scrollbar { background:{color:Container}; }
+ 
+::-webkit-scrollbar-thumb { background:{color:Accent Two}; }
+
+blockquote { background:{color:Borders}; border-left:2px solid {color:Accent Two}; }
+
+blockquote blockquote { background:{color:Posts}; border-color:{color:Accent One}; }
+
+blockquote blockquote blockquote { border-color:{color:Accent Two}; background:{color:Container}; }
+
+blockquote blockquote blockquote blockquote { border-color:{color:Accent One}; background:{color:Borders}; }
+ 
+#container { background:{color:Container}; }
+
+#posts { background:{color:Posts}; }
+
+#audio { background:{color:Container}; }
+
+#quote { color:{color:Accent One}; }
+
+#question { color:{color:Posts}; background:{color:Accent One}; }
+
+#asker { background:{color:Container}; }
+
+#asker b { color:{color:Posts}; }
+    
+#asker a { color:{color:Posts}; }
+
+#info { background:{color:Borders}; color:{color:Accent Two}; }
+
+#info a:hover { color:{color:Accent One}; }
+
+#tag a { color:{color:Link}; }
+
+#notes li { background:{color:Posts}; }
+
+#navigation { background:{color:Accent Two}; }
+
+#navigation a { color:{color:Posts}; text-shadow:1px 1px 1px {color:Accent One}; }
+
+#sidebar {  background:{color:Posts}; }
+
+#title { color:{color:Posts}; text-shadow:1px 1px 1px {color:Text}; background:{color:Accent One}; }
+
+#admin {  background:{color:Container}; } 
+
+#admin span { color:{color:Accent One}; }
+
+.tabcontent #container { background:{color:Container}; }
+
+.close { text-shadow:1px 1px 1px {color:Accent One}; background:{color:Accent Two}; color:{color:Posts}; }
+
+#muse { background:{color:Posts}; }
+
+#name { background:{color:Accent One}; color:{color:Posts}; }
+
+#linkpost  a h1:hover { color:{color:Link}; }
+
+#plot { background:{color:Posts}; }
+
+#navtag h1 { text-shadow:1px 1px 1px {color:Text}; background:{color:Accent Two}; color:{color:Posts}; }
+    
+#ntag { color:{color:Posts};  background:{color:Accent One}; }
+
+#ntag:hover { background:{color:Accent Two}; }
+
+
+#sugarhoney { position:fixed; bottom:0;left:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+
+
+</style>
+
+</head>
+<body>
+
+
+
+
+
+<div id="muses" class="tabcontent"><span onclick="this.parentElement.style.display='none'" class="close">close this tab</span> 
+
+<div id="container">   
+
+   <!-- START OF MUSE -->
+<div id="muse">
+    <img src="https://static.tumblr.com/blgwozc/8Plr5tsss/100x130.png">
+    <div id="about">
+            <b>name.</b> character name
+        <br><b>age.</b>  character age
+        <br><b>face.</b> face claim
+<p>
+
+<a href="/" title="biography"><span class="fas fa-user"></span></a>
+<a href="/" title="visage"><span class="fas fa-star"></span></a>
+<a href="/" title="ask tag"><span class="fas fa-question-circle"></span></a>
+<a href="/" title="threads"><span class="fas fa-link"></span></a>
+    
+</p></div>
+      
+<a href="/"><div id="name">character name</div></a>
+
+</div>
+
+<!-- END OF MUSE -->
+
+<!-- START OF MUSE -->
+<div id="muse">
+    <img src="https://static.tumblr.com/blgwozc/8Plr5tsss/100x130.png">  
+    <div id="about">
+            <b>name.</b> character name 
+        <br><b>age.</b>  character age 
+        <br><b>face.</b> face claim 
+<p>
+
+<a href="/" title="biography"><span class="fas fa-user"></span></a>
+<a href="/" title="visage"><span class="fas fa-star"></span></a>
+<a href="/" title="ask tag"><span class="fas fa-question-circle"></span></a>
+<a href="/" title="threads"><span class="fas fa-link"></span></a>
+    
+</p></div>
+      
+<a href="/"><div id="name">character name</div></a>
+
+</div>
+
+<!-- END OF MUSE -->
+
+<!-- START OF MUSE -->
+<div id="muse">
+    <img src="https://static.tumblr.com/blgwozc/8Plr5tsss/100x130.png">
+    <div id="about">
+            <b>name.</b> character name
+        <br><b>age.</b>  character age
+        <br><b>face.</b> face claim
+<p>
+
+<a href="/" title="biography"><span class="fas fa-user"></span></a>
+<a href="/" title="visage"><span class="fas fa-star"></span></a>
+<a href="/" title="ask tag"><span class="fas fa-question-circle"></span></a>
+<a href="/" title="threads"><span class="fas fa-link"></span></a>
+    
+</p></div>
+      
+<a href="/"><div id="name">character name</div></a>
+
+</div>
+
+<!-- END OF MUSE -->
+   
+    
+</div></div>
+
+
+<div id="navtab" class="tabcontent"><span onclick="this.parentElement.style.display='none'" class="close">close this tab</span> 
+
+<div id="container">
+
+<div id="navimage"><img src="{image:Navigation Header}"></div>
+<div id="plot">
+    {text:Plot Description}
+</div>
+
+<div id="navtag">
+    
+    <a href="{text:Link One}"><div id="ntag">
+    <span class="fas fa-folder"></span></div></a>
+    
+    <a href="{text:Link Two}"><div id="ntag">
+    <span class="fas fa-star"></span></div></a>
+    
+    <a href="{text:Link Three}"><div id="ntag">
+    <span class="fas fa-user"></span></div></a>
+    
+    <a href="{text:Link Four}"><div id="ntag">
+    <span class="fas fa-heart"></span></div></a>
+    
+    <a href="{text:Link Five}"><div id="ntag">
+    <span class="fas fa-link"></span></div></a>
+    
+    <a href="{text:Link Six}"><div id="ntag">
+    <span class="fas fa-globe"></span></div></a>
+    
+    <a href="{text:Link Seven}"><div id="ntag">
+    <span class="fas fa-question-circle"></span></div></a>
+    
+    <a href="{text:Link Eight}"><div id="ntag">
+    <span class="fas fa-bars"></span></div></a>
+    
+<h1>navigation</h1>
+    
+</div></div></div>
+
+
+<div id="container">   
+
+        <div id="navigation">
+        
+        <a href="/" title="refresh page">.01</a>
+        <a href="/ask" title="send a meme!">.02</a>
+        <a class="tablinks" onclick="opensucre(event, 'muses')" title="muse list">.03</a>
+        <a class="tablinks" onclick="opensucre(event, 'navtab')" title="navigation">.04</a>
+      
+       
+        
+        {block:Pagination}
+        <div id="pagination" style="float:right;">
+    {block:PreviousPage}<a href="{PreviousPage}">back</a> /{/block:PreviousPage}        
+    {block:NextPage}<a href="{NextPage}">forth</a>{/block:NextPage}
+        </div>
+        {/block:Pagination}
+    </div> 
+    
+    <div id="sidebar">
+        <div id="icon"><img src="{image:Sidebar}"></div>
+        <div id="description">{text:Description}</div>
+        <div id="title">{text:Title} </div>
+        <div id="team">
+        <div id="admin"><img src="{image:Admin One}">
+            <span>{text:Admin One}</span>
+        </div>
+        <div id="admin"><img src="{image:Admin Two}">
+            <span>{text:Admin Two}</span>
+        </div>
+        <div id="admin"><img src="{image:Admin Three}">
+            <span>{text:Admin Three}</span>
+        </div>
+        
+        </div>
+    </div>
+
+
+
+{block:Posts}
+ 
+<div id="posts">
+
+{block:Title}<h1>{Title}</h1>{/block:Title}
+
+{block:Text}{Body}{/block:Text}
+ 
+{block:Quote}<div id="quote">{Quote}</div><div id="source">— {Source}</div>{/block:Quote}
+ 
+{block:Link}<div id="linkpost"><a href="{URL}" class="link" {Target}> <h1>{Name}</h1></a>
+{block:Description}<p>{Description}</p>{/block:Description}</div>{/block:Link}
+ 
+{block:Photo}<center><img src="{PhotoURL-400}"/></center>{block:Caption}{Caption}{/block:Caption}{/block:Photo}
+  
+{block:Photoset}{Photoset}{block:Caption}{Caption}{/block:Caption}{/block:Photoset}  
+  
+{block:Chat}<div class="chat">{block:Lines}<div class="{Alt}">{block:Label}<span class="label">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</span>{/block:Label}{Line}</div>{/block:Lines}</div>{/block:Chat} 
+
+{block:Video}{Video-500}{block:Caption}{Caption}{/block:Caption}{/block:Video}
+ 
+{block:Answer}<div id="question">{Question}</div><div id="asker"><b>{Asker}</b> asked</div>{Answer}{/block:Answer} 
+ 
+{block:Audio}{block:AudioPlayer}<div id="audio">{block:AlbumArt}<div id="audioimg"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}<div id="player">{AudioPlayerWhite}</div><div id="trackdetails">{block:TrackName}<b>Track:</b> {TrackName} <br/>{/block:TrackName}{block:Artist}<b>Artist:</b> {Artist} <br/>{/block:Artist}{block:Album}<b>Album:</b> {Album} <br/>{/block:Album}</div></div>{/block:AudioPlayer}<br><br>{block:Caption}{Caption}{/block:Caption}{/block:Audio} 
+
+{block:More}<a href="{Permalink}"><div id="more">continue to post...</div></a>{/block:More}
+ 
+<div class="contentsource" style="display:none;"> {block:ContentSource} Source: <a href="{SourceURL}">{SourceTitle} </a> {/block:ContentSource} {block:RebloggedFrom} Via: <a href="{ReblogParentURL}">{ReblogParentName}</a> {/block:RebloggedFrom}</div>
+  
+<div id="info">  
+<a href="{Permalink}" title="permalink"><span class="fas fa-tag" style="font-size:11px;position:absolute;left:0;margin-left:15px;" ></span></a><div id="tag">{block:Tags} <a href="{TagURL}"> {Tag} </a>{/block:Tags}</div><div id="perma"><a href="{Permalink}" title="with {NoteCount} Notes ( permalink )"><span class="fas fa-ellipsis-h"></span></a></div>    
+</div>
+ 
+</div> 
+
+{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+{/block:Posts}
+
+</div>
+
+
+<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div>
+ <!-- DO NOT REMOVE CREDIT!! -->
+
+</body>
+</html>
