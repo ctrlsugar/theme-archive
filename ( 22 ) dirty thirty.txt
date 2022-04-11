@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+  
+       
+<!--
+
+
+         DIRTY THIRTY / 022 / SUGARCODES / TUMBLR
+         CREATED & DESIGNED BY AUTUMN
+       
+        - fonts from google fonts
+        - icons from cappuccicons / by suiomi
+        - base code(s) by seyche, silbrigthemes & neonbikethemes
+        - responsive video code by nouvae
+        - npf photosets fix by glenthemes
+        - style my tootltips by malihu (https://manos.malihu.gr)
+        - css photoset & fix by annasthms and eggdesign
+        - special thanks to alyofrp's tab tutorial
+        
+
+       
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact 
+
+        This work is protected by a creative commons
+        Attribution-NonCommercial-NoDerivatives 4.0 International
+        (CC BY-NC-ND 4.0)
+        license.
+-->
+<head>
+   
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}<meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0, width=device-width" /><title>{Title}</title>
+ 
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+<!-- THEME SPECIFICS --> 
+
+<link rel="stylesheet" href="https://dl.dropbox.com/s/f2ytmt5tezztlny/dirtythirty.css">
+
+<!-- STYLED TOOLTIPS -->
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script><script src="https://dl.dropbox.com/s/q8akoadfqm16u6r/sugarmytooltips.js"></script>
+  
+<!-- ICONS FONT -->
+  
+
+<script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
+
+<!-- GOOGLE FONTS -->        
+  
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+<!-- META TAGGED INFORMATION -->
+    <meta name="color:Background" content="#f6f6f6"/>
+    <meta name="color:Container" content="#eeeeee"/>
+    <meta name="color:Borders" content="#e7e5e5"/>
+    <meta name="color:Posts" content="#ffffff"/>
+    <meta name="color:Link" content="#b8aca4"/>
+    <meta name="color:Accent One" content="#668684"/>
+    <meta name="color:Accent Two" content="#554e49"/>
+    <meta name="color:Text" content="#8f8f8f"/>
+    
+    
+    <meta name="image:Sidebar" content="https://static.tumblr.com/blgwozc/XQ9r5ti9p/60.png"/>
+    
+    
+    <meta name="text:Title" content="title here."/>
+    <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris."/>
+    
+    
+    <meta name="text:Link One URL" content="/"/>
+    <meta name="text:Link One" content="refresh"/>
+    <meta name="text:Link Two URL" content="/"/>
+    <meta name="text:Link Two" content="contact"/>
+    <meta name="text:Link Three URL" content="/"/>
+    <meta name="text:Link Three" content="about me"/>
+    <meta name="text:Link Four URL" content="/"/>
+    <meta name="text:Link Four" content="my edits"/>
+    <meta name="text:Link Five URL" content="/"/>
+    <meta name="text:Link Five" content="tag list"/>
+    
+    
+    <meta name="select:Posts Width" content="250px"/>
+    <meta name="select:Posts Width" content="300px"/>
+    <meta name="select:Posts Width" content="350px"/>
+    <meta name="select:Posts Width" content="400px"/>
+    <meta name="select:Posts Width" content="450px"/>
+    <meta name="select:Posts Width" content="500px"/>
+    <meta name="select:Posts Width" content="540px"/>
+
+      
+<style>
+
+body {
+    background:{color:Background};
+    color:{color:Text};
+}
+
+em, i {
+    color:{color:Accent Two};
+}
+
+b, strong {
+    color:{color:Accent One};
+}
+
+::-webkit-scrollbar {
+    background:{color:Container};
+}
+
+::-webkit-scrollbar-thumb {
+    background:{color:Accent Two};
+}
+ 
+#s-m-t-tooltip {
+    color:{color:Accent Two};
+    background:{color:Posts};
+}
+   
+h1 {
+    background:{color:Container};
+    color:{color:Accent One};
+}
+   
+h2 {
+    color:{color:Accent Two};
+}
+  
+pre {
+    width:calc({select:Posts Width} - 20px);
+    background:{color:Container};
+}
+   
+a { 
+    color:{color:Link};
+}
+ 
+a:hover {
+    color:{color:Accent One};
+}
+
+blockquote {
+    width:calc({select:Posts Width} - 37px);
+    border-left:2px solid {color:Accent Two};
+}
+
+blockquote blockquote {
+    border-color:{color:Accent One};
+}
+
+blockquote blockquote blockquote {
+    border-color:{color:Accent Two};
+    
+}
+
+blockquote blockquote blockquote blockquote {
+    width:calc({select:Posts Width} - 87px);
+    border-color:{color:Accent One};
+}
+
+ul li:before {
+    color:{color:Accent Two};
+}
+
+#navigation {
+    background:{color:Accent One};
+}
+
+#navtitle {
+    color:{color:Link};
+}
+
+#subnavigation {
+    background:{color:Accent Two};
+}
+
+#navbar span {
+    color:{color:Accent One};
+}
+
+#navbar a {
+    color:{color:Link};
+}
+
+#search {
+    color:{color:Posts};
+}
+
+form {
+    color:{color:Posts};
+}
+
+#searchinput {
+    color:{color:Posts};
+}
+
+input[type="text"] {
+    color:{color:Posts};
+}
+
+#posts {
+    width:{select:Posts Width};
+    background:{color:Posts};
+}
+
+#credit {
+    color:{color:Accent One};
+}
+
+#audio {
+    background:{color:Container};
+}
+
+#trackdetails {
+    width:calc({select:Posts Width} - 140px);
+}
+
+iframe#youtube_iframe {
+    width:{select:Posts Width};
+}
+    
+iframe.spotify_audio_player {
+    width:{select:Posts Width};
+}
+
+#quote {
+    color:{color:Accent One};
+}
+
+#question {
+    color:{color:Posts};
+    background:{color:Accent One};
+}
+
+#asker {
+    background:{color:Container};
+}
+
+#info {
+    background:{color:Borders};
+    color:{color:Accent Two};
+}
+#tag {
+    width:calc({select:Posts Width} - 40px);
+}
+
+#tag a {
+    color:{color:Link};
+}
+
+#notes li {
+    width:calc({select:Posts Width} + 40px);
+    background:{color:Posts};
+}
+
+#sidebar {
+    margin-left:calc({select:Posts Width} + 330px);
+}
+
+
+#sidebar img {
+    border-radius:200px;
+}
+
+#title {
+    color:{color:Accent Two};
+}
+
+#more {
+    background:{color:Container};
+    padding:20px;
+    text-align:right;
+    font-family:'Abril Fatface';
+    font-size:20px;
+    color:{color:Accent One};
+}
+
+#more:hover {
+    background:{color:Accent Two};
+    color:{color:Posts};
+    transition:all 2s ease-in-out;
+    cursor:pointer;
+}
+
+#sugarhoney { position:fixed; bottom:0; right:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+
+</style> 
+</head>  
+<body>
+
+
+<div id="navigation">
+    <div id="navbar">
+    <div id="navtitle">{Title}</div>
+    </div>
+   
+    <div id="subnavigation">
+        <div id="navbar"><div id="navlinks">
+            <a href="{text:Link One URL}">{text:Link One}</a>     
+            <span class="fas fa-circle"></span>
+            <a href="{text:Link Two URL}">{text:Link Two}</a>     
+            <span class="fas fa-circle"></span>
+            <a href="{text:Link Three URL}">{text:Link Three}</a>     
+            <span class="fas fa-circle"></span>
+            <a href="{text:Link Four URL}">{text:Link Four}</a>     
+            <span class="fas fa-circle"></span>
+            <a href="{text:Link Five URL}">{text:Link Five}</a>     
+</div>
+        </div>
+    </div> 
+</div>
+
+<div id="sidebar">
+<img src="{image:Sidebar}">
+<div id="title">{text:Title}<br>
+    <span>@{Name}</span>
+</div>
+<div id="description"> 
+    {text:Description}
+</div>
+<div id="pagination">
+{block:PreviousPage}<a href="{PreviousPage}">◄ backwards</a>{/block:PreviousPage}  {block:NextPage}<a href="{NextPage}" style="float:right;">forward ►</a>{/block:NextPage}
+</div>
+</div>
+
+{block:Posts}
+ 
+<div id="posts">
+
+{block:Title}<h1>{Title}</h1>{/block:Title}
+
+{block:Text}{Body}{/block:Text}
+ 
+{block:Quote}<div id="quote">{Quote}</div><div id="source">— {Source}</div>{/block:Quote}
+ 
+{block:Link}<a href="{URL}" class="link" {Target}> <h2>{Name}</h2></a>
+{block:Description}<p>{Description}</p>{/block:Description}{/block:Link}
+ 
+{block:Photo}<center><img src="{PhotoURL-500}"/></center>{block:Caption}{Caption}{/block:Caption}{/block:Photo}
+  
+{block:Photoset}{Photoset}{block:Caption}{Caption}{/block:Caption}{/block:Photoset}  
+  
+{block:Chat}<div class="chat">{block:Lines}<div class="{Alt}">{block:Label}<span class="label">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</span>{/block:Label}{Line}</div>{/block:Lines}</div>{/block:Chat} 
+
+{block:Video}{Video-500}{block:Caption}{Caption}{/block:Caption}{/block:Video}
+ 
+{block:Answer}<div id="question">{Question}</div><div id="asker"><b>{Asker}</b> asked</div>{Answer}{/block:Answer} 
+ 
+{block:Audio}{block:AudioPlayer}<div id="audio">{block:AlbumArt}<div id="audioimg"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}<div id="player">{AudioPlayerWhite}</div><div id="trackdetails">{block:TrackName}<b>Track:</b> {TrackName} <br/>{/block:TrackName}{block:Artist}<b>Artist:</b> {Artist} <br/>{/block:Artist}{block:Album}<b>Album:</b> {Album} <br/>{/block:Album}</div></div>{/block:AudioPlayer}<br><br>{block:Caption}{Caption}{/block:Caption}{/block:Audio} 
+ 
+{block:More}<a href="{Permalink}"><div id="more">continue to post...</div></a>{/block:More}
+
+<div class="contentsource" style="display:none;"> {block:ContentSource} Source: <a href="{SourceURL}">{SourceTitle} </a> {/block:ContentSource} {block:RebloggedFrom} Via: <a href="{ReblogParentURL}">{ReblogParentName}</a> {/block:RebloggedFrom}</div>
+  
+<div id="info">  
+<span class="fas fa-tag" style="font-size:11px;position:absolute;left:0;margin-left:15px;"></span>
+<div id="tag">{block:Tags} <a href="{TagURL}">( {Tag} )</a>{/block:Tags}</div>
+<div id="perma"><a href="{Permalink}" title="with {NoteCount} Notes ( permalink )"><span class="fas fa-ellipsis-h"></span></a></div>    
+</div>
+ 
+</div>
+
+{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+{/block:Posts}
+
+<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div>
+ <!-- DO NOT REMOVE CREDIT!! -->
+</body>
+</html>
