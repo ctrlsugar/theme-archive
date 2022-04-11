@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+
+ 
+<!--
+
+
+         POLO / 017 / SUGARCODES / TUMBLR
+         CREATED & DESIGNED BY AUTUMN
+       
+        - fonts from google fonts
+        - icons from cappuccicons / by suiomi
+        - base code(s) by seyche, silbrigthemes & neonbikethemes
+        - responsive video code by nouvae
+        - npf photosets fix by glenthemes
+        - style my tootltips by malihu (https://manos.malihu.gr)
+        - css photoset & fix by annasthms and eggdesign
+        - special thanks to alyofrp's tab tutorial
+        
+
+       
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact 
+
+        This work is protected by a creative commons
+        Attribution-NonCommercial-NoDerivatives 4.0 International
+        (CC BY-NC-ND 4.0)
+        license.
+-->
+ 
+<head>
+   
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}<meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0, width=device-width" /><title>{Title}</title>
+ 
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+<!-- THEME SPECIFICS -->
+
+<link href="https://dl.dropbox.com/s/c1uc10olo2ymy6q/polov2.css" rel="stylesheet">
+
+<script src="https://dl.dropbox.com/s/nblwh70cu3ww4w4/sucre.js"></script>
+  
+<!-- STYLED TOOLTIPS -->
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script><script src="https://dl.dropbox.com/s/q8akoadfqm16u6r/sugarmytooltips.js"></script>
+  
+<!-- ICONS FONT -->
+  
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+        
+<!-- GOOGLE FONTS -->        
+  
+<link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
+
+
+<!-- META TAGGED INFORMATION -->
+  
+   
+    <meta name="color:Background" content="#f6f6f6"/>
+    <meta name="color:Container" content="#eeeeee"/>
+    <meta name="color:Borders" content="#e7e5e5"/>
+    <meta name="color:Posts" content="#ffffff"/>
+    <meta name="color:Link" content="#90a58b"/>
+    <meta name="color:Accent One" content="#a89b91"/>
+    <meta name="color:Accent Two" content="#4b8686"/>
+    <meta name="color:Text" content="#4f4f4f"/>
+
+    <meta name="image:Background" content="" />
+    <meta name="image:Sidebar One" content="https://static.tumblr.com/blgwozc/ueBr5rlne/75x100.png" />
+    <meta name="image:Sidebar Two" content="https://static.tumblr.com/blgwozc/ueBr5rlne/75x100.png" />
+    <meta name="image:Sidebar Three" content="https://static.tumblr.com/blgwozc/ueBr5rlne/75x100.png" />
+    
+    <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna." />
+    
+    <meta name="text:Link One Url" content="" />
+    <meta name="text:Link One" content="refresh" />
+    <meta name="text:Link Two Url" content="" />
+    <meta name="text:Link Two" content="contact" />
+    <meta name="text:Link Three Url" content="" />
+    <meta name="text:Link Three" content="payhip" />
+      
+<style>
+
+body { 
+    color:{color:Text};
+    background-color:{color:Background};
+    background-image:url('{image:Background}');!important
+}
+ 
+::-webkit-scrollbar-track {
+    background:{color:Accent One};
+}
+ 
+::-webkit-scrollbar-thumb {
+    background:{color:Accent Two};
+}
+ 
+#s-m-t-tooltip {
+    color:{color:Accent One};
+    background:{color:Container};
+}    
+   
+h1 {
+    color:{color:Accent Two};
+    background:{color:Container};
+}
+   
+h2 {
+    color:{color:Accent One};
+}
+   
+h2 i {
+    color:{color:Accent One};
+}
+   
+h2 b {
+    color:{color:Accent One};
+}
+   
+h5 {
+    color:{color:Accent Two};
+    background:{color:Container};
+}
+
+h4 {
+    color:{color:Posts};
+    background:{color:Accent One};
+}
+ 
+hr {
+    border-color: {color:Borders};
+}
+   
+pre {
+    color:{color:Text};
+}
+ 
+b, strong {
+    color: {color:Accent Two};
+}
+   
+i, italic {
+    color: {color:Accent One};
+}
+   
+small, sup, sub {
+	font-size: 11px;
+}	
+   
+a {
+    color: {color:Link};
+}
+ 
+a:hover {
+    color: {color:Accent Two};
+}
+
+blockquote {
+    border-left:2px solid {color:Accent Two};
+}    
+
+blockquote blockquote {
+    border-left:2px solid {color:Accent One};
+}
+
+blockquote blockquote blockquote {
+    border-left:2px solid {color:Accent Two};
+    
+}
+
+blockquote blockquote blockquote blockquote {
+    border-left:2px solid {color:Accent One};
+}
+
+blockquote blockquote blockquote blockquote blockquote {
+    border-left:2px solid {color:Accent Two};
+}
+   
+ul li:before {
+    color:{color:Accent One};
+}
+
+#container { 
+    background:{color:Background};
+}
+  
+#sidebar {
+    background:{color:Posts}; 
+}
+
+input[type="text"] {  
+    background:{color:Borders};   
+}
+
+#link {
+    background:{color:Accent One};
+    color:{color:Posts};
+}
+
+#link:hover {  
+    background:{color:Accent Two};
+}
+
+#pagination a{
+    background:{color:Accent One};
+    color:{color:Posts};
+}
+
+#posts {
+    background:{color:Posts};
+}
+
+#sidebar {
+    background:{color:Posts};
+}
+
+#searchinput {
+    color:{color:Body Font Color};
+}
+
+#searchtext {
+    background:{color:Background Color};
+}
+
+.search {
+    background:{color:Background Color};
+}
+
+#audio {
+    background:{color:Container};
+}
+         
+#audioimg img {
+    border-right:1px solid {color:Borders};
+}
+    
+#quote {
+    color: {color:Accent One};
+}
+    
+#question {
+    background:{color:Container};
+}
+    
+#asker {
+    color: {color:Posts};
+    background:{color:Accent One};
+}
+
+#asker b {
+    color: {color:Link}; 
+}
+    
+#asker a{
+    color: {color:Posts}; 
+}
+
+.odd {
+    background:{color:Background};
+}
+ 
+.even {
+    background:{color:Container};
+}
+
+.even .label {
+    color:{color:Link};
+}
+
+.odd .label {
+    color:{color:Accent One};
+}
+
+#tags {
+    background:{color:Borders};
+    color:{color:Accent One};
+}
+   
+#tags span {
+    color:{color:Accent One};
+}
+ 
+#tags a:hover {
+    color:{color:Accent Two};
+}
+ 
+#notes li {
+    background:{color:Posts};
+}
+
+{block:AskPage} 
+.info, .tags {
+    display:none;
+}
+{/block:AskPage}
+
+{block:SubmitPage}
+.info, .tags {
+    display:none;
+}
+{/block:SubmitPage}
+
+{block:AskPage} 
+.info, .tags {
+    display:none;
+}
+{/block:AskPage}
+
+{block:SubmitPage}
+.info, .tags { 
+    display:none; 
+}
+{/block:SubmitPage}
+
+#sugarhoney { position:fixed; bottom:0; left:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+
+</style>
+</head>  
+<body>
+
+<div id="container">
+
+    <div id="navigation">
+<a href="{text:Link One URL}" title="{text:Link One}"><div id="link">01</div></a>
+<a href="{text:Link Two URL}" title="{text:Link Two}"><div id="link">02</div></a>
+<a href="{text:Link Three URL}" title="{text:Link Three}"><div id="link">03</div></a>
+</div>
+
+<div id="sidebar">
+<img src="{image:Sidebar One}">
+<img src="{image:Sidebar Two}">
+<img src="{image:Sidebar Three}">
+ 
+<div id="description">
+    {text:Description}
+</div>
+
+
+    <form action="/search" method="get">
+    <input type="text" name="q" value="{SearchQuery}" placeholder="search blog"> 
+    <input type="submit"  id="searchinput"/>
+    </form>   
+    
+    {block:IndexPage}   
+<div id="pagi">{block:Pagination}{block:PreviousPage}<a href="{PreviousPage}" style="float:left;">◄ previous</a>{/block:PreviousPage}{block:NextPage}<a href="{NextPage}" class="no">forward ►</a>{/block:NextPage}{/block:Pagination}</div>
+{/block:IndexPage}
+
+</div>
+
+{block:Posts}
+ 
+<div id="posts">
+
+{block:Title}<h1>{Title}</h1>{/block:Title}
+
+{block:Text}{Body}{/block:Text}
+ 
+{block:Quote}<div id="quote">{Quote}</div><div id="source">— {Source}</div>{/block:Quote}
+ 
+{block:Link}<a href="{URL}" class="link" {Target}> <h2>{Name}</h2></a>
+{block:Description}<p>{Description}</p>{/block:Description}{/block:Link}
+ 
+{block:Photo}<center><img src="{PhotoURL-500}"/></center>{block:Caption}{Caption}{/block:Caption}{/block:Photo}
+
+{block:Photoset}{Photoset}{block:Caption}{Caption}{/block:Caption}{/block:Photoset}
+
+ 
+{block:Chat}<div class="chat">{block:Lines}<div class="{Alt}">{block:Label}<span class="label">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</span>{/block:Label}{Line}</div>{/block:Lines}</div>{/block:Chat} 
+
+{block:Video}{Video-500}{block:Caption}{Caption}{/block:Caption}{/block:Video}
+ 
+{block:Answer}<div id="question">{Question}</div><div id="asker"><b>{Asker}</b> asked</div>{Answer}{/block:Answer}
+
+{block:Audio}{block:AudioPlayer}<div id="audio">{block:AlbumArt}<div id="audioimg"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}<div id="player">{AudioPlayerWhite}</div><div id="trackdetails">{block:TrackName}<b>Track:</b> {TrackName} <br/>{/block:TrackName}{block:Artist}<b>Artist:</b> {Artist} <br/>{/block:Artist}{block:Album}<b>Album:</b> {Album} <br/>{/block:Album}</div></div>{/block:AudioPlayer}<br><br>{block:Caption}{Caption}{/block:Caption}{/block:Audio}
+
+<div class="contentsource" style="display:none;"> {block:ContentSource} Source: <a href="{SourceURL}">{SourceTitle} </a> {/block:ContentSource} {block:RebloggedFrom} Via: <a href="{ReblogParentURL}">{ReblogParentName}</a> {/block:RebloggedFrom}</div>
+
+<div id="tags"><span class="lnr lnr-tag"></span><div class="tag">{block:Tags} <a href="{TagURL}">( {Tag} )</a>{/block:Tags}</div> <a href="{Permalink}" title="posted {TimeAgo} with {NoteCount} Notes"><span class="lnr lnr-star" style="right:0;position:absolute;margin-right:15px;"></span></a></div>
+    
+</div>
+
+{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+
+{/block:Posts}
+
+</div>
+
+<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div> <!-- DO NOT REMOVE CREDIT!! -->
+
+</body>
+
+   
+
+</html>
