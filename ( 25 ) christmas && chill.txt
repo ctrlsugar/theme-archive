@@ -1,0 +1,612 @@
+<html>
+<!DOCTYPE html>
+ 
+<!--
+
+
+         CHRISTMAS && CHILL / 025 / SUGARCODES / TUMBLR
+         CREATED & DESIGNED BY AUTUMN
+       
+        - fonts from google fonts
+        - icons from cappuccicons / by suiomi
+        - base code(s) by seyche, silbrigthemes & neonbikethemes
+        - responsive video code by nouvae
+        - npf photosets fix by glenthemes
+        - style my tootltips by malihu (https://manos.malihu.gr)
+        - css photoset & fix by annasthms and eggdesign
+        - special thanks to alyofrp's tab tutorial
+        
+
+       
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact 
+
+        This work is protected by a creative commons
+        Attribution-NonCommercial-NoDerivatives 4.0 International
+        (CC BY-NC-ND 4.0)
+        license.
+-->
+ 
+<head>
+
+   
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}<meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0, width=device-width" /><title>{Title}</title>
+ 
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+<!-- THEME SPECIFICS --> 
+
+<link rel="stylesheet" href="https://dl.dropbox.com/s/324u1f0xmhedm2e/santababy.css">
+
+<!-- STYLED TOOLTIPS -->
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script><script src="https://dl.dropbox.com/s/q8akoadfqm16u6r/sugarmytooltips.js"></script>
+  
+<!-- ICONS FONT -->
+  
+<script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
+
+        
+<!-- GOOGLE FONTS -->        
+  
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Manjari:100,400,700&display=swap" rel="stylesheet">
+
+<!-- META TAGGED INFORMATION -->
+  
+    <meta name="color:Background" content="#f6f6f6"/>
+    <meta name="color:Container" content="#eeeeee"/>
+    <meta name="color:Borders" content="#e7e5e5"/>
+    <meta name="color:Posts" content="#ffffff"/>
+    <meta name="color:Link" content="#90a58b"/>
+    <meta name="color:Accent One" content="#d39c9c"/>
+    <meta name="color:Accent Two" content="#5c5360"/>
+    <meta name="color:Text" content="#4f4f4f"/>
+    
+    
+    <meta name="image:Background" content=""/>
+    <meta name="image:Sidebar" content="https://static.tumblr.com/blgwozc/oZMr5tlsq/300x150.png"/>
+    
+    <meta name="select:Posts Width" content="400px"/>
+    <meta name="select:Posts Width" content="350px"/>
+    <meta name="select:Posts Width" content="450px"/>
+    <meta name="select:Posts Width" content="500px"/>
+    <meta name="select:Posts Width" content="540px"/>
+    
+    <meta name="select:Font Size" content="12px"/>
+    <meta name="select:Font Size" content="11px"/>
+    <meta name="select:Font Size" content="13px"/>
+    <meta name="select:Font Size" content="14px"/>
+    
+    <meta name="text:Title" content="title here"/>
+    <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna."/>
+    
+    
+    <meta name="text:Link One URL" content="/"/>
+    <meta name="text:Link One" content="refresh"/>
+    <meta name="text:Link Two URL" content="/"/>
+    <meta name="text:Link Two" content="contact"/>
+    <meta name="text:Link Three URL" content="/"/>
+    <meta name="text:Link Three" content="full plot"/>
+    <meta name="text:Link Four URL" content="/"/>
+    <meta name="text:Link Four" content="application"/>
+    <meta name="text:Link Five URL" content="/"/>
+    <meta name="text:Link Five" content="navigation"/>
+    
+    <meta name="text:Current App Count" content="04"/>
+    <meta name="text:App Count URL" content="/"/>
+    
+    <meta name="text:Online Counter" content="00"/>
+    <meta name="text:Total Hits Counter" content="000000"/>
+
+ 
+<style type="text/css">
+
+                /* FORMATTING ELEMENTS */
+ 
+body {
+    background:{color:Background};
+    font-size:{select:Font Size};
+    color:{color:Text};
+    font-family:'Manjari', sans-serif;
+    background-image:url('{image:Background}');!important
+    background-position:top left;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:100% auto;
+}
+
+
+small {
+    font-size:{select:Font Size};
+}
+
+.embed_iframe {
+    max-width:{select:Posts Width};
+}
+
+em, i {
+    color:{color:Accent Two};
+}
+
+
+b, strong, small b, small strong, b small, strong small {
+    color:{color:Accent One};
+}
+
+::-webkit-scrollbar {
+    background:{color:Container};
+}
+ 
+::-webkit-scrollbar-thumb {
+    background:{color:Accent Two};
+}
+ 
+#s-m-t-tooltip {
+    color:{color:Accent Two};
+    background:{color:Posts};
+}
+   
+h1 {
+    background:{color:Container};
+    color:{color:Accent One};
+}
+   
+h2 {
+    color:{color:Accent Two};
+}
+
+pre {
+    font-size:{select:Font Size};
+    width:calc({select:Posts Width} - 20px);
+    background:{color:Container};
+}
+
+#more {
+    background:{color:Container};
+    color:{color:Accent One};
+}
+
+#more:hover {
+    background:{color:Accent Two};
+    color:{color:Posts};
+}
+	
+   
+a { 
+    color:{color:Link};
+}
+ 
+
+a:hover {
+    color:{color:Accent One};
+}
+
+blockquote {
+    width:calc({select:Posts Width} - 40px);
+    background:{color:Background};
+    border-left:2px solid {color:Accent Two};
+}
+
+blockquote blockquote {
+    width:calc({select:Posts Width} - 75px);
+    border-color:{color:Accent One};
+    background:{color:Container};
+}
+
+blockquote blockquote blockquote {
+    width:calc({select:Posts Width} - 110px);
+    border-color:{color:Accent Two};
+    background:{color:Posts};
+}
+
+blockquote blockquote blockquote blockquote {
+    width:calc({select:Posts Width} - 140px);
+    border-color:{color:Accent One};
+    background:{color:Background};
+}
+
+ul li:before {
+    color:{color:Accent Two};
+}
+
+                /* CONTAINER ELEMENTS */
+
+#container { 
+    background:{color:Container};
+    width:calc(400px + {select:Posts Width});
+}
+
+                /* SIDEBAR ELEMENTS */
+
+#sidebar {
+    background:{color:Container};
+}
+
+#sidebox {
+    background:{color:Posts};
+}
+
+#santababy {
+    background:{color:Accent One};
+}
+
+#title {
+    color:{color:Posts};
+    background:{color:Accent Two};
+}
+
+#update {
+    background:{color:Borders};
+}
+
+#update span {
+    background:{color:Accent Two};
+    color:{color:Posts};
+}
+
+#event {
+    background:{color:Borders};
+}
+
+#evtitle {
+    background:{color:Posts};
+    color:{color:Accent One};
+}
+
+#appcount {
+    background:{color:Container};
+}
+
+#count {
+    background:{color:Accent One};
+    color:{color:Posts};
+}
+
+#apps {
+    background:{color:Posts};
+}
+
+#affiliate img:hover {
+    background:{color:Accent Two};
+}
+
+#affiliate img {
+    background:{color:Accent One};
+}
+          
+#exlink {
+    background:{color:Accent Two};
+    color:{color:Posts};
+}
+
+#statistics {
+    background:{color:Borders};
+}
+
+#stat {
+    background:{color:Accent Two};
+    color:{color:Posts};
+    
+}
+
+#mw {
+    background:{color:Container};
+}
+
+.mw {
+    color:{color:Posts};
+    background:{color:Accent Two};
+}
+
+                /* NAVIGATION ELEMENTS */
+
+#navigation {
+    background:{color:Container};
+}
+
+#nav {
+    width:calc(450px + {select:Posts Width});
+}
+
+#link {
+    background:{color:Accent Two};
+    color:{color:Posts};
+}
+
+#posts {
+    width:{select:Posts Width};
+    background:{color:Posts};
+}
+ 
+/* POST STYLES */
+
+#audio {
+    background:{color:Container};
+}
+
+#player {
+    background-color: {color:Posts};
+}
+
+#quote {
+    color:{color:Accent One};
+}
+    
+#question {
+    color:{color:Posts};
+    background:{color:Accent One};
+}
+
+#asker {
+    background:{color:Container};
+}
+
+.even .label {
+    color:{color:Accent Two};
+}
+
+.odd .label {
+    color:{color:Accent One};
+}
+
+/* POST INFORMATION & TAGS + POST NOTES */
+
+#info {
+    background:{color:Borders};
+    color:{color:Accent Two};
+}
+
+#tag a {
+    color:{color:Link};
+}
+
+#notes li {
+    width:calc({select:Posts Width} + 30px);
+    background:{color:Posts};
+}
+
+#sugarhoney { position:fixed; bottom:0;left:0;  margin:15px; margin-bottom:90px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+
+
+
+</style>
+
+</head>
+<body>
+
+
+<div id="navigation">
+
+{block:PreviousPage}<a href="{PreviousPage}"><div id="link" style="z-index:9999999999;position:fixed;bottom:30;left:20;">previous</div></a>{/block:PreviousPage}
+
+{block:NextPage}<a href="{NextPage}"><div id="link" style="z-index:9999999999;position:fixed;bottom:30;right:0;margin-right:20px;">forwards</div></a>{/block:NextPage}
+<div id="nav">
+
+ <a href="{text:Link One Url}"><div id="link">{text:Link One}</div></a> 
+ <a href="{text:Link Two Url}"><div id="link">{text:Link Two}</div></a> 
+ <a href="{text:Link Three Url}"><div id="link">{text:Link Three}</div></a> 
+ <a href="{text:Link Four Url}"><div id="link">{text:Link Four}</div></a> 
+ <a href="{text:Link Five Url}"><div id="link">{text:Link Five}</div></a> 
+
+    <form action="/search" method="get">
+    <input type="text" name="q" value="{SearchQuery}" placeholder="search blog"><input type="submit"  id="searchinput"/>
+    </form> 
+    
+</div>    
+</div> 
+<div id="container">   
+    <div id="sidebar">
+<div id="sidebox">
+    <div id="santababy"></div>
+    <div id="title">{text:Title}</div>
+    <div id="sidetext">{text:Description}</div>
+</div>
+
+<div id="sidebox">
+    <div id="santababy"></div>
+    <div id="title">updates</div>
+
+    <div id="sidetext">
+    
+       <div id="update"><span>00.00</span> update here</div>
+       <div id="update"><span>00.00</span> update here</div>
+       <div id="update"><span>00.00</span> update here</div>
+       
+       <div id="update"><span>00.00</span> update here</div>
+       <div id="update"><span>00.00</span> update here</div>
+       <div id="update"><span>00.00</span> update here</div>
+       
+       <!-- YOU CAN ADD OR REMOVE AS MANY UPDATES AS YOU WOUDL LIKE, THE SIDEBOX WILL SCROLL -->
+       
+    </div>
+</div>
+
+<div id="sidebox">
+    <div id="santababy"></div>
+    <div id="title">upcoming events</div>
+
+    <div id="sidetext" class="event">
+    
+    <!-- EVENT ONE -->
+        <div id="event">
+            <img src="https://static.tumblr.com/blgwozc/o2Sr5tlpz/140x50.png">
+                <a href="/"><div id="evtitle">event title here</div></a>     
+        </div>
+    
+    <!-- EVENT TWO -->    
+        <div id="event">
+            <img src="https://static.tumblr.com/blgwozc/o2Sr5tlpz/140x50.png">
+                <a href="/"><div id="evtitle">event title here</div></a>     
+        </div>
+
+    <!-- YOU CAN ADD MORE EVENTS ABOVE THIS LINE BY COPY & PASTING EVENT ONE OR TWO & REPLACING WITH YOUR INFORMATION -->
+
+    </div>
+</div>
+
+<div id="sidebox">
+    <div id="santababy"></div>
+    <div id="title">application count</div>
+
+    <div id="sidetext">
+    <div id="appcount">
+        <div id="count">{text:Current App Count}</div> 
+        <div id="apps">applications</div><br><br>
+    <center><a href="{text:App Count URL}">view full breakdown</a></center>
+    </div>
+    
+    <div id="update"><span>+ 01</span> face claim</div>
+    <div id="update"><span>+ 01</span> face claim</div>
+    <div id="update"><span>+ 01</span> face claim</div>
+    <div id="update"><span>+ 01</span> face claim</div>
+ 
+    </div>
+
+</div>
+
+<div id="sidebox">
+    <div id="santababy"></div>
+    <div id="title">blog affiliates</div>
+
+    <div id="sidetext">
+    
+        <div id="affiliate">
+            <a href="" title=""><img src="https://static.tumblr.com/blgwozc/3Jtr5tlp2/55.png"></a>
+           <a href="" title=""><img src="https://static.tumblr.com/blgwozc/3Jtr5tlp2/55.png"></a>
+           
+           <a href="" title=""><img src="https://static.tumblr.com/blgwozc/3Jtr5tlp2/55.png"></a>
+           <a href="" title=""><img src="https://static.tumblr.com/blgwozc/3Jtr5tlp2/55.png"></a>
+           
+           <a href="" title=""><img src="https://static.tumblr.com/blgwozc/3Jtr5tlp2/55.png"></a>
+           <a href="" title=""><img src="https://static.tumblr.com/blgwozc/3Jtr5tlp2/55.png"></a>
+            
+            </div>
+        </div>
+    
+
+</div>
+
+<div id="sidebox">
+    <div id="santababy"></div>
+    <div id="title">important links</div>
+
+    <div id="sidetext">
+
+    <a href=""><div id="exlink">extra link</div></a>
+    <a href=""><div id="exlink">extra link</div></a>
+    
+    <a href=""><div id="exlink">extra link</div></a>
+    <a href=""><div id="exlink">extra link</div></a>
+    
+    <a href=""><div id="exlink">extra link</div></a>
+    <a href=""><div id="exlink">extra link</div></a>
+    
+    <a href=""><div id="exlink">extra link</div></a>
+    <a href=""><div id="exlink">extra link</div></a>
+        
+    </div>
+
+</div>
+
+<div id="sidebox">
+    <div id="santababy"></div>
+    <div id="title">most wanted</div>
+    <div id="sidetext">
+    
+    
+        <div id="wanted">
+            <img src="https://static.tumblr.com/blgwozc/Oeer5tlo1/50x50.png">
+            <div id="mw"> character name
+            <a href=""><div class="mw">more info.</div></a>
+        </div></div>
+        
+        <div id="wanted">
+            <img src="https://static.tumblr.com/blgwozc/Oeer5tlo1/50x50.png">
+            <div id="mw"> character name
+            <a href=""><div class="mw">more info.</div></a>
+        </div></div>
+        
+        <div id="wanted">
+            <img src="https://static.tumblr.com/blgwozc/Oeer5tlo1/50x50.png">
+            <div id="mw"> character name
+            <a href=""><div class="mw">more info.</div></a>
+        </div></div>
+        
+        <div id="wanted">
+            <img src="https://static.tumblr.com/blgwozc/Oeer5tlo1/50x50.png">
+            <div id="mw"> character name
+            <a href=""><div class="mw">more info.</div></a>
+        </div></div>
+    
+           
+    </div>
+</div>
+
+<div id="sidebox">
+    <div id="santababy"></div>
+    <div id="title">blog statistics</div>
+
+    <div id="sidetext">
+        <div id="statistics"><div id="stat">genre</div> roleplay type</div>
+        <div id="statistics"><div id="stat">est.</div> mm/dd/yyyy</div>
+        <div id="statistics"><div id="stat">online</div> {text:Online Counter}</div>
+        <div id="statistics"><div id="stat">total</div> {text:Total Hits Counter}</div>
+        <div id="statistics"><div id="stat">design</div> sugardesigns</div>
+        <div id="statistics"><div id="stat">owner</div> creator name</div>
+    </div>
+
+</div>
+
+</div>
+
+{block:Posts}
+ 
+<div id="posts">
+
+{block:Title}<h1>{Title}</h1>{/block:Title}
+
+{block:Text}{Body}{/block:Text}
+ 
+{block:Quote}<div id="quote">{Quote}</div><div id="source">— {Source}</div>{/block:Quote}
+ 
+{block:Link}<a href="{URL}" class="link" {Target}> <h2>{Name}</h2></a>
+{block:Description}<p>{Description}</p>{/block:Description}{/block:Link}
+ 
+{block:Photo}<center><img src="{PhotoURL-500}"/></center>{block:Caption}{Caption}{/block:Caption}{/block:Photo}
+  
+{block:Photoset}{Photoset}{block:Caption}{Caption}{/block:Caption}{/block:Photoset}  
+  
+{block:Chat}<div class="chat">{block:Lines}<div class="{Alt}">{block:Label}<span class="label">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</span>{/block:Label}{Line}</div>{/block:Lines}</div>{/block:Chat} 
+
+{block:Video}{Video-500}{block:Caption}{Caption}{/block:Caption}{/block:Video}
+ 
+{block:Answer}<div id="question">{Question}</div><div id="asker"><b>{Asker}</b> asked</div>{Answer}{/block:Answer} 
+ 
+{block:Audio}{block:AudioPlayer}<div id="audio">{block:AlbumArt}<div id="audioimg"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}<div id="player">{AudioPlayerWhite}</div><div id="trackdetails">{block:TrackName}<b>Track:</b> {TrackName} <br/>{/block:TrackName}{block:Artist}<b>Artist:</b> {Artist} <br/>{/block:Artist}{block:Album}<b>Album:</b> {Album} <br/>{/block:Album}</div></div>{/block:AudioPlayer}<br><br>{block:Caption}{Caption}{/block:Caption}{/block:Audio} 
+
+{block:More}<a href="{Permalink}"><div id="more">continue to post...</div></a>{/block:More}
+ 
+<div class="contentsource" style="display:none;"> {block:ContentSource} Source: <a href="{SourceURL}">{SourceTitle} </a> {/block:ContentSource} {block:RebloggedFrom} Via: <a href="{ReblogParentURL}">{ReblogParentName}</a> {/block:RebloggedFrom}</div>
+  
+<div id="info">  
+<span class="fas fa-tag" style="font-size:11px;position:absolute;left:0;margin-left:15px;"></span><div id="tag">{block:Tags} <a href="{TagURL}"> {Tag} </a>{/block:Tags}</div><div id="perma"><a href="{Permalink}" title="with {NoteCount} Notes ( permalink )"><span class="fas fa-ellipsis-h"></span></a></div>    
+</div>
+ 
+</div>
+
+{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+{/block:Posts}
+
+</div>
+
+
+<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div>
+ <!-- DO NOT REMOVE CREDIT!! -->
+
+</body>
+</html>
