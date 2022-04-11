@@ -1,0 +1,390 @@
+<html>
+<!DOCTYPE html>
+ 
+<!--
+
+
+         SPOOKY BOY REVAMPED / 027 / SUGARCODES / TUMBLR
+         CREATED & DESIGNED BY AUTUMN
+       
+        - fonts from google fonts
+        - icons from cappuccicons / by suiomi
+        - base code(s) by seyche, silbrigthemes & neonbikethemes
+        - responsive video code by nouvae
+        - npf photosets fix by glenthemes
+        - style my tootltips by malihu (https://manos.malihu.gr)
+        - css photoset & fix by annasthms and eggdesign
+        - special thanks to alyofrp's tab tutorial
+        
+
+       
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact 
+
+        This work is protected by a creative commons
+        Attribution-NonCommercial-NoDerivatives 4.0 International
+        (CC BY-NC-ND 4.0)
+        license.
+-->
+ 
+<head>
+   
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}<meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0, width=device-width" /><title>{Title}</title>
+ 
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+    
+    <!-- THEME SPECIFICS -->
+    
+    <script src="https://dl.dropbox.com/s/nblwh70cu3ww4w4/sucre.js"></script>
+    <link href="https://dl.dropbox.com/s/8yh4t3iqqbk56ty/spookyboyrevamp.css" rel="stylesheet">
+ 
+    <!-- STYLED TOOLTIPS -->
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script><script src="https://dl.dropbox.com/s/q8akoadfqm16u6r/sugarmytooltips.js"></script>
+  
+    <!-- ICONS FONT -->
+  
+    <script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
+
+    <!-- META TAGGED INFORMATION -->
+  
+    <meta name="color:Background" content="#f6f6f6"/>
+    <meta name="color:Container" content="#eeeeee"/>
+    <meta name="color:Borders" content="#e7e5e5"/>
+    <meta name="color:Posts" content="#ffffff"/>
+    <meta name="color:Link" content="#90a58b"/>
+    <meta name="color:Accent One" content="#5c5360"/>
+    <meta name="color:Accent Two" content="#d39c9c"/>
+    <meta name="color:Text" content="#4f4f4f"/>
+    
+    <meta name="image:Background" content=""/>
+    <meta name="image:Sidebar" content="https://static.tumblr.com/blgwozc/tbUr5tm64/250x400.png"/>
+    
+    <meta name="text:Title" content=""/>
+    <meta name="text:Description" content=""/>
+    
+    <meta name="text:Link One" content="/"/>
+    <meta name="text:Link Two" content="/"/>
+    <meta name="text:Link Three" content="/"/>
+    <meta name="text:Link Four" content="/"/>
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap" rel="stylesheet">
+    
+<style type="text/css">
+
+body { color:{color:Text}; background-color:{color:Background}; background-attachment:fixed!important; background-image:url('{image:Background}');!important;  }
+
+                        /* FORMATTING */
+
+::-webkit-scrollbar-track { background:{color:Accent One}; }
+
+::-webkit-scrollbar-thumb { background:{color:Accent Two}; }
+ 
+#s-m-t-tooltip { color:{color:Posts}; background:{color:Accent One}; }
+   
+h1 { olor:{color:Posts}; background:{color:Accent One}; }
+   
+h2 { color:{color:Accent One}; }
+   
+h2 i { color:{color:Accent One}; }
+   
+h2 b { color:{color:Accent One}; }
+   
+hr { color:{color:Posts}; background:{color:Accent One}; border-color: {color:Borders}; }
+   
+pre { color:{color:Text}; }
+ 
+b, strong { color: {color:Accent Two}; }
+   
+i, italic { color: {color:Accent One}; }
+   
+a { color:{color:Accent One}; }
+ 
+a:hover { color: {color:Accent Two}; }
+
+blockquote { border-left:2px solid {color:Accent Two}; background:{color:Container}; }
+   
+ul li:before { color:{color:Accent One}; }
+#more { color:{color:Accent Two}; background:{color:Container}; }
+
+                        /* POSTS */
+
+#posts { background:{color:Posts}; }
+
+#audio { background:{color:Container}; }
+    
+#quote { color:{color:Accent One}; }
+    
+#question { background:{color:Container}; }
+    
+#asker { color:{color:Posts}; background:{color:Accent One}; }
+
+#asker b { color:{color:Accent Two}; }
+    
+#asker a{ color:{color:Posts}; }
+
+.even .label { color:{color:Accent One}; }
+
+.odd .label { color:{color:Accent One}; }
+
+.odd { background:{color:Background}; }
+ 
+.even { background:{color:Container}; }
+
+                        /* POST INFO */
+
+#tags { opacity:0; display:none; font-size:7.5px; text-align:center; font-weight:800; text-transform:uppercase; margin:-25px; margin-bottom:0px; padding:5px; width:440px; position:relative; background:{color:Container}; color:{color:Accent One}; {block:Permalink}opacity:1; margin-top:25px; display:block;{/block:Permalink} }
+
+#tags a { border-bottom:2px solid {color:Accent Two}; }
+   
+#tags a:hover { color:{color:Accent Two}; }
+
+#info { background:{color:Borders}; }
+
+#date { background:{color:Container}; color:{color:Accent One}; }
+
+#permalink { background:{color:Container}; color:{color:Accent One}; }
+
+#permalink:hover, #date:hover { background:{color:Accent Two}; color:{color:Posts}; }
+    
+#notes li { background:{color:Posts}; }
+
+#credit { color:{color:Posts}; background:{color:Accent One}; }
+
+                        /* CONTAINER */
+
+#container { background:{color:Container}; }   
+
+#header { color:{color:Accent One}; text-shadow:1px 1px 1px {color:Posts}; background:{color:Borders}; }
+
+.tablink { color:{color:Accent Two}; background:{color:Container}; }
+
+#footer {  color:{color:Accent One}; text-shadow:1px 1px 1px {color:Posts}; background:{color:Borders}; }
+
+#footer a { color:{color:Accent One}; }
+
+#footer a:hover { color:{color:Accent Two};}
+
+                        /* SIDEBAR */
+                        
+#sidebar { background:{color:Posts}; background:url({image:Sidebar});!important } 
+
+                        /* TAB */
+
+.tabcontent { background:{color:Container}; } 
+
+.close { color:{color:Accent Two}; background:{color:Container}; }
+ 
+                        /* TAB FORMATTING */ 
+
+#about { background:{color:Posts}; } 
+
+#navlink { background:{color:Accent One}; color:{color:Posts}; }
+
+#navlink:hover { background:{color:Accent Two}; }
+
+                        /* MUSE DIV FORMATTING */ 
+
+#muse { background:{color:Posts}; }
+
+#muselink { background:{color:Container}; }
+
+#muselink:hover { background:{color:Accent Two}; color:{color:Posts}; }
+
+#name { color:{color:Accent One};  }
+
+#name span {color:{color:Text}; }
+
+#sugarhoney { position:fixed; bottom:0;left:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+
+
+  
+</style>
+</head>  
+<body>
+
+<div id="container">
+<div id="one" class="tabcontent"><span onclick="this.parentElement.style.display='none'" class="close"><div id="header"><div class="tablink"><span class="fas fa-times"></span></div> {text:Title}</div></span>
+<div id="navigate">
+
+<div id="about">
+    lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna. maecenas dui neque, rhoncus sed, vehicula vitae, auctor at, nisi. aenean id massa ut lacus molestie porta. curabitur sit amet quam id libero suscipit.
+</div>
+
+<div id="navtags">
+    <a href=""><div id="navlink">nav link</div></a>
+    <a href=""><div id="navlink">nav link</div></a>
+    
+    <a href=""><div id="navlink">nav link</div></a>
+    <a href=""><div id="navlink">nav link</div></a>
+    
+    <a href=""><div id="navlink">nav link</div></a>
+    <a href=""><div id="navlink">nav link</div></a>
+    
+    <a href=""><div id="navlink">nav link</div></a>
+    <a href=""><div id="navlink">nav link</div></a>
+    
+    <a href=""><div id="navlink">nav link</div></a>
+    <a href=""><div id="navlink">nav link</div></a>
+</div>
+    
+</div>
+<div id="muses">
+<!-- START OF MUSE -->
+<div id="muse">
+    <img src="https://static.tumblr.com/blgwozc/4dnr5tm37/150.png">
+    
+    <a href=""><div id="muselink">
+    <span class="fas fa-tag"></span></div></a>
+    
+    <div id="name">character name <br>
+    <span>face claim here / character label</span></div>
+    
+    <div id="aesthetic">
+        <img src="https://static.tumblr.com/blgwozc/96tr5tm2g/45.png">
+        <img src="https://static.tumblr.com/blgwozc/96tr5tm2g/45.png">
+        <img src="https://static.tumblr.com/blgwozc/96tr5tm2g/45.png">
+    </div>
+</div>
+<!-- END OF MUSE -->
+
+<!-- START OF MUSE -->
+<div id="muse">
+    <img src="https://static.tumblr.com/blgwozc/4dnr5tm37/150.png">
+    
+    <a href=""><div id="muselink">
+    <span class="fas fa-tag"></span></div></a>
+    
+    <div id="name">character name <br>
+    <span>face claim here / character label</span></div>
+    
+    <div id="aesthetic">
+        <img src="https://static.tumblr.com/blgwozc/96tr5tm2g/45.png">
+        <img src="https://static.tumblr.com/blgwozc/96tr5tm2g/45.png">
+        <img src="https://static.tumblr.com/blgwozc/96tr5tm2g/45.png">
+    </div>
+</div>
+<!-- END OF MUSE -->
+
+<!-- START OF MUSE -->
+<div id="muse">
+    <img src="https://static.tumblr.com/blgwozc/4dnr5tm37/150.png">
+    
+    <a href=""><div id="muselink">
+    <span class="fas fa-tag"></span></div></a>
+    
+    <div id="name">character name <br>
+    <span>face claim here / character label</span></div>
+    
+    <div id="aesthetic">
+        <img src="https://static.tumblr.com/blgwozc/96tr5tm2g/45.png">
+        <img src="https://static.tumblr.com/blgwozc/96tr5tm2g/45.png">
+        <img src="https://static.tumblr.com/blgwozc/96tr5tm2g/45.png">
+    </div>
+</div>
+<!-- END OF MUSE -->
+
+    
+</div>    
+    
+</div>
+
+
+<div id="header">
+<div class="tablink"  onclick="opensucre(event, 'one')"><span class="fas fa-cog"></span></div> 
+{text:Title}</div>
+<div id="footer">
+    <a href="{text:Link One}">.01</a>
+    <a href="{text:Link Two}">.02</a>
+    <a href="{text:Link Three}">.03</a>
+    <a href="{text:Link Four}">.04</a>
+    <span>
+        {block:Pagination}
+        {block:PreviousPage}<a href="{PreviousPage}">back</a> /{/block:PreviousPage}{block:NextPage}<a href="{NextPage}">forth</a>{/block:NextPage}
+        {/block:Pagination}
+    </span>
+</div>
+
+<div id="sidebar">
+<div id="description"><p>{text:Description}</p></div>
+    
+</div>
+
+    {block:Posts}
+ 
+<div id="posts">
+
+{block:Date}<div id="info"><a href="/day/{Month}/{DayofMonth}/{Year}"><div id="date">posted {TimeAgo}</div></a><a href="{Permalink}"><div id="permalink">with {NoteCount} notes</div></a></div>{/block:Date} 
+
+                    <!-- POST TITLES -->
+
+{block:Title}<h1>{Title}</h1>{/block:Title}
+
+                    <!-- TEXT POSTS -->
+
+{block:Text}{Body}{/block:Text}
+
+                    <!-- QUOTE POSTS -->
+ 
+{block:Quote}<div id="quote">{Quote}</div><div id="source">— {Source}</div>{/block:Quote}
+
+                    <!-- LINK POSTS -->
+ 
+{block:Link}<a href="{URL}" class="link" {Target}> <h2>{Name}</h2></a>
+{block:Description}<p>{Description}</p>{/block:Description}{/block:Link}
+
+                    <!-- PHOTO POSTS -->
+ 
+{block:Photo}<center><img src="{PhotoURL-500}"/></center>{block:Caption}{Caption}{/block:Caption}{/block:Photo}
+
+                    <!-- PHOTOSET POSTS -->
+
+{block:Photoset}<div class="photo">{Photoset}</div>{block:Caption}<div id="caption">{Caption}</div>{/block:Caption}{/block:Photoset}
+
+                    <!-- CHAT POSTS -->
+ 
+{block:Chat}<div class="chat">{block:Lines}<div class="{Alt}">{block:Label}<span class="label">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</span>{/block:Label}{Line}</div>{/block:Lines}</div>{/block:Chat} 
+
+                    <!-- VIDEO POSTS -->
+
+{block:Video}{Video-500}{block:Caption}{Caption}{/block:Caption}{/block:Video}
+
+                    <!-- ASK POSTS -->
+ 
+{block:Answer}<div id="question">{Question}</div><div id="asker"><b>{Asker}</b> asked</div>{Answer}{/block:Answer}
+
+                    <!-- AUDIO POSTS -->
+
+{block:Audio}{block:AudioPlayer}<div id="audio">{block:AlbumArt}<div id="audioimg"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}<div id="player">{AudioPlayerWhite}</div><div id="trackdetails">{block:TrackName}<b>Track:</b> {TrackName} <br/>{/block:TrackName}{block:Artist}<b>Artist:</b> {Artist} <br/>{/block:Artist}{block:Album}<b>Album:</b> {Album} <br/>{/block:Album}</div></div>{/block:AudioPlayer}<br><br>{block:Caption}{Caption}{/block:Caption}{/block:Audio}
+
+                    <!-- READ MORES -->
+
+{block:More}<a href="{Permalink}"><div id="more">continue to post...</div></a>{/block:More}
+
+<div class="contentsource" style="display:none;"> {block:ContentSource} Source: <a href="{SourceURL}">{SourceTitle} </a> {/block:ContentSource} {block:RebloggedFrom} Via: <a href="{ReblogParentURL}">{ReblogParentName}</a> {/block:RebloggedFrom}</div>
+ 
+                    <!-- PERMALINK, INFO & TAGS -->
+
+{block:Date}<div id="tags">{block:Tags} <a href="{TagURL}"> {Tag} </a>{/block:Tags}</div>{/block:Date}    
+</div>
+
+
+                    <!-- POST NOTES -->
+
+{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+
+{/block:Posts}
+
+
+</div>
+
+<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div>
+ <!-- DO NOT REMOVE CREDIT!! -->
+
+</html>
