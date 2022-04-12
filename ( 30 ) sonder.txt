@@ -4,8 +4,9 @@
 <!--
 
 
-         SONDER / 030 / SUGARCODES / TUMBLR
-         CREATED & DESIGNED BY AUTUMN
+         SONDER / 030 / CTRLSUGAR / TUMBLR
+         CREATED & DESIGNED BY SUGAR
+
        
         - fonts from google fonts
         - icons from cappuccicons / by suiomi
@@ -40,7 +41,7 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
 
 <!-- THEME SPECIFICS --> 
 
-<script src="https://dl.dropbox.com/s/nblwh70cu3ww4w4/sucre.js"></script><link href="https://dl.dropbox.com/s/93teuhouk3afun4/sonder.css" rel="stylesheet">
+<script src="https://dl.dropbox.com/s/nblwh70cu3ww4w4/sucre.js"></script>
 
 <!-- STYLED TOOLTIPS -->
   
@@ -48,12 +49,11 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
   
 <!-- ICONS FONT -->
   
-<script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
+<script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
 
-        
-<!-- GOOGLE FONTS -->        
-  
-<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Manjari:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family={text:Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family={text:Bold Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
 <!-- META TAGGED INFORMATION -->
   
@@ -68,6 +68,10 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
     
     <meta name="image:Background" content=""/>
     <meta name="image:Sidebar" content="https://static.tumblr.com/blgwozc/7fCr5trfj/150x450.png"/>
+    
+    <meta name="text:Font Size" content="11px"/>
+    <meta name="text:Font" content="Inter"/>
+    <meta name="text:Bold Font" content="Abril Fatface"/>
     
     <meta name="image:Admin One" content="https://static.tumblr.com/blgwozc/dqtr5tsvr/40.png"/>
     <meta name="image:Admin Two" content="https://static.tumblr.com/blgwozc/dqtr5tsvr/40.png"/>
@@ -97,97 +101,208 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
  
 <style type="text/css">
  
-body { background:{color:Background}; color:{color:Text}; background-image:url('{image:Background}');!important background-position:top left; background-attachment:fixed; background-repeat:no-repeat; background-size:100% auto; }
+body { font-family:'{text:Font}', sans-serif; font-size:{text:Font Size}; line-height:15px; letter-spacing:.5px; font-weight:normal; text-align:justify; text-transform:lowercase; background:{color:Background}; color:{color:Text}; background-image:url('{image:Background}');!important background-position:top left; background-attachment:fixed; background-repeat:no-repeat; background-size:100% auto; }
 
-#s-m-t-tooltip { color:{color:Accent One}; background:{color:Container}; }
-   
-h1 { color:{color:Accent Two}; background:{color:Container}; }
-   
-h2 { color:{color:Accent One}; }
-   
-h2 b, h2 i { color:{color:Accent One}; }
-   
-hr { color:{color:Posts}; background:{color:Accent One}; border-color: {color:Borders}; }
+img { max-width:100%; height:auto; }
 
-#more { color:{color:Accent Two}; background:{color:Container}; }
+#s-m-t-tooltip { max-width:160px; margin:15px; font-size:8px; letter-spacing:1px; text-align:center; text-transform:uppercase; padding:10px; padding-left:30px; padding-right:30px; font-weight:bold; z-index:999999999999999999999999999999999999999999999999; border-radius:5px; color:{color:Accent One}; background:{color:Container}; }
    
-pre { background:{color:Container}; text-align: left; color:{color:Text}; }
+h1 {  font-size:25px; margin-top:0px; text-align:center; letter-spacing:1px; text-transform:none; letter-spacing:1px; text-transform:lowercase; padding:30px; font-family:'{text:Bold Font}'; border-radius:5px; color:{color:Accent Two}; background:{color:Container}; }
+   
+h2 { margin-bottom:10px; font-size: 18px; font-style:none; text-align:center; font-weight:bold; line-height:100%; text-transform:uppercase; color:{color:Accent One}; }
+   
+h2 i { margin-bottom:10px; font-size: 18px; font-style:none; text-align:center; font-weight:bold; line-height:100%; text-transform:uppercase; color:{color:Accent One}; }
+   
+h2 b { margin-bottom:10px; font-size: 18px; font-style:none; text-align:center; font-weight:bold; line-height:100%; text-transform:uppercase; color:{color:Accent One}; }
+   
+hr { width:50px; text-align:center; float:center; border-width: 1px 0px 0px 0px; border-style: solid; color:{color:Posts}; background:{color:Accent One}; border-color: {color:Borders}; }
+
+#more {font-weight:bold; font-size:20px; margin-top:10px; text-align:right; letter-spacing:1px; text-transform:none; text-transform:uppercase; padding:15px; border-radius:5px; color:{color:Accent Two}; background:{color:Container}; }
+   
+pre {  width:370px; font-size:10px; background:{color:Container}; padding:15px;  text-align: left; color:{color:Text}; word-break: break-all; white-space: pre-wrap;  white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap;  word-wrap: break-word; }
  
-b, strong { color: {color:Accent Two}; }
+b, strong { font-size:{text:Font Size}; font-weight:bold; color: {color:Accent Two}; }
+   
+i b { font-style:none; text-decoration:none; font-weight:normal; }
    
 i, italic { color: {color:Accent One}; }
    
-a { color:{color:Accent One}; }
- 
-a:hover { color:{color:Accent Two}; }
+small, sup, sub { font-size:{text:Font Size}; }	
    
-ul li:before { color:{color:Accent One}; }
+a { text-decoration: none; transition:all ease-in-out 2s; color:{color:Accent One}; }
  
-::-webkit-scrollbar { background:{color:Container}; }
+a:hover { text-decoration: none;transition:all ease-in-out 2s; color: {color:Accent Two}; }
+
+ul { padding:5px; margin-left:10px; }
+   
+ul li { list-style:none; margin-left:10px; }
+   
+ul li:before { content:"›"; font-size:1em; padding-right:.5em; position:relative; top:.1em; color:{color:Accent One}; }
  
-::-webkit-scrollbar-thumb { background:{color:Accent Two}; }
-
-blockquote { background:{color:Borders}; border-left:2px solid {color:Accent Two}; }
-
-blockquote blockquote { background:{color:Posts}; border-color:{color:Accent One}; }
-
-blockquote blockquote blockquote { border-color:{color:Accent Two}; background:{color:Container}; }
-
-blockquote blockquote blockquote blockquote { border-color:{color:Accent One}; background:{color:Borders}; }
+ol { margin-left:-25px; }
  
-#container { background:{color:Container}; }
+::-webkit-scrollbar { width:7px; z-index:9; border-top-right-radius:5px; background:{color:Container}; }
+ 
+::-webkit-scrollbar-thumb { height:7px; border-top-right-radius:5px; background:{color:Accent Two}; }
+ 
+::-webkit-scrollbar-thumb:window-inactive { background: transparent; }
 
-#posts { background:{color:Posts}; }
+blockquote img { padding-top:20px; padding-bottom:20px; }
 
-#audio { background:{color:Container}; }
+blockquote { width:350px; margin-left:5px; margin-bottom:15px; padding:10px; margin-top:5px; padding-bottom:10px; padding-left:20px; padding-right:20px; background:{color:Borders}; border-left:2px solid {color:Accent Two}; }
 
-#quote { color:{color:Accent One}; }
+blockquote blockquote { margin-top:-10px; margin-left:-10px; margin-bottom:-10px; width:340px; background:{color:Posts}; border-color:{color:Accent One}; }
 
-#question { color:{color:Posts}; background:{color:Accent One}; }
+blockquote blockquote blockquote { width:330px; padding-right:5px; border-color:{color:Accent Two}; background:{color:Container}; }
 
-#asker { background:{color:Container}; }
+blockquote blockquote blockquote blockquote { width:310px; padding-right:15px; border-color:{color:Accent One}; background:{color:Borders}; }
+ 
+#container { margin:0 auto; position:relative; padding:50px; margin-top:70px; height:450px; overflow:auto; width:850px; padding-bottom:50px; border-top-left-radius:5px; border-top-right-radius:5px; background:{color:Container}; }
 
-#asker b { color:{color:Posts}; }
+#posts { width:400px; padding:20px; margin-left:400px; margin-bottom:70px; position:relative; border-top-left-radius:5px; border-top-right-radius:5px; background:{color:Posts}; }
+ 
+/* POST STYLES */
+
+#audio { padding:20px;  height:50px; background:{color:Container}; }
+
+.tumblr_audio_player { height: 90px; width: 45px; font-size:20px; -moz-transform: scale(0.60, 0.60); -webkit-transform: scale(0.60, 0.60); -o-transform: scale(0.60, 0.60); -ms-transform: scale(0.60, 0.60); transform: scale(0.60, 0.60); -moz-transform-origin: top left; -webkit-transform-origin: top left; -o-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left; }
     
-#asker a { color:{color:Posts}; }
+#player { width: 19px; height: 19px; margin-top:-55px; margin-left:5px; background-color: #ffffff; padding: 10px; font-size:20px; -webkit-border-radius: 40px; -moz-border-radius: 40px; border-radius: 40px; opacity: .4; filter: alpha(opacity=40); -moz-opacity: 0.4; -khtml-opacity: 0.4;  transition:opacity .7s ease-in-out; -moz-transition:opacity .7s ease-in-out; -webkit-transition:opacity .7s ease-in-out; }
+         
+#audioimg { margin:-20px; overflow:hidden; width:100px; height:100px; display:inline-block; }
 
-#info { background:{color:Borders}; color:{color:Accent Two}; }
-
-#info a:hover { color:{color:Accent One}; }
-
-#tag a { color:{color:Link}; }
-
-#notes li { background:{color:Posts}; }
-
-#navigation { background:{color:Accent Two}; }
-
-#navigation a { color:{color:Posts}; text-shadow:1px 1px 1px {color:Accent One}; }
-
-#sidebar {  background:{color:Posts}; }
-
-#title { color:{color:Posts}; text-shadow:1px 1px 1px {color:Text}; background:{color:Accent One}; }
-
-#admin {  background:{color:Container}; } 
-
-#admin span { color:{color:Accent One}; }
-
-.tabcontent #container { background:{color:Container}; }
-
-.close { text-shadow:1px 1px 1px {color:Accent One}; background:{color:Accent Two}; color:{color:Posts}; }
-
-#muse { background:{color:Posts}; }
-
-#name { background:{color:Accent One}; color:{color:Posts}; }
-
-#linkpost  a h1:hover { color:{color:Link}; }
-
-#plot { background:{color:Posts}; }
-
-#navtag h1 { text-shadow:1px 1px 1px {color:Text}; background:{color:Accent Two}; color:{color:Posts}; }
+#audioimg img { width:90px; height:90px; }
     
-#ntag { color:{color:Posts};  background:{color:Accent One}; }
+#trackdetails { width:260px; font-size: 10px; line-height:14px; display:inline-block; padding:10px;  padding-top:0px; margin-bottom:0px; float:right; margin-top:-43px; }
+    
+.player { display:inline-block; width:50px; }
 
-#ntag:hover { background:{color:Accent Two}; }
+iframe#youtube_iframe { width:400px; max-height:100%; border-top-width:0px; border-right-width:0px; border-bottom-width:0px; border-left-width:0px; }
+    
+iframe.spotify_audio_player { width:400px; max-height:80px; }
+
+#quote { font-size:28px; text-align:center; font-weight:normal; line-height:23px; font-family:'{text:Bold Font}'; color:{color:Accent One}; }
+    
+#source { text-align:right; margin-top:10px; }
+
+#question { padding:20px; max-height:95px; margin-bottom:-1px; color:{color:Posts}; background:{color:Accent One}; }
+
+#asker { font-size:13px; font-weight:normal; text-align:right; font-style:normal; padding:15px; margin-bottom:15px; font-family:'{text:Bold Font}'; background:{color:Container}; }
+
+#asker b { font-weight:bold; font-size:13px; color:{color:Posts}; }
+    
+#asker a{  font-weight:bold; color:{color:Posts}; }
+
+.chat { font-size:10px; }
+
+.odd, .even { padding:5px; margin:5px; border-radius:5px; }
+
+.even .label { font-weight:bold; font-size:{text:Font Size}; padding-left:4px; text-transform:lowercase; }
+
+.odd .label { font-weight:bold; font-size:{text:Font Size}; padding-left:4px; text-transform:lowercase; }
+
+/* POST INFORMATION & TAGS + POST NOTES */
+
+#info { font-size:8px; padding:15px; min-height:10px; margin:-20px; margin-top:15px; margin-bottom:-30px; line-height:10px; position:relative; text-align:left; background:{color:Borders}; color:{color:Accent Two}; }
+
+#info a:hover { -moz-transition-duration: 2s; -o-transition-duration: 2s; -webkit-transition-duration: 2s; transition-duration: 2s; color:{color:Accent One}; }
+
+#perma { position:absolute; right:0; margin-right:15px; font-size:10px; margin-top:-10px; }
+
+#tag { width:440px; margin-left:20px; display:inline-block; line-height:11px; }
+
+#tag a { margin:0px 7px; color:{color:Link}; }
+
+#notes { margin-top:-15px; margin-right:-10px; }
+    
+#notes ol, .notes-bottom ul { margin:0px; padding:0; list-style: none; }
+
+#notes li { position:relative; padding:10px; width:420px;  margin:5px; margin-left:400px; margin-bottom:7px; font-weight:bold; font-size:8px; border-radius:5px; text-transform:uppercase; text-align:center; background:{color:Posts}; }
+
+#notes li img.avatar { border:none; width:0; padding:0; }
+
+#notes .note .retags { display:none; visibility:hidden; }
+    
+#notes blockquote { display:none; }
+
+#navigation { margin:-50px; margin-top:500px; position:fixed; text-align:left; width:850px; padding:25px 50px; background:{color:Accent Two}; }
+
+#navigation a { margin:0 15px; font-family:'{text:Bold Font}'; font-size:15px; font-weight:normal; color:{color:Posts}; text-shadow:1px 1px 1px {color:Accent One}; }
+
+#sidebar { position:fixed;  width:350px; height:450px; border-radius:5px; background:{color:Posts}; }
+
+#icon img { width:150px; height:450px; display:inline-block; border-top-left-radius:5px; border-bottom-left-radius:5px; }
+
+#description::-webkit-scrollbar { width:0px; }
+
+#description { width:150px; display:inline-block; float:right; margin-right:25px; margin-top:-425px; height:200px; overflow:auto; }
+
+#title { display:inline-block; width:170px; padding:15px; float:right; letter-spacing:2px; text-align:center; margin-top:-215px; font-family:'{text:Bold Font}'; font-size:15px; color:{color:Posts}; text-shadow:1px 1px 1px {color:Text}; background:{color:Accent One}; }
+
+#team { width:156px; float:right; height:160px; margin-top:-165px; margin-right:23px; }
+
+#admin { width:150px; height:40px; margin:8px 3px; border-radius:5px; background:{color:Container}; } 
+
+#admin img { float:left; width:40px; height:40px; display:inline-block; border-top-left-radius:5px; border-bottom-left-radius:5px; }
+
+#admin span { float:right; font-size:8px; text-transform:uppercase; color:{color:Accent One}; font-weight:bold; width:109px; text-align:center; margin-top:13px; }
+
+.tablinks:hover { cursor:pointer; }
+
+.tabcontent #container::-webkit-scrollbar { width:0px; }
+
+.tabcontent {  display:none; position:absolute; z-index:99999999999999999999999999999999; top:0; left:0; height:calc(100% - 0px); width:100%; padding:0px; overflow:hidden; text-align:center; background:transparent; -moz-transition-duration: 2s; -o-transition-duration: 2s; -webkit-transition-duration: 2s; transition-duration: 2s; -webkit-animation: fadeEffect 2s; animation: fadeEffect 2s; }
+
+.tabcontent #container { margin:0 auto; position:relative; padding:50px; margin-top:70px; height:452px; overflow:auto; width:850px; padding-bottom:50px; border-top-left-radius:5px; border-top-right-radius:5px; background:{color:Container}; }
+
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.close { position:absolute; text-align:right; margin-left:0px; font-family:'{text:Bold Font}'; padding:15px; text-transform:lowercase; font-size:15px; height:20px; overflow:auto; margin-top:633px; z-index:999999999999999999999; width:calc(400px); text-shadow:1px 1px 1px {color:Accent One}; background:{color:Accent Two}; color:{color:Posts}; }
+
+.close:hover { cursor:pointer; }
+
+#muse { display:inline-block; width:270px; height:130px; border-radius:5px; margin:5px; text-align:justify; background:{color:Posts}; }
+
+#muse img { float:left; width:100px; height:130px; display:inline-block; border-top-left-radius:5px; border-bottom-left-radius:5px; }
+
+#about::-webkit-scrollbar { width:0px; }
+
+#about { display:inline-block; float:right; width:140px; padding:15px; height:60px; overflow:auto; font-size:{text:Font Size}; }
+
+#name { padding:10px; padding-bottom:13px; margin-top:3px; border-bottom-right-radius:5px; font-family:'{text:Bold Font}'; float:right; display:inline-block;  width:150px; text-align:center; font-size:12px; background:{color:Accent One}; color:{color:Posts}; }
+
+#about b { font-family:'{text:Font}'; font-size:{text:Font Size}; font-weight:600; }
+
+#about a { margin:2px 5px; }
+ 
+#about p { text-align:center;  margin-top:10px; }   
+
+#linkpost  a h1:hover { transition:all ease-in-out 2s; color:{color:Link}; }
+
+#navimage { margin:-50px; position:fixed; }
+ 
+#navimage img {  width:950px; height:200px; border-top-left-radius:5px; border-top-right-radius:5px; }
+
+#plot::-webkit-scrollbar { width:0px; }
+
+#plot { position:absolute; width:350px; padding:50px; margin-top:200px; text-align:justify; height:150px; overflow:auto; border-radius:5px; background:{color:Posts}; }
+
+#navtag { position:absolute; text-align:center; margin-left:490px; width:360px; height:250px; margin-top:198px; }
+
+#navtag h1 {border-radius:0px;margin:0px 10px;margin-left:12px; margin-top:7px; border-radius:5px; text-shadow:1px 1px 1px {color:Text}; background:{color:Accent Two}; color:{color:Posts}; }
+    
+#ntag { padding:25px; font-size:25px; display:inline-block; margin:5px; border-radius:5px; transition:all 2s ease-in-out; color:{color:Posts};  background:{color:Accent One}; }
+
+#ntag:hover { transition:all 2s ease-in-out; background:{color:Accent Two}; }
+
 
 
 #sugarhoney { position:fixed; bottom:0;left:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
@@ -385,7 +500,7 @@ blockquote blockquote blockquote blockquote { border-color:{color:Accent One}; b
 <div class="contentsource" style="display:none;"> {block:ContentSource} Source: <a href="{SourceURL}">{SourceTitle} </a> {/block:ContentSource} {block:RebloggedFrom} Via: <a href="{ReblogParentURL}">{ReblogParentName}</a> {/block:RebloggedFrom}</div>
   
 <div id="info">  
-<a href="{Permalink}" title="permalink"><span class="fas fa-tag" style="font-size:11px;position:absolute;left:0;margin-left:15px;" ></span></a><div id="tag">{block:Tags} <a href="{TagURL}"> {Tag} </a>{/block:Tags}</div><div id="perma"><a href="{Permalink}" title="with {NoteCount} Notes ( permalink )"><span class="fas fa-ellipsis-h"></span></a></div>    
+<a href="{Permalink}" title="permalink"><span class="fas fa-tag" style="font-size:{text:Font Size};position:absolute;left:0;margin-left:15px;" ></span></a><div id="tag">{block:Tags} <a href="{TagURL}"> {Tag} </a>{/block:Tags}</div><div id="perma"><a href="{Permalink}" title="with {NoteCount} Notes ( permalink )"><span class="fas fa-ellipsis-h"></span></a></div>    
 </div>
  
 </div> 
@@ -396,8 +511,9 @@ blockquote blockquote blockquote blockquote { border-color:{color:Accent One}; b
 </div>
 
 
-<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div>
- <!-- DO NOT REMOVE CREDIT!! -->
+<div id="sugarhoney"><a title="theme by sugar" href="https://ctrlsugar.tumblr.com/"><i class="fa-solid fa-heart"></i></a></div> 
+
+<!-- DO NOT REMOVE CREDIT!! -->
 
 </body>
 </html>
