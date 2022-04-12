@@ -679,6 +679,99 @@ iframe.spotify_audio_player {
 }
 
 
+body { 
+    background-image:url('{image:Background}');!important
+}
+
+body, h1, h5, #s-m-t-tooltip, #audio, #question, .odd, .even, #container, #sidebar { 
+    background:{color:Background};
+}    
+
+body, pre, #searchinput, #title span {
+    color:{color:Text};
+}
+ 
+::-webkit-scrollbar-track, h4, #asker, #counter, #link:hover {
+    background:{color:Accent One};
+}
+ 
+::-webkit-scrollbar-thumb {
+    background:{color:Accent Two};
+}
+ 
+#s-m-t-tooltip, h2, h2 i, h2 b, i, italic, ul li:before, #quote, .odd .label {
+    color:{color:Accent One};
+}    
+   
+h1, h5, b, strong, a:hover, #credit a, #title {
+    color:{color:Accent Two};
+}
+
+h4, #counter, #link, #asker, #asker a {
+    color:{color:Posts};
+}
+ 
+hr {
+    border-color: {color:Borders};
+}
+   
+a, .even .label, #info a {
+    color:{color:Link};
+}
+
+#posts, #notes li {
+    background:{color:Posts};
+}
+ 
+blockquote,
+blockquote blockquote blockquote,
+blockquote blockquote blockquote blockquote blockquote {
+    border-left:2px solid {color:Accent Two};
+}    
+
+blockquote blockquote,
+blockquote blockquote blockquote blockquote {
+    border-left:2px solid {color:Accent One};
+}
+
+#navigation, input[type="text"], #info {
+    background:{color:Borders};
+}
+
+#link, #asker b {
+    background:{color:Link};
+}
+
+#audioimg img {
+    border-right:1px solid {color:Borders};
+}    
+
+{block:AskPage} 
+.info, .tags {
+    display:none;
+}
+{/block:AskPage}
+
+{block:SubmitPage}
+.info, .tags {
+    display:none;
+}
+{/block:SubmitPage}
+
+{block:AskPage} 
+.info, .tags {
+    display:none;
+}
+{/block:AskPage}
+
+{block:SubmitPage}
+.info, .tags { 
+    display:none; 
+}
+{/block:SubmitPage}
+
+
+
 #sugarhoney { position:fixed; bottom:0; right:0;  margin:15px; margin-bottom:90px;  z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
 
 
