@@ -864,7 +864,7 @@ iframe.spotify_audio_player {
 }
 
 #museicon img {
-    margin-top:-20px;
+    margin-top:-30px;
     margin-left:30px;
     width:60px;
     height:60px;
