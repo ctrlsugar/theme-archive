@@ -49,7 +49,7 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
     
         <meta name="text:Font Size" content="11px"/>
     <meta name="text:Font" content="Inter"/>
-    <meta name="text:Bold Font" content="Abril Fatface"/
+    <meta name="text:Bold Font" content="Abril Fatface"/>
    
     <meta name="text:Title" content="title here."/>
    
