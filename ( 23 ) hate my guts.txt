@@ -51,10 +51,11 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
 
 <script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
 
-        
-<!-- GOOGLE FONTS -->        
-  
-<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family={text:Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family={text:Bold Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+     
+
 
 <!-- META TAGGED INFORMATION -->
   
@@ -72,6 +73,9 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
     <meta name="image:Sidebar" content="https://static.tumblr.com/blgwozc/8drr5tiyz/300x150.png"/>
     
     
+    <meta name="text:Font Size" content="11px"/>
+    <meta name="text:Font" content="Inter"/>
+    <meta name="text:Bold Font" content="Abril Fatface"/>
     <meta name="text:Title" content="title here."/>
     <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et."/>
     
@@ -85,9 +89,6 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
     <meta name="text:Link Four URL" content="/"/>
     <meta name="text:Link Four" content="link four"/>
     
-    <meta name="select:Font Size" content="10px"/>
-    <meta name="select:Font Size" content="11px"/>
-    <meta name="select:Font Size" content="12px"/>
     
     <meta name="select:Posts Width" content="350px"/>
     <meta name="select:Posts Width" content="250px"/>
@@ -102,11 +103,11 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
 
 body {
     background-color:{color:Background};
-    font-family:'Montserrat', sans-serif;
+    font-family:'{text:Font}', sans-serif;
     font-weight:normal;
     letter-spacing:1px;
     line-height:13px;
-    font-size:9.8px;
+    font-size:{text:Font Size};
     color:{color:Text};
     text-transform:lowercase;
     text-align:justify;
@@ -120,7 +121,7 @@ body {
 small {
     letter-spacing:1px;
     line-height:13px;
-    font-size:9.8px;
+    font-size:{text:Font Size};
 }
 
 em, i {
@@ -131,7 +132,7 @@ em, i {
 
 b, strong, small b, small strong, b small, strong small {
     color:{color:Accent One};
-    font-family:'Abril Fatface';
+    font-family:'{text:Bold Font}';
     font-weight:normal;
 }
 
@@ -172,7 +173,7 @@ b, strong, small b, small strong, b small, strong small {
 }
    
 h1 {
-    font-family:'Abril Fatface';
+    font-family:'{text:Bold Font}';
     font-size:25px;
     margin-top:0px;
     text-align:center;
@@ -253,7 +254,7 @@ pre {
     background:{color:Container};
     padding:20px;
     text-align:right;
-    font-family:'Abril Fatface';
+    font-family:'{text:Bold Font}';
     font-size:20px;
     color:{color:Accent One};
 }
@@ -368,13 +369,13 @@ img {
 
 #sidebar img {
     width:300px;
-    height:150px;
+    height:150px;object-fit: cover;
 }
 
 #icon img {
     width:60px;
     height:60px;
-    border-radius:200px;
+    border-radius:200px;object-fit: cover;
     border:5px solid {color:Posts};
     margin-left:25px;
     margin-top:-20px;
@@ -388,7 +389,7 @@ img {
     margin-top:-61px;
     text-transform:lowercase;
     text-align:left;
-    font-family:'Abril Fatface';
+    font-family:'{text:Bold Font}';
     line-height:18px;
     color:{color:Accent One};
 }
@@ -397,12 +398,12 @@ img {
     
     color:{color:Link};
     font-size:9px;
-    font-family:'Montserrat';
+    font-family:'{text:Font}';
 }
 
 #name {
     font-weight:700;
-    font-family:'Montserrat';
+    font-family:'{text:Font}';
     margin-top:20px;
     margin-left:7px;
     font-size:16px;
@@ -443,7 +444,7 @@ img {
 
 #muse img {
     width:65px;
-    height:65px;
+    height:65px;object-fit: cover;
     border-radius:200px;
     border:4px solid {color:Accent One};
 }
@@ -478,7 +479,7 @@ img {
 
 #link {
     width:100px;
-    font-size:10px;
+    font-size:{text:Font Size};
     display:inline-block;
     padding:10px;
     margin:0px 5px;
@@ -527,7 +528,7 @@ input[type="text"] {
     text-transform:lowercase;
     border-radius:5px;
     text-align:right;
-    font-family:'Montserrat';
+    font-family:'{text:Font}';
 	font-size:10px;
 	background:transparent;
 }
@@ -638,7 +639,7 @@ iframe.spotify_audio_player {
     text-align:center;
     font-weight:normal;
     line-height:23px;
-    font-family:'Abril Fatface';
+    font-family:'{text:Bold Font}';
     color:{color:Accent One};
 }
     
@@ -664,7 +665,7 @@ iframe.spotify_audio_player {
     padding:15px;
     margin-bottom:15px;
     background:{color:Container};
-    font-family:'Abril Fatface';
+    font-family:'{text:Bold Font}';
 }
 
 #asker b {
@@ -703,7 +704,7 @@ iframe.spotify_audio_player {
 /* POST INFORMATION & TAGS + POST NOTES */
 
 #info {
-    font-size:8px;
+    font-size:10px;
     padding:15px;
     min-height:10px;
     margin:-20px;
@@ -834,7 +835,7 @@ iframe.spotify_audio_player {
     position:fixed;
     background:{color:Accent Two};
     padding:15px;
-    font-family:'Abril Fatface';
+    font-family:'{text:Bold Font}';
     color:{color:Posts};
     text-transform:lowercase;
     font-size:15px;
@@ -865,7 +866,7 @@ iframe.spotify_audio_player {
 
 #museicon img {
     margin-top:-30px;
-    margin-left:30px;
+    margin-left:30px;object-fit: cover;
     width:60px;
     height:60px;
     border-radius:200px;
@@ -880,7 +881,7 @@ iframe.spotify_audio_player {
     margin-top:-61px;
     text-transform:lowercase;
     text-align:left;
-    font-family:'Abril Fatface';
+    font-family:'{text:Bold Font}';
     line-height:13px;
     color:{color:Accent One};
 }
@@ -888,7 +889,7 @@ iframe.spotify_audio_player {
 #musename span {
     color:{color:Link};
     font-size:9px;
-    font-family:'Montserrat';
+    font-family:'{text:Font}';
 }
 
 #musebiography::-webkit-scrollbar {
@@ -913,7 +914,7 @@ iframe.spotify_audio_player {
 #museaesthetic img {
     width:35px;
     height:35px;
-    margin:3px;
+    margin:3px;object-fit: cover;
     border-radius:100px;
     display:inline-block;
 }
@@ -1048,7 +1049,7 @@ iframe.spotify_audio_player {
 <div class="contentsource" style="display:none;"> {block:ContentSource} Source: <a href="{SourceURL}">{SourceTitle} </a> {/block:ContentSource} {block:RebloggedFrom} Via: <a href="{ReblogParentURL}">{ReblogParentName}</a> {/block:RebloggedFrom}</div>
   
 <div id="info">  
-<span class="fas fa-tag" style="font-size:11px;left:0;"></span><div id="tag">{block:Tags} <a href="{TagURL}">( {Tag} )</a>{/block:Tags}</div><div id="perma"><a href="{Permalink}" title="with {NoteCount} Notes ( permalink )"><span class="fas fa-ellipsis-h"></span></a></div>    
+<span class="fas fa-tag" style="font-size:11px;left:0;"></span><div id="tag">{block:Tags} <a href="{TagURL}"> {Tag} </a>{/block:Tags}</div><div id="perma"><a href="{Permalink}" title="with {NoteCount} Notes ( permalink )"><span class="fas fa-ellipsis-h"></span></a></div>    
 </div>
  
 </div>
