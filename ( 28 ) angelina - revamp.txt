@@ -4,8 +4,9 @@
 <!--
 
 
-         ANGELINA REVAMP / 028 / SUGARCODES / TUMBLR
-         CREATED & DESIGNED BY AUTUMN
+         ANGELINA REVAMP / 028 / CTRLSUGAR / TUMBLR
+         CREATED & DESIGNED BY SUGAR
+
        
         - fonts from google fonts
         - icons from cappuccicons / by suiomi
@@ -38,17 +39,19 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
     <link rel="shortcut icon" href="{Favicon}">
     <link rel="alternate" type="application/rss+xml" href="{RSS}">
     
-    <!-- THEME SPECIFICS -->
-    
-    <link href="https://dl.dropbox.com/s/dhvjdx5oesbping/angelinarevamp.css" rel="stylesheet">
+
  
     <!-- STYLED TOOLTIPS -->
   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script><script src="https://dl.dropbox.com/s/q8akoadfqm16u6r/sugarmytooltips.js"></script>
   
     <!-- ICONS FONT -->
-  
-    <script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
+  <script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family={text:Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family={text:Bold Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
 
     
     <!-- META TAGGED INFORMATION -->
@@ -65,6 +68,11 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
     <meta name="image:Background" content=""/>
     <meta name="image:Header" content="https://static.tumblr.com/blgwozc/spkr5trun/1000x400.png"/>
     <meta name="image:Sidebar" content="https://static.tumblr.com/blgwozc/gXDr5trug/375x200.png"/>
+    
+    
+    <meta name="text:Font Size" content="12px"/>
+    <meta name="text:Font" content="Inter"/>
+    <meta name="text:Bold Font" content="Abril Fatface"/>
     
     <meta name="text:Title" content="title here."/>
     <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna."/>
@@ -86,61 +94,103 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
 <style type="text/css">
 
 
-body { color:{color:Text}; background-color:{color:Background}; background-attachment:fixed!important; background-image:url('{image:Background}');!important;  }
+body { font-family: '{text:Font}', sans-serif; font-size: {text:Font Size}; line-height:15px; letter-spacing:.5px; font-weight:normal; text-align:justify; text-transform:lowercase; color:{color:Text}; background-color:{color:Background}; background-attachment:fixed!important; background-image:url('{image:Background}');!important;  }
 
                         /* FORMATTING */
+ 
+::-webkit-scrollbar { width:5px; }
 
 ::-webkit-scrollbar-track { background:{color:Accent One}; }
 
 ::-webkit-scrollbar-thumb { background:{color:Accent Two}; }
  
-#s-m-t-tooltip { color:{color:Posts}; background:{color:Accent One}; }
+#s-m-t-tooltip { max-width:160px; margin:15px; font-size:8px; letter-spacing:1px; text-align:center; text-transform:uppercase; padding:10px; padding-left:30px; padding-right:30px; font-weight:bold; z-index:999999999999999999999999999999999999999999999999; color:{color:Posts}; background:{color:Accent One}; }
    
-h1 { color:{color:Posts}; background:{color:Accent One}; }
+h1 { font-weight:bold; font-size:15px; margin-top:0px; text-align:center; letter-spacing:1px; text-transform:none; text-transform:uppercase; padding:15px; padding-top:20px; color:{color:Posts}; background:{color:Accent One}; }
    
-h2 { color:{color:Accent One}; }
+h2 { margin-bottom:10px; font-size: 18px; font-style:none; text-align:center; font-weight:bold; line-height:100%; text-transform:uppercase; color:{color:Accent One}; }
    
-h2 i { color:{color:Accent One}; }
+h2 i { margin-bottom:10px; font-size: 18px; font-style:none; text-align:center; font-weight:bold; line-height:100%; text-transform:uppercase; color:{color:Accent One}; }
    
-h2 b { color:{color:Accent One}; }
+h2 b { margin-bottom:10px; font-size: 18px; font-style:none; text-align:center; font-weight:bold; line-height:100%; text-transform:uppercase; color:{color:Accent One}; }
    
-hr { color:{color:Posts}; background:{color:Accent One}; border-color: {color:Borders}; }
+hr { width:50px; text-align:center; float:center; border-width: 1px 0px 0px 0px; border-style: solid; color:{color:Posts}; background:{color:Accent One}; border-color: {color:Borders}; }
    
-pre {  color:{color:Text}; }
+pre { font-size: 11px; width:500px; text-align: left; color:{color:Text}; word-break: break-all; }
  
-b, strong { color:{color:Accent Two}; }
+b, strong { font-size: 11px; font-weight:bold; color: {color:Accent Two}; }
    
-i, italic { color: {color:Accent One}; }	
+i b { font-style:none; text-decoration:none; font-weight:normal; }
    
-a { color:{color:Accent One}; }
+i, italic { color: {color:Accent One}; }
+   
+small, sup, sub { font-size: {text:Font Size}; }	
+   
+a { text-decoration: none; transition:all ease-in-out 2s; color:{color:Accent One}; }
  
-a:hover {  color: {color:Accent Two}; }
+a:hover { text-decoration: none;transition:all ease-in-out 2s; color: {color:Accent Two}; }
 
-blockquote { border-left:2px solid {color:Accent Two}; background:{color:Container}; }
+blockquote img { padding-top:20px; padding-bottom:20px; }
+
+blockquote { width:450px; margin-left:5px; padding:20px; border-left:2px solid {color:Accent Two}; background:{color:Container}; }
+
+ul { padding:5px; margin-left:10px; }
    
-ul li:before {  color:{color:Accent One}; }
+ul li { list-style:none; margin-left:10px; }
+   
+ul li:before { content:"›"; font-size:1em; padding-right:.5em; position:relative; top:.1em; color:{color:Accent One}; }
+ 
+ol { margin-left:-25px; }
+ 
+img { max-width:100%; height:auto; }
 
-#more { color:{color:Accent Two}; background:{color:Container}; }
+#more {font-weight:bold; font-size:20px; margin-top:10px; text-align:right; letter-spacing:1px; text-transform:none; text-transform:uppercase; padding:15px; color:{color:Accent Two}; background:{color:Container}; }
 
                         /* POSTS */
                         
-#postcontainer { margin-bottom:150px; background:{color:Container}; {block:Permalink}margin-bottom:145px;{/block:Permalink}}                        
+#postcontainer { margin-right:-50px; padding-right:50px; margin-left:-50px; padding-left:450px; width:600px; height:auto; position:absolute; padding-bottom:80px; margin-bottom:150px; background:{color:Container}; {block:Permalink}margin-bottom:145px;{/block:Permalink}}                        
 
-#posts { background:{color:Posts}; }
+#posts { position:relative; width:500px; padding:25px; margin-top:25px; margin-bottom:0px; float:right; background:{color:Posts};z-index:4; }
 
-#audio { background:{color:Container}; }
+#audio { padding:20px; height:50px; background:{color:Container}; }
 
-#question { background:{color:Container}; }
+.tumblr_audio_player { height: 90px; width: 45px; font-size:20px; transform: scale(0.60, 0.60); transform-origin: top left; }
     
-#asker { color:{color:Posts}; background:{color:Accent One}; }
+#player { width: 19px; height: 19px; margin-top:-55px; margin-left:5px; background-color: #ffffff; padding: 10px; font-size:20px; border-radius: 40px; opacity: .4; filter: alpha(opacity=40); -moz-opacity: 0.4; -khtml-opacity: 0.4; transition:opacity .7s ease-in-out; }
 
-#asker b { color:{color:Accent Two}; }
+#audioimg { margin:-20px; overflow:hidden; width:100px; height:100px; display:inline-block;}
+            
+#audioimg img { width: 90px; height: 90px; }
     
-#asker a{ color:{color:Posts}; }
+#trackdetails { width:360px; font-size: {text:Font Size}; line-height:14px; display:inline-block; padding:10px; padding-top:0px; margin-bottom:0px; float:right; margin-top:-43px; }
+    
+.player { display:inline-block; width:50px; }
 
-.even .label { color:{color:Accent One}; }
+iframe#youtube_iframe { width: 500px; max-height:100%; border-top-width:0px; border-right-width:0px; border-bottom-width:  0px; border-left-width:0px; }
+    
+iframe.spotify_audio_player { width:500px; max-height:80px; }
 
-.odd .label { color:{color:Accent One}; }
+.embed_iframe { max-width:500px; }
+    
+#quote { font-size:18px; text-align:center; font-weight:normal;color:{color:Accent One}; }
+    
+#source { text-align:right; margin-top:10px; }
+    
+#question { padding:20px; max-height:95px; margin-bottom:-1px; background:{color:Container}; }
+    
+#asker { font-size:14px; font-weight:normal; text-align:right; font-style:normal; padding:10px; color:{color:Posts}; background:{color:Accent One}; }
+
+#asker b { font-weight:bold; font-size:13px; color:{color:Accent Two}; }
+    
+#asker a{ font-weight:bold; color:{color:Posts}; }
+
+.chat { font-size: {text:Font Size}; }
+
+.odd, .even { padding:10px; margin:5px; }
+
+.even .label { font-weight:bold; font-size:11px; padding-left:4px; text-transform:lowercase; color:{color:Accent One}; }
+
+.odd .label { font-weight:bold; font-size:11px; padding-left:4px; text-transform:lowercase; color:{color:Accent One}; }
 
 .odd { background:{color:Background}; }
  
@@ -148,77 +198,106 @@ ul li:before {  color:{color:Accent One}; }
 
                         /* POST INFO */
 
-#tags { opacity:0; display:none; margin:-25px; background:{color:Container}; color:{color:Accent One}; {block:Permalink}opacity:1; margin-top:25px; display:block;{/block:Permalink} }
+#tags { opacity:0; font-size:7.5px; text-align:center; font-weight:800; text-transform:uppercase; margin:-25px; margin-bottom:-25px; padding:25px 0px; width:550px; padding-top:5px; position:relative; background:{color:Container}; color:{color:Accent One}; {block:Permalink}opacity:1; margin-top:25px;{/block:Permalink} }
 
-#tags a { border-bottom:2px solid {color:Accent Two}; }
+#tags a { transition:all 2s ease-in-out; margin-right:10px; border-bottom:2px solid {color:Accent Two}; }
    
-#tags a:hover { color:{color:Accent Two}; }
+#tags a:hover { transition:all 2s ease-in-out; text-decoration:none; color:{color:Accent Two}; letter-spacing:1px; }
 
-#info { color:{color:Posts}; background:{color:Accent One}; }
+#info { padding:25px; margin:-25px; margin-bottom:25px; padding-top:20px; font-size:25px; padding-bottom:30px; text-align:center; color:{color:Posts}; background:{color:Accent One}; font-family:'{text:Bold Font}';}
 
 #info a { color:{color:Posts}; }
+
+#notes { margin-top:15px; margin-right:0px; }
     
-#notes li { background:{color:Posts}; }
+#notes ol, .notes-bottom ul {  margin:0px;  padding:0px; list-style:none; }
+    
+#notes li { padding:10px; width:530px; float:right; margin-bottom:10px; font-weight:bold; font-size:8px; text-transform:uppercase; text-align:center; background:{color:Posts}; }
+    
+#notes li img.avatar { border:none; width:0; padding:0; }
+
+#notes .note .retags { display:none; visibility:hidden; }
+    
+#notes blockquote { display:none; }
 
                         /* CONTAINER */
 
-#container { background:{color:Container}; }  
+#container { width:calc(500px + 500px); height:auto; padding:50px;  padding-bottom:0px; margin:0 auto; margin-bottom:150px; margin-top:90px;z-index:4; background:{color:Container}; position:relative; }  
 
-#menubar { background:{color:Accent One}; }
+#menubar { width:100%; height:400px; top:0; left:0; background:{color:Accent One}; position:fixed;}
 
-#navigation { background:{color:Accent One} }
+#navigation { background:{color:Accent One}; position:fixed; z-index:999999999; margin:0 auto; display:block; padding:35px 25px; width:100%; }
 
-#navigate { background:{color:Accent One}; }
+#navigate { background:{color:Accent One};  margin:0 auto; font-size:20px; font-family:'{text:Bold Font}'; width:1040px; text-align:right; z-index:99999999999; position:relative;}
 
-#navigate span { color:{color:Posts}; }
+#navigate span { float:left; margin-left:-45px; color:{color:Posts}; }
 
-#navigate a { color:{color:Accent Two}; }
+#navigate a { margin:0 10px; color:{color:Accent Two}; transition:all ease-in-out 2s; display:inline-block;}
 
-#navigate a:hover { color:{color:Accent One}; }
+#navigate a:hover { color:{color:Accent One}; transition:all ease-in-out 2s; }
+
+#header { width:1000px; height:400px; }
 
                         /* SIDEBAR */
 
-#sidebar {  background:{color:Container}; margin-bottom:180px; {block:Permalink}margin-bottom:150px;{/block:Permalink}; }
+#sidebar { position:absolute; width:425px; height:auto; margin-top:25px; display:inline-block; margin-left:-50px; padding-left:50px; margin-right:-50px; padding-right:625px; padding-bottom:25px; background:{color:Container}; margin-bottom:180px; {block:Permalink}margin-bottom:150px;{/block:Permalink}}
 
-#box { background:{color:Posts}; }
+#box { position:relative; z-index:99; width:425px; margin-bottom:25px; background:{color:Posts}; }
 
-#boxtitle { color:{color:Posts}; background:{color:Accent One}; }
+#description { padding:25px; }
+
+#description img { margin-bottom:20px; width:375px; height:auto; }
+
+#boxtitle { padding:25px; font-family: '{text:Bold Font}', cursive; font-size:25px; text-align:center; color:{color:Posts}; background:{color:Accent One}; }
  
-#update { background:{color:Container}; }
+#update { padding:10px; text-align:right; margin-bottom:7px; background:{color:Container}; }
 
-#d { background:{color:Accent One}; color:{color:Posts}; }
+#d { margin:-10px; padding:10px; float:left; font-weight:500; text-align:center; width:100px; background:{color:Accent One}; color:{color:Posts}; }
 
-#members { background:{color:Container}; }
+#members { padding:20px; height:50px; background:{color:Container}; margin-bottom:10px;}
 
-#member {color:{color:Accent Two};}
+#members img { margin:-20px; width:90px; height:90px; }
 
-#member span { color:{color:Text}; }
+#member { line-height:20px; font-family:'{text:Bold Font}'; font-size:25px; width:250px; padding-top:5px; display:inline-block; float:right; color:{color:Accent Two}; text-align:center; }
 
-#projects { background:{color:Container}; }
+#member span { font-family:'{text:Font}'; font-size: {text:Font Size}; color:{color:Text}; }
 
-#project { background:{color:Posts}; }
+#affiliates { padding:20px; text-align:center; } 
+
+#affiliates img { width:85px; height:85px; margin:2.5px; display:inline-block; }
+
+#projects { background:{color:Container}; width:375px; height:365px; margin-bottom:10px;}
+
+#projects img { width:375px; height:150px; margin:0px;}
+
+#project { overflow:auto; background:{color:Posts}; margin:25px; padding:20px; height:60px; }
 
 #project::-webkit-scrollbar { width:0px; }
 
-#ptitle { color:{color:Posts}; background:{color:Accent One}; } 
+#ptitle { font-size:20px; font-family:'{text:Bold Font}'; padding:25px; margin:0px; margin-top:0px; text-align:center; color:{color:Posts}; background:{color:Accent One}; } 
 
-#exlink { background:{color:Accent One}; color:{color:Posts}; }
+#exlink { margin:2.5px; transition:2s all ease-in-out; display:inline-block; width:160px; padding:10px; text-transform:uppercase; font-size:9px; font-weight:700; background:{color:Accent One}; color:{color:Posts}; }
 
-#exlink:hover { background:{color:Accent Two}; }
+#exlink:hover { transition:2s all ease-in-out; background:{color:Accent Two}; }
 
                         /* FOOTER */
 
-#pagination { background:{color:Accent One}; }
+#footer { width:100%;z-index:0; position: fixed;   left:0; bottom:0; text-align:center; }
 
-#copyright { color:{color:Posts}; }
+#pagination { width:calc(500px + 500px); margin:0 auto; background:{color:Accent One}; height:50px; padding:50px; }
 
-#pagi { border-left:1px solid {color:Borders}; color:{color:Posts}; }
+#copyright { width:500px;display:inline-block;font-family:'{text:Bold Font}'; text-align:auto; font-size:25px; margin-top:15px; color:{color:Posts}; float:left;
+}
 
-#pagi a, .current { color:{color:Posts}; background:{color:Accent Two}; }
+#copyright span { font-size:15px; }
 
-#pagi a:hover { background:{color:Container}; color:{color:Accent Two}; }
+#credit { font-family:'Monserrat', sans-serif; margin-top:5px; font-size:9px; text-transform:uppercase; }
 
-#credit a { color:{color:Accent Two}; }  
+#pagi { transition:all 2s ease-in-out; width:499px; text-align:center; display:inline-block; border-left:1px solid {color:Borders}; float:right; font-size:18px; font-weight:700; color:{color:Posts}; }
+
+#pagi a, .current { transition:all 2s ease-in-out; display:inline-block; width:15px; height:15px; line-height:15px; text-align:center; margin:0px 5px; color:{color:Posts}; background:{color:Accent Two}; padding:15px; border-radius:100px; }
+
+#pagi a:hover { transition:all 2s ease-in-out; background:{color:Container}; color:{color:Accent Two}; }
 
 
 #sugarhoney { position:fixed; bottom:0;left:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
@@ -475,7 +554,7 @@ ul li:before {  color:{color:Accent One}; }
     <div id="pagination">
     
     <div id="copyright"> {Name}
-    <div id="credit"> by <a href="https://sugarcodes.tumblr.com/" target="_blank">sugarcodes</a> | powered by tumblr</div>
+    <div id="credit"> by <a href="https://ctrlsugar.tumblr.com/" target="_blank">sugar</a> | powered by tumblr</div>
     </div>
         
     <div id="pagi">
@@ -485,8 +564,9 @@ ul li:before {  color:{color:Accent One}; }
 </div>
 
 
-<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div>
- <!-- DO NOT REMOVE CREDIT!! -->
+<div id="sugarhoney"><a title="theme by sugar" href="https://ctrlsugar.tumblr.com/"><i class="fa-solid fa-heart"></i></a></div> 
+
+<!-- DO NOT REMOVE CREDIT!! -->
  
  </body>
 </html>
