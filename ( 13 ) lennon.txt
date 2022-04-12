@@ -5,8 +5,8 @@
 <!--
 
 
-         LENNON / 013 / SUGARCODES / TUMBLR
-         CREATED & DESIGNED BY AUTUMN
+         LENNON / 013 / CTRLSUGAR / TUMBLR
+         CREATED & DESIGNED BY SUGAR
        
         - fonts from google fonts
         - icons from cappuccicons / by suiomi
@@ -48,7 +48,8 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
     <meta name="color:Accent One" content="#d39c9c"/>
     <meta name="color:Accent Two" content="#5c5360"/>
     <meta name="color:Text" content="#818181"/>
-
+    <meta name="text:Font Size" content="11px"/>
+    <meta name="text:Font" content="Inter"/>
     <meta name="text:Title" content="title here" />
     <meta name="text:Subtitle" content="subtitle here" />
 
@@ -100,18 +101,595 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
 
 <link href="https://static.tumblr.com/hax88go/fWCpwc65d/rawr.css" rel="stylesheet">
 
-<link href="https://dl.dropbox.com/s/xh664hqc7r80oxt/lennon.css" rel="stylesheet">
-
 <script src="https://dl.dropbox.com/s/e9i5ycsca7fbbye/dinotooltips.js"></script>
 
 <script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+<script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
 
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-
-<script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family={text:Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
 
 <style type="text/css">
+body {
+    font-family: '{text:Font}', sans-serif;
+    font-size:{text:Font Size};
+    letter-spacing:.5px;
+    text-align:justify;
+    text-transform:lowercase;
+    background-attachment:fixed!important;
+}
+ 
+::-webkit-scrollbar-thumb {
+    height:20px;
+}
+ 
+::-webkit-scrollbar-thumb:window-inactive {
+    background: transparent;
+}
+ 
+#s-m-t-tooltip {
+    max-width:160px;
+    margin:15px;
+    font-size:8px;
+    font-family: '{text:Font}', sans-serif;
+    letter-spacing:1px;
+    text-align:center;
+    text-transform:uppercase;
+    padding:10px;
+    padding-left:30px;
+    padding-right:30px;
+    font-weight:bold;
+    z-index:999999;
+}
+ 
+   
+h1 {
+    font-weight:bold;
+    font-size:20px;
+    margin-top:0px;
+    text-align:center;
+    letter-spacing:1px;
+    text-transform:none;
+    font-family:'{text:Font}';
+    text-transform:uppercase;
+    padding:15px;
+}
+   
+h2 {
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style:none;
+    text-align:center;
+    font-weight:bold;
+    line-height:100%;
+    font-family:'{text:Font}';
+    text-transform:uppercase;
+}
+   
+h2 i {
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style:none;
+    text-align:center;
+    font-weight:bold;
+    line-height:100%;
+    font-family:'{text:Font}';
+    text-transform:uppercase;
+}
+   
+h2 b {
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style:none;
+    text-align:center;
+    font-weight:bold;
+    line-height:100%;
+    font-family:'{text:Font}';
+    text-transform:uppercase;
+}
+   
+h5 {
+    text-align:center;
+    font-family:'{text:Font}';
+    padding:7px;
+}
+
+h4 {
+    text-align:center;
+    font-family:'{text:Font}';
+    font-size:12px;
+    width:200px;
+    margin:0px;
+    font-weight:normal;
+    margin-top:0px;
+    padding:5px;
+}
+ 
+hr {
+    width:50px;
+    text-align:center;
+    float:center;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+}
+   
+pre {
+    font-size:{text:Font Size};
+    font-family: '{text:Font}', sans-serif;
+    width:400px;
+    text-align: left;
+    word-break: break-all;
+    color:{color:Text};
+}
+ 
+b, strong {
+    font-family:'{text:Font}';
+    font-size: 11px;
+    font-weight:normal;
+}
+   
+i b {
+    font-style:none;
+    text-decoration:none;
+    font-weight:normal;
+}
+   
+small, sup, sub {
+    font-size:{text:Font Size};
+}
+   
+a {
+    text-decoration: none;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+}
+ 
+a:hover {
+    text-decoration: none;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+}
+
+blockquote img {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+
+blockquote {
+    width:363px;
+    margin-left:5px;
+    padding:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:20px;
+}
+
+blockquote p {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+blockquote blockquote {
+    margin-top:-10px;
+    margin-bottom:-10px;
+}
+
+blockquote blockquote blockquote {
+    padding-right:5px;
+    
+}
+
+blockquote blockquote blockquote blockquote {
+    width:313px;
+}
+   
+ul {
+    padding:5px;
+    margin-left:10px;
+}
+   
+ul li {
+    list-style:none;
+    margin-left:10px;
+}
+   
+ul li:before {
+    content:"›";
+    font-size:1em;
+    padding-right:.5em;
+    position:relative;
+    top:.1em;
+}
+ 
+ol {
+    margin-left:-25px;
+}
+ 
+ 
+img {  
+    max-width:100%;
+    height:auto;
+}
+
+#container {
+    padding:50px;
+    box-sizing:border-box;
+    position:fixed;
+    left:calc(50% - 275px);
+    top:calc(50% - 275px);
+    height:550px;
+    overflow:auto;
+    width:550px;
+}
+
+#navibar {
+    width:180px;
+    padding:15px;  
+    height:180px;
+    left:calc(50% + 260px);
+    font-size:11px;
+    font-weight:bold;
+    line-height:10px;
+    position:fixed;
+    top:calc(50% - 296px);
+}
+
+#nlink {
+    overflow:hidden;
+    width:10px;
+    height:10px;
+    padding:20px;
+    padding-top:7px;
+    padding-right:25px;
+    margin:7px;
+    line-height:25px;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+     transition: width 2s ease-in-out;
+ -webkit-transition: width 2s ease-in-out;
+ -moz-transition: width 2s ease-in-out; 
+}
+
+
+#nlink:hover {
+    width:120px;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+     transition: width 2s ease-in-out;
+ -webkit-transition: width 2s ease-in-out; 
+ -moz-transition: width 2s ease-in-out; 
+}
+
+#nlink span {
+    float:right;
+}
+
+#subtitle {
+    text-transform:uppercase;
+    font-size:9px;
+    width:545px;
+    padding-left:13px;
+    position:fixed;
+    top:50%;
+    font-weight:bold;
+    left:calc(50% - 565px);
+    transform: rotate(-90deg);
+    line-height:10px;
+    
+}
+
+#subtitle a {
+    font-family:'{text:Font}';
+    font-size:11px;
+    margin-right:15px;
+}
+
+#subtitle span{
+    float:right;
+}
+.posts {
+    width:400px;
+    padding:25px;
+    margin:0 auto;
+    margin-bottom:25px;
+}
+
+
+#audio {
+    padding:20px;
+    height:50px;
+}
+
+.tumblr_audio_player {
+    height: 90px;
+    width: 45px;
+    font-size:20px;
+    -moz-transform: scale(0.60, 0.60); 
+    -webkit-transform: scale(0.60, 0.60); 
+    -o-transform: scale(0.60, 0.60);
+    -ms-transform: scale(0.60, 0.60);
+    transform: scale(0.60, 0.60); 
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+}
+    
+#player {
+    width: 19px;
+    height: 19px;
+    margin-top:-55px;
+    margin-left:5px;
+    background-color: #ffffff;
+    padding: 10px;
+    font-size:20px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    opacity: .4;
+    filter: alpha(opacity=40);
+    -moz-opacity: 0.4;
+    -khtml-opacity: 0.4; 
+    transition: opacity .7s ease-in-out;
+    -moz-transition: opacity .7s ease-in-out;
+    -webkit-transition: opacity .7s ease-in-out;
+}
+
+#audioimg {
+    margin:-20px;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+}
+            
+#audioimg img {
+    width: 90px;
+    height: 90px;  
+}
+    
+#trackdetails {
+    width:260px;
+    font-size:{text:Font Size};
+    font-family: '{text:Font}', sans-serif;
+    line-height:14px;
+    display:inline-block;
+    padding:10px;
+    padding-top:0px;
+    margin-bottom:0px;
+    float:right;
+    margin-top:-43px;
+}
+    
+.player {
+    display:inline-block;
+    width:50px;
+}
+
+iframe#youtube_iframe {
+    width: 400px;
+    max-height:100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+    
+iframe.spotify_audio_player {
+    width: 400px;
+    max-height:80px;
+}
+    
+#quote {
+    font-family:'{text:Font}';
+    font-size:18px;
+    text-align:center;
+    font-weight:normal;
+}
+    
+#source {
+    text-align:right;
+    margin-top:10px;
+}
+    
+#question {
+    padding:20px;
+    max-height:95px;
+    margin-bottom:-1px;
+}
+    
+#asker {
+	font-family:'{text:Font}';
+	font-size:12px;
+	font-weight:bold;
+	text-align:right;
+    font-style:normal;
+    padding:10px;
+}
+
+.odd, .even {
+    padding:5px;
+    margin:5px;
+}
+
+.even .label {
+    font-weight:bold;
+    font-size:9px;
+    padding-left:10px;
+    text-transform:uppercase;
+}
+
+.odd .label {
+    font-weight:bold;
+    font-size:9px;
+    padding-left:10px;
+    text-transform:uppercase;
+}
+ 
+.info {
+    width:400px;
+    margin:-25px;
+    padding:25px;
+    margin-bottom:25px;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:12px;
+    text-align:center;
+}
+
+.info span {
+    text-align:left;
+    float:left;
+}
+
+ 
+.tags {
+    width:431px;
+    padding:10px;
+    margin:-25px;
+    margin-bottom:25px;
+    text-align:center;
+    line-height:9px;
+    text-transform:lowercase;
+    font-size:9px;
+    -moz-transition-duration:2s;
+    -webkit-transition-duration:2s;
+    -o-transition-duration:2s;
+}
+   
+.tags a {
+    background-color:none;
+    margin-right:10px;
+}
+   
+.tags a:hover {
+    text-decoration:none;
+}
+
+#notes {
+    margin-top:-15px;
+    margin-right:0px;
+}
+    
+#notes ol, .notes-bottom ul {
+    margin:0px;
+    padding: 0;
+    list-style: none;
+}
+    
+#notes li {
+    padding:25px;
+    width:400px;
+    margin:5px;
+    margin-right:0px;
+    margin-left:0px;
+    margin-bottom:7px;
+    font-weight:bold;
+    font-size:8px;
+    text-transform:uppercase;
+    font-family: '{text:Font}', sans-serif;
+    text-align:center;
+}
+    
+#notes li img.avatar {
+    border:none;
+    margin:;
+    width:0;
+    padding:0;
+}
+
+#notes .note .retags {
+    display:none;
+    visibility:hidden;
+}
+    
+#notes blockquote {
+    display:none;
+}
+
+#tagged {
+    font-size:20px;
+    width:400px;
+    padding:25px;
+    min-height:25px;
+    text-align:center;
+    font-family:'{text:Font}';
+    margin-bottom:40px;
+}
+
+#credit {
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    font-size:10px;
+    font-family:'{text:Font}';
+}
+
+.muse { 
+    display:inline-block;
+    width:198px;
+    margin:5px;
+    margin-bottom:10px;
+    padding:10px;
+    height:97px;
+}
+
+.section {
+    margin:-35px;
+}
+
+.muse img {
+    margin-bottom:20px;
+    width:70px;
+    height:70px;
+}
+
+.muse #link {
+    width:65px;
+    padding:4px;
+    cursor:pointer;
+    font-weight:bold;
+    padding-top:7px;
+    margin-left:-73px;
+    padding-bottom:7px;
+    text-align:center;
+    font-size:7px;
+    text-transform:uppercase;
+    display:inline-block;
+}
+
+.muse #link:hover {
+    -moz-transition-duration:2s;
+    -webkit-transition-duration:2s;
+    -o-transition-duration:2s;
+}
+
+.muse #stats {
+    width:120px;
+    height:97px;
+    float:right;
+    display:inline-block;
+}
+
+.muse #stats p{
+    padding:7px;
+    margin:0px;
+    font-size:7px;
+    text-transform:uppercase;
+    text-align:center;
+    margin-bottom:3.5px;
+}
 
 body {
     color:{color:Text};
@@ -463,8 +1041,9 @@ ul li:before {
 
 
 
-<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div>
- <!-- DO NOT REMOVE CREDIT!! -->
+<div id="sugarhoney"><a title="theme by sugar" href="https://ctrlsugar.tumblr.com/"><i class="fa-solid fa-heart"></i></a></div> 
+
+<!-- DO NOT REMOVE CREDIT!! -->
 
 
 
