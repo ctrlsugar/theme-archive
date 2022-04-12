@@ -375,7 +375,7 @@ img {
     width:250px;
     text-align:center;
     position:fixed;
-    margin-top:-20px;
+    margin-top:-35px;
     margin-left:465px;
     display:block;
     z-index:999999999999999999999999999999999999999999999999999;
@@ -402,7 +402,7 @@ img {
 #sidebar {
     width:100px;
     position:fixed;
-    height:200px;
+    height:200px;overflow:auto;
     font-size:calc({text:Font Size} - 2.5px);
     text-transform:uppercase;
     letter-spacing:1px;
