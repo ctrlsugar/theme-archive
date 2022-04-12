@@ -920,7 +920,7 @@ iframe.spotify_audio_player {
 }
 
 
-#sugarhoney { position:fixed; bottom:0;left:0;  margin:15px; margin-bottom:80px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+#sugarhoney { position:fixed; bottom:0;left:0;  margin:15px; margin-bottom:90px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
 
 
 </style>
