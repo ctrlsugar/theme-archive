@@ -896,14 +896,15 @@ iframe.spotify_audio_player {
     height:0px;
 }
 
+
 #musebiography {
     margin-top:10px;
-    height:123px;
+    height:140px;
     overflow:auto;
 }
 
 #museaesthetic {
-    margin-top:3px;
+    margin-top:10px;
     margin-left:-6px;
     margin-right:-6px;
     text-align:center;
