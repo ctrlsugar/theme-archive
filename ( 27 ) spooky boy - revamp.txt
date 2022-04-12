@@ -4,8 +4,9 @@
 <!--
 
 
-         SPOOKY BOY REVAMPED / 027 / SUGARCODES / TUMBLR
-         CREATED & DESIGNED BY AUTUMN
+         SPOOKY BOY REVAMPED / 027 / CTRLSUGAR / TUMBLR
+         CREATED & DESIGNED BY SUGAR
+
        
         - fonts from google fonts
         - icons from cappuccicons / by suiomi
@@ -41,15 +42,20 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
     <!-- THEME SPECIFICS -->
     
     <script src="https://dl.dropbox.com/s/nblwh70cu3ww4w4/sucre.js"></script>
-    <link href="https://dl.dropbox.com/s/8yh4t3iqqbk56ty/spookyboyrevamp.css" rel="stylesheet">
+
  
     <!-- STYLED TOOLTIPS -->
   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script><script src="https://dl.dropbox.com/s/q8akoadfqm16u6r/sugarmytooltips.js"></script>
   
     <!-- ICONS FONT -->
-  
-    <script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
+  <script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family={text:Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family={text:Bold Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
 
     <!-- META TAGGED INFORMATION -->
   
@@ -65,8 +71,12 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
     <meta name="image:Background" content=""/>
     <meta name="image:Sidebar" content="https://static.tumblr.com/blgwozc/tbUr5tm64/250x400.png"/>
     
-    <meta name="text:Title" content=""/>
-    <meta name="text:Description" content=""/>
+    <meta name="text:Font" content="Inter"/>
+    <meta name="text:Bold Font" content="Yeseva One"/>
+    <meta bame="text:Font Size" content="11px"/>
+    
+    <meta name="text:Title" content="title here"/>
+    <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna."/>
     
     <meta name="text:Link One" content="/"/>
     <meta name="text:Link Two" content="/"/>
@@ -78,60 +88,101 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
     
 <style type="text/css">
 
-body { color:{color:Text}; background-color:{color:Background}; background-attachment:fixed!important; background-image:url('{image:Background}');!important;  }
+body { font-family: '{text:Font}', sans-serif; font-size: {text:Font Size}; line-height:15px; letter-spacing:.5px; font-weight:normal; text-align:justify; text-transform:lowercase; color:{color:Text}; background-color:{color:Background}; background-attachment:fixed!important; background-image:url('{image:Background}');!important;  }
 
                         /* FORMATTING */
+ 
+::-webkit-scrollbar { width:5px; }
 
 ::-webkit-scrollbar-track { background:{color:Accent One}; }
 
 ::-webkit-scrollbar-thumb { background:{color:Accent Two}; }
  
-#s-m-t-tooltip { color:{color:Posts}; background:{color:Accent One}; }
+#s-m-t-tooltip { max-width:160px; margin:15px; font-size:8px; letter-spacing:1px; text-align:center; text-transform:uppercase; padding:10px; padding-left:30px; padding-right:30px; font-weight:bold; z-index:999999999999999999999999999999999999999999999999; color:{color:Posts}; background:{color:Accent One}; }
    
-h1 { olor:{color:Posts}; background:{color:Accent One}; }
+h1 { font-weight:bold; font-size:15px; margin-top:0px; text-align:center; letter-spacing:1px; text-transform:none; text-transform:uppercase; padding:15px; padding-top:20px; color:{color:Posts}; background:{color:Accent One}; }
    
-h2 { color:{color:Accent One}; }
+h2 { margin-bottom:10px; font-size: 18px; font-style:none; text-align:center; font-weight:bold; line-height:100%; text-transform:uppercase; color:{color:Accent One}; }
    
-h2 i { color:{color:Accent One}; }
+h2 i { margin-bottom:10px; font-size: 18px; font-style:none; text-align:center; font-weight:bold; line-height:100%; text-transform:uppercase; color:{color:Accent One}; }
    
-h2 b { color:{color:Accent One}; }
+h2 b { margin-bottom:10px; font-size: 18px; font-style:none; text-align:center; font-weight:bold; line-height:100%; text-transform:uppercase; color:{color:Accent One}; }
    
-hr { color:{color:Posts}; background:{color:Accent One}; border-color: {color:Borders}; }
+hr { width:50px; text-align:center; float:center; border-width: 1px 0px 0px 0px; border-style: solid; color:{color:Posts}; background:{color:Accent One}; border-color: {color:Borders}; }
    
-pre { color:{color:Text}; }
+pre { font-size: 11px; width:450px; text-align: left; color:{color:Text}; word-break: break-all; }
  
-b, strong { color: {color:Accent Two}; }
+b, strong { font-size: 11px; font-weight:bold; color: {color:Accent Two}; }
+   
+i b { font-style:none; text-decoration:none; font-weight:normal; }
    
 i, italic { color: {color:Accent One}; }
    
-a { color:{color:Accent One}; }
- 
-a:hover { color: {color:Accent Two}; }
-
-blockquote { border-left:2px solid {color:Accent Two}; background:{color:Container}; }
+small, sup, sub { font-size: {text:Font Size}; }	
    
-ul li:before { color:{color:Accent One}; }
-#more { color:{color:Accent Two}; background:{color:Container}; }
+a { text-decoration: none; transition:all ease-in-out 2s; color:{color:Accent One}; }
+ 
+a:hover { text-decoration: none;transition:all ease-in-out 2s; color: {color:Accent Two}; }
+
+blockquote img { padding-top:20px; padding-bottom:20px; }
+
+blockquote { width:350px; margin-left:5px; padding:20px; border-left:2px solid {color:Accent Two}; background:{color:Container}; }
+
+ul { padding:5px; margin-left:10px; }
+   
+ul li { list-style:none; margin-left:10px; }
+   
+ul li:before { content:"›"; font-size:1em; padding-right:.5em; position:relative; top:.1em; color:{color:Accent One}; }
+ 
+ol { margin-left:-25px; }
+ 
+img { max-width:100%; height:auto; }
+
+#more {font-weight:bold; font-size:20px; margin-top:10px; text-align:right; letter-spacing:1px; text-transform:none; text-transform:uppercase; padding:15px; color:{color:Accent Two}; background:{color:Container}; }
 
                         /* POSTS */
 
-#posts { background:{color:Posts}; }
+#posts { position:relative; width:400px; padding:25px; margin:25px; margin-bottom:0px; float:right; background:{color:Posts}; }
 
-#audio { background:{color:Container}; }
-    
-#quote { color:{color:Accent One}; }
-    
-#question { background:{color:Container}; }
-    
-#asker { color:{color:Posts}; background:{color:Accent One}; }
+#audio { padding:20px; height:50px; background:{color:Container}; }
 
-#asker b { color:{color:Accent Two}; }
+.tumblr_audio_player { height: 90px; width: 45px; font-size:20px; transform: scale(0.60, 0.60); transform-origin: top left; }
     
-#asker a{ color:{color:Posts}; }
+#player { width: 19px; height: 19px; margin-top:-55px; margin-left:5px; background-color: #ffffff; padding: 10px; font-size:20px; border-radius: 40px; opacity: .4; filter: alpha(opacity=40); -moz-opacity: 0.4; -khtml-opacity: 0.4; transition:opacity .7s ease-in-out; }
 
-.even .label { color:{color:Accent One}; }
+#audioimg { margin:-20px; overflow:hidden; width:100px; height:100px; display:inline-block;}
+            
+#audioimg img { width: 90px; height: 90px; }
+    
+#trackdetails { width:260px; font-size: {text:Font Size}; line-height:14px; display:inline-block; padding:10px; padding-top:0px; margin-bottom:0px; float:right; margin-top:-43px; }
+    
+.player { display:inline-block; width:50px; }
 
-.odd .label { color:{color:Accent One}; }
+iframe#youtube_iframe { width: 400px; max-height:100%; border-top-width:0px; border-right-width:0px; border-bottom-width:  0px; border-left-width:0px; }
+    
+iframe.spotify_audio_player { width:400px; max-height:80px; }
+
+.embed_iframe { max-width:400px; }
+    
+#quote { font-size:18px; text-align:center; font-weight:normal;color:{color:Accent One}; }
+    
+#source { text-align:right; margin-top:10px; }
+    
+#question { padding:20px; max-height:95px; margin-bottom:-1px; background:{color:Container}; }
+    
+#asker { font-size:14px; font-weight:normal; text-align:right; font-style:normal; padding:10px; color:{color:Posts}; background:{color:Accent One}; }
+
+#asker b { font-weight:bold; font-size:13px; color:{color:Accent Two}; }
+    
+#asker a{ font-weight:bold; color:{color:Posts}; }
+
+.chat { font-size: {text:Font Size}; }
+
+.odd, .even { padding:10px; margin:5px; }
+
+.even .label { font-weight:bold; font-size:11px; padding-left:4px; text-transform:lowercase; color:{color:Accent One}; }
+
+.odd .label { font-weight:bold; font-size:11px; padding-left:4px; text-transform:lowercase; color:{color:Accent One}; }
 
 .odd { background:{color:Background}; }
  
@@ -139,67 +190,112 @@ ul li:before { color:{color:Accent One}; }
 
                         /* POST INFO */
 
-#tags { opacity:0; display:none; font-size:7.5px; text-align:center; font-weight:800; text-transform:uppercase; margin:-25px; margin-bottom:0px; padding:5px; width:440px; position:relative; background:{color:Container}; color:{color:Accent One}; {block:Permalink}opacity:1; margin-top:25px; display:block;{/block:Permalink} }
+#tags { opacity:0; font-size:7.5px; text-align:center; font-weight:800; text-transform:uppercase; margin:-25px; margin-bottom:0px; padding:5px; width:440px; position:relative; background:{color:Container}; color:{color:Accent One}; {block:Permalink}opacity:1; margin-top:25px;{/block:Permalink} }
 
-#tags a { border-bottom:2px solid {color:Accent Two}; }
+#tags a { transition:all 2s ease-in-out; margin-right:10px; border-bottom:2px solid {color:Accent Two}; }
    
-#tags a:hover { color:{color:Accent Two}; }
+#tags a:hover { transition:all 2s ease-in-out; text-decoration:none; color:{color:Accent Two}; letter-spacing:1px; }
 
-#info { background:{color:Borders}; }
+#info { transition:all 2s ease-in-out; padding:25px; height:25px; text-transform:uppercase; font-size:7px; font-weight:600; margin:-25px; margin-bottom:25px; background:{color:Borders}; }
 
-#date { background:{color:Container}; color:{color:Accent One}; }
+#date { transition:all 2s ease-in-out; padding:5px 15px; float:left; display:inline-block; background:{color:Container}; color:{color:Accent One}; }
 
-#permalink { background:{color:Container}; color:{color:Accent One}; }
+#permalink { transition:all 2s ease-in-out; padding:5px 15px; float:right; display:inline-block; background:{color:Container}; color:{color:Accent One}; }
 
-#permalink:hover, #date:hover { background:{color:Accent Two}; color:{color:Posts}; }
+#permalink:hover, #date:hover { transition:all 2s ease-in-out; background:{color:Accent Two}; color:{color:Posts}; }
+
+#notes { margin-top:15px; margin-right:0px; }
     
-#notes li { background:{color:Posts}; }
+#notes ol, .notes-bottom ul {  margin:0px;  padding:0px; list-style:none; }
+    
+#notes li { padding:10px; width:430px; float:right; margin-bottom:10px; margin-right:25px; font-weight:bold; font-size:8px; text-transform:uppercase; text-align:center; background:{color:Posts}; }
+    
+#notes li img.avatar { border:none; width:0; padding:0; }
 
-#credit { color:{color:Posts}; background:{color:Accent One}; }
+#notes .note .retags { display:none; visibility:hidden; }
+    
+#notes blockquote { display:none; }
+
+#credit { position:fixed; bottom:15px; right:15px; font-size: {text:Font Size}; width:10px; height:10px; color:{color:Posts}; background:{color:Accent One}; text-align:center; line-height:12px; padding:10px; border-radius:100px; }
 
                         /* CONTAINER */
 
-#container { background:{color:Container}; }   
+#container { width:calc(400px + 375px); height:450px; overflow:auto; margin:0 auto; margin-top:150px; background:{color:Container}; }   
 
-#header { color:{color:Accent One}; text-shadow:1px 1px 1px {color:Posts}; background:{color:Borders}; }
+#container::-webkit-scrollbar { width:0px; }
 
-.tablink { color:{color:Accent Two}; background:{color:Container}; }
+#header { width:calc(400px + 325px); height:30px; text-align:right; padding:25px; font-size:30px; margin-top:-80px; position:fixed; font-family: '{text:Bold Font}', cursive; font-weight:bold; line-height:30px; color:{color:Accent One}; text-shadow:1px 1px 1px {color:Posts}; background:{color:Borders}; }
 
-#footer {  color:{color:Accent One}; text-shadow:1px 1px 1px {color:Posts}; background:{color:Borders}; }
+.tablink { line-height:20px; float:left; padding:15px; border-radius:100px; width:20px; height:20px; display:inline-block; font-size:20px; margin:-10px 10px; color:{color:Accent Two}; background:{color:Container}; text-align:center; }
 
-#footer a { color:{color:Accent One}; }
+#footer { width:calc(400px + 325px); padding:25px; font-size:20px; margin-top:450px; position:fixed; font-family: '{text:Bold Font}', cursive; font-weight:bold; color:{color:Accent One}; text-shadow:1px 1px 1px {color:Posts}; background:{color:Borders}; }
 
-#footer a:hover { color:{color:Accent Two};}
+#footer a { transition:all ease-in-out 2s; color:{color:Accent One}; margin:0px 10px; }
+
+#footer a:hover { transition:all ease-in-out 2s; color:{color:Accent Two};}
+
+#footer span { float:right; }
 
                         /* SIDEBAR */
                         
-#sidebar { background:{color:Posts}; background:url({image:Sidebar});!important } 
+#sidebar { position:fixed; width:250px; height:400px; margin:25px; background:{color:Posts}; background:url({image:Sidebar});!important } 
+
+#description { -webkit-clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0 100%);
+clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0 100%); margin-top:115px; height:130px; padding:25px; position:fixed; width:200px; background:rgba(250,250,250,.7); opacity:.2;  transition:all 2s ease-in-out; }
+
+#description p { margin:15px 0px; margin-bottom:0px; height:100px; overflow:auto; }
+
+#description p::-webkit-scrollbar { width:0px; }
+
+#sidebar:hover #description { transition:all 2s ease-in-out; opacity:1; }
 
                         /* TAB */
 
-.tabcontent { background:{color:Container}; } 
+.tabcontent { position:absolute; display:none; width:calc(400px + 375px); height:450px; overflow:auto; margin:0 auto; z-index:9999;transition:all 2s ease-in-out; animation: fadeEffect 2s; background:{color:Container}; }
 
-.close { color:{color:Accent Two}; background:{color:Container}; }
+@-webkit-keyframes fadeEffect { from {opacity: 0;} to {opacity: 1;} }
+
+@keyframes fadeEffect { from {opacity: 0;} to {opacity: 1;} }
+
+.close { line-height:20px; float:left; padding:15px; border-radius:100px; width:20px; height:20px; display:inline-block; text-align:center; font-size:20px; margin:-15px; color:{color:Accent Two}; background:{color:Container}; }
  
                         /* TAB FORMATTING */ 
+                         
+#navigate { height:400px; width:310px; margin:25px; position:fixed; }  
 
-#about { background:{color:Posts}; } 
+#about { width:310px; height:170px; padding:25px; position:fixed; box-sizing:border-box; overflow:auto; background:{color:Posts}; } 
 
-#navlink { background:{color:Accent One}; color:{color:Posts}; }
+#navtags { margin:0px -5px; text-align:center; margin-top:183px; width:320px; height:225px; overflow:auto; }
 
-#navlink:hover { background:{color:Accent Two}; }
+#navtags::-webkit-scrollbar { width:0px; }
+
+#navlink { display:inline-block; width:127px; padding:10px; display:inline-block; margin:5px; text-transform:uppercase; font-size:9px; font-weight:500; text-align:center; background:{color:Accent One}; color:{color:Posts}; }
+
+#navlink:hover { transition:2s all ease-in-out; background:{color:Accent Two}; }
+
+#about::-webkit-scrollbar { width:0px; } 
 
                         /* MUSE DIV FORMATTING */ 
+ 
+#muses { width:410px; height:405px; margin:20px 0px; overflow:auto; position:fixed; margin-left:345px; }
 
-#muse { background:{color:Posts}; }
+#muses::-webkit-scrollbar { width:0px; }  
 
-#muselink { background:{color:Container}; }
+#muse { margin:5px; margin-bottom:10px; width:400px; height:150px; background:{color:Posts}; }
 
-#muselink:hover { background:{color:Accent Two}; color:{color:Posts}; }
+#muse img { position:absolute; width:150px; height:150px; -webkit-clip-path: polygon(0 0, 100% 0%, 82% 100%, 0% 100%);clip-path: polygon(0 0, 100% 0%, 82% 100%, 0% 100%);}
 
-#name { color:{color:Accent One};  }
+#muselink { transition:2s all ease-in-out; position:absolute; z-index:99; width:15px; height:15px; line-height:15px; text-align:center; font-size:15px; margin-left:115px; margin-top:55px; padding:15px; border-radius:100px; background:{color:Container}; }
 
-#name span {color:{color:Text}; }
+#muselink:hover { transition:2s all ease-in-out; background:{color:Accent Two}; color:{color:Posts}; }
+
+#name { position:absolute; width:230px; margin-left:160px; margin-top:30px; text-align:center; font-size:20px; font-family: '{text:Bold Font}', cursive; font-weight:bold; color:{color:Accent One};  }
+
+#name span { font-family:'{text:Font}', sans-serif; font-size:8px; text-transform:uppercase; font-weight:600; color:{color:Text}; text-shadow:none; }
+
+#aesthetic { text-align:center; position:absolute; width:230px; margin-left:160px; margin-top:80px; }
+
+#aesthetic img { position:relative; display:inline-block; width:45px; height:45px; margin:0px 10px; -webkit-clip-path:none; clip-path:none; }
 
 #sugarhoney { position:fixed; bottom:0;left:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
 
@@ -384,7 +480,8 @@ ul li:before { color:{color:Accent One}; }
 
 </div>
 
-<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div>
- <!-- DO NOT REMOVE CREDIT!! -->
+<div id="sugarhoney"><a title="theme by sugar" href="https://ctrlsugar.tumblr.com/"><i class="fa-solid fa-heart"></i></a></div> 
+
+<!-- DO NOT REMOVE CREDIT!! -->
 
 </html>
