@@ -73,7 +73,7 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
     
     <meta name="text:Font" content="Inter"/>
     <meta name="text:Bold Font" content="Yeseva One"/>
-    <meta bame="text:Font Size" content="11px"/>
+    <meta name="text:Font Size" content="11px"/>
     
     <meta name="text:Title" content="title here"/>
     <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna."/>
