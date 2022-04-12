@@ -238,6 +238,8 @@ iframe.spotify_audio_player { width:500px; max-height:80px; }
 
 #header { width:1000px; height:400px; }
 
+#header img { object-fit: cover; width:1000px; height:400px; }
+
                         /* SIDEBAR */
 
 #sidebar { position:absolute; width:425px; height:auto; margin-top:25px; display:inline-block; margin-left:-50px; padding-left:50px; margin-right:-50px; padding-right:625px; padding-bottom:25px; background:{color:Container}; margin-bottom:180px; {block:Permalink}margin-bottom:150px;{/block:Permalink}}
@@ -246,7 +248,7 @@ iframe.spotify_audio_player { width:500px; max-height:80px; }
 
 #description { padding:25px; }
 
-#description img { margin-bottom:20px; width:375px; height:auto; }
+#description img { margin-bottom:20px; width:375px; height:auto;object-fit: cover; }
 
 #boxtitle { padding:25px; font-family: '{text:Bold Font}', cursive; font-size:25px; text-align:center; color:{color:Posts}; background:{color:Accent One}; }
  
@@ -256,7 +258,7 @@ iframe.spotify_audio_player { width:500px; max-height:80px; }
 
 #members { padding:20px; height:50px; background:{color:Container}; margin-bottom:10px;}
 
-#members img { margin:-20px; width:90px; height:90px; }
+#members img {object-fit: cover; margin:-20px; width:90px; height:90px; }
 
 #member { line-height:20px; font-family:'{text:Bold Font}'; font-size:25px; width:250px; padding-top:5px; display:inline-block; float:right; color:{color:Accent Two}; text-align:center; }
 
@@ -264,11 +266,11 @@ iframe.spotify_audio_player { width:500px; max-height:80px; }
 
 #affiliates { padding:20px; text-align:center; } 
 
-#affiliates img { width:85px; height:85px; margin:2.5px; display:inline-block; }
+#affiliates img {object-fit: cover; width:85px; height:85px; margin:2.5px; display:inline-block; }
 
 #projects { background:{color:Container}; width:375px; height:365px; margin-bottom:10px;}
 
-#projects img { width:375px; height:150px; margin:0px;}
+#projects img { width:375px; height:150px; margin:0px; object-fit: cover;}
 
 #project { overflow:auto; background:{color:Posts}; margin:25px; padding:20px; height:60px; }
 
