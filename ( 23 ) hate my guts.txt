@@ -878,7 +878,7 @@ iframe.spotify_audio_player {
     margin-left:90px;
     padding:15px;
     font-size:18px;
-    margin-top:-61px;
+    margin-top:-51px;
     text-transform:lowercase;
     text-align:left;
     font-family:'{text:Bold Font}';
@@ -900,12 +900,12 @@ iframe.spotify_audio_player {
 
 #musebiography {
     margin-top:10px;
-    height:140px;
+    height:130px;
     overflow:auto;
 }
 
 #museaesthetic {
-    margin-top:10px;
+    margin-top:5px;
     margin-left:-6px;
     margin-right:-6px;
     text-align:center;
