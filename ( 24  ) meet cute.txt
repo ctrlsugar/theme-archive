@@ -864,8 +864,8 @@ iframe.spotify_audio_player {
 
 #skeleton {
     padding:15px;
-    padding-top:0px;
-    height:80px;
+    padding-top:3px;
+    height:50px;
     width:150px;
     font-size:7.5px;
     text-transform:uppercase;
