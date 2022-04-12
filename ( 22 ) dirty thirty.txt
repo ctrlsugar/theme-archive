@@ -720,7 +720,7 @@ iframe.spotify_audio_player {
 }
 
 #sidebar img {
-    border-radius:100px;
+    border-radius:100px;object-fit: cover;
     width:60px;
     height:60px;
 }
