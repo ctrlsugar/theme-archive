@@ -350,14 +350,18 @@ img {
     height:470px;
     margin-bottom:50px;
     position:relative;
-    background:url('{image:Header}');
     z-index:99999999999999999999;
+}
+
+#header img { object-fit: cover;  width:calc({select:Posts Width} + 475px);
+    height:470px;
 }
 
 #headtitle {
     font-size:100px;
-    margin-top:200px;
+    margin-top:-250px;
     position:absolute;
+    z-index:9999999999999999999999;
     width:calc({select:Posts Width} + 475px);
     font-family:'{text:Bold Font}';
     color:{color:Accent One};
@@ -392,7 +396,7 @@ img {
 
 #sidebar img {
     width:300px;
-    height:150px;
+    height:150px; object-fit: cover;
 }
 
 #icon img {
@@ -815,7 +819,7 @@ iframe.spotify_audio_player {
     margin:0px;
 }
 
-#museicon img {
+#museicon img {object-fit: cover;
     margin-top:-20px;
     margin-left:10px;
     width:50px;
@@ -870,7 +874,7 @@ iframe.spotify_audio_player {
 }
 
 #muse img {
-    float:left;
+    float:left;object-fit: cover;
     
 }
 
@@ -1043,7 +1047,7 @@ iframe.spotify_audio_player {
 
 <div id="container">   
 
-<div id="header"><div id="headtitle">{text:Title}</div>
+<div id="header"><img src="{image:Header}"><div id="headtitle">{text:Title}</div>
     <div id="headnav">
         scroll for posts
     </div>
