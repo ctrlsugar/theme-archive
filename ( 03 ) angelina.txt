@@ -402,7 +402,7 @@ img {
 }
 
 #header img {object-fit: cover;
-    width:900px;
+    width:900px;height:400px;
     border:1px solid {color:Borders};
 }
 
@@ -447,14 +447,14 @@ h1.sidebox {
     margin:-7px;
     margin-top:-7.5px;
     float:left;
-    padding:7px;
+    padding:8px 7px;
     font-size:10px;
     font-family:{text:Font};
     font-weight:bold;
     color:{color:Posts};
     text-align:center;
     width:60px;
-    padding-bottom:7.5px;
+    padding-bottom:8px;
     background:{color:Accent One};
 }
 
