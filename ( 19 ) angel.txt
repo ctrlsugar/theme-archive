@@ -5,8 +5,9 @@
 <!--
 
 
-         DON'T CALL ME ANGEL / 019 / SUGARCODES / TUMBLR
-         CREATED & DESIGNED BY AUTUMN
+         DON'T CALL ME ANGEL / 019 / CTRLSUGAR / TUMBLR
+         CREATED & DESIGNED BY SUGAR
+
        
         - fonts from google fonts
         - icons from cappuccicons / by suiomi
@@ -42,23 +43,17 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
 
 <!-- THEME SPECIFICS --> 
 
-<link href="https://dl.dropbox.com/s/e6bwnmij05llwp5/sugarbase.css" rel="stylesheet"><link href="https://dl.dropbox.com/s/47bv4sdktr4bhyy/angel.css" rel="stylesheet">
 <script src="https://dl.dropbox.com/s/nblwh70cu3ww4w4/sucre.js"></script>
   
 <!-- STYLED TOOLTIPS -->
   
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script><script src="https://dl.dropbox.com/s/q8akoadfqm16u6r/sugarmytooltips.js"></script>
   
-<!-- ICONS FONT -->
-  
-<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-        
-<!-- GOOGLE FONTS -->        
-  
-<link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family={text:Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-<script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
 
 
 <!-- META TAGGED INFORMATION -->
@@ -74,6 +69,10 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
     <meta name="image:Background" content="" />
     <meta name="image:Sidebar" content="https://static.tumblr.com/blgwozc/olEr5udpg/130x400.png" />
     
+    
+    <meta name="text:Font Size" content="11px"/>
+    <meta name="text:Font" content="Inter"/>
+
     <meta name="text:Title" content="title here." />
     <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna." />
     
@@ -85,6 +84,769 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
     <meta name="text:Tab Two" content="Tab Two" />
       
 <style>
+body {
+
+    font-family: '{text:Font}', sans-serif;
+    font-size:{text:Font Size};
+    line-height:15px;
+    letter-spacing:.5px;
+    font-weight:normal;
+    text-align:justify;
+    text-transform:lowercase;
+   background-position:top left;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:100% auto;
+}
+ 
+::-webkit-scrollbar {
+    width:7px; 
+    z-index:9;
+}
+ 
+::-webkit-scrollbar-track {
+}
+ 
+::-webkit-scrollbar-thumb {
+    height:10px;
+}
+ 
+::-webkit-scrollbar-thumb:window-inactive {
+    background: transparent;
+}
+ 
+ 
+#s-m-t-tooltip {
+    max-width:160px;
+    margin:15px;
+    font-size:8px;
+    letter-spacing:1px;
+    text-align:center;
+    text-transform:uppercase;
+    padding:10px;
+    padding-left:30px;
+    padding-right:30px;
+    font-weight:bold;
+    z-index:999999999999999999999999999999999999999999999999;
+    border-radius:5px;
+}
+   
+h1 {
+    font-weight:bold;
+    font-size:20px;
+    margin-top:0px;
+    text-align:center;
+    letter-spacing:1px;
+    text-transform:none;
+    text-transform:uppercase;
+    padding:15px;
+    border-radius:5px;
+}
+   
+h2 {
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style:none;
+    text-align:center;
+    font-weight:bold;
+    line-height:100%;
+    text-transform:uppercase;
+}
+   
+h2 i {
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style:none;
+    text-align:center;
+    font-weight:bold;
+    line-height:100%;
+    text-transform:uppercase;
+}
+   
+h2 b {
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style:none;
+    text-align:center;
+    font-weight:bold;
+    line-height:100%;
+    text-transform:uppercase;
+}
+   
+h5 {
+    text-align:center;
+    padding:7px;
+    margin-top:10px;
+    border-radius:5px;
+}
+
+h4 {
+    text-align:center;
+    font-size:12px;
+    width:200px;
+    margin:0px;
+    font-weight:normal;
+    margin-top:0px;
+    padding:5px;
+    border-radius:5px;
+}
+ 
+hr {
+    width:50px;
+    text-align:center;
+    float:center;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+}
+   
+pre {
+    font-size:{text:Font Size};
+    width:450px;
+    text-align: left;
+    word-break: break-all;
+}
+ 
+b, strong {
+    font-size:{text:Font Size};
+    font-weight:bold;
+}
+   
+i b {
+    font-style:none;
+    text-decoration:none;
+    font-weight:normal;
+}
+   
+i, italic {
+}
+   
+small, sup, sub {
+	font-size:{text:Font Size};
+}	
+   
+a {
+    text-decoration: none;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+}
+ 
+a:hover {
+    text-decoration: none;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+}
+
+blockquote img {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+blockquote {
+    width:calc(450px - 37px);
+    margin-left:5px;
+    padding:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:20px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+blockquote blockquote {
+    margin-top:-10px;
+    margin-bottom:-10px;
+}
+
+blockquote blockquote blockquote {
+    padding-right:5px;
+    
+}
+
+blockquote blockquote blockquote blockquote {
+    width:calc(450px - 87px);
+}
+
+ul {
+    padding:5px;
+    margin-left:10px;
+}
+   
+ul li {
+    list-style:none;
+    margin-left:10px;
+}
+   
+ul li:before {
+    content:"›";
+    font-size:1em; 
+    padding-right:.5em;
+    position:relative;
+    top:.1em;
+}
+ 
+ol {
+    margin-left:-25px;
+}
+ 
+ 
+img {  
+    max-width:100%;
+    height:auto;
+}
+
+::-webkit-scrollbar {
+    background:transparent;
+    width:0px;
+}
+
+#container { 
+    margin-left:calc(50% - 465px);
+    margin-top:50px; 
+    height:400px;
+    width:830px;
+    padding:50px;
+    overflow:auto;
+}
+
+/* SIDEBAR ELEMENTS */
+
+#sidebar {
+    width:300px;
+    height:400px;
+    position:fixed;
+    overflow:hidden;
+}
+
+#sidebar img {object-fit: cover;
+    width:130px;
+    height:400px;
+    display:inline-block;
+}
+
+#counter {
+    float:right;
+    width:140px;
+    padding:15px;
+    margin:-20px;
+    margin-bottom:0px;
+    display:inline-block;
+    font-size:9px;
+    text-transform:uppercase;
+    text-align:center;
+    position:absolute;
+    bottom:0;
+}
+
+#description {
+    padding:20px;
+    height:360px;
+    width:130px;
+    float:right;
+    position:relative;
+    display:inline-block;
+    overflow:hidden;
+}
+
+#pagination {
+    text-align:left;
+    width:930px;
+    margin:0px -50px;
+    margin-top:455px;
+    position:fixed;
+}
+
+/* POSTS */
+
+#postcontainer {
+    float:right;
+    width:450px;
+    padding-bottom:50px;
+}
+
+#posts {
+    float:right;
+    width:450px;
+    padding:25px;
+    margin-top:0px;
+    margin-bottom:50px;
+}
+
+/* NAVIGATION BAR */
+
+#navigation {
+    position:fixed;
+    bottom:0;
+    left:0;
+    padding:20px;
+    width:100%;
+    z-index:99999999999999;
+}
+
+#nav {
+    width:930px;
+    margin:0 auto;
+}
+
+#link {
+    display:inline-block;
+    font-size:9px;
+    padding:5px 15px;
+    width:80px;
+    text-align:center;
+    margin:0px 5px;
+    border-radius:2px;
+    letter-spacing:2px;
+    text-transform:lowercase;
+}
+
+#link:hover {
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+}
+
+/* SEARCH FORM */
+
+form {
+    float:right;
+    display:inline-block;
+}
+
+#searchinput {
+    border:none;
+    outline:none;
+    height:0px;
+    width:0px;
+    overflow:hidden;
+    visibility:hidden;
+    margin-bottom:0px;
+}
+
+input[type="text"] {
+    border:none;
+    outline:none;
+    width:200px;
+    padding:8px;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    border-radius:5px;
+    text-align:right;
+    font-family: '{text:Font}', sans-serif;
+	font-size:8px;
+}
+
+#credit {
+    position:fixed;
+    bottom:75px;
+    right:15px;
+    font-size:10px;
+}
+
+/* POST STYLES */
+
+#audio {
+     padding:20px;
+    height:50px;
+    border-radius:5px;
+}
+
+.tumblr_audio_player {
+    height: 90px;
+    width: 45px;
+    font-size:20px;
+    -moz-transform: scale(0.60, 0.60); 
+    -webkit-transform: scale(0.60, 0.60); 
+    -o-transform: scale(0.60, 0.60);
+    -ms-transform: scale(0.60, 0.60);
+    transform: scale(0.60, 0.60); 
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+}
+    
+#player {
+    width: 19px;
+    height: 19px;
+    margin-top:-55px;
+    margin-left:5px;
+    background-color: #ffffff;
+    padding: 10px;
+    font-size:20px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    opacity: .4;
+    filter: alpha(opacity=40);
+    -moz-opacity: 0.4;
+    -khtml-opacity: 0.4; 
+    transition:opacity .7s ease-in-out;
+    -moz-transition:opacity .7s ease-in-out;
+    -webkit-transition:opacity .7s ease-in-out;
+}
+         
+#audioimg {
+    margin:-20px;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    display:inline-block;
+}
+
+#audioimg img {
+    width: 90px;
+    height: 90px;  
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+    
+#trackdetails {
+    width:calc(450px - 140px);
+    font-size: 10px;
+    line-height:14px;
+    display:inline-block;
+    padding:10px;
+    padding-top:0px;
+    margin-bottom:0px;
+    float:right;
+    margin-top:-43px;
+}
+    
+.player {
+    display:inline-block;
+    width:50px;
+}
+
+iframe#youtube_iframe {
+    width: 450px;
+    max-height:100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+    
+iframe.spotify_audio_player {
+    width: 450px;
+    max-height:80px;
+}
+
+#quote {
+    font-size:18px;
+    text-align:center;
+    font-weight:normal;
+}
+    
+#source {
+    text-align:right;
+    margin-top:10px;
+}
+
+    
+#question {
+    padding:20px;
+    max-height:95px;
+    margin-bottom:-1px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+#asker {
+    font-size:14px;
+	font-weight:normal;
+	text-align:right;
+    font-style:normal;
+    padding:10px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+#asker b {
+    font-weight:bold;
+    font-size:13px;
+}
+    
+#asker a{ 
+    font-weight:bold;
+}
+
+.chat {
+    font-size:10px;
+}
+
+.odd, .even {
+    padding:5px;
+    margin:5px;
+    border-radius:5px;
+}
+
+.even .label {
+    font-weight:bold;
+    font-size:11px;
+    padding-left:4px;
+    text-transform:lowercase;
+}
+
+.odd .label {
+    font-weight:bold;
+    font-size:11px;
+    padding-left:4px;
+    text-transform:lowercase;
+}
+
+/* POST INFORMATION & TAGS + POST NOTES */
+
+#info {
+    font-size:10px;
+    padding:15px;
+    margin:-25px;
+    margin-top:25px;
+    margin-bottom:-50px;
+    line-height:10px;
+    position:relative;
+    text-align:left;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+#info a:hover {
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+}
+
+#perma {
+    position:absolute;
+    right:0;
+    font-size:10px;
+    margin-top:-10px;
+    margin-right:15px;
+}
+
+#tag {
+    width:410px;
+    margin-left:20px;
+    display:inline-block;
+    line-height:11px;
+}
+
+#tag a {
+    margin:0px 7px;
+}
+
+#notes {
+    margin-top:-15px;
+    margin-right:0px;
+}
+    
+#notes ol, .notes-bottom ul {
+    margin:0px;
+    padding: 0;
+    list-style: none;
+}
+
+#notes li {
+    padding:10px;
+    width:480px;
+    margin:5px;
+    float:right;
+    margin-left:0px;
+    margin-bottom:7px;
+    font-weight:bold;
+    font-size:8px;
+    text-transform:uppercase;
+    border-radius:5px;
+    text-align:center;
+}
+
+#notes li img.avatar {
+    border:none;
+    margin:;
+    width:0;
+    padding:0;
+}
+
+#notes .note .retags {
+    display:none;
+    visibility:hidden;
+}
+    
+#notes blockquote {
+    display:none;
+}
+
+/* POP UP TAB ELEMENTS */
+
+.tablinks:hover {
+    cursor:pointer;
+}
+
+.tabcontent {
+    display:none;
+    position:fixed;
+    z-index:9999999999999999999;
+    margin-left:calc(50% - 475px);
+    margin-top:0px; 
+    height:430px;
+    width:832px;
+    padding:50px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+    -webkit-animation: fadeEffect 2s;
+    animation: fadeEffect 2s;
+}
+
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.close {
+    position:fixed;
+    margin-top:490px;
+    width:850px;
+    text-align:right;
+}
+
+.close:hover {
+    cursor:pointer;
+}
+
+/* MUSE TAB ELEMENTS */
+
+#muse {
+    width:265px;
+    height:200px;
+    margin-right:10px;
+    margin-bottom:13px;
+    display:inline-block;
+}
+
+#muse img {object-fit: cover;
+    width:100px;
+    height:200px;
+    display:inline-block;
+}
+
+.muse {
+    position:relative;
+    float:right;
+    width:135px;
+    padding:15px;
+    height:170px;
+}
+
+#m {
+    height:138px;
+    overflow:auto;
+}
+
+.muse h5 {
+    float:right;
+    width:135px;
+    padding:15px;
+    margin:-15px;
+    margin-bottom:0px;
+    display:inline-block;
+    font-size:9px;
+    letter-spacing:1px;
+    font-weight:normal;
+    text-transform:uppercase;
+    text-align:center;
+    position:absolute;
+    bottom:0;
+    border-radius:0px;
+}
+
+/* TAGS TAB ELEMENTS */
+
+.grid {
+    width:415px;
+    float:right;
+    margin-right:10px;
+}
+.tagbox {
+    width:415px;
+    display:inline-block;
+    margin-right:10px;
+    margin-bottom:15px;
+    padding:15px;
+    display:inline-block;
+    text-align:center;
+} 
+
+.tagbox h5 {
+    margin:-15px;
+    margin-bottom:15px;
+    padding:15px;
+    font-size:9px;
+    border-radius:0px;
+    text-transform:uppercase;
+    font-weight:normal;
+    letter-spacing:1px;
+}
+
+.tag {
+    display:inline-block;
+    width:175px;
+    padding:10px;
+    margin:5px;
+    text-align:center;
+    font-size:9px;
+    text-transform:uppercase;
+}
+
+#guidelines {
+    height:430px;
+    width:380px;
+    display:inline-block;
+    position:fixed;
+}
+
+#guidelines img {
+    width:150px;object-fit: cover;
+    height:430px;
+    
+}
+
+.guidelines {
+    float:right;
+    width:200px;
+    height:355px;
+    overflow:auto;
+    padding:15px;
+}
+
+#guidelines h5 {
+    position:absolute;
+    bottom:0;
+    margin-bottom:0px;
+    padding:15px;
+    text-transform:uppercase;
+    font-weight:normal;
+    width:200px;
+    margin-left:150px;
+    border-radius:0px;
+}
 
 body { 
     background-image:url('{image:Background}');!important
@@ -316,9 +1078,9 @@ click to close</span>
 <div class="contentsource" style="display:none;"> {block:ContentSource} Source: <a href="{SourceURL}">{SourceTitle} </a> {/block:ContentSource} {block:RebloggedFrom} Via: <a href="{ReblogParentURL}">{ReblogParentName}</a> {/block:RebloggedFrom}</div>
   
 <div id="info">  
-<span class="lnr lnr-tag" style="font-size:11px;position:absolute;left:0;margin-left:15px;"></span>
-<div id="tag">{block:Tags} <a href="{TagURL}">( {Tag} )</a>{/block:Tags}</div>
-<div id="perma"><a href="{Permalink}" title="posted {TimeAgo} with {NoteCount} Note"><span class="lnr lnr-heart"></span></a></div>    
+<span class="fa-solid fa-tag" style="font-size:11px;position:absolute;left:0;margin-left:15px;"></span>
+<div id="tag">{block:Tags} <a href="{TagURL}"> {Tag} </a>{/block:Tags}</div>
+<div id="perma"><a href="{Permalink}" title="posted {TimeAgo} with {NoteCount} Note"><span class="fa-regular fa-heart"></span></a></div>    
 </div>
  
 </div>
@@ -329,7 +1091,9 @@ click to close</span>
 
 </div>
 
-<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div> <!-- DO NOT REMOVE CREDIT!! -->
+<div id="sugarhoney"><a title="theme by sugar" href="https://ctrlsugar.tumblr.com/"><i class="fa-solid fa-heart"></i></a></div> 
+
+<!-- DO NOT REMOVE CREDIT!! -->
 
 </body>
 
