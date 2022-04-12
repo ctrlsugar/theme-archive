@@ -736,7 +736,7 @@ iframe.spotify_audio_player {
 #muse {
     width:265px;
     height:200px;
-    margin-right:10px;
+    margin-right:9px;
     margin-bottom:13px;
     display:inline-block;
 }
