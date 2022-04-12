@@ -4,8 +4,8 @@
 <!--
 
 
-         HATE MY GUTS / 023 / SUGARCODES / TUMBLR
-         CREATED & DESIGNED BY AUTUMN
+         HATE MY GUTS / 023 / CTRLSUGAR / TUMBLR
+         CREATED & DESIGNED BY SUGAR
        
         - fonts from google fonts
         - icons from cappuccicons / by suiomi
@@ -40,7 +40,7 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
 
 <!-- THEME SPECIFICS --> 
 
-<link rel="stylesheet" href="https://dl.dropbox.com/s/y8hyzw39z2al5xg/hatemyguts.css"> <script src="https://dl.dropbox.com/s/nblwh70cu3ww4w4/sucre.js"></script>
+<script src="https://dl.dropbox.com/s/nblwh70cu3ww4w4/sucre.js"></script>
 
 <!-- STYLED TOOLTIPS -->
   
@@ -49,7 +49,7 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
 <!-- ICONS FONT -->
   
 
-<script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
+<script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
 
         
 <!-- GOOGLE FONTS -->        
@@ -100,79 +100,212 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
  
 <style type="text/css">
 
-                        /* THEME FORMATTING */
- 
 body {
     background:{color:Background};
+    font-family:'Montserrat', sans-serif;
+    font-weight:normal;
+    letter-spacing:1px;
+    line-height:13px;
+    font-size:9.8px;
     color:{color:Text};
-    font-size:{select:Font Size};
-    background-image:url('{image:Background}');!important 
+    text-transform:lowercase;
+    text-align:justify;
+    background-image:url('{image:Background}');!important
     background-position:top left;
     background-attachment:fixed;
     background-repeat:no-repeat;
     background-size:100% auto;
 }
 
-small, big {
-    font-size:{select:Font Size};
+small {
+    letter-spacing:1px;
+    line-height:13px;
+    font-size:9.8px;
 }
 
 em, i {
     color:{color:Accent Two};
-    font-size:calc({select:Font Size} - 1.5px);
-}       
+    font-weight:600;
+    text-transform:uppercase;
+}
 
 b, strong, small b, small strong, b small, strong small {
     color:{color:Accent One};
-    font-size:calc({select:Font Size} + 1.5px);
-}       
+    font-family:'Abril Fatface';
+    font-weight:normal;
+}
 
 ::-webkit-scrollbar {
+    width:7px; 
+    z-index:9;
     background:{color:Container};
-}  
-        
-::-webkit-scrollbar-thumb {
-    background:{color:Accent Two};
-}        
-        
-#s-m-t-tooltip {
-    color:{color:Accent Two};
-    background:{color:Posts};
-}     
-
-h1 {
-    background:{color:Container};
-    color:{color:Accent One};
-}       
-
-h2 {
-    color:{color:Accent Two};
-} 
-    
-pre {
-    width:calc({select:Posts Width} - 20px);
-    background:{color:Container}; 
-}       
-
-a { 
-    color:{color:Link};
 }
  
+::-webkit-scrollbar-track {
+}
+ 
+::-webkit-scrollbar-thumb {
+    height:7px;
+    background:{color:Accent Two};
+}
+ 
+::-webkit-scrollbar-thumb:window-inactive {
+    background: transparent;
+}
+ 
+ 
+#s-m-t-tooltip {
+    max-width:160px;
+    margin:15px;
+    font-size:8px;
+    letter-spacing:1px;
+    text-align:justify;
+    text-transform:uppercase;
+    padding:10px;
+    padding-left:30px;
+    padding-right:30px;
+    font-weight:bold;
+    z-index:999999999999999999999999999999999999999999999999;
+    color:{color:Accent Two};
+    background:{color:Posts};
+    transition:all 2s ease-in-out;
+}
+   
+h1 {
+    font-family:'Abril Fatface';
+    font-size:25px;
+    margin-top:0px;
+    text-align:center;
+    letter-spacing:1px;
+    font-weight:normal;
+    text-transform:none;
+    text-transform:lowercase;
+    padding:30px;
+    background:{color:Container};
+    color:{color:Accent One};
+}
+   
+h2 {
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style:none;
+    text-align:left;
+    font-weight:bold;
+    line-height:100%;
+    text-transform:uppercase;
+    color:{color:Accent Two};
+}
+   
+h2 i {
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style:none;
+    text-align:left;
+    font-weight:bold;
+    line-height:100%;
+    text-transform:uppercase;
+}
+   
+h2 b {
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style:none;
+    text-align:center;
+    font-weight:bold;
+    line-height:100%;
+    text-transform:uppercase;
+}
+   
+h5 {
+    text-align:center;
+    padding:7px;
+    margin-top:10px;
+}
+
+h4 {
+    text-align:center;
+    font-size:12px;
+    width:200px;
+    margin:0px;
+    font-weight:normal;
+    margin-top:0px;
+    padding:5px;
+}
+ 
+hr {
+    width:50px;
+    text-align:center;
+    float:center;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+}
+   
+pre {
+    font-size: 11px;
+    width:calc({select:Posts Width} - 20px);
+    background:{color:Container};
+    padding:10px;
+    text-align: left;
+    word-break: break-all;
+}
+
+#more {
+    background:{color:Container};
+    padding:20px;
+    text-align:right;
+    font-family:'Abril Fatface';
+    font-size:20px;
+    color:{color:Accent One};
+}
+
+#more:hover {
+    background:{color:Accent Two};
+    color:{color:Posts};
+    transition:all 2s ease-in-out;
+    cursor:pointer;
+}
+	
+   
+a { 
+    color:{color:Link};
+    font-weight:500;
+    text-decoration: none;
+    transition:all 2s ease-in-out;
+}
+ 
+
 a:hover {
     color:{color:Accent One};
+    text-decoration: none;
+    transition:all 2s ease-in-out;
+}
+
+blockquote img {
+    padding-top:20px;
+    padding-bottom:20px;
 }
 
 blockquote {
     width:calc({select:Posts Width} - 47px);
+    margin-left:5px;
+    margin-bottom:15px;
+    padding:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
     border-left:2px solid {color:Accent Two};
 }
 
 blockquote blockquote {
+    margin-top:10px;
+    margin-bottom:10px;
     border-color:{color:Accent One};
 }
 
 blockquote blockquote blockquote {
+    padding-right:5px;
     border-color:{color:Accent Two};
+    
 }
 
 blockquote blockquote blockquote blockquote {
@@ -180,157 +313,612 @@ blockquote blockquote blockquote blockquote {
     border-color:{color:Accent One};
 }
 
-ul li:before {
-    color:{color:Accent Two};
+ul {
+    padding:5px;
+    margin-left:10px;
 }
-
-                    /* CONTAINER FORMATTING */
-
+   
+ul li {
+    list-style:none;
+    margin-left:10px;
+    
+}
+   
+ul li:before {
+    content:"›";
+    font-size:1em; 
+    padding-right:.5em;
+    position:relative;
+    top:.1em;
+    color:{color:Accent Two};
+    font-weight:bold;
+}
+ 
+ol {
+    margin-left:-25px;
+}
+ 
+ 
+img {  
+    max-width:100%;
+    height:auto;
+}
 #container { 
+    margin:0 auto;
+    margin-top:50px;
+    height:570px;
     width:calc({select:Posts Width} + 575px);
     background:{color:Container};
+    padding:50px;
+    overflow:auto;
+    box-sizing:border-box;
 }
 
 #sidebar {
+    width:300px;
+    height:400px;
+    padding:40px;
+    padding-top:30px;
     background:{color:Posts};
+    margin-top:0px;
+    position:fixed;
+    overflow:hidden;
+    border-radius:5px;
+}
+
+#sidebar img {
+    width:300px;
+    height:150px;
 }
 
 #icon img {
+    width:60px;
+    height:60px;
+    border-radius:200px;
     border:5px solid {color:Posts};
+    margin-left:25px;
+    margin-top:-20px;
 }
 
 #title {
+    width:175px;
+    margin-left:90px;
+    padding:15px;
+    font-size:18px;
+    margin-top:-61px;
+    text-transform:lowercase;
+    text-align:left;
+    font-family:'Abril Fatface';
+    line-height:18px;
     color:{color:Accent One};
 }
 
 #title span {
+    
     color:{color:Link};
+    font-size:9px;
+    font-family:'Montserrat';
+}
+
+#name {
+    font-weight:700;
+    font-family:'Montserrat';
+    margin-top:20px;
+    margin-left:7px;
+    font-size:16px;
+}
+
+#description {
+    margin:10px;
+    margin-top:5px;
+    margin-right:5px;
+    overflow:hidden;
+    margin-left:8px;
+    height:105px;
+}
+
+#muses {
+    margin-left:-15px;
+    height:87px;
+    width:335px;
+    overflow:auto;
+}
+
+#muses::-webkit-scrollbar {
+    width:0px;
+    height:0px;
+}
+
+#musecontainer {
+}
+
+#muse {
+   display:inline-block;
+   border:none;
+   line-height:20px;
+   margin:5px;
+   float:left;
+   
 }
 
 #muse img {
+    width:65px;
+    height:65px;
+    border-radius:200px;
     border:4px solid {color:Accent One};
 }
 
-                    /* NAVIGATION FORMATTING */
+
+#pagination {
+    text-align:left;
+    width:370px;
+    margin-left:-35px;
+    margin-top:25px;
+    position:fixed;
+}
 
 #navigation {
+    position:fixed;
+    bottom:0;
+    left:0;
+    padding:20px;
+    padding-bottom:17px;
+    width:100%;
+    z-index:99999999999999;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
     background:{color:Container};
 }
 
 #nav {
-    width:calc({select:Posts Width} + 570px);
-}
-
-#credit {
-    background:{color:Posts};
+    margin:0 auto;
+    padding-right:20px;
+    padding-left:0px;
 }
 
 #link {
-    background:{color:Background};
+    width:100px;
+    font-size:10px;
+    display:inline-block;
+    padding:10px;
+    margin:0px 5px;
+    margin-top:1px;
+    text-align:center;
+    font-weight:500;
+    text-transform:lowercase;
+    background:{color:Accent One};
 }
+
+#nav a { color:{color:Background}; }
 
 #link:hover {
-    background:{color:Accent One};
-    color:{color:Posts};
-    transition:all 2s ease-in-out;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+    background:{color:Accent Two};
 }
 
-input[type="text"], #searchinput, form {
-    background:{color:Background};
-    color:{color:Accent One};
+form {
+    float:right;
+    display:inline-block;
+    margin-top:5px;
+    background:transparent;
 }
 
-                    /* POSTS FORMATTING */
+#searchinput {
+    border:none;
+    outline:none;
+    height:0px;
+    width:0px;
+    overflow:hidden;
+    visibility:hidden;
+    margin-bottom:0px;
+    background:transparent;
+}
+
+input[type="text"] {
+    border:none;
+    outline:none;
+    width:200px;
+    padding:8px;
+    font-weight:500;
+    letter-spacing:1px;
+    text-transform:lowercase;
+    border-radius:5px;
+    text-align:right;
+    font-family:'Montserrat';
+	font-size:10px;
+	background:transparent;
+}
 
 #posts {
     width:{select:Posts Width};
     background:{color:Posts};
+    padding:20px;
+    margin-left:425px;
+    margin-bottom:70px;
+    z-index:9;
 }
 
+
+ 
+/* POST STYLES */
+
 #audio {
+    padding:20px;
+    height:50px;
     background:{color:Container};
 }
-   
+
+.tumblr_audio_player {
+    height: 90px;
+    width: 45px;
+    font-size:20px;
+    -moz-transform: scale(0.60, 0.60); 
+    -webkit-transform: scale(0.60, 0.60); 
+    -o-transform: scale(0.60, 0.60);
+    -ms-transform: scale(0.60, 0.60);
+    transform: scale(0.60, 0.60); 
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+}
+    
+#player {
+    width: 19px;
+    height: 19px;
+    margin-top:-55px;
+    margin-left:5px;
+    background-color: #ffffff;
+    padding: 10px;
+    font-size:20px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+   opacity: .4;
+    filter: alpha(opacity=40);
+    -moz-opacity: 0.4;
+    -khtml-opacity: 0.4; 
+    transition:opacity .7s ease-in-out;
+    -moz-transition:opacity .7s ease-in-out;
+    -webkit-transition:opacity .7s ease-in-out;
+}
+         
+#audioimg {
+    margin:-20px;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    
+    display:inline-block;
+}
+
+#audioimg img {
+    width: 90px;
+    height: 90px;  
+}
+    
 #trackdetails {
     width:calc({select:Posts Width} - 140px);
+    font-size: 10px;
+    line-height:14px;
+    display:inline-block;
+    padding:10px;
+    padding-top:0px;
+    margin-bottom:0px;
+    float:right;
+    margin-top:-43px;
+    
+}
+    
+.player {
+    display:inline-block;
+    width:50px;
 }
 
 iframe#youtube_iframe {
     width:{select:Posts Width};
+    max-height:100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
 }
     
 iframe.spotify_audio_player {
     width:{select:Posts Width};
+    max-height:80px;
 }
 
 #quote {
+    font-size:28px;
+    text-align:center;
+    font-weight:normal;
+    line-height:23px;
+    font-family:'Abril Fatface';
     color:{color:Accent One};
 }
- 
+    
+#source {
+    text-align:right;
+    margin-top:10px;
+}
+
+    
 #question {
+    padding:20px;
+    max-height:95px;
+    margin-bottom:-1px;
     color:{color:Posts};
     background:{color:Accent One};
 }
 
 #asker {
+    font-size:13px;
+	font-weight:normal;
+	text-align:right;
+    font-style:normal;
+    padding:15px;
+    margin-bottom:15px;
     background:{color:Container};
+    font-family:'Abril Fatface';
 }
 
-#more {
-    background:{color:Container};
-    color:{color:Accent One};
+#asker b {
+    font-weight:bold;
+    font-size:13px;
+}
+    
+#asker a{ 
+    font-weight:bold;
 }
 
-#more:hover {
-    background:{color:Accent Two};
-    color:{color:Posts};
+.chat {
+    font-size:10px;
 }
 
-                /* INFO, TAGS & NOTES FORMATTING */
+.odd, .even {
+    padding:5px;
+    margin:5px;
+    border-radius:5px;
+}
+
+.even .label {
+    font-weight:bold;
+    font-size:11px;
+    padding-left:4px;
+    text-transform:lowercase;
+}
+
+.odd .label {
+    font-weight:bold;
+    font-size:11px;
+    padding-left:4px;
+    text-transform:lowercase;
+}
+
+/* POST INFORMATION & TAGS + POST NOTES */
 
 #info {
+    font-size:8px;
+    padding:15px;
+    min-height:10px;
+    margin:-20px;
+    margin-top:15px;
+    margin-bottom:-30px;
+    line-height:10px;
     background:{color:Borders};
     color:{color:Accent Two};
+    text-align:left;
+}
+
+#info a:hover {
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+}
+
+#perma {
+    float:right;
+    font-size:10px;
 }
 
 #tag {
     width:calc({select:Posts Width} - 40px);
+    margin-left:10px;
+    display:inline-block;
+    line-height:11px;
 }
 
 #tag a {
+    margin:0px 7px;
     color:{color:Link};
 }
 
+#notes {
+    margin-top:-15px;
+    margin-right:-10px;
+}
+    
+#notes ol, .notes-bottom ul {
+    margin:0px;
+    padding: 0;
+    list-style: none;
+}
+
 #notes li {
+    position:relative;
+    padding:10px;
     width:calc({select:Posts Width} + 20px);
+    margin:5px;
+    margin-left:350px;
+    margin-bottom:7px;
+    font-weight:bold;
+    font-size:8px;
+    text-transform:uppercase;
+    text-align:center;
     background:{color:Posts};
 }
 
-                    /* TAB FORMATTING */
+#notes li img.avatar {
+    border:none;
+    margin:;
+    width:0;
+    padding:0;
+}
+
+#notes .note .retags {
+    display:none;
+    visibility:hidden;
+}
+    
+#notes blockquote {
+    display:none;
+}
+
+
+#credit {
+    position:fixed;
+    bottom:95px;
+    right:15px;
+    width:20px;
+    height:20px;
+    padding:10px;
+    border-radius:100px;
+    line-height:20px;
+    text-align:center;
+}
+
+.tablinks:hover {
+    cursor:pointer;
+}
+
+.tabcontent {
+    display:none;
+    position:fixed;
+    z-index:99999999999999999999999999999999;
+    top:0;
+    left:0;
+    height:calc(100% - 60px);
+    width:100%;
+    padding:0px;
+    overflow:hidden;
+    background:rgba(2,2,2,.7);
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+    -webkit-animation: fadeEffect 2s;
+    animation: fadeEffect 2s;
+}
+
+
+
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
 
 .close {
+    margin-left:calc(50% - 170px);
+    margin-top:80px;
+    position:fixed;
     background:{color:Accent Two};
+    padding:15px;
+    font-family:'Abril Fatface';
     color:{color:Posts};
+    text-transform:lowercase;
+    font-size:15px;
+    width:310px;
+    text-align:center;
+    
+}
+
+.close:hover {
+    cursor:pointer;
 }
 
 #about {
+    padding:20px;
+    position:relative;
     background:{color:Posts};
+    width:300px;
+    height:370px;
+    margin:130px auto;
+    box-shadow:4px 4px 4px rgba(2,2,2,.4);
+}
+
+#face {
+    margin:0px;
+    width:300px;
+    height:150px;
 }
 
 #museicon img {
+    margin-top:-20px;
+    margin-left:30px;
+    width:60px;
+    height:60px;
+    border-radius:200px;
     border:solid 5px {color:Posts};
 }
 
 #musename {
+    width:175px;
+    margin-left:90px;
+    padding:15px;
+    font-size:18px;
+    margin-top:-61px;
+    text-transform:lowercase;
+    text-align:left;
+    font-family:'Abril Fatface';
+    line-height:13px;
     color:{color:Accent One};
 }
 
 #musename span {
     color:{color:Link};
+    font-size:9px;
+    font-family:'Montserrat';
+}
+
+#musebiography::-webkit-scrollbar {
+    width:0px;
+    height:0px;
+}
+
+#musebiography {
+    margin-top:10px;
+    height:123px;
+    overflow:auto;
+}
+
+#museaesthetic {
+    margin-top:3px;
+    margin-left:-6px;
+    margin-right:-6px;
+    text-align:center;
+}
+
+#museaesthetic img {
+    width:35px;
+    height:35px;
+    margin:3px;
+    border-radius:100px;
+    display:inline-block;
 }
 
 
-#sugarhoney { position:fixed; bottom:0;left:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+#sugarhoney { position:fixed; bottom:0;left:0;  margin:15px; margin-bottom:80px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
 
 
 </style>
@@ -469,8 +1057,9 @@ iframe.spotify_audio_player {
 
 </div>
 
-<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div>
- <!-- DO NOT REMOVE CREDIT!! -->
+<div id="sugarhoney"><a title="theme by sugar" href="https://ctrlsugar.tumblr.com/"><i class="fa-solid fa-heart"></i></a></div> 
+
+<!-- DO NOT REMOVE CREDIT!! -->
 
 </body>
 </html>
