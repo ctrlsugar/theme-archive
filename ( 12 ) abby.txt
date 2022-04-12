@@ -5,8 +5,8 @@
 <!--
 
 
-         ABBY / 012 / SUGARCODES / TUMBLR
-         CREATED & DESIGNED BY AUTUMN
+         ABBY / 012 / CTRLSUGAR / TUMBLR
+         CREATED & DESIGNED BY SUGAR
        
         - fonts from google fonts
         - icons from cappuccicons / by suiomi
@@ -47,7 +47,8 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
     <meta name="color:Accent One" content="#b38282"/>
     <meta name="color:Accent Two" content="#449292"/>
     <meta name="color:Text" content="#b0b0b0"/>
-   
+       <meta name="text:Font Size" content="11px"/>
+    <meta name="text:Font" content="Inter"/>    <meta name="text:Bold Font" content="Abril Fatface"/>
     <meta name="text:Title" content="title here"/>
     <meta name="text:Subtitle" content="a subtitle here"/>
     <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna."/>
@@ -69,22 +70,12 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
      <meta name="select:Scrollbar Width" content="5px" />
      <meta name="select:Scrollbar Width" content="10px" />
      
-     <meta name="select:Body Font Size" content="10px" />
-     <meta name="select:Body Font Size" content="8px" />
-     <meta name="select:Body Font Size" content="9px" />
-     <meta name="select:Body Font Size" content="11px" />
-     <meta name="select:Body Font Size" content="12px" />
      
      <meta name="select:Photoset Gutter" content="10px" />
      <meta name="select:Photoset Gutter" content="5px" />
      <meta name="select:Photoset Gutter" content="1px" />
      <meta name="select:Photoset Gutter" content="0px" />
      
-     <meta name="select:Bold Font Size" content="11px" />
-     <meta name="select:Bold Font Size" content="12px" />
-     <meta name="select:Bold Font Size" content="15px" />
-     <meta name="select:Bold Font Size" content="18px" />
-     <meta name="select:Bold Font Size" content="20px" />
      
      <meta name="select:Border Radius" content="0px" />
      <meta name="select:Border Radius" content="2px" />
@@ -104,11 +95,11 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
 
 <script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
 
-<link href="https://fonts.googleapis.com/css?family=Archivo+Black|DM+Serif+Display|DM+Serif+Text|Fredoka+One|Fugaz+One|Literata|Notable|Patua+One|Righteous|Ultra&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
 
-<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Muli|Nanum+Gothic|Nunito|Open+Sans|Quicksand|Roboto|Rubik|Work+Sans&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family={text:Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family={text:Bold Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
 <style type="text/css">
 
@@ -157,9 +148,10 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
+    font-family: '{text:Font}', sans-serif;
+    font-size:{text:Font Size};
     letter-spacing:.5px;
+    line-height:160%;
     color:{color:Text};
     text-align:justify;
     text-transform:lowercase;
@@ -190,7 +182,7 @@ body {
     max-width:160px;
     margin:15px;
     font-size:8px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: '{text:Font}', sans-serif;
     letter-spacing:1px;
     text-align:center;
     text-transform:uppercase;
@@ -213,7 +205,7 @@ h1 {
     text-align:center;
     letter-spacing:1px;
     text-transform:none;
-    font-family:'DM Serif Display';
+    font-family:'{text:Bold Font}';
     text-transform:uppercase;
     color:{color:Accent Two};
     background:{color:Container};
@@ -228,7 +220,7 @@ h2 {
     text-align:center;
     font-weight:bold;
     line-height:100%;
-    font-family:'DM Serif Display';
+    font-family:'{text:Body Font}';
     text-transform:uppercase;
     color:{color:Accent One};
 }
@@ -240,7 +232,7 @@ h2 i {
     text-align:center;
     font-weight:bold;
     line-height:100%;
-    font-family:'DM Serif Display';
+    font-family:'{text:Body Font}';
     text-transform:uppercase;
     color:{color:Accent One};
 }
@@ -252,15 +244,15 @@ h2 b {
     text-align:center;
     font-weight:bold;
     line-height:100%;
-    font-family:'DM Serif Display';
+    font-family:'{text:Body Font}';
     text-transform:uppercase;
     color:{color:Accent One};
 }
    
 h5 {
     text-align:center;
-    font-family:'DM Serif Display';
-    {select:Bold Font Size}
+    font-family:'{text:Body Font}';
+    font-size:{text:Font Size};
     color:{color:Accent Two};
     background:{color:Borders};
     padding:7px;
@@ -276,8 +268,8 @@ hr {
 }
    
 pre {
-    font-size: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-size:{text:Font Size};
+    font-family: '{text:Font}', sans-serif;
     width:500px;
     text-align: left;
     word-break: break-all;
@@ -286,7 +278,7 @@ pre {
  
 b, strong {
     color: {color:Accent One};
-    font-family:'DM Serif Display';
+    font-family:'{text:Bold Font}';
     font-size: 11px;
     font-weight:normal;
 }
@@ -302,7 +294,7 @@ i, italic {
 }
    
 small, sup, sub {
-    font-size: 10px;
+    font-size:{text:Font Size};
 }
    
 a {
@@ -396,9 +388,10 @@ img {
 }
 
 #container {
-    margin:125px auto;
+    margin:0 auto;
     width:calc(500px + 320px);
     height:400px;
+    margin-top:150px;
     overflow:auto;
     padding:40px;
     background:{color:Container};
@@ -452,7 +445,7 @@ img {
 }
 
 #description b {
-    font-family:'Montserrat', sans-serif;
+    font-family:'{text:Font}', sans-serif;
     font-size:8px;
     font-weight:bold;
 }
@@ -471,16 +464,15 @@ img {
     font-size:9px;
     margin-top:10px;
     background:{color:Container};
-    font-family:{select:Body Font};
+    font-family:{text:Font};
     margin:3px;
 }
 
 #link {
     width:50px;
-    padding:4px;
+    padding:4px 7px;
     font-weight:bold;
-    padding-top:7px;
-    padding-bottom:7px;
+    line-height:14px;
     text-align:center;
     font-size:9px;
     background:{color:Container};
@@ -592,8 +584,8 @@ img {
     
 #trackdetails {
     width:calc(500px - 140px);
-    font-size: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-size:{text:Font Size};
+    font-family: '{text:Font}', sans-serif;
     line-height:14px;
     display:inline-block;
     padding:10px;
@@ -624,7 +616,7 @@ iframe.spotify_audio_player {
     
 #quote {
     color: {color:Accent One};
-    font-family:'DM Serif Display';
+    font-family:'{text:Bold Font}';
     font-size:18px;
     text-align:center;
     font-weight:normal;
@@ -647,7 +639,7 @@ iframe.spotify_audio_player {
     
 #asker {
     color: {color:Posts};
-	font-family:'DM Serif Display';
+	font-family:'{text:Bold Font}';
 	font-size:14px;
 	font-weight:normal;
 	text-align:right;
@@ -701,7 +693,7 @@ iframe.spotify_audio_player {
     padding:20px;
     margin-bottom:20px;
     text-transform:uppercase;
-    font-family:'DM Serif Display';
+    font-family:'{text:Bold Font}';
     font-size:13px;
     text-align:center;
     border-bottom:1px solid {color:Borders};
@@ -761,8 +753,8 @@ iframe.spotify_audio_player {
     min-height:25px;
     border:1px solid {color:Borders};
     background:{color:Posts};
-    {select:Body Font Size}
-    font-family: 'Montserrat', sans-serif;
+    {text:Font Size}
+    font-family: '{text:Font}', sans-serif;
     border-radius:{select:Border Radius};
     text-align:center;
 }
@@ -818,7 +810,7 @@ iframe.spotify_audio_player {
     background:{color:Posts};
     border:1px solid {color:Borders};
     text-align:center;
-    font-family:'DM Serif Display';
+    font-family:'{text:Body Font}';
     margin-bottom:40px;
 }
 
@@ -841,7 +833,7 @@ iframe.spotify_audio_player {
 
 .tabclose {
     position:fixed;
-    font-family:'DM Serif Display';
+    font-family:'{text:Body Font}';
     font-size:11px;
     width:840px;
     text-align:right;
@@ -878,7 +870,7 @@ iframe.spotify_audio_player {
     padding-top:7px;
     margin-left:-70px;
     padding-bottom:7px;
-    text-align:center;
+    text-align:center;line-height:11px;
     font-size:7px;
     margin-top:57px;
     position:absolute;
@@ -1040,9 +1032,9 @@ click to close</span>
 
 
  
+<div id="sugarhoney"><a title="theme by sugar" href="https://ctrlsugar.tumblr.com/"><i class="fa-solid fa-heart"></i></a></div> 
 
-<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div>
- <!-- DO NOT REMOVE CREDIT!! -->
+<!-- DO NOT REMOVE CREDIT!! -->
 
 
 <script src="https://dl.dropbox.com/s/ubvf8v5rnmfkwhh/dinoaugust.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script> <script src="https://dl.dropbox.com/s/iiare8f72a0rqdv/rawrfilters.js"></script>
