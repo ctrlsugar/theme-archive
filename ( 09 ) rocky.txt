@@ -1,14 +1,14 @@
+<!DOCTYPE html>
 <html>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
 <!--
 
-
-         ROCKY / 009 / SUGARCODES / TUMBLR
-         CREATED & DESIGNED BY AUTUMN
+         ROCKY / 009 / CTRLSUGAR / TUMBLR
+         CREATED & DESIGNED BY SUGAR
        
         - fonts from google fonts
-        - icons from cappuccicons / by suiomi
+        - icons from fontawesome
         - base code(s) by seyche, silbrigthemes & neonbikethemes
         - responsive video code by nouvae
         - npf photosets fix by glenthemes
@@ -47,6 +47,11 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
     <meta name="color:Accent One" content="#b07474"/>
     <meta name="color:Accent Two" content="#7fa0a5"/>
     <meta name="color:Text" content="#4f4f4f"/>
+    
+    
+        <meta name="text:Font Size" content="11px"/>
+    <meta name="text:Font" content="Inter"/>
+    <meta name="text:Bold Font" content="Abril Fatface"/>
    
     <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna. "/>
 
@@ -68,44 +73,11 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
      <meta name="select:Posts Width" content="450px" />
      <meta name="select:Posts Width" content="540px" />
      
-     <meta name="select:Body Font" content="Montserrat" />
-     <meta name="select:Body Font" content="Lato" />
-     <meta name="select:Body Font" content="Nanum Gothic" />
-     <meta name="select:Body Font" content="Nunito" />
-     <meta name="select:Body Font" content="Open Sans" />
-     <meta name="select:Body Font" content="Quicksand" />
-     <meta name="select:Body Font" content="Roboto" />
-     <meta name="select:Body Font" content="Rubik" />
-     <meta name="select:Body Font" content="Work Sans" />
-     <meta name="select:Body Font" content="Muli" />
-
-     <meta name="select:Bold Font" content="DM Serif Display" />
-     <meta name="select:Bold Font" content="Archivo Black" />
-     <meta name="select:Bold Font" content="DM Serif Text" />
-     <meta name="select:Bold Font" content="Fredoka One" />
-     <meta name="select:Bold Font" content="Fugaz One" />
-     <meta name="select:Bold Font" content="Literata" />
-     <meta name="select:Bold Font" content="Notable" />
-     <meta name="select:Bold Font" content="Patua One" />
-     <meta name="select:Bold Font" content="Righteous" />
-     <meta name="select:Bold Font" content="Ultra" />
-     
-     <meta name="select:Body Font Size" content="10px" />
-     <meta name="select:Body Font Size" content="8px" />
-     <meta name="select:Body Font Size" content="9px" />
-     <meta name="select:Body Font Size" content="11px" />
-     <meta name="select:Body Font Size" content="12px" />
      
      <meta name="select:Photoset Gutter" content="10px" />
      <meta name="select:Photoset Gutter" content="5px" />
      <meta name="select:Photoset Gutter" content="1px" />
      <meta name="select:Photoset Gutter" content="0px" />
-     
-     <meta name="select:Bold Font Size" content="11px" />
-     <meta name="select:Bold Font Size" content="12px" />
-     <meta name="select:Bold Font Size" content="15px" />
-     <meta name="select:Bold Font Size" content="18px" />
-     <meta name="select:Bold Font Size" content="20px" />
      
      <meta name="if:Gradient Effect" content="0" />
  
@@ -116,20 +88,20 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
 <script src="https://dl.dropbox.com/s/e9i5ycsca7fbbye/dinotooltips.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script> 
 
 <link href="https://dl.dropbox.com/s/mv4qm78rai2e7r7/dinocredit.css" rel="stylesheet">
-<script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
 
-    
-<link href="https://fonts.googleapis.com/css?family=Archivo+Black|DM+Serif+Display|DM+Serif+Text|Fredoka+One|Fugaz+One|Literata|Notable|Patua+One|Righteous|Ultra&display=swap" rel="stylesheet">
-    
-<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Muli|Nanum+Gothic|Nunito|Open+Sans|Quicksand|Roboto|Rubik|Work+Sans&display=swap" rel="stylesheet">
 
-<link href="//dl.dropbox.com/s/vpi3f9s7nhpe7v7/honeybee.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family={text:Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family={text:Bold Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
 
 <style type="text/css">
  
 body {
-    font-family: '{select:Body Font}', sans-serif;
-    font-size:{select:Body Font Size};
+    font-family: '{text:Font}', sans-serif;
+    font-size:{text:Font Size};
     letter-spacing:.5px;
     color:{color:Text};
     text-align:justify;
@@ -161,7 +133,7 @@ body {
     max-width:300px;
     margin:15px;
     font-size:8px;
-    font-family: '{select:Body Font}', sans-serif;
+    font-family: '{text:Font}', sans-serif;
     letter-spacing:1px;
     text-align:center;
     text-transform:uppercase;
@@ -187,7 +159,7 @@ h1 {
     text-align:center;
     letter-spacing:1px;
     text-transform:none;
-    font-family:'{select:Bold Font}';
+    font-family:'{text:Bold Font}';
     text-transform:uppercase;
     color:{color:Accent Two};
     background:{color:Container};
@@ -205,7 +177,7 @@ h2 {
     text-align:center;
     font-weight:bold;
     line-height:100%;
-    font-family:'{select:Bold Font}';
+    font-family:'{text:Bold Font}';
     text-transform:uppercase;
     color:{color:Accent One};
 }
@@ -217,7 +189,7 @@ h2 i {
     text-align:center;
     font-weight:bold;
     line-height:100%;
-    font-family:'{select:Bold Font}';
+    font-family:'{text:Bold Font}';
     text-transform:uppercase;
     color:{color:Accent One};
 }
@@ -229,14 +201,14 @@ h2 b {
     text-align:center;
     font-weight:bold;
     line-height:100%;
-    font-family:'{select:Bold Font}';
+    font-family:'{text:Bold Font}';
     text-transform:uppercase;
     color:{color:Accent One};
 }
    
 h5 {
     text-align:center;
-    font-family:'{select:Bold Font}';
+    font-family:'{text:Bold Font}';
     font-size:11px;
     color:{color:Accent Two};
     background:{color:Borders};
@@ -252,8 +224,8 @@ hr {
 }
    
 pre {
-    font-size:{select:Body Font Size};
-    font-family: '{select:Body Font}', sans-serif;
+    font-size:{text:Font Size};
+    font-family: '{text:Font}', sans-serif;
     width:{select:Posts Width};
     text-align: left;
     word-break: break-all;
@@ -262,8 +234,8 @@ pre {
  
 b, strong {
     color: {color:Accent One};
-    font-family:'{select:Bold Font}';
-    font-size:{select:Bold Font Size};
+    font-family:'{text:Bold Font}';
+    font-size:{text:Font Size};
     font-weight:normal;
 }
    
@@ -278,7 +250,7 @@ i, italic {
 }
    
 small, sup, sub {
-    font-size:{select:Body Font Size};
+    font-size:{text:Font Size};
 }
    
 a {
@@ -389,7 +361,7 @@ img {
     display:inline-block;
     margin:5px;
     text-transform:lowercase;
-    font-family:'{select:Bold Font}';
+    font-family:'{text:Bold Font}';
 }
 
 #one {
@@ -457,7 +429,7 @@ img {
     margin-top:-60px;
     margin-left:155px;
     text-transform:lowercase;
-    font-family:'{select:Bold Font}'
+    font-family:'{text:Bold Font}'
 }
 
 #forth {
@@ -475,7 +447,7 @@ img {
     margin-top:-30px;
     margin-left:145px;
     text-transform:lowercase;
-    font-family:'{select:Bold Font}'
+    font-family:'{text:Bold Font}'
 }
 
 
@@ -580,8 +552,8 @@ img {
     
 #trackdetails {
     width:calc({select:Posts Width} - 120px);
-    font-size:{select:Body Font Size};
-    font-family: '{select:Body Font}', sans-serif;
+    font-size:{text:Font Size};
+    font-family: '{text:Font}', sans-serif;
     line-height:14px;
     display:inline-block;
     padding:15px 10px 20px 10px;
@@ -610,7 +582,7 @@ iframe.spotify_audio_player {
     
 #quote {
     color: {color:Accent One};
-    font-family:'{select:Bold Font}';
+    font-family:'{text:Bold Font}';
     font-size:18px;
     text-align:center;
     font-weight:normal;
@@ -631,7 +603,7 @@ iframe.spotify_audio_player {
     
 #asker {
     color: {color:Accent One};
-	font-family:'{select:Bold Font}';
+	font-family:'{text:Bold Font}';
 	font-size:22px;
 	font-weight:normal;
 	text-align:right;
@@ -652,7 +624,7 @@ iframe.spotify_audio_player {
     padding:20px;
     margin-bottom:20px;
     text-transform:uppercase;
-    font-family:{select:Bold Font};
+    font-family:{text:Bold Font};
     font-size:11px; 
     text-align:center;
     {block:ifGradientEffect}
@@ -720,7 +692,7 @@ iframe.spotify_audio_player {
     border:1px solid {color:Borders};
     background:{color:Posts};
     font-size:10px;
-    font-family: '{select:Body Font}', sans-serif;
+    font-family: '{text:Font}', sans-serif;
     float:left;
     text-align:center;
 }
@@ -763,7 +735,7 @@ iframe.spotify_audio_player {
     margin-top:80px;
     margin-left:300px;
     text-align:center;
-    font-family:{select:Bold Font};
+    font-family:{text:Bold Font};
     margin-bottom:-40px;
 }
 
@@ -834,8 +806,9 @@ iframe.spotify_audio_player {
 
 </div>
 
-<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div>
- <!-- DO NOT REMOVE CREDIT!! -->
+<div id="sugarhoney"><a title="theme by sugar" href="https://ctrlsugar.tumblr.com/"><i class="fa-solid fa-heart"></i></a></div> 
+
+<!-- DO NOT REMOVE CREDIT!! -->
         
 
 </body>
