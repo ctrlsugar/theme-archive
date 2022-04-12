@@ -5,8 +5,9 @@
 <!--
 
 
-         LOOK AT HER NOW / 021 / SUGARCODES / TUMBLR
-         CREATED & DESIGNED BY AUTUMN
+         LOOK AT HER NOW / 021 / CTRLSUGAR / TUMBLR
+         CREATED & DESIGNED BY SUGAR
+
        
         - fonts from google fonts
         - icons from cappuccicons / by suiomi
@@ -39,22 +40,15 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
     <link rel="shortcut icon" href="{Favicon}">
     <link rel="alternate" type="application/rss+xml" href="{RSS}">
 
-<!-- THEME SPECIFICS --> 
-
-<link href="https://dl.dropbox.com/s/e6bwnmij05llwp5/sugarbase.css" rel="stylesheet"><link href="https://dl.dropbox.com/s/5hivgo8mp4ab9ph/lookathernow.css" rel="stylesheet">
-  
 <!-- STYLED TOOLTIPS -->
   
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script><script src="https://dl.dropbox.com/s/q8akoadfqm16u6r/sugarmytooltips.js"></script>
   
-<!-- ICONS FONT -->
-  
-<script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
+<script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
 
-        
-<!-- GOOGLE FONTS -->        
-  
-<link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family={text:Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
 
 <!-- META TAGGED INFORMATION -->
   
@@ -71,6 +65,10 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
     <meta name="image:Background" content="" />
     <meta name="image:Sidebar" content="https://static.tumblr.com/blgwozc/XQ9r5ti9p/60.png" />
     
+    <meta name="text:Font Size" content="11px"/>
+    <meta name="text:Font" content="Inter"/>
+
+    
     <meta name="text:Title" content="title here." />
     <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris." />
     
@@ -85,96 +83,601 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
       
 <style>
 
-body { 
-    background-image:url('{image:Background}');!important
-}
+body {
 
-body, h1, h5, #s-m-t-tooltip, #audio, #question, .odd, .even, #container, #sidebar { 
-    background:{color:Background};
-}    
-
-body, pre, #searchinput, #title span {
-    color:{color:Text};
+    font-family: '{text:Font}', sans-serif;
+    font-size:{text:Font Size};
+    line-height:15px;
+    letter-spacing:.5px;
+    font-weight:normal;
+    text-align:justify;
+    text-transform:lowercase;
+   background-position:top left;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:100% auto;
 }
  
-::-webkit-scrollbar-track, h4, #asker, #counter, #link:hover {
-    background:{color:Accent One};
+::-webkit-scrollbar {
+    width:7px; 
+    z-index:9;
+}
+ 
+::-webkit-scrollbar-track {
 }
  
 ::-webkit-scrollbar-thumb {
-    background:{color:Accent Two};
+    height:10px;
 }
  
-#s-m-t-tooltip, h2, h2 i, h2 b, i, italic, ul li:before, #quote, .odd .label {
-    color:{color:Accent One};
-}    
+::-webkit-scrollbar-thumb:window-inactive {
+    background: transparent;
+}
+ 
+ 
+#s-m-t-tooltip {
+    max-width:160px;
+    margin:15px;
+    font-size:8px;
+    letter-spacing:1px;
+    text-align:center;
+    text-transform:uppercase;
+    padding:10px;
+    padding-left:30px;
+    padding-right:30px;
+    font-weight:bold;
+    z-index:999999999999999999999999999999999999999999999999;
+    border-radius:5px;
+}
    
-h1, h5, b, strong, a:hover, #credit a, #title {
-    color:{color:Accent Two};
+h1 {
+    font-weight:bold;
+    font-size:20px;
+    margin-top:0px;
+    text-align:center;
+    letter-spacing:1px;
+    text-transform:none;
+    text-transform:uppercase;
+    padding:15px;
+    border-radius:5px;
+}
+   
+h2 {
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style:none;
+    text-align:center;
+    font-weight:bold;
+    line-height:100%;
+    text-transform:uppercase;
+}
+   
+h2 i {
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style:none;
+    text-align:center;
+    font-weight:bold;
+    line-height:100%;
+    text-transform:uppercase;
+}
+   
+h2 b {
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style:none;
+    text-align:center;
+    font-weight:bold;
+    line-height:100%;
+    text-transform:uppercase;
+}
+   
+h5 {
+    text-align:center;
+    padding:7px;
+    margin-top:10px;
+    border-radius:5px;
 }
 
-h4, #counter, #link, #asker, #asker a {
-    color:{color:Posts};
+h4 {
+    text-align:center;
+    font-size:12px;
+    width:200px;
+    margin:0px;
+    font-weight:normal;
+    margin-top:0px;
+    padding:5px;
+    border-radius:5px;
 }
  
 hr {
-    border-color: {color:Borders};
+    width:50px;
+    text-align:center;
+    float:center;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
 }
    
-a, .even .label, #info a {
-    color:{color:Link};
-}
-
-#posts, #notes li {
-    background:{color:Posts};
+pre {
+    font-size:{text:Font Size};
+    width:450px;
+    text-align: left;
+    word-break: break-all;
 }
  
-blockquote,
-blockquote blockquote blockquote,
-blockquote blockquote blockquote blockquote blockquote {
-    border-left:2px solid {color:Accent Two};
-}    
+b, strong {
+    font-size:{text:Font Size};
+    font-weight:bold;
+}
+   
+i b {
+    font-style:none;
+    text-decoration:none;
+    font-weight:normal;
+}
+   
+i, italic {
+}
+   
+small, sup, sub {
+	font-size:{text:Font Size};
+}	
+   
+a {
+    text-decoration: none;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+}
+ 
+a:hover {
+    text-decoration: none;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+}
 
-blockquote blockquote,
+blockquote img {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+blockquote {
+    width:calc(450px - 37px);
+    margin-left:5px;
+    padding:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:20px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+blockquote blockquote {
+    margin-top:-10px;
+    margin-bottom:-10px;
+}
+
+blockquote blockquote blockquote {
+    padding-right:5px;
+    
+}
+
 blockquote blockquote blockquote blockquote {
-    border-left:2px solid {color:Accent One};
+    width:calc(450px - 87px);
 }
 
-#navigation, input[type="text"], #info {
-    background:{color:Borders};
+ul {
+    padding:5px;
+    margin-left:10px;
+}
+   
+ul li {
+    list-style:none;
+    margin-left:10px;
+}
+   
+ul li:before {
+    content:"›";
+    font-size:1em; 
+    padding-right:.5em;
+    position:relative;
+    top:.1em;
+}
+ 
+ol {
+    margin-left:-25px;
+}
+ 
+ 
+img {  
+    max-width:100%;
+    height:auto;
 }
 
-#link, #asker b {
-    background:{color:Link};
+
+#container { 
+    margin-left:calc(50% - 450px);
+    margin-top:50px;    
+    width:825px;
+    padding:50px;
+    padding-bottom:150px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+#sidebar {
+    width:300px;
+    height:350px;
+    position:fixed;
+    overflow:hidden;
+    border-radius:5px;
+}
+
+#sidebar img {
+    border-radius:100px;
+    width:60px;
+    height:60px;object-fit: cover;
+}
+
+#title {
+    width:200px;
+    padding:15px;
+    font-size:18px;
+    margin-left:65px;
+    margin-top:-63px;
+    font-weight:700;
+    text-transform:uppercase;
+    text-align:left;
+}
+
+#title span {text-transform:lowercase;
+    font-size:{text:Font Size};font-weight:normal;
+}
+
+#description {
+    margin:20px;
+    margin-right:35px;
+    margin-left:8px;
+    height:auto;
+}
+
+#pagination {
+    text-align:left;
+    width:262px;
+    margin-left:5px;
+    margin-top:5px;
+    position:fixed;
+}
+
+#postcontainer {
+    float:right;
+    width:450px;
+    padding-bottom:100px;
+}
+
+#posts {
+    float:right;
+    width:450px;
+    padding:25px;
+    margin-top:0px;
+    margin-bottom:50px;
+    border-radius:5px;
+}
+
+#navigation {
+    position:fixed;
+    bottom:0;
+    left:0;
+    padding:20px;
+    padding-bottom:17px;
+    width:100%;
+    z-index:99999999999999;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+#nav {
+    width:850px;
+    margin:0 auto;
+}
+
+#link {
+    width:15px;
+    height:15px;
+    display:inline-block;
+    font-size:15px;
+    padding:10px;
+    margin:0px 5px;
+    border-radius:3px;
+    letter-spacing:2px;
+    text-align:center;
+    text-transform:lowercase;
+}
+
+#link:hover {
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+}
+
+form {
+    float:right;
+    display:inline-block;
+    margin-top:5px;
+}
+
+#searchinput {
+    border:none;
+    outline:none;
+    height:0px;
+    width:0px;
+    overflow:hidden;
+    visibility:hidden;
+    margin-bottom:0px;
+}
+
+input[type="text"] {
+    border:none;
+    outline:none;
+    width:200px;
+    padding:8px;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    border-radius:5px;
+    text-align:right;
+    font-family: '{text:Font}', sans-serif;
+	font-size:8px;
+}
+
+#credit {
+    position:fixed;
+    bottom:82px;
+    right:15px;
+    font-size:10px;
+}
+
+/* POST STYLES */
+
+#audio {
+     padding:20px;
+    height:50px;
+    border-radius:5px;
+}
+
+.tumblr_audio_player {
+    height: 90px;
+    width: 45px;
+    font-size:20px;
+    -moz-transform: scale(0.60, 0.60); 
+    -webkit-transform: scale(0.60, 0.60); 
+    -o-transform: scale(0.60, 0.60);
+    -ms-transform: scale(0.60, 0.60);
+    transform: scale(0.60, 0.60); 
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+}
+    
+#player {
+    width: 19px;
+    height: 19px;
+    margin-top:-55px;
+    margin-left:5px;
+    background-color: #ffffff;
+    padding: 10px;
+    font-size:20px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+   opacity: .4;
+    filter: alpha(opacity=40);
+    -moz-opacity: 0.4;
+    -khtml-opacity: 0.4; 
+    transition:opacity .7s ease-in-out;
+    -moz-transition:opacity .7s ease-in-out;
+    -webkit-transition:opacity .7s ease-in-out;
+}
+         
+#audioimg {
+    margin:-20px;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    display:inline-block;
 }
 
 #audioimg img {
-    border-right:1px solid {color:Borders};
-}    
+    width: 90px;
+    height: 90px;  
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+    
+#trackdetails {
+    width:calc(450px - 140px);
+    font-size: 10px;
+    line-height:14px;
+    display:inline-block;
+    padding:10px;
+    padding-top:0px;
+    margin-bottom:0px;
+    float:right;
+    margin-top:-43px;
+}
+    
+.player {
+    display:inline-block;
+    width:50px;
+}
 
-{block:AskPage} 
-.info, .tags {
+iframe#youtube_iframe {
+    width: 450px;
+    max-height:100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+    
+iframe.spotify_audio_player {
+    width: 450px;
+    max-height:80px;
+}
+
+#quote {
+    font-size:18px;
+    text-align:center;
+    font-weight:normal;
+}
+    
+#source {
+    text-align:right;
+    margin-top:10px;
+}
+
+    
+#question {
+    padding:20px;
+    max-height:95px;
+    margin-bottom:-1px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+#asker {
+    font-size:14px;
+	font-weight:normal;
+	text-align:right;
+    font-style:normal;
+    padding:10px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+#asker b {
+    font-weight:bold;
+    font-size:13px;
+}
+    
+#asker a{ 
+    font-weight:bold;
+}
+
+.chat {
+    font-size:10px;
+}
+
+.odd, .even {
+    padding:5px;
+    margin:5px;
+    border-radius:5px;
+}
+
+.even .label {
+    font-weight:bold;
+    font-size:{text:Font Size};
+    padding-left:4px;
+    text-transform:lowercase;
+}
+
+.odd .label {
+    font-weight:bold;
+    font-size:{text:Font Size};
+    padding-left:4px;
+    text-transform:lowercase;
+}
+
+/* POST INFORMATION & TAGS + POST NOTES */
+
+#info {
+    font-size:10px;
+    padding:15px;
+    margin:-25px;
+    margin-top:25px;
+    margin-bottom:-50px;
+    line-height:10px;
+    position:relative;
+    text-align:left;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+#info a:hover {
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+}
+
+#perma {
+    position:absolute;
+    right:0;
+    font-size:10px;
+    margin-top:-10px;
+    margin-right:15px;
+}
+
+#tag {
+    width:410px;
+    margin-left:20px;
+    display:inline-block;
+    line-height:11px;
+}
+
+#tag a {
+    margin:0px 7px;
+}
+
+#notes {
+    margin-top:-15px;
+    margin-right:0px;
+}
+    
+#notes ol, .notes-bottom ul {
+    margin:0px;
+    padding: 0;
+    list-style: none;
+}
+
+#notes li {
+    padding:10px;
+    width:480px;
+    margin:5px;
+    float:right;
+    margin-left:0px;
+    margin-bottom:7px;
+    font-weight:bold;
+    font-size:8px;
+    text-transform:uppercase;
+    border-radius:5px;
+    text-align:center;
+}
+
+#notes li img.avatar {
+    border:none;
+    margin:;
+    width:0;
+    padding:0;
+}
+
+#notes .note .retags {
+    display:none;
+    visibility:hidden;
+}
+    
+#notes blockquote {
     display:none;
 }
-{/block:AskPage}
 
-{block:SubmitPage}
-.info, .tags {
-    display:none;
-}
-{/block:SubmitPage}
-
-{block:AskPage} 
-.info, .tags {
-    display:none;
-}
-{/block:AskPage}
-
-{block:SubmitPage}
-.info, .tags { 
-    display:none; 
-}
-{/block:SubmitPage}
 
 #sugarhoney { position:fixed; bottom:0; right:0;  margin:15px; margin-bottom:90px;  z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
 
@@ -242,8 +745,8 @@ blockquote blockquote blockquote blockquote {
 <div class="contentsource" style="display:none;"> {block:ContentSource} Source: <a href="{SourceURL}">{SourceTitle} </a> {/block:ContentSource} {block:RebloggedFrom} Via: <a href="{ReblogParentURL}">{ReblogParentName}</a> {/block:RebloggedFrom}</div>
   
 <div id="info">  
-<span class="fas fa-tag" style="font-size:11px;position:absolute;left:0;margin-left:15px;"></span>
-<div id="tag">{block:Tags} <a href="{TagURL}">( {Tag} )</a>{/block:Tags}</div>
+<span class="fas fa-tag" style="font-size:{text:Font Size};position:absolute;left:0;margin-left:15px;"></span>
+<div id="tag">{block:Tags} <a href="{TagURL}"> {Tag} </a>{/block:Tags}</div>
 <div id="perma"><a href="{Permalink}" title="posted {TimeAgo} with {NoteCount} Notes"><span class="fas fa-ellipsis-h"></span></a></div>    
 </div>
  
@@ -255,8 +758,9 @@ blockquote blockquote blockquote blockquote {
 
 </div>
 
-<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div>
- <!-- DO NOT REMOVE CREDIT!! -->
+<div id="sugarhoney"><a title="theme by sugar" href="https://ctrlsugar.tumblr.com/"><i class="fa-solid fa-heart"></i></a></div> 
+
+<!-- DO NOT REMOVE CREDIT!! -->
 
 </body>
 
