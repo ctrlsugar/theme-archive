@@ -101,7 +101,7 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
 <style type="text/css">
 
 body {
-    background:{color:Background};
+    background-color:{color:Background};
     font-family:'Montserrat', sans-serif;
     font-weight:normal;
     letter-spacing:1px;
