@@ -316,7 +316,7 @@ img {
     border-radius:5px;
 }
 
-#sidebar img {
+#sidebar img {object-fit: cover;
     border-radius:100px;
     width:60px;
     height:60px;object-fit: cover;
