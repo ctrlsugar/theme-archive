@@ -5,8 +5,8 @@
 <!--
 
 
-         CLEVER / 015 / SUGARCODES / TUMBLR
-         CREATED & DESIGNED BY AUTUMN
+         CLEVER / 015 / CTRLSUGAR / TUMBLR
+         CREATED & DESIGNED BY SUGAR
        
         - fonts from google fonts
         - icons from cappuccicons / by suiomi
@@ -60,6 +60,9 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
     <meta name="image:Muse Two" content="https://static.tumblr.com/blgwozc/3qJr5rl96/65x90.png" />
     <meta name="image:Muse Three" content="https://static.tumblr.com/blgwozc/3qJr5rl96/65x90.png" />
     
+        <meta name="text:Font Size" content="11px"/>
+    <meta name="text:Font" content="Inter"/>
+    
     <meta name="text:Title" content="welcome" />
     <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna." /> 
 
@@ -94,12 +97,631 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
  
      <!-- IMPORTED SCRIPTS -->
  
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script><link href="https://static.tumblr.com/0podkko/oDSpg7y88/photosets.css" rel="stylesheet"><script src="https://dl.dropbox.com/s/e9i5ycsca7fbbye/dinotooltips.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script><link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-<link rel="stylesheet" href="https://dl.dropbox.com/s/cfsct2w90mtsyd1/clever.css">
-<script src="https://kit.fontawesome.com/ebcaadb495.js" crossorigin="anonymous"></script> <script src="//pull.cappuccicons.com/cpf.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script><link href="https://static.tumblr.com/0podkko/oDSpg7y88/photosets.css" rel="stylesheet"><script src="https://dl.dropbox.com/s/e9i5ycsca7fbbye/dinotooltips.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+
+<script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family={text:Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
 
 <style type="text/css">
+
+body {
+    font-family: '{text:Font}', sans-serif;
+    font-size:{text:Font Size};
+    letter-spacing:.5px;
+    text-align:justify;
+    text-transform:lowercase;
+    background-attachment:fixed!important;
+}
+ 
+::-webkit-scrollbar {
+    width:0px;   
+}
+
+ 
+::-webkit-scrollbar-thumb {
+    height:20px;
+}
+ 
+::-webkit-scrollbar-thumb:window-inactive {
+    background: transparent;
+}
+ 
+#s-m-t-tooltip {
+    max-width:160px;
+    margin:15px;
+    font-size:8px;
+    font-family: '{text:Font}', sans-serif;
+    letter-spacing:1px;
+    text-align:center;
+    text-transform:uppercase;
+    padding:10px;
+    padding-left:30px;
+    padding-right:30px;
+    font-weight:bold;
+    z-index:999999;
+    border-radius:5px;
+}
+   
+h1 {
+    font-weight:bold;
+    font-size:20px;
+    margin-top:0px;
+    text-align:center;
+    letter-spacing:1px;
+    text-transform:none;
+    font-family: '{text:Font}', sans-serif;
+    text-transform:uppercase;
+    padding:15px;
+    border-radius:5px;
+}
+   
+h2 {
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style:none;
+    text-align:center;
+    font-weight:bold;
+    line-height:100%;
+    font-family: '{text:Font}', sans-serif;
+    text-transform:uppercase;
+}
+   
+h2 i {
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style:none;
+    text-align:center;
+    font-weight:bold;
+    line-height:100%;
+    font-family: '{text:Font}', sans-serif;
+    text-transform:uppercase;
+}
+   
+h2 b {
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style:none;
+    text-align:center;
+    font-weight:bold;
+    line-height:100%;
+    font-family: '{text:Font}', sans-serif;
+    text-transform:uppercase;
+}
+   
+h5 {
+    text-align:center;
+    font-family: '{text:Font}', sans-serif;
+    padding:7px;
+    border-radius:5px;
+}
+
+h4 {
+    text-align:center;
+    font-family: '{text:Font}', sans-serif;
+    font-size:12px;
+    width:200px;
+    margin:0px;
+    font-weight:normal;
+    margin-top:0px;
+    padding:5px;
+    border-radius:5px;
+}
+ 
+hr {
+    width:50px;
+    text-align:center;
+    float:center;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+}
+   
+pre {
+    font-size:{text:Font Size};
+    font-family: '{text:Font}', sans-serif;
+    width:400px;
+    text-align: left;
+    word-break: break-all;
+}
+ 
+b, strong {
+    font-family: '{text:Font}', sans-serif;
+    font-size:{text:Font Size};
+    font-weight:bold;
+}
+   
+i b {
+    font-style:none;
+    text-decoration:none;
+    font-weight:normal;
+}
+   
+small, sup, sub {
+	font-size:{text:Font Size};
+}
+   
+a {
+    text-decoration: none;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+}
+ 
+a:hover {
+    text-decoration: none;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+}
+
+blockquote img {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+blockquote {
+    width:363px;
+    margin-left:5px;
+    padding:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:20px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+blockquote blockquote {
+    margin-top:-10px;
+    margin-bottom:-10px;
+}
+
+blockquote blockquote blockquote {
+    padding-right:5px;
+    
+}
+
+blockquote blockquote blockquote blockquote {
+    width:313px;
+}
+
+ul {
+    padding:5px;
+    margin-left:10px;
+}
+   
+ul li {
+    list-style:none;
+    margin-left:10px;
+}
+   
+ul li:before {
+    content:"›";
+    font-size:1em;
+    padding-right:.5em;
+    position:relative;
+    top:.1em;
+}
+ 
+ol {
+    margin-left:-25px;
+}
+ 
+ 
+img {  
+    max-width:100%;
+    height:auto;
+}
+
+#container {
+    margin-top:30px;
+    margin-left:calc(50% - 435px);
+    padding:50px;
+    overflow:auto;
+    position:fixed;
+    height:540px;
+    width:750px;
+    border-radius:5px;
+    margin-bottom:85px;
+}
+
+#sidebar {
+    position:fixed;
+    width:260px;
+}
+
+#sidebox {
+    padding:25px;
+    margin-bottom:15px;
+    border-radius:5px;
+}
+
+h1.sidebox {
+    margin:-25px;
+    text-transform:lowercase;
+    margin-bottom:25px;
+    font-size:13px;
+    text-align:left;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+}
+
+h1.sidebox span {
+    float:right;
+    font-size:15px;
+    font-weight:bold;
+    line-height:13px;
+}
+
+#sideimg {object-fit: cover;
+    width:210px;
+    height:130px;
+    margin-bottom:15px;
+}
+
+#description {
+    height:47px;
+    margin-bottom:-7px;
+    overflow:auto;
+}
+
+#stat {
+    width:195px;
+    padding:7px;
+    text-transform:uppercase;
+    font-size:8px;
+    margin-bottom:5px;
+    border-radius:5px;
+    text-align:right;
+}
+
+#stats {
+    float:left;
+    padding:7px;
+    margin:-7px;
+    width:50px;
+    text-align:center;
+    font-weight:bold;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+
+
+#muse {
+    margin:-5px;
+    height:95px;
+    overflow:auto;
+    border-radius:5px;
+}
+
+#muse img {object-fit: cover;
+    margin:2.5px;
+    display:inline-block;
+    width:65px;
+    height:90px;
+    border-radius:5px;
+}
+
+#muse img:hover {
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+    webkit-filter: blur(4px); 
+    filter: blur(4px); 
+}
+
+#navigation {
+    position:fixed;
+    width:180px;
+    padding:15px; 
+    margin-top:-70px;
+    height:220px;
+    margin-left:790px;
+    font-size:11px;
+    font-weight:bold;
+    line-height:10px;
+}
+
+#link {
+    overflow:hidden;
+    width:10px;
+    height:10px;
+    padding:20px;
+    padding-top:7px;
+    padding-right:25px;
+    margin:7px;
+    line-height:25px;
+    border-radius:5px;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+    transition: width 2s ease-in-out;
+	-webkit-transition: width 2s ease-in-out;
+	-moz-transition: width 2s ease-in-out; 
+}
+
+#link:hover {
+    width:120px;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+     transition: width 2s ease-in-out;
+ 	-webkit-transition: width 2s ease-in-out; 
+ 	-moz-transition: width 2s ease-in-out; 
+}
+
+#link span {
+    float:right;
+}
+
+#pagination {
+    padding:15px;
+    min-height:12px;
+    margin-bottom:15px;
+    border-radius:5px;
+}
+
+.posts {
+    width:400px;
+    padding:25px;
+    float:right;
+    padding-bottom:0px;
+    border-radius:5px;
+    margin-bottom:35px;
+}
+
+[photoset-layout] {
+  grid-column-gap:5px; 
+  grid-row-gap:5px;
+  grid-gap:5px;    
+}
+
+#audio {
+    padding:20px;
+    height:50px;
+    border-radius:5px;
+}
+
+.tumblr_audio_player {
+    height: 90px;
+    width: 45px;
+    font-size:20px;
+    -moz-transform: scale(0.60, 0.60); 
+    -webkit-transform: scale(0.60, 0.60); 
+    -o-transform: scale(0.60, 0.60);
+    -ms-transform: scale(0.60, 0.60);
+    transform: scale(0.60, 0.60); 
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+}
+    
+#player {
+    width: 19px;
+    height: 19px;
+    margin-top:-55px;
+    margin-left:5px;
+    background-color: #ffffff;
+    padding: 10px;
+    font-size:20px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    opacity: .4;
+    filter: alpha(opacity=40);
+    -moz-opacity: 0.4;
+    -khtml-opacity: 0.4; 
+    transition: opacity .7s ease-in-out;
+    -moz-transition: opacity .7s ease-in-out;
+    -webkit-transition: opacity .7s ease-in-out;
+}
+
+#audioimg {
+    margin:-20px;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    display:inline-block;
+}
+            
+#audioimg img {
+    width: 90px;
+    height: 90px;  
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+    
+#trackdetails {
+    width:260px;
+    font-size:{text:Font Size};
+    font-family: '{text:Font}', sans-serif;
+    line-height:14px;
+    display:inline-block;
+    padding:10px;
+    padding-top:0px;
+    margin-bottom:0px;
+    float:right;
+    margin-top:-43px;
+}
+    
+.player {
+    display:inline-block;
+    width:50px;
+}
+
+iframe#youtube_iframe {
+    width: 400px;
+    max-height:100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+    
+iframe.spotify_audio_player {
+    width: 400px;
+    max-height:80px;
+}
+    
+#quote {
+    font-family: '{text:Font}', sans-serif;
+    font-size:18px;
+    text-align:center;
+    font-weight:normal;
+}
+    
+#source {
+    text-align:right;
+    margin-top:10px;
+}
+    
+#question {
+    padding:20px;
+    max-height:95px;
+    margin-bottom:-1px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+    
+#asker {
+	font-family: '{text:Font}', sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	text-align:right;
+    font-style:normal;
+    padding:10px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+#asker b {
+    font-weight:bold;
+    font-size:13px;
+}
+    
+#asker a{
+    font-weight:bold;
+}
+
+.chat {
+    font-size:10px;
+}
+
+.odd, .even {
+    padding:5px;
+    margin:5px;
+    border-radius:5px;
+}
+.even .label {
+    font-weight:bold;
+    font-size:11px;
+    padding-left:4px;
+    text-transform:lowercase;
+}
+
+.odd .label {
+    font-weight:bold;
+    font-size:11px;
+    padding-left:4px;
+    text-transform:lowercase;
+}
+
+#tags {
+    font-size:10px;
+    padding:15px;
+    margin:-25px;
+    margin-top:25px;
+    line-height:10px;
+    text-align:left;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+   
+#tags span {
+    font-size:10px;
+    line-height:10px;
+    margin-right:10px;
+    font-weight:bold;
+}
+
+#tags a {
+    margin-right:10px;
+}
+   
+#tags a:hover {
+    text-decoration:none;
+}
+
+#notes {
+    margin-top:-15px;
+    margin-right:0px;
+}
+    
+#notes ol, .notes-bottom ul {
+    margin:0px;
+    padding: 0;
+    list-style: none;
+}
+    
+#notes li {
+    padding:10px;
+    width:430px;
+    margin:5px;
+    float:right;
+    margin-right:0px;
+    margin-left:0px;
+    margin-bottom:7px;
+    font-weight:bold;
+    font-size:8px;
+    text-transform:uppercase;
+    font-family: '{text:Font}', sans-serif;
+    border-radius:5px;
+    text-align:center;
+}
+    
+#notes li img.avatar {
+    border:none;
+    margin:;
+    width:0;
+    padding:0;
+}
+
+#notes .note .retags {
+    display:none;
+    visibility:hidden;
+}
+    
+#notes blockquote {
+    display:none;
+}
+
+#tagged {
+    font-size:20px;
+    width:410px;
+    padding:20px;
+    float:right;
+    min-height:25px;
+    border-radius:5px;
+    text-align:center;
+    font-family: '{text:Font}', sans-serif;
+    margin-bottom:40px;
+}
+
+#tagged b{
+    font-weight:bold;
+    font-size:20px;
+}
+
 
 body {
     color:{color:Text};
@@ -416,7 +1038,7 @@ h1.sidebox {
 
 <div class="contentsource" style="display:none;"> {block:ContentSource} Source: <a href="{SourceURL}">{SourceTitle} </a> {/block:ContentSource} {block:RebloggedFrom} Via: <a href="{ReblogParentURL}">{ReblogParentName}</a> {/block:RebloggedFrom}</div>
 
-<div id="tags"><span class="lnr lnr-tag"></span>{block:Tags} <a href="{TagURL}">( {Tag} )</a>{/block:Tags} <a href="{Permalink}" style="float:right;" title="posted {TimeAgo} with {NoteCount} Notes"><span class="lnr lnr-star" style="margin-right:-30px;"></span></a></div>
+<div id="tags"><span class="fa-solid fa-tag"></span>{block:Tags} <a href="{TagURL}"> {Tag} </a>{/block:Tags} <a href="{Permalink}" style="float:right;" title="posted {TimeAgo} with {NoteCount} Notes"><span class="fa-regular fa-heart" style="margin-right:-30px;"></span></a></div>
     
 </div>
 
@@ -426,7 +1048,9 @@ h1.sidebox {
 
 </div>
  
-<div id="sugarhoney"><a title="theme by sugar" href="https://sugarcodes.tumblr.com/"><span class="cp cp-bee"></span></a></div> <!-- DO NOT REMOVE CREDIT!! -->
+<div id="sugarhoney"><a title="theme by sugar" href="https://ctrlsugar.tumblr.com/"><i class="fa-solid fa-heart"></i></a></div> 
+
+<!-- DO NOT REMOVE CREDIT!! -->
 
 
 </body>
