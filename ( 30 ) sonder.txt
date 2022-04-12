@@ -231,7 +231,7 @@ iframe.spotify_audio_player { width:400px; max-height:80px; }
 
 #sidebar { position:fixed;  width:350px; height:450px; border-radius:5px; background:{color:Posts}; }
 
-#icon img { width:150px; height:450px; display:inline-block; border-top-left-radius:5px; border-bottom-left-radius:5px; }
+#icon img { width:150px; height:450px; display:inline-block; border-top-left-radius:5px; border-bottom-left-radius:5px; object-fit: cover;}
 
 #description::-webkit-scrollbar { width:0px; }
 
@@ -243,7 +243,7 @@ iframe.spotify_audio_player { width:400px; max-height:80px; }
 
 #admin { width:150px; height:40px; margin:8px 3px; border-radius:5px; background:{color:Container}; } 
 
-#admin img { float:left; width:40px; height:40px; display:inline-block; border-top-left-radius:5px; border-bottom-left-radius:5px; }
+#admin img { float:left; width:40px; height:40px; display:inline-block; border-top-left-radius:5px; border-bottom-left-radius:5px; object-fit: cover;}
 
 #admin span { float:right; font-size:8px; text-transform:uppercase; color:{color:Accent One}; font-weight:bold; width:109px; text-align:center; margin-top:13px; }
 
@@ -271,7 +271,7 @@ iframe.spotify_audio_player { width:400px; max-height:80px; }
 
 #muse { display:inline-block; width:270px; height:130px; border-radius:5px; margin:5px; text-align:justify; background:{color:Posts}; }
 
-#muse img { float:left; width:100px; height:130px; display:inline-block; border-top-left-radius:5px; border-bottom-left-radius:5px; }
+#muse img { float:left; width:100px; height:130px; display:inline-block; border-top-left-radius:5px; border-bottom-left-radius:5px;object-fit: cover; }
 
 #about::-webkit-scrollbar { width:0px; }
 
@@ -289,7 +289,7 @@ iframe.spotify_audio_player { width:400px; max-height:80px; }
 
 #navimage { margin:-50px; position:fixed; }
  
-#navimage img {  width:950px; height:200px; border-top-left-radius:5px; border-top-right-radius:5px; }
+#navimage img {  width:950px; height:200px; border-top-left-radius:5px; border-top-right-radius:5px;object-fit: cover; }
 
 #plot::-webkit-scrollbar { width:0px; }
 
