@@ -865,7 +865,7 @@ iframe.spotify_audio_player {
 }
 
 #museicon img {
-    margin-top:-30px;
+    margin-top:-20px; position:absolute;
     margin-left:30px;object-fit: cover;
     width:60px;
     height:60px;
@@ -877,8 +877,8 @@ iframe.spotify_audio_player {
     width:175px;
     margin-left:90px;
     padding:15px;
-    font-size:18px;
-    margin-top:-51px;
+    font-size:18px;position:absolute;
+    margin-top:10px;
     text-transform:lowercase;
     text-align:left;
     font-family:'{text:Bold Font}';
@@ -899,13 +899,13 @@ iframe.spotify_audio_player {
 
 
 #musebiography {
-    margin-top:10px;
-    height:130px;
+    margin-top:65px;
+    height:117px;
     overflow:auto;
 }
 
 #museaesthetic {
-    margin-top:5px;
+    margin-top:7px;
     margin-left:-6px;
     margin-right:-6px;
     text-align:center;
