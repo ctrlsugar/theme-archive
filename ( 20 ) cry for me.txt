@@ -108,6 +108,7 @@ body {
     background-attachment:fixed;
     background-repeat:no-repeat;
     background-size:100% auto;
+    background-image:url('{image:Background}');
 }
  
 ::-webkit-scrollbar {
@@ -713,7 +714,7 @@ input[type="text"] {
 #affiliate {
     height:80px;
     width:75px;
-    margin:3px;
+    margin:2.5px;
     display:inline-block;
 }
 
@@ -901,7 +902,7 @@ input[type="text"] {
 #evlink {
     display:inline-block;
     padding:5px;
-    width:62.5px;
+    width:62px;
     text-align:center;
     margin-right:3px;
     font-size:7px;
