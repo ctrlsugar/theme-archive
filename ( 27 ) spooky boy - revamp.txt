@@ -283,7 +283,7 @@ clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0 100%); margin-top:115px; height:1
 
 #muse { margin:5px; margin-bottom:10px; width:400px; height:150px; background:{color:Posts}; }
 
-#muse img { position:absolute; width:150px; height:150px; -webkit-clip-path: polygon(0 0, 100% 0%, 82% 100%, 0% 100%);clip-path: polygon(0 0, 100% 0%, 82% 100%, 0% 100%);}
+#muse img {object-fit: cover; position:absolute; width:150px; height:150px; -webkit-clip-path: polygon(0 0, 100% 0%, 82% 100%, 0% 100%);clip-path: polygon(0 0, 100% 0%, 82% 100%, 0% 100%);}
 
 #muselink { transition:2s all ease-in-out; position:absolute; z-index:99; width:15px; height:15px; line-height:15px; text-align:center; font-size:15px; margin-left:115px; margin-top:55px; padding:15px; border-radius:100px; background:{color:Container}; }
 
@@ -295,7 +295,7 @@ clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0 100%); margin-top:115px; height:1
 
 #aesthetic { text-align:center; position:absolute; width:230px; margin-left:160px; margin-top:80px; }
 
-#aesthetic img { position:relative; display:inline-block; width:45px; height:45px; margin:0px 10px; -webkit-clip-path:none; clip-path:none; }
+#aesthetic img { object-fit: cover;position:relative; display:inline-block; width:45px; height:45px; margin:0px 10px; -webkit-clip-path:none; clip-path:none; }
 
 #sugarhoney { position:fixed; bottom:0;left:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
 
