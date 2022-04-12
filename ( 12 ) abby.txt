@@ -220,7 +220,7 @@ h2 {
     text-align:center;
     font-weight:bold;
     line-height:100%;
-    font-family:'{text:Body Font}';
+    font-family:'{text:Font}';
     text-transform:uppercase;
     color:{color:Accent One};
 }
@@ -232,7 +232,7 @@ h2 i {
     text-align:center;
     font-weight:bold;
     line-height:100%;
-    font-family:'{text:Body Font}';
+    font-family:'{text:Font}';
     text-transform:uppercase;
     color:{color:Accent One};
 }
@@ -244,14 +244,14 @@ h2 b {
     text-align:center;
     font-weight:bold;
     line-height:100%;
-    font-family:'{text:Body Font}';
+    font-family:'{text:Font}';
     text-transform:uppercase;
     color:{color:Accent One};
 }
    
 h5 {
     text-align:center;
-    font-family:'{text:Body Font}';
+    font-family:'{text:Font}';
     font-size:{text:Font Size};
     color:{color:Accent Two};
     background:{color:Borders};
@@ -428,7 +428,7 @@ img {
     border:4px solid {color:Accent One};
 }
 
-#sideimg img{
+#sideimg img{object-fit: cover;
     width:50px;
     height:50px;
 }
@@ -810,7 +810,7 @@ iframe.spotify_audio_player {
     background:{color:Posts};
     border:1px solid {color:Borders};
     text-align:center;
-    font-family:'{text:Body Font}';
+    font-family:'{text:Font}';
     margin-bottom:40px;
 }
 
@@ -833,7 +833,7 @@ iframe.spotify_audio_player {
 
 .tabclose {
     position:fixed;
-    font-family:'{text:Body Font}';
+    font-family:'{text:Font}';
     font-size:11px;
     width:840px;
     text-align:right;
@@ -857,7 +857,7 @@ iframe.spotify_audio_player {
 }
 
 .muse img {
-    margin-bottom:20px;
+    margin-bottom:20px;object-fit: cover;
     width:70px;
     height:70px;
     border-radius:{select:Border Radius};
