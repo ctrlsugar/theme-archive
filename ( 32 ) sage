@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--
+
+
+         SAGE / 032 / CTRLSUGAR / TUMBLR
+         CREATED & DESIGNED BY SUGAR
+       
+     
+    - fonts from google fonts
+    - icons by fontawesone
+    - special thanks to bychloethemes' undocumented documentation
+
+       
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - CTRLSUGAR.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact 
+
+        This work is protected by a creative commons
+        Attribution-NonCommercial-NoDerivatives 4.0 International
+        (CC BY-NC-ND 4.0)
+        license.
+
+-->
+
+
+ 
+<head>
+   
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}<meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0, width=device-width" /><title>{Title}</title>
+ 
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+    
+    <!-- THEME SPECIFICS -->
+    
+    <script src="https://dl.dropbox.com/s/nblwh70cu3ww4w4/sucre.js"></script>
+ 
+    <!-- STYLED TOOLTIPS -->
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script><script src="https://dl.dropbox.com/s/q8akoadfqm16u6r/sugarmytooltips.js"></script>
+  
+    <!-- ICONS FONT -->
+  
+<script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family={text:Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family={text:Bold Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- META TAGGED INFORMATION -->
+  
+    <meta name="color:Background" content=""/>
+    <meta name="color:Container" content=""/>
+    <meta name="color:Posts" content=""/>
+    <meta name="color:Borders" content=""/>
+    <meta name="color:Accent One" content=""/>  
+    <meta name="color:Accent Two" content=""/> 
+    <meta name="color:Text" content=""/>
+    
+    <meta name="image:Background" content=""/>
+    <meta name="image:Container" content="https://placehold.it/770x400"/>
+    <meta name="image:Icon One" content="https://placehold.it/50"/>
+    <meta name="image:Icon Two" content="https://placehold.it/50"/>
+    <meta name="image:Icon Three" content="https://placehold.it/50"/>
+    
+        <meta name="text:Font Size" content="11px"/>
+    <meta name="text:Font" content="Inter"/>
+    <meta name="text:Bold Font" content="Lora"/>
+    
+    <meta name="text:Title" content=""/>
+    <meta name="text:Description" content=""/>
+    
+    <meta name="text:Link One" content="/"/>
+    <meta name="text:Link Two" content="/"/>
+    <meta name="text:Link Three" content="/"/>
+    <meta name="text:Link Four" content="/"/>
+    
+
+    
+<style type="text/css">
+
+body { font-family: '{text:Font}', sans-serif; font-size:{text:Font Size}; line-height:15px; letter-spacing:.5px; font-weight:normal; text-align:justify; text-transform:lowercase; color:{color:Text}; background-color:{color:Background}; background-attachment:fixed!important; background-image:url('{image:Background}');!important;  }
+
+
+                        /* FORMATTING */
+ 
+::-webkit-scrollbar { width:5px; }
+
+::-webkit-scrollbar-track { background:{color:Accent One}; }
+
+::-webkit-scrollbar-thumb { background:{color:Accent Two}; }
+ 
+#s-m-t-tooltip { max-width:160px; margin:15px; font-size:8px; letter-spacing:1px; text-align:center; text-transform:uppercase; padding:10px; padding-left:30px; padding-right:30px; font-weight:bold; z-index:999999999999999999999999999999999999999999999999; color:{color:Posts}; background:{color:Accent One}; }
+   
+h1 { font-weight:bold; font-size:15px; margin-top:0px; text-align:center; letter-spacing:1px; text-transform:none; text-transform:uppercase; padding:15px; padding-top:20px; color:{color:Posts}; background:{color:Accent One}; }
+   
+h2 { margin-bottom:10px; font-size: 18px; font-style:none; text-align:center; font-weight:bold; line-height:100%; text-transform:uppercase; color:{color:Accent One}; }
+   
+h2 i { margin-bottom:10px; font-size: 18px; font-style:none; text-align:center; font-weight:bold; line-height:100%; text-transform:uppercase; color:{color:Accent One}; }
+   
+h2 b { margin-bottom:10px; font-size: 18px; font-style:none; text-align:center; font-weight:bold; line-height:100%; text-transform:uppercase; color:{color:Accent One}; }
+   
+hr { width:50px; text-align:center; float:center; border-width: 1px 0px 0px 0px; border-style: solid; color:{color:Posts}; background:{color:Accent One}; border-color: {color:Borders}; }
+   
+pre { font-size: 11px; width:450px; text-align: left; color:{color:Text}; word-break: break-all; }
+ 
+b, strong { font-size: 11px; font-weight:bold; color: {color:Accent Two}; }
+   
+i b { font-style:none; text-decoration:none; font-weight:normal; }
+   
+i, italic { color: {color:Accent One}; }
+   
+small, sup, sub { font-size:{text:Font Size}; }	
+   
+a { text-decoration: none; transition:all ease-in-out 2s; color:{color:Accent One}; }
+ 
+a:hover { text-decoration: none;transition:all ease-in-out 2s; color: {color:Accent Two}; }
+
+blockquote img { padding-top:20px; padding-bottom:20px; }
+
+blockquote { width:350px; margin-left:5px; padding:20px; border-left:2px solid {color:Accent Two}; background:{color:Container}; }
+
+blockquote blockquote { width:295px; background:{color:Borders};}
+
+ul { padding:5px; margin-left:10px; }
+   
+ul li { list-style:none; margin-left:10px; }
+   
+ul li:before { content:"›"; font-size:1em; padding-right:.5em; position:relative; top:.1em; color:{color:Accent One}; }
+ 
+ol { margin-left:-25px; }
+ 
+img { max-width:100%; height:auto; }
+
+#more {font-weight:bold; font-size:20px; margin-top:10px; text-align:right; letter-spacing:1px; text-transform:none; text-transform:uppercase; padding:15px; color:{color:Accent Two}; background:{color:Container}; }
+
+                        /* POSTS */
+
+#posts { position:relative;  width:400px; padding:25px; margin:25px; margin-bottom:0px; float:right; background:{color:Posts}; }
+
+#audio { padding:20px; height:50px; background:{color:Container}; }
+
+.tumblr_audio_player { height: 90px; width: 45px; font-size:20px; transform: scale(0.60, 0.60); transform-origin: top left; }
+    
+#player { width: 19px; height: 19px; margin-top:-55px; margin-left:5px; background-color: #ffffff; padding: 10px; font-size:20px; border-radius: 40px; opacity: .4; filter: alpha(opacity=40); -moz-opacity: 0.4; -khtml-opacity: 0.4; transition:opacity .7s ease-in-out; }
+
+#audioimg { margin:-20px; overflow:hidden; width:100px; height:100px; display:inline-block;}
+            
+#audioimg img { width: 90px; height: 90px; }
+    
+#trackdetails { width:260px; font-size:{text:Font Size}; line-height:14px; display:inline-block; padding:10px; padding-top:0px; margin-bottom:0px; float:right; margin-top:-43px; }
+    
+.player { display:inline-block; width:50px; }
+
+iframe#youtube_iframe { width: 400px; max-height:100%; border-top-width:0px; border-right-width:0px; border-bottom-width:  0px; border-left-width:0px; }
+    
+iframe.spotify_audio_player { width:400px; max-height:80px; }
+
+.embed_iframe { max-width:400px; }
+    
+#quote { font-size:18px; text-align:center; font-weight:normal;color:{color:Accent One}; }
+    
+#source { text-align:right; margin-top:10px; }
+    
+#question { padding:20px; max-height:95px; margin-bottom:-1px; background:{color:Container}; }
+    
+#asker { font-size:14px; font-weight:normal; text-align:right; font-style:normal; padding:10px; color:{color:Posts}; background:{color:Accent One}; }
+
+#asker b { font-weight:bold; font-size:13px; color:{color:Accent Two}; }
+    
+#asker a{ font-weight:bold; color:{color:Posts}; }
+
+.chat { font-size:{text:Font Size}; }
+
+.odd, .even { padding:10px; margin:5px; }
+
+.even .label { font-weight:bold; font-size:11px; padding-left:4px; text-transform:lowercase; color:{color:Accent One}; }
+
+.odd .label { font-weight:bold; font-size:11px; padding-left:4px; text-transform:lowercase; color:{color:Accent One}; }
+
+.odd { background:{color:Background}; }
+ 
+.even { background:{color:Container}; }
+
+                        /* POST INFO */
+
+#tags { opacity:0; font-size:7.5px; text-align:center; font-weight:800; text-transform:uppercase; margin:-25px; margin-bottom:-25px; padding:15px; width:420px; position:relative; background:{color:Container}; color:{color:Accent One}; {block:Permalink}opacity:1; margin-top:25px;{/block:Permalink} }
+
+#tags a { transition:all 2s ease-in-out; margin-right:10px; border-bottom:2px solid {color:Accent Two}; }
+   
+#tags a:hover { transition:all 2s ease-in-out; text-decoration:none; color:{color:Accent Two}; letter-spacing:1px; }
+
+#info { transition:all 2s ease-in-out; padding:25px; height:25px; text-transform:uppercase; font-size:7px; font-weight:600; margin:-25px; margin-bottom:25px; background:{color:Borders}; }
+
+#date { transition:all 2s ease-in-out; padding:5px 15px; float:left; display:inline-block; background:{color:Container}; color:{color:Accent Two}; }
+
+#permalink { transition:all 2s ease-in-out; padding:5px 15px; float:right; display:inline-block; background:{color:Container}; color:{color:Accent One}; }
+
+#permalink:hover, #date:hover { transition:all 2s ease-in-out; background:{color:Accent Two}; color:{color:Posts}; }
+
+#notes { margin-top:15px; margin-right:0px; }
+    
+#notes ol, .notes-bottom ul {  margin:0px;  padding:0px; list-style:none; }
+    
+#notes li { padding:10px;position:relative; width:430px; float:right; margin-bottom:10px; margin-right:25px; font-weight:bold; font-size:8px; text-transform:uppercase; text-align:center; background:{color:Posts}; z-index:999999999;}
+    
+#notes li img.avatar { border:none; width:0; padding:0; }
+
+#notes .note .retags { display:none; visibility:hidden; }
+    
+#notes blockquote { display:none; }
+
+#credit { position:fixed; bottom:15px; right:15px; font-size:{text:Font Size}; width:10px; height:10px; color:{color:Posts}; background:{color:Accent One}; text-align:center; line-height:12px; padding:10px; border-radius:100px; }
+
+                        /* CONTAINER */
+
+#container { width:calc(400px + 370px); height:400px; overflow:auto; margin:0 auto; margin-top:150px; background:{color:Container}; }   
+
+#container::-webkit-scrollbar { width:0px; }
+
+#header { width:calc(400px + 320px); height:30px; text-align:right; padding:25px; font-size:30px; margin-top:-80px; position:fixed; font-family:'{text:Bold Font}'; font-weight:bold; line-height:30px; color:{color:Accent One}; text-shadow:1px 1px 1px {color:Posts}; background:{color:Borders}; }
+
+.tablink { line-height:15px; float:right; padding:15px; border-radius:100px; width:15px; height:15px; display:inline-block; font-size:15px; margin:-10px 10px; color:{color:Accent Two}; background:{color:Container}; text-align:center; }
+
+#footer { width:calc(400px + 320px); padding:25px; font-size:20px; margin-top:400px; position:fixed; font-family:'{text:Bold Font}'; font-weight:bold; color:{color:Accent One}; text-shadow:1px 1px 1px {color:Posts}; background:{color:Borders}; }
+
+#footer a { line-height:25px; transition:all ease-in-out 2s; color:{color:Accent One}; margin: 10px; }
+
+#footer a:hover { transition:all ease-in-out 2s; color:{color:Accent Two};}
+
+#footer span { float:right; }
+
+                        /* SIDEBAR */
+                        
+#sidebar { position:absolute; width:770px; margin-bottom:20px; height:400px; background:{color:Container}; text-align:center; }
+
+#sidebar img {width:770px; height:400px; object-fit:cover; } 
+
+#description { background:{color:Posts}; width:200px; padding:25px; height:300px; margin:25px;  position:fixed; margin-top:-378px;}
+
+
+#desc { height:140px; margin-bottom:10px; overflow:auto; text-align:justify; }
+
+#desc::-webkit-scrollbar { width:0px; }
+
+#title { background:{color:Accent One}; color:{color:Posts}; padding:20px; margin:30px -25px; margin-top:20px; }
+
+#description img { margin:0px 5px; width:50px;object-fit:cover; height:50px; }
+
+#sugarhoney { position:fixed; bottom:0; left:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }      
+  
+</style>
+</head>  
+<body>
+
+<div id="container">
+
+
+<div id="footer">
+    <a href="{text:Link One}">.01</a>
+    <a href="{text:Link Two}">.02</a>
+    <a href="{text:Link Three}">.03</a>
+    <a href="{text:Link Four}">.04</a>
+    
+    <span>{block:Pagination}{block:PreviousPage}<a href="{PreviousPage}">back</a> /{/block:PreviousPage}{block:NextPage}<a href="{NextPage}">forth</a>{/block:NextPage}{/block:Pagination}</span>
+
+</div>
+
+<div id="sidebar">
+<img src="{image:Container}">
+<div id="description">
+<div id="desc">{text:Description}</div>
+<div id="title">{text:Title}</div>
+<img src="{image:Icon One}">
+<img src="{image:Icon Two}">
+<img src="{image:Icon Three}">
+</div>
+    
+</div>
+
+    {block:Posts}
+ 
+<div id="posts">
+
+{block:Date}<div id="info"><a href="/day/{Month}/{DayofMonth}/{Year}"><div id="date">posted {TimeAgo}</div></a><a href="{Permalink}"><div id="permalink">with {NoteCount} notes</div></a></div>{/block:Date} 
+
+                    <!-- POST TITLES -->
+
+{block:Title}<h1>{Title}</h1>{/block:Title}
+
+                    <!-- TEXT POSTS -->
+
+{block:Text}{Body}{/block:Text}
+
+                    <!-- QUOTE POSTS -->
+ 
+{block:Quote}<div id="quote">{Quote}</div><div id="source">— {Source}</div>{/block:Quote}
+
+                    <!-- LINK POSTS -->
+ 
+{block:Link}<a href="{URL}" class="link" {Target}> <h2>{Name}</h2></a>
+{block:Description}<p>{Description}</p>{/block:Description}{/block:Link}
+
+                    <!-- PHOTO POSTS -->
+ 
+{block:Photo}<center><img src="{PhotoURL-500}"/></center>{block:Caption}{Caption}{/block:Caption}{/block:Photo}
+
+                    <!-- PHOTOSET POSTS -->
+
+{block:Photoset}<div class="photo">{Photoset}</div>{block:Caption}<div id="caption">{Caption}</div>{/block:Caption}{/block:Photoset}
+
+                    <!-- CHAT POSTS -->
+ 
+{block:Chat}<div class="chat">{block:Lines}<div class="{Alt}">{block:Label}<span class="label">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</span>{/block:Label}{Line}</div>{/block:Lines}</div>{/block:Chat} 
+
+                    <!-- VIDEO POSTS -->
+
+{block:Video}{Video-500}{block:Caption}{Caption}{/block:Caption}{/block:Video}
+
+                    <!-- ASK POSTS -->
+ 
+{block:Answer}<div id="question">{Question}</div><div id="asker"><b>{Asker}</b> asked</div>{Answer}{/block:Answer}
+
+                    <!-- AUDIO POSTS -->
+
+{block:Audio}{block:AudioPlayer}<div id="audio">{block:AlbumArt}<div id="audioimg"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}<div id="player">{AudioPlayerWhite}</div><div id="trackdetails">{block:TrackName}<b>Track:</b> {TrackName} <br/>{/block:TrackName}{block:Artist}<b>Artist:</b> {Artist} <br/>{/block:Artist}{block:Album}<b>Album:</b> {Album} <br/>{/block:Album}</div></div>{/block:AudioPlayer}<br><br>{block:Caption}{Caption}{/block:Caption}{/block:Audio}
+
+                    <!-- READ MORES -->
+
+{block:More}<a href="{Permalink}"><div id="more">continue to post...</div></a>{/block:More}
+
+<div class="contentsource" style="display:none;"> {block:ContentSource} Source: <a href="{SourceURL}">{SourceTitle} </a> {/block:ContentSource} {block:RebloggedFrom} Via: <a href="{ReblogParentURL}">{ReblogParentName}</a> {/block:RebloggedFrom}</div>
+ 
+                    <!-- PERMALINK, INFO & TAGS -->
+
+{block:Date}<div id="tags">{block:Tags} <a href="{TagURL}"> {Tag} </a>{/block:Tags}</div>{/block:Date}    
+</div>
+
+
+                    <!-- POST NOTES -->
+
+{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+
+{/block:Posts}
+
+
+</div>
+
+<div id="sugarhoney"><a title="theme by sugar" href="https://ctrlsugar.tumblr.com/"><i class="fa-solid fa-heart"></i></a></div> 
+
+<!-- DO NOT REMOVE CREDIT!! -->
+
+</html>
