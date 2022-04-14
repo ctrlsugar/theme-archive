@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+<!--
+        	BLOODLINE / 038 / CTRLSUGAR / TUMBLR
+         CREATED & DESIGNED BY SUGAR
+       
+        - icons by themehive
+        - fonts from google fonts
+        - style my tootltips by malihu (http://manos.malihu.gr)
+        
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARDESIGNS.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact        
+ 
+-->
+ 
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}<meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0, width=device-width" /><title>{Title}{block:TagPage} | {Tag} {/block:TagPage} {block:SearchPage} | {lang:Search results for SearchQuery}{/block:SearchPage}{block:PostSummary} | {PostSummary} {/block:PostSummary}</title>
+ 
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+ 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family={text:Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    
+    <script src="https://dl.dropbox.com/s/ipdoqvevtblx8rw/sugartips.js"></script>
+    
+   <script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
+    
+    <meta name="image:Background Image" content=""/>
+    <meta name="image:Sidebar Image" content="" />
+    
+    <meta name="if:Gradient Effect" content="1"/>
+    
+
+    <meta name="text:Font Size" content="12px"/>
+    <meta name="text:Font" content="Quicksand"/>
+ 
+    <meta name="color:Background" content="" />
+    <meta name="color:Text" content="" />
+    <meta name="color:Links" content="" />
+    <meta name="color:Borders" content="" />
+    <meta name="color:Posts" content="#ffffff" />
+    <meta name="color:Accent One" content="" />
+    <meta name="color:Accent Two" content="" />
+    
+    <meta name="text:Description" content=""/>
+   
+    <meta name="text:Link One" content="#" />
+    <meta name="text:Link One Title" content="Link One">
+    <meta name="text:Link Two" content="#" />
+    <meta name="text:Link Two Title" content="Link Two">
+    <meta name="text:Link Three" content="#" />
+    <meta name="text:Link Three Title" content="Link Three">
+   
+    <meta name="select:Posts Width" content="500px" />
+    <meta name="select:Posts Width" content="350px" />
+    <meta name="select:Posts Width" content="400px" />
+    <meta name="select:Posts Width" content="450px" />
+    <meta name="select:Posts Width" content="540px" />
+ 
+<style type="text/css">
+ 
+::-moz-selection { background: {color:Accent Two}; color: {color:Background};}
+ 
+::selection { background: {color:Accent Two}; color: {color:Background}; }
+ 
+body {font-family: '{text:Font}'; background:{color:Background}; font-size:{text:Font Size}; line-height:21px; font-weight:300; text-align:justify; text-transform:lowercase; letter-spacing:1px; color:{color:Text}; background-image:url('{image:Background Image}');!important background-position:top left; background-attachment:fixed; background-repeat:repeat; word-wrap:break-word; }
+
+::-webkit-scrollbar { width:5px; background:{color:Accent One}; }
+::-webkit-scrollbar-thumb { background:{color:Accent Two}; }
+
+blockquote { border-left:2px {color:Accent Two} solid; padding:0px 15px; margin:15px 0px; margin-bottom:25px;}
+
+blockquote img { margin-top:15px; }
+
+blockquote blockquote { margin-left:10px; }
+
+img { max-width:100%; height:auto; }
+
+b, strong { font-size:calc({text:Font Size} - 1px); text-transform:uppercase; color:{color:Accent One}; }
+
+i, em { font-weight:500; color:{color:Accent Two}; }
+
+a { color:{color:Links}; text-decoration:none; }
+
+a:hover { transition:all 2s ease-in-out; color:{color:Accent Two}; }
+
+#s-m-t-tooltip { max-width:250px; margin:25px; font-size:8px; letter-spacing:2px; border-radius:5px; text-align:center; font-weight:bold; text-transform:uppercase; padding:5px 30px; z-index:999999999; text-shadow:1px 1px 1px {color:Text}; color:{color:Posts}; background:{color:Accent Two}; {block:ifGradientEffect}background: -webkit-linear-gradient(top left, {color:Accent One} , {color:Accent Two});background: -o-linear-gradient(right bottom, {color:Accent One}, {color:Accent Two});background: -moz-linear-gradient(right bottom, {color:Accent One}, {color:Accent Two});background: linear-gradient(to right bottom, {color:Accent One}, {color:Accent Two});{/block:ifGradientEffect} }
+
+h1 { background:{color:Background}; margin:-25px; margin-bottom:25px; padding:35px 25px; text-align:center; font-size:25px; letter-spacing:0px; color:{color:Accent One}; text-shadow:1px 1px 1px {color:Accent Two}; }
+
+h2, h2 b { font-size:15px; font-weight:600;}
+
+h2 a { border-bottom:2px solid {color:Accent Two}; color:{color:Accent One};}
+
+ul { padding:5px; margin-left:10px; }
+   
+ul li { list-style:none; margin-left:10px; font-size:{text:Font Size}px; line-height:15px; }
+   
+ul li:before { content:"›"; font-size:1em; font-weight:bold; padding-right:.5em; position:relative; top:.1em; color:{color:Accent One}; }
+ 
+ol { margin-left:-25px; }
+
+hr { width:150px; margin:0 auto; margin-top:25px; margin-bottom:25px; text-align:center; float:center; border-width: 5px 0px 0px 0px; border-style: solid; border-color:{color:Background}; }
+   
+pre { font-size:11px; justify:left; width:88%; font-size:10px; background:{color:Background}; border:2px solid {color:Accent One}; padding:25px;  text-align:left; color:{color:Text}; word-break: break-all; white-space: pre-wrap;  white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap;  word-wrap: break-word;  margin-bottom:15px;}
+
+pre b { background:{color:Accent Two}; color:{color:Posts}; padding:3px;  }
+
+small, big { font-size:{text:Font Size}; }
+
+sub { font-size:7px; color:{color:Link Color}; }
+
+sup { font-size:7px; color:{color:Accent Two}; }
+
+            /* SIDEBAR & NAVIGATION */
+ 
+#sidebar{ position:fixed; height:100%; width:500px; padding:10px; top:0px; left:0px; background:{color:Posts}; border-right:1px solid {color:Borders}; }
+ 
+#sidebarmain { background:{color:Posts}; width:430px;text-align:center;height:100%; position:fixed;margin-top:0px;margin-left:70px; }
+ 
+#menubar{ width:40px;padding:15px;height:100%;position:fixed;text-align:center; bottom:0px; left:0px; border-right:1px solid {color:Borders}; background:{color:Accent One};{block:ifGradientEffect}background: -webkit-linear-gradient(top left, {color:Accent One} , {color:Accent Two});background: -o-linear-gradient(right bottom, {color:Accent One}, {color:Accent Two});background: -moz-linear-gradient(right bottom, {color:Accent One}, {color:Accent Two});background: linear-gradient(to right bottom, {color:Accent One}, {color:Accent Two});{/block:ifGradientEffect} }
+ 
+#links { height:400px; top:50%; margin-top:200px; }
+ 
+#links span{ margin-bottom:50px; font-size:25px; color:{color:Posts};}
+ 
+#sidebar img { width:150px; height:150px; border-radius:200px; margin-top:175px; margin-bottom:50px; object-fit:cover; }
+ 
+#description { width:275px; text-align:justify; margin-left:75px; }
+ 
+#pagination { margin-top:20px; width:290px; margin-left:55px; position: relative; text-align: right; letter-spacing:1px; text-transform: lowercase; font-size: 10px; line-height:10px;}
+ 
+#pagination a { padding-left:20px; } 
+
+#pagination span { font-size:9px; margin:0px 10px;}
+ 
+            /* POST FORMATTING */
+
+.posts a { font-weight:500; color:{color:Links}; border-bottom:2px solid {color:Accent One}; text-decoration:none;}
+
+.posts { width:{select:Posts Width};  padding:30px; background:{color:Posts}; border-radius:3px; margin:25px; padding-top:30px; margin-left:600px; margin-bottom:0px; padding-bottom:28px; border:1px solid {color:Borders}; }
+
+.answer span,.chat li { margin:0 0 5px; padding:10px 15px; width:93%; clear:both; position:relative; }
+
+.answer .them,.user_1,.user_3 { background:{color:Accent One}; color:{color:Posts}; }
+
+.answer .me,.user_2,.user_4 { text-align:right; background:{color:Accent Two}; color:{color:Posts}; }
+
+span.label { color:{color:Posts}; margin-right:5px; font-weight:600; text-shadow:none; }
+
+.me p,.answer,.asked span{ padding:0; margin:0; }
+
+.answer{ overflow:hidden; }
+
+.asked p { text-align: left; margin: 0 0px 10px 0px; padding: 0; color: {color:Posts}; line-height:0px; }
+
+.asked a { margin:0; padding:0; }
+
+.user_3{ background:{color:Background}; } .user_4{ background:{color:Borders}; } 
+
+.chat { overflow: hidden; list-style-type: none; padding: 0; margin: 0; }
+
+#audio { padding:20px; margin-bottom:25px; height:50px; background:{color:Background}; } 
+
+.tumblr_audio_player { height: 90px; width: 45px; font-size:20px; -moz-transform: scale(0.60, 0.60); -webkit-transform: scale(0.60, 0.60); -o-transform: scale(0.60, 0.60); -ms-transform: scale(0.60, 0.60); transform: scale(0.60, 0.60); -moz-transform-origin: top left; -webkit-transform-origin: top left; -o-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left; }
+    
+#player { width: 19px; height: 19px; margin-top:-55px; margin-left:5px; background-color: #ffffff; padding: 10px; font-size:20px; -webkit-border-radius: 40px; -moz-border-radius: 40px; border-radius: 40px; opacity: .4; filter: alpha(opacity=40); -moz-opacity: 0.4; -khtml-opacity: 0.4;  transition:opacity .7s ease-in-out; -moz-transition:opacity .7s ease-in-out; -webkit-transition:opacity .7s ease-in-out; }
+         
+#audioimg { margin:-20px; overflow:hidden; width:100px; height:100px; display:inline-block; }
+
+#audioimg img { width:90px; height:90px; }
+    
+#trackdetails { width:calc({select:Posts Width}; - 190px); height:35px;  font-size: 8.5px; line-height:14px; display:inline-block; padding:25px; margin-bottom:0px; margin-right:-20px; float:right; margin-top:-65px; background:{color:Container}; }
+    
+.player { display:inline-block; width:50px; }
+
+iframe#youtube_iframe { width:{select:Posts Width}; max-height:100%; border-top-width:0px; border-right-width:0px; border-bottom-width:0px; border-left-width:0px; }
+    
+iframe.spotify_audio_player { width:{select:Posts Width}; max-height:80px; }
+
+#question { margin:-31px; padding:20px; margin-bottom:0px; color:{color:Posts}; background:{color:Accent One}; }
+
+#asker { margin:0px -30px; text-transform:uppercase; letter-spacing:3px; font-size:9px; text-align:right; font-style:normal; padding:15px; margin-bottom:25px; font-weight:bold; background:{color:Container}; color:{color:Accent Two}; }
+
+#asker a { color:{color:Accent One}; }
+
+#quote { text-align:center; font-size:35px; line-height:30px;  letter-spacing:0px; color:{color:Accent One}; text-shadow:1px 1px 1px {color:Accent Two}; }
+
+#source { text-align:right; margin-top:25px; }
+ 
+#tags { width:{select:Posts Width}; padding:10px 30px; text-transform:uppercase; font-size:7px; text-align:center; margin:0 auto; margin-bottom:60px; margin-left:600px; }
+ 
+.postinfo {   background:{color:Borders}; {block:ifGradientEffect}background: -webkit-linear-gradient(top left, {color:Accent One} , {color:Accent Two});background: -o-linear-gradient(right bottom, {color:Accent One}, {color:Accent Two});background: -moz-linear-gradient(right bottom, {color:Accent One}, {color:Accent Two});background: linear-gradient(to right bottom, {color:Accent One}, {color:Accent Two}); color:{color:Background};{/block:ifGradientEffect} border-top:1px solid {color:Borders}; margin:-30px; padding:25px; line-height:10px; margin-top:10px;  min-height:10px; border-bottom-left-radius:3px; border-bottom-right-radius:3px;}
+ 
+#perma { font-size:9px; text-transform:uppercase; color:{color:Link Color}; line-height:10px; text-align:right; display:inline-block;  }
+ 
+#perma a{ border:none; {block:ifGradientEffect}color:{color:Posts};{/block:ifGradientEffect} border-bottom:2px solid {color:Accent One}; font-weight:bold; }
+ 
+#pagenotes { padding:10px; margin-top:-80px; width:calc({select:Posts Width} + 80px); margin-left:573px; }
+ 
+#pagenotes ol li{ list-style:none; border-radius:5px; margin-bottom:5px; background:{color:Posts}; text-transform:uppercase; font-size:8px; padding:5px; text-align:center; border:1px solid {color:Borders}; }
+
+#pagenotes li img.avatar { border:none; width:0; padding:0; }
+
+#pagenotes .retags { padding-bottom:0px; margin-bottom:0px; }
+
+#pagenotes .retags a { font-size:7px; font-weight:normal; padding-bottom:0px; margin-bottom:0px; }
+
+#credit { position:fixed; border-radius:3px; bottom:0; right:0; margin:10px; background:{color:Posts}; padding:5px; border:1px solid {color:Borders};  width:120px; text-transform:uppercase; text-align:center; font-size:7.5px; letter-spacing:3px; font-weight:500;text-shadow:1px 1px 1px rgba(0,0,0,.3); font-family:'Questrial',sans-serif; }
+
+#credit a { border:none; }
+
+#credit a:hover { background:transparent; }
+
+#totop { text-transform:uppercase; text-align:center; font-size:8px; letter-spacing:3px; font-weight:700; background: -webkit-linear-gradient(top left, {color:Accent One} , {color:Accent Two}); background: -o-linear-gradient(right bottom, {color:Accent One}, {color:Accent Two}); background: -moz-linear-gradient(right bottom, {color:Accent One}, {color:Accent Two}); background: linear-gradient(to right bottom, {color:Accent One}, {color:Accent Two}); color:{color:Posts}; outline:none; border:none; bottom:0; right:0; padding:10px;  width:132px; text-transform:uppercase; border-top-left-radius:3px; border-top-right-radius:3px; text-align:center; font-family: 'Questrial', sans-serif; border:1px solid {color:Borders}; font-size:8px; letter-spacing:3px; font-weight:500; position: fixed; margin:10px; margin-bottom:40px; z-index:99999999999999999999999999; display:none; text-shadow:1px 1px 1px rgba(0,0,0,.3); }
+
+
+{CustomCSS}
+</style>
+</head>
+<body>
+ 
+ 
+            <!-- CREDIT - DO NOT REMOVE CREDIT -->
+            
+<button onclick="topFunction()" id="totop" title="Go to top">back to top <span class="fas fa-chevron-up"></span></button><a href="https://ctrlsugar.tumblr.com/" title="theme by sugar | powered by tumblr"><div id="credit"><span style="color:{color:Accent One}">ctrl</span>sugar</div></a>  <script src="https://dl.dropbox.com/s/esnla9l72kznqxe/totop.js"></script>
+
+            <!-- SIDEBAR & NAVIGATION -->
+ 
+<div id="sidebar">
+    <div id="menubar">
+        <div id="links">
+        
+<a href="/" title="refresh"><span class="fas fa-redo-alt"></span></a>
+<a href="/ask" title="contact"><span class="fas fa-question"></span></a>
+<a href="{text:Link One}" title="{text:Link One Title}"><span class="fas fa-user"></span></a>
+<a href="{text:Link Two}" title="{text:Link Two Title}"><span class="fas fa-bars"></span></a>
+<a href="{text:Link Three}" title="{text:Link Three Title}"><span class="fas fa-cog"></span></a>
+    
+</div></div>
+ 
+<div id="sidebarmain">
+<img src="{image:Sidebar Image}">
+    <div id="description"> {text:Description} </div>
+ 
+<div id="pagination">{block:Pagination}{block:PreviousPage}<a href="{PreviousPage}" style="float:left;"><span class="fas fa-chevron-left"></span> backwards</a>{/block:PreviousPage}{block:NextPage}<a href="{NextPage}">forwards <span class="fas fa-chevron-right"></span></a>{/block:NextPage}{/block:Pagination}</div>
+ 
+</div>
+</div>
+ 
+            <!-- POSTS -->
+ 
+{block:Posts}
+
+<!-- {block:NoRebloggedFrom}{block:RebloggedFrom}{ReblogParentName}{/block:RebloggedFrom}{/block:NoRebloggedFrom} -->{block:ContentSource}<!-- {SourceURL}{block:SourceLogo}<img src="{BlackLogoURL}"width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />{/block:SourceLogo}{block:NoSourceLogo}{SourceLink}{/block:NoSourceLogo} -->{/block:ContentSource}
+
+<div class="{posttype}post posts">
+
+{block:Text}{block:Title}<h1>{Title}</h1>{/block:Title}
+<div div="caption">{Body}</div>{/block:Text}
+
+{block:Photo}<img src="{PhotoURL-highres}" al="{photoalt}">{/block:Photo}
+            
+{block:Photoset}{Photoset}{/block:Photoset}
+            
+{block:Panorama}<img src="{photourl-panorama}" alt="{photoalt}">{/block:Panorama}
+            
+{block:Quote}<div id="quote">"{Quote}"</div><div id="source">{Source}</div>{/block:Quote}
+            
+{block:Link}<div class="link"><a href="{URL}"><span class="fas fa-link"></span> {Name}</a></div>{/block:Link}
+            
+{block:Video}{Video-700}{/block:Video}
+            
+{block:Audio}{block:AudioPlayer}<div id="audio">{block:AlbumArt}<div id="audioimg"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}<div id="player">{AudioPlayerWhite}</div><div id="trackdetails">{block:TrackName}<b>Track:</b> {TrackName} <br/>{/block:TrackName}{block:Artist}<b>Artist:</b> {Artist} <br/>{/block:Artist}{block:Album}<b>Album:</b> {Album} <br/>{/block:Album}</div></div>{/block:AudioPlayer}{/block:Audio}
+            
+{block:Answer}<div id="question">{Question}</div><div id="asker">{Asker} asked a question</div> <div class="caption">{Answer}</div>{/block:Answer}
+ 
+{block:Chat}<div class="chat">{block:Lines}<li class="line_{Alt} user_{UserNumber}">{block:Label}<span class="label">{Label}</span> {/block:Label}{Line}</li>{/block:Lines}</div>{/block:Chat}            
+            
+{block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
+<div class="postinfo">
+ 
+<div id="perma">posted <a href="/day/{Year}/{MonthNumberWithZero}/{DayofMonthWithZero}">{TimeAgo} </a>with<a href="{Permalink}"> {NoteCount} </a>notes</div>   <div id="perma" style="float:right;"><a href="{ReblogURL}"> REBLOG this post</a></div>
+ 
+</div>
+</div>
+ 
+<div id="tags">{block:Tags} <a href="{TagURL}">#{Tag}&nbsp;</a>{/block:Tags}</div>
+       
+{block:PostNotes}<div id="pagenotes">{PostNotes}</div>{/block:PostNotes}
+ 
+{/block:Posts}
+
+ 
+<!-- THIS THEME WAS CREATED BY SUGARDESIGNS.TUMBLR.COM AND IS NOT FOR RESALE. DO NOT REMOVE THE CREDIT, DO NOT CLAIM AS YOUR OWN. DO NOT USE AS A BASE CODE OR FOR PAID COMMISSIONS OF ANY KIND. PLEASE SEE SUGARDESIGNS.TUMBLR.COM/ASK FOR TROUBLESHOOTING. -->
+ 
+</body>
+</html>
