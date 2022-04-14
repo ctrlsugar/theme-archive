@@ -128,9 +128,9 @@ small, sub, sup, big { font-size:{text:Font Size};  }
 
 #source { text-align:right; margin-top:25px; }
 
-iframe#youtube_iframe { width:400px; max-height:100%; border-top-width:0px; border-right-width:0px; border-bottom-width:0px; border-left-width:0px; }
+iframe#youtube_iframe { width:{select:Posts Width};max-height:100%; border-top-width:0px; border-right-width:0px; border-bottom-width:0px; border-left-width:0px; }
     
-iframe.spotify_audio_player { width:400px; max-height:80px; }
+iframe.spotify_audio_player { width:{select:Posts Width};max-height:80px; }
 
 .label { font-size:9px; text-transform:uppercase; font-weight:700; color:{color:Accent Two}; letter-spacing:2px; }
 
