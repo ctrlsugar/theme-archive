@@ -124,7 +124,7 @@ pre { font-size:{select:Font Size}; font-family: '{text:Font}', sans-serif; widt
  
 pre b { background:{color:Accent Two}; color:{color:Posts}; padding:3px;  }
 
-small, sub, sup, big { font-size:10.5px; }
+small, sub, sup, big {font-size:{select:Font Size}; }
 
             /* CONTAINER FORMATTING */
             
