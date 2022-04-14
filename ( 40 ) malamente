@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+    
+    
+    <!--
+            MALAMENTE / 040 / CTRLSUGAR / TUMBLR
+         CREATED & DESIGNED BY SUGAR
+       
+        - icons by fontawesome
+        - draggable elements from jqueryui.com
+        - fonts from google fonts
+        - style my tootltips by malihu (http://manos.malihu.gr)
+       
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARDESIGNS.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact        
+ 
+-->
+ 
+
+<meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <title>{Title}</title>
+    
+    {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+    
+ 
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+   
+    <meta name="color:Background" content="#eeeeee" />
+    <meta name="color:Container" content="#f6f6f6" />
+    <meta name="color:Posts" content="#ffffff" />
+    <meta name="color:Borders" content="#e6e6e6" />
+    <meta name="color:Link" content="#a92929" />
+    <meta name="color:Accent One" content="#88c06e" />  
+    <meta name="color:Accent Two" content="#fdd662" />
+    <meta name="color:Text" content="#676767" />
+    
+    <meta name="select:Posts Width" content="400px" />
+    <meta name="select:Posts Width" content="350px" />
+    
+    <meta name="image:Background" content="" />
+    
+    
+    <meta name="text:Font Size" content="11px"/>
+    <meta name="text:Font" content="Inter"/>
+    
+    <meta name="text:Title" content="" />
+    <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. ALIQUAM MATTIS PORTA URNA. maecenas dui neque, rhoncus sed, vehicula vitae, auctor at, nisi. aenean id massa ut lacus molestie porta. curabitur sit amet quam id libero suscipit venenatis. lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. " />
+    <meta name="text:Online Hit Counter" content="00"/>
+    <meta name="text:Total Hits Counter" content="00000"/>
+    
+    <meta name="text:Link One" content="link one" />
+    <meta name="text:Link One URL" content="/" />
+    <meta name="text:Link Two" content="link two" />
+    <meta name="text:Link Two URL" content="/" />
+    <meta name="text:Link Three" content="link three" />
+    <meta name="text:Link Three URL" content="/" />
+    <meta name="text:Link Four" content="link four" />
+    <meta name="text:Link Four URL" content="/" />
+    
+    <meta name="if:Admin One" content="0"/>
+    <meta name="if:Admin Two" content="0"/>
+    <meta name="if:Admin Three" content="0"/>
+    <meta name="if:App Count" content="0"/>
+    <meta name="if:Affiliates" content="0"/>
+    <meta name="if:Updates" content="0"/>
+    <meta name="if:Projects" content="0"/>
+    <meta name="if:Disclaimer" content="0"/>
+    
+    <meta name="image:Project One" content="https://placehold.it/125x50"/>
+    <meta name="image:Project Two" content="https://placehold.it/125x50"/>
+    <meta name="text:Project One" content="project one"/>
+    <meta name="text:Project One Details" content="aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris."/>
+    <meta name="text:Project Two" content="project two"/>
+    <meta name="text:Project Two Details" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. "/>
+    
+    <meta name="image:Admin One" content="https://placehold.it/50"/>
+    <meta name="image:Admin Two" content="https://placehold.it/50"/>
+    <meta name="image:Admin Three" content="https://placehold.it/50"/>
+    
+    <meta name="text:Admin One Name" content="admin one"/>
+    <meta name="text:Admin Two Name" content="admin two"/>
+    <meta name="text:Admin Three Name" content="admin three"/>
+    
+    <meta name="text:Application Count" content="09"/>
+    <meta name="text:Next Acceptances" content="monday, april 6"/>
+    
+    <meta name="image:Affiliate One" content="https://placehold.it/50"/>
+    <meta name="text:Affiliate One" content="affiliate one"/>
+    <meta name="text:Affiliate One URL" content="/"/>
+    <meta name="image:Affiliate Two" content="https://placehold.it/50"/>
+    <meta name="text:Affiliate Two" content="affiliate Two"/>
+    <meta name="text:Affiliate Two URL" content="/"/>
+    <meta name="image:Affiliate Three" content="https://placehold.it/50"/>
+    <meta name="text:Affiliate Three" content="affiliate Three"/>
+    <meta name="text:Affiliate Three URL" content="/"/>
+    <meta name="image:Affiliate Four" content="https://placehold.it/50"/>
+    <meta name="text:Affiliate Four" content="affiliate Four"/>
+    <meta name="text:Affiliate Four URL" content="/"/>
+    <meta name="image:Affiliate Five" content="https://placehold.it/50"/>
+    <meta name="text:Affiliate Five" content="affiliate Five"/>
+    <meta name="text:Affiliate Five URL" content="/"/>
+    <meta name="image:Affiliate Six" content="https://placehold.it/50"/>
+    <meta name="text:Affiliate Six" content="affiliate Six"/>
+    <meta name="text:Affiliate Six URL" content="/"/>
+    <meta name="image:Affiliate Seven" content="https://placehold.it/50"/>
+    <meta name="text:Affiliate Seven" content="affiliate Seven"/>
+    <meta name="text:Affiliate Seven URL" content="/"/>
+    <meta name="image:Affiliate Eight" content="https://placehold.it/50"/>
+    <meta name="text:Affiliate Eight" content="affiliate Eight"/>
+    <meta name="text:Affiliate Eight URL" content="/"/>
+    <meta name="image:Affiliate Nine" content="https://placehold.it/50"/>
+    <meta name="text:Affiliate Nine" content="affiliate Nine"/>
+    <meta name="text:Affiliate Nine URL" content="/"/>
+    
+    <meta name="text:Update Date One" content="00.00"/>
+    <meta name="text:Update One" content="update one"/>
+    <meta name="text:Update Date Two" content="00.00"/>
+    <meta name="text:Update Two" content="update two"/>
+    <meta name="text:Update Date Three" content="00.00"/>
+    <meta name="text:Update Three" content="update three"/>
+
+    <meta name="text:Disclaimer" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. ALIQUAM MATTIS PORTA URNA. maecenas dui neque, rhoncus sed, vehicula vitae, auctor at, nisi. " />
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script><script src="https://dl.dropbox.com/s/7s8m7qitnwqhjf0/softerytooltips.js"></script>
+    
+    <!-- FONTS -->
+<script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family={text:Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+       <!-- DRAGABLE ELEMENTS JQUERY -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>        <script src="https://dl.dropbox.com/s/bajo8ud9afvnqze/malamente.js"></script>
+
+<style>
+
+body {font-family: '{text:Font}', sans-serif; background:{color:Background}; font-size:{text:Font Size}; line-height:21px; font-weight:300; text-align:justify; text-transform:lowercase; letter-spacing:1px; color:{color:Text}; 
+background-image: url('{image:Background}'); background-position:top left; background-attachment:fixed; background-repeat:repeat; word-wrap:break-word; }
+
+::-webkit-scrollbar { width:0px; background:{color:Accent One};  border-radius:15px;}
+
+::-webkit-scrollbar-thumb { background:{color:Container}; border-radius:15px; }
+
+blockquote { border-left:2px {color:Accent Two} solid; padding:0px 15px; margin:15px 0px; margin-bottom:25px;}
+
+blockquote img { margin-top:15px; }
+
+blockquote blockquote { margin-left:10px; }
+
+img { max-width:100%; height:auto; }
+
+b, strong { font-size:9px; text-transform:uppercase; color:{color:Accent One}; }
+
+i, em { font-weight:500; color:{color:Accent Two}; }
+
+a { color:{color:Link}; text-decoration:none; }
+
+a:hover { transition:all 2s ease-in-out; color:{color:Accent Two}; }
+
+#s-m-t-tooltip { max-width:150px; margin:15px; font-size:9px; letter-spacing:2px; text-align:center; font-weight:500; text-transform:lowercase; padding:7px 30px; z-index:999999999; border:1px solid {color:Borders}; color:{color:Link}; border-radius:50px; background:{color:Container}; }
+
+h1 { background:{color:Container}; margin:-20px; margin-bottom:25px; padding:35px 25px; text-align:center; font-size:25px; letter-spacing:0px; color:{color:Accent One}; text-shadow:1px 1px 1px {color:Accent Two}; }
+
+h2, h2 b { font-size:15px; font-weight:600;}
+
+ul { padding:5px; margin-left:10px; }
+   
+ul li { list-style:none; margin-left:10px; font-size:{select:Font Size}px; line-height:{select:Line Height}px; }
+   
+ul li:before { content:"›"; font-size:1em; font-weight:bold; padding-right:.5em; position:relative; top:.1em; color:{color:Accent One}; }
+ 
+ol { margin-left:-25px; }
+
+hr { width:150px; margin:0 auto; margin-top:25px; margin-bottom:25px; text-align:center; float:center; border-width: 5px 0px 0px 0px; border-style: solid; border-color:{color:Container}; }
+   
+pre { font-size:{text:Font Size}; font-family: 'Questrial', sans-serif; width:88%; font-size:10px; background:{color:Container}; padding:25px;  text-align:left; color:{color:Text}; word-break: break-all; white-space: pre-wrap;  white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap;  word-wrap: break-word;  margin-bottom:15px;}
+
+pre b { background:{color:Accent Two}; color:{color:Posts}; padding:3px;  }
+
+small, sub, sup, big { font-size:{text:Font Size}; }
+
+#posts { width:{select:Posts Width}; padding:30px; background:{color:Posts}; border-radius:3px; margin:25px auto; padding-top:50px; margin-top:30px; margin-bottom:0px; padding-bottom:25px; border:1px solid {color:Borders}; }
+
+.answer span,.chat li { margin:0 0 5px; padding:10px 15px; width:93%; clear:both; position:relative; }
+
+.answer .them,.user_1,.user_3 { background:{color:Accent One}; color:{color:Posts}; }
+
+.answer .me,.user_2,.user_4 { text-align:right; background:{color:Accent Two}; color:{color:Posts}; }
+
+span.label { color:{color:Posts}; margin-right:5px; font-weight:600; text-shadow:none; }
+
+.me p,.answer,.asked span{ padding:0; margin:0; }
+
+.answer{ overflow:hidden; }
+
+.asked p { text-align: left; margin: 0 0px 10px 0px; padding: 0; color: {color:Posts}; line-height:0px; }
+
+.asked a { margin:0; padding:0; }
+
+.user_3{ background:{color:Background}; } .user_4{ background:{color:Container}; } 
+
+.chat { overflow: hidden; list-style-type: none; padding: 0; margin: 0; }
+
+#audio { padding:20px; margin-bottom:25px; height:50px; background:{color:Container}; } 
+
+.tumblr_audio_player { height: 90px; width: 45px; font-size:20px; -moz-transform: scale(0.60, 0.60); -webkit-transform: scale(0.60, 0.60); -o-transform: scale(0.60, 0.60); -ms-transform: scale(0.60, 0.60); transform: scale(0.60, 0.60); -moz-transform-origin: top left; -webkit-transform-origin: top left; -o-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left; }
+    
+#player { width: 19px; height: 19px; margin-top:-55px; margin-left:5px; background-color: #ffffff; padding: 10px; font-size:20px; -webkit-border-radius: 40px; -moz-border-radius: 40px; border-radius: 40px; opacity: .4; filter: alpha(opacity=40); -moz-opacity: 0.4; -khtml-opacity: 0.4;  transition:opacity .7s ease-in-out; -moz-transition:opacity .7s ease-in-out; -webkit-transition:opacity .7s ease-in-out; }
+         
+#audioimg { margin:-20px; overflow:hidden; width:100px; height:100px; display:inline-block; }
+
+#audioimg img { width:90px; height:90px; }
+    
+#trackdetails { width:calc({select:Posts Width}; - 190px); height:35px;  font-size: 8.5px; line-height:14px; display:inline-block; padding:25px; margin-bottom:0px; margin-right:-20px; float:right; margin-top:-65px; background:{color:Container}; }
+    
+.player { display:inline-block; width:50px; }
+
+iframe#youtube_iframe { width:{select:Posts Width}; max-height:100%; border-top-width:0px; border-right-width:0px; border-bottom-width:0px; border-left-width:0px; }
+    
+iframe.spotify_audio_player { width:{select:Posts Width}; max-height:80px; }
+
+#question { margin:-31px; margin-top:-31px; padding:20px; margin-bottom:0px; color:{color:Posts}; background:{color:Accent One}; }
+
+#asker { margin:0px -30px; text-transform:uppercase; letter-spacing:3px; font-size:9px; text-align:right; font-style:normal; padding:15px; margin-bottom:25px; font-weight:bold; background:{color:Container}; color:{color:Accent Two}; }
+
+#asker a { color:{color:Accent One}; }
+
+#quote { text-align:center; font-size:35px; line-height:30px;  letter-spacing:0px; color:{color:Accent One}; text-shadow:1px 1px 1px {color:Accent Two}; }
+
+#source { text-align:right; margin-top:25px; }
+
+            /* POST INFORMATION & TAGS */
+
+
+#tags { margin:0 auto; margin-top:10px; margin-bottom:30px; line-height:12px; width:calc({select:Posts Width} + 62px); text-align:center; font-size:7px; }
+
+#tags a { margin:0px 5px; border:none;}
+
+#notes { margin:0 auto; margin-top:0px;}
+    
+#notes ol, .notes-bottom ul { margin:0px; padding:0; list-style: none; background:transparent; }
+
+#notes li { position:relative; padding:10px; margin:0 auto;  margin-top:0px; margin-bottom:10px; font-weight:bold; border-radius:3px; font-size:8px; text-transform:uppercase; text-align:center; background:{color:Posts}; width:calc({select:Posts Width} + 40px); border:1px solid {color:Borders};}
+
+#notes li img.avatar { border:none; width:0; padding:0; }
+
+#notes .retags { padding-bottom:0px; margin-bottom:0px; }
+
+#notes .retags a { font-size:7px; font-weight:normal; padding-bottom:0px; margin-bottom:0px; }
+
+
+            /* DO NOT REMOVE CREDIT!! */
+
+#credit { position:fixed; bottom:0; right:0; margin:10px; background:{color:Container}; padding:5px;  width:120px; text-transform:uppercase; text-align:center; font-size:7.5px; letter-spacing:3px; font-weight:600; }
+
+#credit a { border:none; }
+
+#credit span { color:{color:Accent Two}; }
+
+#credit a:hover { background:transparent; }
+
+#container { width:700px; height:400px; margin:50px; padding:50px; background:{color:Container}; position:fixed; top:50%; left:50%; margin-top:-310px; margin-left:-400px; border-radius:5px; border:1px solid {color:Borders}; overflow:auto;}
+
+#topbar { background:{color:Borders}; margin:-50px;  width:800.5px; height:20px; position:fixed; border-top-left-radius:5px; border-top-right-radius:5px; z-index:99999999999;}
+
+#green { margin:5px; position:fixed; width:10px; height:10px; border-radius:100px; background:#7d9e74; }
+
+#yellow { margin:5px; margin-left:20px; position:fixed;  width:10px; height:10px; border-radius:100px; background:#f2e579; }
+
+#red { margin:5px; margin-left:35px; width:10px; height:10px; border-radius:100px; background:#b75656; position:fixed; }
+
+#blogtitle { text-transform:uppercase; font-size:9px; width:200px; font-weight:700; letter-spacing:2px; position:fixed; text-align:center; margin-left:300px; }
+
+#blogstats { float:right; margin-right:5px; font-size:8px;}
+
+#taskbar { z-index:99999999999;position:fixed; width:800.5px; margin:-50px; margin-bottom:25px; background:{color:Background}; height:40px; border-top-left-radius:5px; border-top-right-radius:5px;margin-top:-30px;}
+
+#prev { font-size:23px;  width:22px; background:{color:Container}; text-align:center; padding-right:2px; height:22px; border-radius:2px; border:1px solid {color:Borders}; position:fixed; margin:8.5px;}
+
+#next { font-size:23px;  width:22px; background:{color:Container}; text-align:center; padding-left:2px; height:22px; border-radius:2px; border:1px solid {color:Borders}; position:fixed; margin:8.5px; margin-left:34px; }
+
+#next, #prev, #taskbar a  { color:{color:Text}; }
+
+#refresh:hover, #next:hover, #prev:hover, #icon:hover { color:{color:Link}; transition:all 2s ease-in-out;}
+
+#refresh { font-size:15px; position:fixed; margin-left:67px; margin-top:10px;}
+
+#searchbar { background:{color:Container}; width:580px; height:23px; border:1px solid {color:Borders}; border-radius:3px; position:fixed; margin-left:90px; margin-top:7px;}
+
+#sf {background: url('https://static.tumblr.com/f1skqpy/Oxbn13qun/search_icon.png') {color:Container} left center no-repeat; background-size: 10px 10px;}
+
+.sfm input {background:{color:Container}; border:none; outline:none; font-family: '{text:Font}', sans-serif;  font-size: 8px; color:{color:Text}; text-transform: lowercase; letter-spacing:2px; margin-top:0px; margin-left:10px; padding:5px;padding-left:15px;  width:545px;
+}
+
+#icons { position:fixed; margin-left:680px; margin-top:6px; font-size:15px; }
+
+#icon { margin:5px; display:inline-block;}
+
+.info { background:{color:Borders}; margin:-31px; margin-bottom:5px; width:calc({select:Posts Width} + 62px); margin-top:-51px; height:20px; position:absolute; border-top-left-radius:5px; border-top-right-radius:5px; }
+
+#psource { float:right; margin-right:5px; text-transform:uppercase; font-size:8px; font-weight:400; letter-spacing:2px;}
+
+#one { margin:5px; width:10px; display:inline-block; height:10px; border-radius:100px; background:#7d9e74; }
+
+#two { margin:5px; margin-left:0px; display:inline-block;  width:10px; height:10px; border-radius:100px; background:#f2e579; }
+
+#three { margin:5px; margin-left:0px; width:10px; height:10px; border-radius:100px; background:#b75656; display:inline-block;  }
+
+#content {  max-height:180px; overflow:auto; }
+
+#description { width:250px; padding:30px; background:{color:Posts}; border-radius:3px; margin:25px auto; max-height:230px; border:1px solid {color:Borders}; position:fixed; margin-left:-280px; margin-top:75px; z-index:99999999999999999999999999999999999999999; }
+
+.description { position:fixed; background:{color:Borders}; margin:-31px; width:312px; margin-top:-40px; height:20px; border-top-left-radius:5px; border-top-right-radius:5px; }
+
+#updates { width:270px; padding:30px; background:{color:Posts}; border-radius:3px; margin:25px auto; height:100px; border:1px solid {color:Borders}; position:fixed; margin-left:600px; margin-top:65px; z-index:99999999999999999999999999999999999999999; }
+
+.updates { position:fixed; background:{color:Borders}; margin:-31px; width:332px; margin-top:-40px; height:20px; border-top-left-radius:5px; border-top-right-radius:5px; }
+
+#updates #content { max-height:105px; }
+
+#update { background:{color:Container}; padding:5px; border-radius:3px; margin-bottom:5px; text-align:right; }
+
+#date { display:inline-block; float:left; width:80px; background:{color:Accent Two}; margin:-5px; padding:5px; color:{color:Posts}; font-weight:600; text-align:center; border-top-left-radius:3px; border-bottom-left-radius:3px;}
+
+#count { width:200px; padding:30px; background:{color:Posts}; border-radius:3px; margin:25px auto; max-height:70px; border:1px solid {color:Borders}; position:fixed; margin-left:-180px; margin-top:300px; z-index:99999999999999999999999999999999999999999; }
+
+.count { position:fixed; background:{color:Borders}; margin:-31px; width:262px; margin-top:-40px; height:20px; border-top-left-radius:5px; border-top-right-radius:5px; }
+
+#appcount { width:220px; margin:-10px; border-radius:3px; background:{color:Container};  height:70px; margin-top:-2px; }
+
+#apps { font-size:30px; line-height:70px;  text-align:center; position:fixed; background:{color:Accent One}; border-top-left-radius:3px; border-bottom-left-radius:3px; color:{color:Posts}; width:70px;  height:70px; }
+
+#breakdown {  width:150px; float:right; text-align:center; text-transform:uppercase; font-size:8px; color:{color:Accent Two}; font-weight:600; letter-spacing:2px; margin-top:22px; line-height:12px;}
+
+#breakdown span { text-transform:lowercase; font-size:9px; letter-spacing:1px; color:{color:Text}; font-weight:normal;}
+
+#affiliates { width:497px; padding:30px; background:{color:Posts}; border-radius:3px; margin:25px auto; max-height:30px; border:1px solid {color:Borders}; position:fixed; margin-left:0px; margin-top:450px; z-index:99999999999999999999999999999999999999999; overflow-x:auto; } #affiliates::-webkit-scrollbar {height:0px; }
+
+.affiliates { position:fixed; background:{color:Borders}; margin:-31px; width:562px; margin-top:-40px; height:20px; border-top-left-radius:5px; border-top-right-radius:5px; }
+
+#aff { margin:-10px; margin-left:-15px; width:850px; margin-top:-3px; max-height:50px;}
+
+#aff img { width:48px; height:48px; border-radius:5px; margin:0px 3px; margin-bottom:6px;  margin-right:7px;object-fit:cover; float:left;}
+
+#admin1, #admin2, #admin3 { position:fixed; margin-top:60px; margin-left:50px; }
+
+.admin1, .admin2, .admin3 { width:50px; height:50px; z-index:999999; position:relative;}
+
+.admin1 #one, .admin2 #one, .admin3 #one { margin-top:50px; margin-left:40px; z-index:999999; position:relative;}
+
+#admin1 img, #admin2 img, #admin3 img { border-radius:200px; width:50px; height:50px; margin-top:-60px; object-fit:cover;}
+
+#project1 { position:fixed; margin-left:650px; margin-top:225px; width:95px; padding:30px; background:{color:Posts}; border-radius:3px; max-height:118px; border:1px solid {color:Borders}; z-index:99999999999999999999999999999999999999999; }
+
+#project2 { position:fixed; margin-left:820px; margin-top:225px; width:95px; padding:30px; background:{color:Posts}; border-radius:3px; max-height:118px; border:1px solid {color:Borders}; z-index:9999999999999999999999999999999999999;}
+
+.project1, .project2 { position:fixed; background:{color:Borders}; margin:-31px; width:157px; margin-top:-40px; height:20px; border-top-left-radius:5px; border-top-right-radius:5px; }
+
+#project1 img, #project2 img { margin:-5px -15px; position:absolute; width:125px; height:50px; object-fit:cover;}
+
+#projecttitle { background:{color:Link}; color:{color:Posts}; font-size:9px; padding:5px; margin:-15px; margin-top:43px; text-align:center; text-transform:uppercase; letter-spacing:2px;}
+
+#projectdetails { margin:-15px; margin-top:20px; font-size:9px; height:38px; overflow:auto; line-height:12px;}
+
+#disclaimer { width:220px; padding:30px; background:{color:Posts}; border-radius:3px; margin:25px auto; max-height:62px; border:1px solid {color:Borders}; position:fixed; margin-left:620px; margin-top:420px; z-index:99999999999999999999999999999999999999999; }
+
+.disclaimer  { position:fixed; background:{color:Borders}; margin:-31px; width:282px; margin-top:-40px; height:20px; border-top-left-radius:5px; border-top-right-radius:5px; }
+
+#disclaimer #content { max-height:65px; margin:-10px; line-height:17px; overflow:auto; }
+
+#sugarhoney { position:fixed; bottom:0; left:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+
+        {CustomCSS}
+    </style>    
+    </head>
+
+<body>
+    
+<div id="sugarhoney"><a title="theme by sugar" href="https://ctrlsugar.tumblr.com/"><i class="fa-solid fa-heart"></i></a></div> 
+
+<!-- DO NOT REMOVE CREDIT!! --> 
+
+
+<div id="container">
+
+{block:ifDisclaimer}
+<div id="disclaimer">
+    <div class="disclaimer"> <div id="one"></div><div id="two"></div><div id="three"></div></div>
+    <div id="content">{text:Disclaimer}</div>
+</div>
+{/block:ifDisclaimer}
+
+{block:IfAdminOne}
+<a title="{text:Admin One Name}">
+
+<div id="admin1">
+<div class="admin1"><div id="one"></div></div>
+        <img src="{image:Admin One}">
+</div>
+</a>
+{/block:IfAdminOne}
+{block:IfAdminTwo}
+<a title="{text:Admin Two Name}">
+
+<div id="admin2" style="margin-top:125px;">
+<div class="admin2"><div id="one"></div></div>
+        <img src="{image:Admin Two}">
+</div> 
+</a>
+{/block:IfAdminTwo}
+{block:IfAdminThree}
+<a title="{text:Admin Three Name}">
+
+<div id="admin3" style="margin-top:190px;">
+<div class="admin3"><div id="one"></div></div>
+        <img src="{image:Admin Three}">
+</div>
+</a>
+{/block:IfAdminThree}
+
+
+{block:ifUpdates}
+<div id="updates">
+    <div class="updates">
+        <div id="one"></div><div id="two"></div><div id="three"></div>
+    </div>
+    <div id="content">
+       <div id="update">
+       <div id="date">{text:Update Date One}</div> {text:Update One}</div>
+       <div id="update">
+       <div id="date">{text:Update Date Two}</div> {text:Update Two}</div>
+       <div id="update">
+       <div id="date">{text:Update Date Three}</div> {text:Update Three}</div>
+  </div>
+</div>
+{/block:ifUpdates}
+
+<div id="description">
+    <div class="description">
+        <div id="one"></div><div id="two"></div><div id="three"></div>
+    </div>
+   <div id="content">
+        {text:Description}
+    </div>
+</div>
+
+{block:ifAppCount}
+<div id="count">
+    <div class="count">
+        <div id="one"></div><div id="two"></div><div id="three"></div>
+    </div>
+      <div id="appcount">
+    <div id="apps">{text:Application Count}</div>
+    <div id="breakdown"> next acceptances <span>
+    <br>{text:Next Acceptances}</span></div></div>
+</div>
+{/block:ifAppCount}
+
+{block:ifAffiliates} 
+<div id="affiliates">
+    <div class="affiliates">
+        <div id="one"></div><div id="two"></div><div id="three"></div>
+    </div>
+
+<div id="aff">
+
+<!-- AFFILIATE START -->
+    <a href="{text:Affiliate One URL}" title="{text:Affiliate One}">
+        <img src="{image:Affiliate One}">
+    </a>
+<!-- AFFILIATE END --> <!-- AFFILIATE START -->
+    <a href="{text:Affiliate Two URL}" title="{text:Affiliate Two}">
+        <img src="{image:Affiliate Two}">
+    </a>
+<!-- AFFILIATE END -->   
+<!-- AFFILIATE START -->
+    <a href="{text:Affiliate Three URL}" title="{text:Affiliate Three}">
+        <img src="{image:Affiliate Three}">
+    </a>
+<!-- AFFILIATE END -->   
+<!-- AFFILIATE START -->
+    <a href="{text:Affiliate Four URL}" title="{text:Affiliate Four}">
+        <img src="{image:Affiliate Four}">
+    </a>
+<!-- AFFILIATE END -->   
+<!-- AFFILIATE START -->
+    <a href="{text:Affiliate Five URL}" title="{text:Affiliate Five}">
+        <img src="{image:Affiliate Five}">
+    </a>
+<!-- AFFILIATE END -->   
+<!-- AFFILIATE START -->
+    <a href="{text:Affiliate Six URL}" title="{text:Affiliate Six}">
+        <img src="{image:Affiliate Six}">
+    </a>
+<!-- AFFILIATE END -->   
+<!-- AFFILIATE START -->
+    <a href="{text:Affiliate Seven URL}" title="{text:Affiliate Seven}">
+        <img src="{image:Affiliate Seven}">
+    </a>
+<!-- AFFILIATE END -->   
+<!-- AFFILIATE START -->
+    <a href="{text:Affiliate Eight URL}" title="{text:Affiliate Eight}">
+        <img src="{image:Affiliate Eight}">
+    </a>
+<!-- AFFILIATE END -->   
+<!-- AFFILIATE START -->
+    <a href="{text:Affiliate Nine URL}" title="{text:Affiliate Nine}">
+        <img src="{image:Affiliate Nine}">
+    </a>
+<!-- AFFILIATE END -->  
+  
+</div>
+
+</div>
+{/block:ifAffiliates}  
+
+{block:ifProjects}
+<div id="project1">
+    <div class="project1">
+        <div id="one"></div><div id="two"></div><div id="three"></div>
+    </div>
+    <img src="{image:Project One}">
+    <div id="projecttitle">{text:Project One}</div>
+    <div id="projectdetails"> {text:Project One Details} </div>
+</div>
+
+<div id="project2">
+    <div class="project2">
+        <div id="one"></div><div id="two"></div><div id="three"></div>
+    </div>
+    <img src="{image:Project Two}">
+    <div id="projecttitle">{text:Project Two}</div>
+    <div id="projectdetails"> {text:Project Two Details} </div>
+</div>
+{/block:ifProjects}
+
+<div id="topbar">
+    <a href="https://tumblr.com/" title="back to dashboard"><div id="green"></div></a>
+    <a href="https://tumblr.com/message/{Name}" title="send an instant message"><div id="yellow"></div></a>
+    <a href="/archive" title="archive"><div id="red"></div></a>
+    <div id="blogtitle">{text:Title}</div>
+    <div id="blogstats">
+        {text:Online Hit Counter} ∘ {text:Total Hits Counter}
+    </div>
+</div>
+<div id="taskbar">
+{block:PreviousPage}<a href="{PreviousPage}" title="go back">{/block:PreviousPage}<div id="prev"><span class="fas fa-caret-left"></span></div> </a>{block:NextPage}<a href="{NextPage}" title="go forward">{/block:NextPage}<div id="next"><span class="fas fa-caret-right"></span></div></a>
+<a href="/" title="refresh page"><div id="refresh"><span class="fas fa-redo-alt"></span></div></a>
+<div id="searchbar">
+    <form action="/search" method="get" class="sfm" name="theform">
+    <input type="text" name="q" placeholder="https://{Name}.com/" id="sf"/>
+</form>
+</div>
+<div id="icons">
+    <a href="{text:Link One URL}" title="{text:Link One}"><div id="icon"><span class="fas fa-bookmark"></span></div></a>
+    <a href="{text:Link Two URL}" title="{text:Link Two}"><div id="icon"><span class="fas fa-book"></span></div></a>
+    <a href="{text:Link Three URL}" title="{text:Link Three}"><div id="icon"><span class="fas fa-cog"></span></div></a>
+    <a href="{text:Link Four URL}" title="{text:Link Four}"><div id="icon"><span class="fas fa-bars"></span></div></a>
+</div>
+    
+</div>
+
+
+       
+{block:Posts}
+
+<!-- {block:NoRebloggedFrom}{block:RebloggedFrom}{ReblogParentName}{/block:RebloggedFrom}{/block:NoRebloggedFrom} -->{block:ContentSource}<!-- {SourceURL}{block:SourceLogo}<img src="{BlackLogoURL}"width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />{/block:SourceLogo}{block:NoSourceLogo}{SourceLink}{/block:NoSourceLogo} -->{/block:ContentSource}
+
+<div class="{posttype}post" id="posts">
+<div class="info">
+<div id="dots">
+    <a href="/day/{Year}/{MonthNumberWithZero}/{dayofmonthwithzero}" title="Posted {TimeAgo}"><div id="one"></div></a>
+    <a href="{Permalink}" title="with {NoteCount} Notes"><div id="two"></div></a>
+    <a href="{ReblogURL}" title="Reblog Post"><div id="three"></div></a>
+    <div id="psource">{block:RebloggedFrom}<a href="{ReblogRootURL}">{ReblogRootName}</a>{/block:RebloggedFrom} {block:NotReblog}<a href="{Permalink}">{Name}</a> {/block:NotReblog} </div>
+</div>
+</div>
+
+
+{block:Text}{block:Title}<h1>{Title}</h1>{/block:Title}
+<div div="caption">{Body}</div>{/block:Text}
+
+{block:Photo}<img src="{PhotoURL-highres}" al="{photoalt}">{/block:Photo}
+            
+{block:Photoset}{Photoset}{/block:Photoset}
+            
+{block:Panorama}<img src="{photourl-panorama}" alt="{photoalt}">{/block:Panorama}
+            
+{block:Quote}<div id="quote">"{Quote}"</div><div id="source">{Source}</div>{/block:Quote}
+            
+{block:Link}<div class="link"><a href="{URL}"><span class="fas fa-link"></span> {Name}</a></div>{/block:Link}
+            
+{block:Video}{Video-700}{/block:Video}
+            
+{block:Audio}{block:AudioPlayer}<div id="audio">{block:AlbumArt}<div id="audioimg"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}<div id="player">{AudioPlayerWhite}</div><div id="trackdetails">{block:TrackName}<b>Track:</b> {TrackName} <br/>{/block:TrackName}{block:Artist}<b>Artist:</b> {Artist} <br/>{/block:Artist}{block:Album}<b>Album:</b> {Album} <br/>{/block:Album}</div></div>{/block:AudioPlayer}{/block:Audio}
+            
+{block:Answer}<div id="question">{Question}</div><div id="asker">{Asker} asked a question</div> <div class="caption">{Answer}</div>{/block:Answer}
+ 
+{block:Chat}<div class="chat">{block:Lines}<li class="line_{Alt} user_{UserNumber}">{block:Label}<span class="label">{Label}</span> {/block:Label}{Line}</li>{/block:Lines}</div>{/block:Chat}            
+            
+{block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
+
+
+ </div>
+
+<div id="tags">{block:Permalink}{block:Tags}<a href="{TagURL}"> {Tag}</a>{/block:Tags}{/block:Permalink}</div>
+            
+{/block:Posts}
+
+{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+
+</div>
+    </body>
+</html>
