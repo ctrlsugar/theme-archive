@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   
+    <!--
+         REDIRECT / 044 / CTRLSUGAR / TUMBLR
+         CREATED & DESIGNED BY SUGAR
+       
+        - icons by fontawesome
+        - fonts from google fonts
+        - style my tootltips by malihu (http://manos.malihu.gr)
+       
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARDESIGNS.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact        
+ 
+-->
+ 
+ 
+ 
+<meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <title>{Title}</title>
+   
+    {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+ 
+ 
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+   
+    <meta name="image:Background" content=""/>
+   
+    <meta name="color:Background" content="#9a9a9a" />
+    <meta name="color:Container" content="#e2e2e2" />
+    <meta name="color:Borders" content="#cccccc" />
+    <meta name="color:Accent One" content="#441e0c" />
+    <meta name="color:Text" content="#858585" />
+    
+        <meta name="text:Font Size" content="12px"/>
+    <meta name="text:Font" content="Open Sans"/>
+ 
+    <meta name="text:Description" content="lorem ipsum dolor sit amet..." />
+    <meta name="text:Title" content="TITLE HERE"/>
+   
+    <meta name="text:Link One" content="LINK ONE" />
+    <meta name="text:Link One URL" content="/" />
+   
+    <meta name="if:Askbox" content="0"/>
+   
+<script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family={text:Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+ 
+        <!-- DRAGABLE ELEMENTS JQUERY -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>        <script src="https://dl.dropbox.com/s/bajo8ud9afvnqze/malamente.js"></script>
+ 
+   
+ 
+   
+<style>
+ 
+body {font-family: '{text:Font}', sans-serif; background:{color:Background}; font-size:{text:Font Size}; line-height:160%; font-weight:500; text-align:justify; text-transform:lowercase; letter-spacing:1px; color:{color:Text};
+background-image: url('{image:Background}'); background-position:top left; background-attachment:fixed; background-repeat: no-repeat;
+  background-size:cover;word-wrap:break-word; }
+ 
+::-webkit-scrollbar { width:10px; background:{color:Accent One};  border-radius:15px;}
+ 
+::-webkit-scrollbar-thumb { background:{color:Container}; border-radius:15px; }
+ 
+blockquote { border-left:2px {color:Accent One} solid; padding:0px 15px; margin:15px 0px; margin-bottom:25px;}
+ 
+blockquote img { margin-top:15px; }
+ 
+blockquote blockquote { margin-left:10px; }
+ 
+img { max-width:100%; height:auto; }
+ 
+b, strong { font-size:9px; text-transform:uppercase; color:{color:Accent One}; }
+ 
+i, em { font-weight:500; color:{color:Accent One}; }
+ 
+a { color:{color:Accent One}; text-decoration:none; }
+ 
+a:hover { transition:all 2s ease-in-out; color:{color:Accent One}; }
+ 
+#s-m-t-tooltip { max-width:350px; margin:15px; font-size:9px; letter-spacing:2px; text-align:center; font-weight:500; text-transform:lowercase; padding:25px 30px; z-index:999999999; color:{color:Accent One}; background:{color:Container}; }
+ 
+h2, h2 b { font-size:15px; font-weight:600; text-align:center;}
+ 
+#container::-webkit-scrollbar { width:0px; }
+ 
+#description { width:500px; position:fixed; top:50%; left:50%; margin-left:-250px; margin-top:-145px; background:{color:Container}; height:290px; border:1px solid {color:Borders}; border-radius:3px; position:fixed; box-shadow:3px 3px 3px rgba(0,0,0,.07);}
+ 
+.topbar { position:fixed; background:{color:Borders}; width:501px; margin-top:-5px; height:20px; border-top-left-radius:5px; border-top-right-radius:5px; }
+ 
+#one { margin:5px; width:10px; display:inline-block; height:10px; border-radius:100px; background:#7d9e74; }
+ 
+#two { margin:5px; margin-left:0px; display:inline-block;  width:10px; height:10px; border-radius:100px; background:#f2e579; }
+ 
+#three { margin:5px; margin-left:0px; width:10px; height:10px; border-radius:100px; background:#b75656; display:inline-block;  }
+ 
+#content { margin:50px; margin-top:50px; width:400px; height:150px; }
+ 
+#title { font-size:15px; text-align:center;}
+ 
+#title b { font-size:15px; }
+ 
+#blurb { width:400px; height:90px; margin-top:20px; line-height:20px;}
+ 
+#navigate { text-align:center; margin-top:68px; }
+ 
+#link { width:120px; padding:8px;  background:{color:Accent One}; border-radius:3px; color:{color:Container};  margin:6px; display:inline-block; box-shadow:3px 3px 3px rgba(0,0,0,.07); text-transform:uppercase; letter-spacing:3px; font-size:9px; font-weight:600;}
+ 
+#link:hover { cursor:pointer; background:{color:Accent One}; transition:all 2s ease-in-out; }
+
+ 
+.con {  width:500px; position:fixed; top:50%; left:50%; margin-left:-250px; margin-top:-145px; background:{color:Container}; height:290px; border:1px solid {color:Borders}; border-radius:3px; position:fixed; box-shadow:3px 3px 3px rgba(0,0,0,.07); z-index:999999999999999999; -webkit-animation: fadeEffect 2s; animation: fadeEffect 2s; }
+ 
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+ 
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+ 
+.close:hover, #link:hover { transition:2s all ease-in-out; cursor:pointer; }
+ 
+.close { position:fixed; margin-left:405px;font-size:9px; font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-top:-5px; }
+ 
+            /* DO NOT REMOVE CREDIT!! */
+ 
+#sugarhoney { position:fixed; bottom:0; left:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+ 
+ 
+{CustomCSS}
+    </style>    
+    </head>
+ 
+    <body>
+<div id="sugarhoney"><a title="theme by sugar" href="https://ctrlsugar.tumblr.com/"><i class="fa-solid fa-heart"></i></a></div> 
+
+<!-- DO NOT REMOVE CREDIT!! -->
+ 
+    <div id="description">
+        <div class="topbar">
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+        </div>
+   
+    <div id="content">
+        <div id="blurb">
+            {text:Description}
+            <h2><b>{text:Title}</b></h2></center>
+        </div>
+        <div id="navigate">
+            <a href="{text:Link One URL}">
+            <div id="link">{text:Link One}</div></a>
+           
+            {block:ifAskbox}
+            <div id="link" onclick="openCtrl('askbox')">inquires</div>
+            {/block:ifAskbox}
+           
+        </div>
+       
+    </div>
+ 
+</div>
+ 
+ 
+ <div id="askbox" class="con" style="display:none">
+    <div class="topbar">
+        <div id="one"></div>
+        <div id="two"></div>
+        <div id="three"></div>
+    </div>  
+    <span onclick="this.parentElement.style.display='none'" class="close">close this tab</span><br>
+    <h2><b>ask me anything</b></h2>
+            <p style="padding:25px;padding-top:10px;"><iframe frameborder="0" scrolling="no" width="100%" height="190" src="https://www.tumblr.com/ask_form/{Name}.tumblr.com" style="background-color:transparent; overflow:hidden;" id="ask_form"></iframe><!--[if IE]><script type="text/javascript">document.getElementById('ask_form').allowTransparency=true;</script><![endif]--></p>
+        </div>
+ 
+<script>
+function openCtrl(ctrlName) {
+  var i;
+  var x = document.getElementsByClassName("con");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(ctrlName).style.display = "block";  
+}
+</script>
+    </body>
+</html>
