@@ -282,7 +282,7 @@ iframe.spotify_audio_player { width:350px; max-height:80px; }
 
 #navimage { position:fixed; margin:25px; margin-top:75px; width:365px; height:100px; }
 
-#navimage img { width:365px; height:100px; object-fix:cover; }
+#navimage img { width:365px; height:100px; object-fit:cover; }
 
 #sugarhoney { position:fixed; bottom:0; left:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
 
