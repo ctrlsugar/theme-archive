@@ -46,6 +46,15 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - CTRLSUGAR.TUMBLR.COM - B
     <meta name="image:Background" content=""/>
     <meta name="image:Sidebar" content="" />
     
+     <meta name="if:Show Tags" content="0"/>
+    
+    <meta name="text:Link One" content="refresh"/>
+    <meta name="text:Link One URL" content="/"/>
+    <meta name="text:Link Two" content="contact"/>
+    <meta name="text:Link Two URL" content="/ask"/>
+    <meta name="text:Link Three" content="navigate"/>
+    <meta name="text:Link Three URL" content="/tag"/>
+    
     <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris." />
 
     
