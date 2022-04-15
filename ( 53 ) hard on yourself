@@ -127,7 +127,7 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - CTRLSUGAR.TUMBLR.COM - B
     
     #sidebar { position:absolute; width:220px; margin-left:465px; height:450px; text-align:center; }
     
-    #sidebar img { width:90px; height:90px;object-fit:cover; margin:0 auto; margin-top:65px; }
+    #sidebar img { width:90px; height:90px;object-fit:cover; margin:0 auto; margin-top:65px; border-radius:100%; }
     
     #description { margin:30px; text-align:justify; text-transform:lowercase; }
     
@@ -305,16 +305,16 @@ return false;
      <span class="fab fa-pinterest-p"></span></div></a> 
      
      <a href="#" title="muse tag"><div id="pop">
-     <span class="far fa-tag"></span></div></a>
+     <span class="fas fa-tag"></span></div></a>
      
      <a href="#" title="face claim">
      <div id="pop"><span class="fas fa-user"></span></div></a>
      
      <a href="#" title="verses"><div id="pop">
-     <span class="far fa-globe-americas"></span></div></a>
+     <span class="fas fa-globe"></span></div></a>
      
      <a href="#"><div id="pop">
-     <span class="far fa-bars"></span></div></a>
+     <span class="fas fa-heart"></span></div></a>
      
  </div>       
 
