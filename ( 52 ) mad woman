@@ -115,9 +115,9 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARDESIGNS.TUMBLR.COM 
     
    ul, ol { list-style:none; }
     
-  ol li:before { font-family:"Font Awesome 5 Pro"; font-weight: 900; content:'\f00c'; margin-right:10px; font-size:9px; color:{color:Accent One}; }
+  ol li:before { font-family:"Font Awesome 6 Free"; font-weight: 900; content:'\f00c'; margin-right:10px; font-size:9px; color:{color:Accent One}; }
    
-      ul li:before { font-family:"Font Awesome 5 Pro"; font-weight: 900; content:'\f054'; margin-right:10px; font-size:9px; color:{color:Accent One}; }
+      ul li:before { font-family:"Font Awesome 6 Free"; font-weight: 900; content:'\f054'; margin-right:10px; font-size:9px; color:{color:Accent One}; }
       
       pre { background:{color:Background}; max-width:100%; padding:10px; word-break:break-all; }
       
