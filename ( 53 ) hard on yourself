@@ -222,7 +222,7 @@ iframe.spotify_audio_player { width:350px; max-height:80px; }
 
 .popup_block{ display:none; position:fixed;top:50%;left:50%; margin-left:-300px; margin-top:-175px; background:{color:Container}; height:300px; text-align:justify; overflow:auto; z-index: 999999999; }
 
-.popup_block img { border-radius:5px; margin-top:5px; margin-bottom:10px; width:275px; -webkit-filter: grayscale(100%); object-fit:cover;  }
+.popup_block img { border-radius:5px; margin-top:5px; margin-bottom:10px;height:150px; width:275px; -webkit-filter: grayscale(100%); object-fit:cover;  }
  
 #fade { display:none; position:fixed; left:0px; top:0px; width:100%;    height:100%; z-index:1; }
 
