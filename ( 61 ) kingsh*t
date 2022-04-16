@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+         KING(SH*T) / 061 / CTRLSUGAR / TUMBLR
+         CREATED & DESIGNED BY SUGAR
+       
+        - icons by fontawesome
+        - fonts from google fonts
+        - style my tootltips by malihu (https://manos.malihu.gr)
+        - css photoset & fix by annasthms and espoirthemes
+       
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - CTRLSUGAR.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact    
+   
+ 
+ 
+-->
+
+    
+<head>
+    <title>{Title}</title>
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+    {block:Description}
+        <meta name="description" content="{MetaDescription}" />
+    {/block:Description}
+
+         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script><script src="https://dl.dropbox.com/s/idz205ivncbofw0/smt.js"></script>
+        
+<link href="https://static.tumblr.com/0podkko/oDSpg7y88/photosets.css" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family={text:Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family={text:Bold Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <meta name="color:Background" content=""/>
+    <meta name="color:Container" content=""/>
+    <meta name="color:Borders" content=""/>
+    <meta name="color:Posts" content=""/>
+    <meta name="color:Text" content=""/>
+    <meta name="color:Accent One" content=""/>
+    <meta name="color:Accent Two" content=""/>
+    <meta name="color:Accent Three" content=""/>
+    
+    <meta name="image:Background" content=""/>
+    <meta name="image:Sidebar" content="https://placehold.it/100"/> 
+    <meta name="image:Tab Image" content="https://placehold.it/350x100"/>
+    
+        <meta name="text:Font Size" content="11px"/>
+    <meta name="text:Font" content="Inter"/>
+    <meta name="text:Bold Font" content="Abril Fatface"/>
+  
+    <meta name="text:Title" content="Your Title Goes Here."/>
+    <meta name="text:Description" content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."/>
+    <meta name="text:Biography" content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."/>
+    
+    <meta name="text:Connection One" content="connection name / details"/>
+    <meta name="text:Connection Two" content="connection name / details"/>
+    <meta name="text:Connection Three" content="connection name / details"/>
+    <meta name="text:Connection Four" content="connection name / details"/>
+    <meta name="text:Connection Five" content="connection name / details"/>
+    
+    <meta name="image:Connection One" content="https://placehold.it/60"/>
+    <meta name="image:Connection Two" content="https://placehold.it/60"/>
+    <meta name="image:Connection Three" content="https://placehold.it/60"/>
+    <meta name="image:Connection Four" content="https://placehold.it/60"/>
+    <meta name="image:Connection Five" content="https://placehold.it/60"/>
+    
+    <meta name="if:Tab" content="0"/>
+    <meta name="if:No Tab" content="0"/>
+    
+    <meta name="text:Extra Link" content="/"/>
+    <meta name="text:Extra Link Title" content="location, ya"/>
+    
+    <meta name="text:Link One" content="one"/>
+    <meta name="text:Link One URL" content="/"/>
+    <meta name="text:Link Two" content="two"/>
+    <meta name="text:Link Two URL" content="/"/>
+    <meta name="text:Link Three" content="three"/>
+    <meta name="text:Link Three URL" content="/"/>
+    <meta name="text:Link Four" content="four"/>
+    <meta name="text:Link Four URL" content="/"/>
+        
+</head>
+<style type="text/css">
+
+body { font-family:'{text:Font}', sans-serif; font-size:{text:Font Size}; font-weight:300; letter-spacing:1px; line-height:20px; color:{color:Text}; text-align:justify; background:{color:Background};  background-image:url('{image:Background}'); background-attachment:fixed; background-size:cover 100%; }
+
+::-webkit-scrollbar { width:0px; }
+
+ small, big { font-size:{text:Font Size}; }
+    
+    img { max-width:100%; height:auto; }
+    
+    blockquote { margin:10px; padding:0px; padding-left:15px; border-left:2px solid {color:Accent One}; }
+    
+    blockquote blockquote { padding-left:15px; margin-left:0px; border-color:{color:Accent Three}; }
+    
+    #s-m-t-tooltip { max-width:200px; margin:15px; text-align:center; font-weight:500; text-transform:lowercase; padding:7px 30px; z-index:999999999999999999999; color:{color:Accent One}; border-radius:3px; background:{color:Container}; font-size:{text:Font Size};}
+    
+    h1 { font-family:'Neothic'; text-align:center; font-size:25px; color:{color:Accent Three};  }
+
+h2 { font-family:'Neothic'; font-size:18px; color:{color:Accent One}; text-align:center; }
+
+b, strong { font-size:10px; font-family:'{text:Font}'; color:{color:Accent One}; text-transform:uppercase; font-weight:800; } i, em { color:{color:Accent Two}; }
+a { text-decoration:none; color:{color:Accent Three}; }
+    
+    a:hover { transition:all 2s linear; cursor:pointer; color:{color:Accent Two}; }
+
+    small, big { font-size:{text:Font Size}; }
+    
+    img { max-width:100%; height:auto; }
+    
+       ul, ol { list-style:none; }
+   
+   ol li:before { font-family:"Font Awesome 6 Free"; font-weight: 900; content:'\f00c'; margin-right:10px; font-size:9px; color:{color:Accent One}; }
+   
+      ul li:before { font-weight: 900; content:'━'; margin-right:10px; font-size:9px; color:{color:Accent One}; }
+      
+      pre { background:{color:Background}; width:calc(400px - 20px); padding:10px; word-break:break-all; font-size:{text:Font Size}; font-family:'{text:Font}', sans-serif; font-weight:bold; text-align:center;}
+      
+      hr { width:150px; margin:0 auto; margin-top:25px; margin-bottom:25px; text-align:center; float:center; border-width: 5px 0px 0px 0px; border-style: solid; border-color:{color:Container}; }
+
+#container { width:550px; height:450px; position:fixed; top:50%; left:50%; background:{color:Container}; margin-left:-275px; margin-top:-225px; border-radius:5px; }
+
+#entries { width:500px; margin-left:50px; height:400px; overflow:auto; position:fixed; margin-top:50px;}
+
+#posts { width:400px; padding:25px; margin:0 auto; padding-top:50px; background:{color:Posts}; border-radius:5px; margin-bottom:30px; }
+
+    .ql { font-family:'Neothic'; font-size:55px; padding:35px; font-weight:800; text-align:center; }
+    
+    .quote { text-align:center; font-size:25px; padding:0px 50px; margin-top:-10px; font-weight:bold; color:{color:Accent Two}; }
+    
+    .source { text-align:right; margin-top:25px; }
+    
+    iframe#youtube_iframe { width:400px; max-height:100%; border-top-width:0px; border-right-width:0px; border-bottom-width:0px; border-left-width:0px; }
+    
+iframe.spotify_audio_player { width:400px; max-height:80px; }
+
+.label { font-size:10px; text-transform:uppercase; font-family:'Mont'; font-weight:bold; color:{color:Accent One}; letter-spacing:2px; }
+
+.even .label  { color:{color:Accent Two}; } 
+
+[photoset-layout] {  grid-gap: 5px; }
+
+#tags { margin:-25px; margin-top:25px; background:{color:Background}; padding:15px; border-bottom-left-radius:5px; border-bottom-right-radius:5px; } #tags a { font-size:10px; margin:0px 5px; color:{color:text}; }
+
+#sidebar {width:225px; height:325px; position:fixed; background:{color:Posts}; margin-top:65px; margin-left:-175px; border-radius:5px; }
+
+#sidebar img { width:85px; height:85px;object-fit:cover; margin:0 auto; margin-top:50px; border-radius:100%; position:fixed; margin-left:70px;} 
+
+#description { width:175px; box-sizing:border-box; padding:0px; text-align:justify; height:95px; overflow:auto; position:fixed; margin-left:25px; margin-top:150px;}
+
+#search {background:{color:Borders}; width:175px; height:35px; border:none; border-radius:5px; position:fixed; margin-top:265px; margin-left:25px; color:{color:Accent Two}; }
+
+#sf {background: url('https://static.tumblr.com/f1skqpy/Oxbn13qun/search_icon.png') {color:Borders} left no-repeat; background-size: 10px 10px; }
+
+.sfm input {background:{color:Borders}; border:none; outline:none; font-family:'{text:Font}', sans-serif; font-size: 9px;color:#f5e7dc;text-transform: uppercase; font-weight:bold; letter-spacing:2px; margin-top:2px; margin-left:10px; padding:5px; padding-left:20px;  width:130px; height:20px; }
+
+#headline { position:absolute; width:100%; background:{color:Borders}; height:25px; border-top-left-radius:5px; border-top-right-radius:5px; } #posts #headline { width:450px; margin:-25px; margin-top:-50px; margin-bottom:25px; } #headline span { margin-top:3px; float:right; margin-right:10px; font-family:'Neothic', sans-serif; font-size:10px;color:{color:Accent Two}; }
+
+#pagination {width:175px; height:auto; border-radius:5px; position:fixed; background:{color:Borders}; margin-top:400px; margin-left:-150px; text-align:center; box-sizing:border-box; padding:5px 15px;}
+
+#pop { display:inline-block; font-size:{text:Font Size}; text-align:center;margin:0px 10px;  margin-top:-10px; } 
+
+#navigation { width:550px; text-align:right; margin-left:0px; height:400px; position:fixed; margin-top:460px; font-family:'Neothic'; font-size:25px; color:{color:Accent Two};  } #navigation span { float:left; }
+
+ @font-face { font-family: "Neothic"; src: url('https://dl.dropbox.com/s/f7aqpxv7dl1bvs8/neothic.ttf'); }
+ 
+#one, #two, #three { display:inline-block; border-radius:100%; width:10px; height:10px; background:{color:Accent One}; margin:10px; margin-top:8px; margin-right:-5px;} #two { background:{color:Accent Two}; } #three { background:{color:Accent Three}; }
+
+#contain { width:450px; height:375px; position:fixed; top:50%; left:50%; margin-left:-200px; margin-top:-175px;display:none;z-index:9999999999999999999999999999999999; overflow:auto;}
+
+#contain img { border-radius:15px; width:350px; height:100px; margin-left:75px; margin-top:25px; object-fit:cover;}
+
+#about { width:350px; height:145px;position:fixed; overflow:auto; margin-top:20px; margin-left:75px; }
+
+#connections { position:fixed; width:360px; margin:0px -10px; margin-left:75px; height:80px; margin-top:185px;  text-align:center;}
+
+#connections img { width:55px; height:55px; margin:0px 5px; border-radius:100%; object-fit:cover;}
+
+#navi { position:fixed; margin-top:-50px; }
+
+#extranav { position:fixed; margin-left:550px; margin-top:135px;}
+
+#link { font-size:20px; margin:7px; margin-left:15px; margin-bottom:30px; }
+
+.exit { margin-top:412px; font-size:15px; margin-left:-65px;position:fixed; } .exit:hover { cursor:pointer; }
+
+#question { margin:25px; border-radius:25px; background:{color:Background}; padding:30px; } #asker { float:right; padding-bottom:10px; font-size:15px; font-family:'Neothic'; color:{color:Accent One}; }
+
+ #notes { margin:0 auto; margin-top:40px;  width:400px; }
+    
+#notes ol, .notes-bottom ul { margin:0px; padding:0; list-style: none; background:transparent; }
+
+#notes li:before { display:none; }
+
+#notes li { position:relative; display:block; padding:10px 25px;  margin-top:-15px; margin-bottom:25px; font-weight:bold; font-size:8px; text-transform:uppercase; text-align:center; background:{color:Borders}; width:400px;box-sizing:border-box;border-radius:5px;}
+
+#notes li img.avatar { border:none; width:0; padding:0; }
+
+#notes .retags { padding-bottom:0px; margin-bottom:0px; }
+
+#notes .retags a { font-size:7px; font-weight:normal; padding-bottom:0px; margin-bottom:0px; }
+
+#sugarhoney { position:fixed; bottom:0; left:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+</style>
+
+
+<script>
+    $(document).ready(function() {      
+    $('#pop').click(function() {
+        $('#pop').fadeOut();
+        $('#entries').fadeOut();
+        $('#posts').fadeOut();
+        $('#contain').fadeIn();
+        
+    });
+    
+    $('#contain .exit').click(function() {
+        $('#contain').fadeOut();
+        $('#posts').fadeIn();
+        $('#entries').fadeIn();
+        $('#pop').fadeIn();
+    });
+ });  
+</script>
+
+
+<body>
+
+    
+<div id="sugarhoney"><a title="theme by sugar" href="https://ctrlsugar.tumblr.com/"><i class="fa-solid fa-heart"></i></a></div> 
+
+<!-- DO NOT REMOVE CREDIT!! -->
+
+
+<div id="contain">
+
+<div class="exit"> <i class="fas fa-times"></i> </div>
+
+<img src="{image:Tab Image}">
+
+<div id="navi">
+    <a href="{text:Link One URL}" title="{text:Link One}">
+    <div id="link"><i class="fas fa-cloud"></i></div></a>
+    <a href="{text:Link Two URL}" title="{text:Link Two}">
+    <div id="link"><i class="fas fa-star"></i></div></a>
+    <a href="{text:Link Three URL}" title="{text:Link Three}">
+    <div id="link"><i class="fas fa-heart"></i></div></a>
+    <a href="{text:Link Four URL}" title="{text:Link Four}">
+    <div id="link"><i class="fas fa-cog"></i></div></a>
+</div>
+
+<div id="about">{text:Biography}</div>
+
+<div id="connections">
+<a title="{text:Connection One}"><img src="{image:Connection One}"></a>
+<a title="{text:Connection Two}"><img src="{image:Connection Two}"></a>
+<a title="{text:Connection Three}"><img src="{image:Connection Three}"></a>
+<a title="{text:Connection Four}"><img src="{image:Connection Four}"></a>
+<a title="{text:Connection Five}"><img src="{image:Connection Five}"></a>
+</div>
+    
+</div>
+
+
+
+<div id="container">
+<div id="headline">
+    <a href="/" title="refresh"><div id="one"></div></a> <a href="/ask" title="message"><div id="two"></div></a> <a href="/archive" title="archive"><div id="three"></div></a> <a href="{text:Extra Link}" title="{text:Extra Link Title}"><span><i class="fas fa-map-marker-alt"></i></span></a></div>
+
+<div id="navigation">{block:ifTab}<span><a title="+ more!!"><div id="pop"><i class="fas fa-plus"></i></div></a></span>{/block:ifTab}
+    <a href="/">{text:Title}</a>
+</div>    
+
+{block:ifNoTab}
+<div id="extranav">
+    <a href="{text:Link One URL}" title="{text:Link One}">
+    <div id="link"><i class="fas fa-cloud"></i></div></a>
+    <a href="{text:Link Two URL}" title="{text:Link Two}">
+    <div id="link"><i class="fas fa-star"></i></div></a>
+    <a href="{text:Link Three URL}" title="{text:Link Three}">
+    <div id="link"><i class="fas fa-heart"></i></div></a>
+    <a href="{text:Link Four URL}" title="{text:Link Four}">
+    <div id="link"><i class="fas fa-cog"></i></div></a>
+</div>
+{/block:ifNoTab}
+
+<div id="sidebar">
+<div id="headline"><div id="one"></div></a> <a href="/ask" title="message"><div id="two"></div></a> <a href="/archive" title="archive"><div id="three"></div></a>  <span><a href="/">{name}</a></span></div>
+<img src="{image:Sidebar}">
+        <div id="description">{text:Description}</div>
+
+        <div id="search">
+    <form action="/search" method="get" class="sfm" name="theform">
+    <input type="text" name="q" placeholder="search blog" id="sf"/>
+   </form>
+</div>
+    
+</div>
+
+<div id="pagination">
+{block:PreviousPage}<a href="{PreviousPage}">backward /&nbsp;</a>{/block:PreviousPage}{block:NextPage}<a href="{NextPage}">forward</a>{/block:NextPage}
+</div>
+
+<div id="entries">
+    {block:Posts}
+<div id="posts">
+{block:Date}
+<div id="headline">
+
+<a href="{Permalink}" title="posted {timeago}"><div id="one"></div></a> <a href="{Permalink}" title="{NoteCount} notes"><div id="two"></div></a> <a href="{ReblogURL}" title="Reblog Post"><div id="three"></div></a> <span>{block:ContentSource} <a href="{SourceURL}">source</a> {/block:ContentSource}</span>
+</div>
+{/block:Date}
+{block:Title}<h1>{Title}</h1>{/block:Title}
+
+{block:Text}{Body}{/block:Text}
+
+{block:Quote}<div class="ql">&ldquo;</div><div class="quote">{Quote}</div>
+{block:Source}<div class="source">{Source}</div>{/block:Source}{/block:Quote}
+ 
+{block:Link}<h1><a href="{URL}" {Target}>{Name}</a></h1>{block:Description}{Description}{/block:Description}{/block:Link}
+
+{block:Photo}<center><img src="{PhotoURL-HighRes}"/></center>{/block:Photo}
+  
+{block:Photoset}<div class="photoset-grid" photoset-layout="{PhotosetLayout}">{block:Photos}<div><img src="{PhotoURL-HighRes}" /></div>{/block:Photos}</div>{/block:Photoset}
+
+{block:Chat}<div class="chat">{block:Lines}<div class="{Alt}">{block:Label}<span class="label">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</span>{/block:Label}{Line}</div>{/block:Lines}</div>{/block:Chat} 
+
+{block:Video}{Video-700}{block:Caption}{Caption}{/block:Caption}{/block:Video}
+ 
+{block:Audio}{block:AudioPlayer}<div id="audio">{block:AlbumArt}<div id="audioimg"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}<div id="player">{AudioPlayerWhite}</div><div id="trackdetails">{block:TrackName}<b>Track:</b> {TrackName} <br/>{/block:TrackName}{block:Artist}<b>Artist:</b> {Artist} <br/>{/block:Artist}{block:Album}<b>Album:</b> {Album} <br/>{/block:Album}</div></div>{/block:AudioPlayer}<br><br>{block:Caption}{Caption}{/block:Caption}{/block:Audio} 
+
+    
+{block:Answer}<div id="question">{Question} <div id="asker">{Asker}</div></div>
+        {Answer}
+{/block:Answer}
+    
+
+{block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
+
+{block:More} <a href="{Permalink}"><div class="more">continue to post</div></a> {/block:More}  
+
+
+<div id="tags"> <b>filed under:</b> {block:Tags}<a href="{TagURL}">{Tag}</a>{/block:Tags}</div>
+
+{block:PermalinkPage}
+   
+{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+{/block:PermalinkPage}
+</div>
+{/block:Posts}
+    
+</div>    
+        
+</div>
+</body>
+</html>
