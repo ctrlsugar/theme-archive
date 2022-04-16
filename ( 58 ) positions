@@ -212,7 +212,7 @@ iframe.spotify_audio_player { width:{select:Posts Width}px; max-height:80px; }
 
 #pop, .close  { cursor:pointer; font-size:25px; top:0; left:0; position:fixed; margin:10px;}
 
-#muse { width:180px; height:200px; background:{color:Posts}; border:1px solid {color:Borders}; border-radius:5px; margin:5px 10px; margin-bottom:20px; display:inline-block; } #muse i { font-size:14px; margin:15px 10px; } #muse img { width:65px; height:65px;object-fit:cover; margin:10px; margin-top:25px; margin-left:5px;border-radius:100%; }
+#muse { width:180px; height:200px; background:{color:Posts}; border:1px solid {color:Borders}; border-radius:5px; margin:5px 9px; margin-bottom:20px; display:inline-block; } #muse i { font-size:14px; margin:15px 10px; } #muse img { width:65px; height:65px;object-fit:cover; margin:10px; margin-top:25px; margin-left:5px;border-radius:100%; }
 
 #name { font-family:'Playfair Display'; color:{color:Accent One}; text-transform:uppercase; text-align:center; font-size:15px; font-style:italic; font-weight:bold;} #name span { font-family: '{text:Font}', sans-serif; font-size:{text:Font Size};   font-weight:{select:Font Weight};  color:{color:Text}; text-transform:lowercase; font-style:normal; font-weight:normal; }
 
