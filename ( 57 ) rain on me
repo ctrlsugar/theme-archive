@@ -169,8 +169,7 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - CTRLSUGAR.TUMBLR.COM - B
     
     .content { background:{color:Posts}; position:fixed; display:block; z-index:9999999999999999999999999999999999999999999999999999999999999999; width:474px; height:304px; -webkit-animation: fadeEffect 2s; animation: fadeEffect 2s; overflow:auto; } @-webkit-keyframes fadeEffectt { from {opacity: 0;} to {opacity: 1;} } @keyframes fadeEffect { from {opacity: 0;} to {opacity: 1;} } #close { position:fixed; margin-top:48px; margin-left:182px; font-size:10px;  color:{color:Accent Three}; width:130px;  text-transform:uppercase; font-family:'Mont'; transform:rotate(90deg);} #close:hover { transition:1s all linear; cursor:pointer; color:{color:Accent One}; } 
 
-    #muses { width:200px;  position:fixed; margin-top:0px; margin-left:-30px; text-align:center; height:195px; padding:0px;} #muse { display:inline-block; margin:2.5px 4px; margin-bottom:5px; width:175px; height:60px;margin-left:30px; } #muse img { width:175px; height:60px; border-radius:5px; object-fit:cover; }
-
+    #muses { width:200px;  position:fixed; margin-top:0px; margin-left:-30px; text-align:center; height:265px; overflow:auto; padding:0px;} #muse { display:inline-block; margin:2.5px 4px; margin-bottom:5px; width:175px; height:60px;margin-left:20px; } #muse img { width:175px; height:60px; border-radius:5px; object-fit:cover; }
     #about { width:200px; height:200px; text-align:justify; padding:25px; margin-top:-5px; overflow:auto; position:fixed; }
 
     #navtags { width:250px; text-align:center;position:fixed; margin-top:255px; } #nlink { display:inline-block;  font-size:18px; padding:5px; margin:3px 10px; } #nlink span:hover { color:{color:Accent Two}; transition:all 2s ease-in-out;} #nlink span { color:{color:Accent One}; }
