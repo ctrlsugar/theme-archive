@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+         HOLLY JOLLY / 059 / CTRLSUGAR / TUMBLR
+         CREATED & DESIGNED BY SUGAR
+       
+        - icons by fontawesome
+        - fonts from google fonts
+        - style my tootltips by malihu (https://manos.malihu.gr)
+        - css photoset & fix by annasthms and espoirthemes
+       
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - CTRLSUGAR.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact    
+   
+ 
+ 
+-->
+
+    
+<head>
+    <title>{Title}</title>
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+    {block:Description}
+        <meta name="description" content="{MetaDescription}" />
+    {/block:Description}
+    
+
+
+         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script><script src="https://dl.dropbox.com/s/idz205ivncbofw0/smt.js"></script>
+    
+<link href="https://static.tumblr.com/0podkko/oDSpg7y88/photosets.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family={text:Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <meta name="color:Background" content=""/>
+    <meta name="color:Container" content=""/>
+    <meta name="color:Borders" content=""/>
+    <meta name="color:Posts" content=""/>
+    <meta name="color:Text" content=""/>
+    <meta name="color:Accent One" content=""/>
+    <meta name="color:Accent Two" content=""/>
+    <meta name="color:Accent Three" content=""/>
+    
+    <meta name="image:Background" content=""/>
+    <meta name="image:Sidebar" content="https://placehold.it/100"/> 
+    
+        <meta name="text:Font Size" content="12px"/>
+    <meta name="text:Font" content="Didact Gothic"/>
+  
+    <meta name="text:Description" content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."/>
+    
+    <meta name="text:Link One" content="one"/>
+    <meta name="text:Link One URL" content="/"/>
+    <meta name="text:Link Two" content="two"/>
+    <meta name="text:Link Two URL" content="/"/>
+    <meta name="text:Link Three" content="three"/>
+    <meta name="text:Link Three URL" content="/"/>
+    <meta name="text:Link Four" content="four"/>
+    <meta name="text:Link Four URL" content="/"/>
+    <meta name="text:Link Five" content="five"/>
+    <meta name="text:Link Five URL" content="/"/>
+    <meta name="text:Link Six" content="six"/>
+    <meta name="text:Link Six URL" content="/"/>
+        
+</head>
+<style type="text/css">
+
+body { font-family:'{text:Font}', sans-serif; font-size:{text:Font Size}; font-weight:300; letter-spacing:1px; line-height:20px; color:{color:Text}; text-align:justify; background:{color:Background};  background-image:url('{image:Background}'); background-attachment:fixed; background-size:cover; }
+
+::-webkit-scrollbar { width:0px; }
+
+ small, big { font-size:{text:Font Size}; }
+    
+    img { max-width:100%; height:auto; }
+    
+    blockquote { margin:10px; padding:0px; padding-left:15px; border-left:2px solid {color:Accent One}; }
+    
+    blockquote blockquote { padding-left:15px; margin-left:0px; border-color:{color:Accent Three}; }
+    
+    #s-m-t-tooltip { max-width:200px; margin:15px; text-align:center; font-weight:500; text-transform:lowercase; padding:7px 30px; z-index:999999999999999999999; color:{color:Accent One}; border-radius:3px; background:{color:Container}; font-size:{text:Font Size};}
+    
+    h1 { font-family:'Neothic'; text-align:center; font-size:25px; color:{color:Accent Three};  }
+
+h2 { font-family:'Neothic'; font-size:18px; color:{color:Accent One}; text-align:center; }
+
+b, strong { font-size:10px; font-family:'Montserrat'; color:{color:Accent One}; text-transform:uppercase; font-weight:800; } i, em { color:{color:Accent Two}; }
+a { text-decoration:none; color:{color:Accent Three}; }
+    
+    a:hover { transition:all 2s linear; cursor:pointer; color:{color:Accent Two}; }
+
+    small, big { font-size:{text:Font Size}; }
+    
+    img { max-width:100%; height:auto; }
+    
+       ul, ol { list-style:none; }
+   
+   ol li:before { font-family:"Font Awesome 6 Free"; font-weight: 900; content:'\f00c'; margin-right:10px; font-size:9px; color:{color:Accent One}; }
+   
+      ul li:before { font-weight: 900; content:'━'; margin-right:10px; font-size:9px; color:{color:Accent One}; }
+      
+      pre { background:{color:Background}; width:calc({select:Posts Width}px - 20px); padding:10px; word-break:break-all; font-size:{text:Font Size}; font-family:'{text:Font}', sans-serif; font-weight:bold; text-align:center;}
+      
+      hr { width:150px; margin:0 auto; margin-top:25px; margin-bottom:25px; text-align:center; float:center; border-width: 5px 0px 0px 0px; border-style: solid; border-color:{color:Container}; }
+
+#container { width:800px; height:450px; position:fixed; top:50%; left:50%; background:{color:Container}; margin-left:-400px; margin-top:-225px; border-radius:5px; }
+
+#entries { width:500px; margin-left:275px; height:400px; overflow:auto; position:fixed; margin-top:0px; padding-top:50px;}
+
+#posts { width:400px; padding:25px; margin:0 auto; padding-top:50px; background:{color:Posts}; border-radius:5px; margin-bottom:30px; }
+
+    .ql { font-family:'Neothic'; font-size:55px; padding:35px; font-weight:800; text-align:center; }
+    
+    .quote { text-align:center; font-size:25px; padding:0px 50px; margin-top:-10px; font-weight:bold; color:{color:Accent Two}; }
+    
+    .source { text-align:right; margin-top:25px; }
+    
+    iframe#youtube_iframe { width:{select:Posts Width}px; max-height:100%; border-top-width:0px; border-right-width:0px; border-bottom-width:0px; border-left-width:0px; }
+    
+iframe.spotify_audio_player { width:{select:Posts Width}px; max-height:80px; }
+
+.label { font-size:10px; text-transform:uppercase; font-family:'Mont'; font-weight:bold; color:{color:Accent One}; letter-spacing:2px; }
+
+.even .label  { color:{color:Accent Two}; } 
+
+[photoset-layout] {  grid-gap: 5px; }
+
+#tags { margin:-25px; margin-top:25px; background:{color:Background}; padding:15px; border-bottom-left-radius:5px; border-bottom-right-radius:5px; } #tags a { font-size:10px; margin:0px 5px; color:{color:text}; }
+
+#sidebar {width:200px; height:325px; position:fixed; margin-top:65px; margin-left:50px; border-radius:5px; }
+
+#sidebar img { width:100px; height:100px; margin:0 auto; margin-top:0px; border-radius:100%; position:fixed; margin-left:50px; object-fit:cover;} 
+
+#description { width:200px; box-sizing:border-box; padding:0px; text-align:justify; height:95px; overflow:auto; position:fixed; margin-left:0px; margin-top:125px;}
+
+#search {background:{color:Borders}; width:200px; height:35px; border:none; border-radius:5px; position:fixed; margin-top:245px; margin-left:0px; color:{color:Accent Two}; }
+
+#sf {background: url('https://static.tumblr.com/f1skqpy/Oxbn13qun/search_icon.png') {color:Borders} left no-repeat; background-size: 10px 10px; }
+
+.sfm input {background:{color:Borders}; border:none; outline:none; font-family:'{text:Font}', sans-serif; font-size: 9px;color:#f5e7dc;text-transform: uppercase; font-weight:bold; letter-spacing:2px; margin-top:2px; margin-left:10px; padding:5px; padding-left:20px;  width:155px; height:20px; }
+
+
+#pagination {width:200px; height:auto; border-radius:5px; position:fixed;  margin-top:360px; margin-left:50px; text-align:center; box-sizing:border-box; padding:5px 15px; }
+
+#pop { display:inline-block; font-size:15px; text-align:center;margin:0px 10px;  width:25px; height:25px; background:{color:Posts}; line-height:25px; border-radius:100%; margin-left:125px; margin-top:73px; position:fixed;} 
+
+
+ @font-face { font-family: "Neothic"; src: url('https://dl.dropbox.com/s/f7aqpxv7dl1bvs8/neothic.ttf'); }
+
+
+#contain { width:350px; height:150px; position:fixed; top:50%; left:50%; margin-left:-175px; margin-top:-75px;display:none;z-index:9999999999999999999999999999999999; overflow:auto; text-align:center; color:{color:Accent Three}; background:{color:Borders}; border-radius:5px;}
+
+#contain h2 { margin-top:20px; }
+
+#links { width:350px; box-sizing:border-box; height:90px; text-align:center; position:fixed; margin-top:0px; } #link { width:85px; padding:5px; border-radius:5px; margin:5px; display:inline-block; background:{color:Posts}; } #link:hover { cursor:pointer; background:{color:Accent Two}; color:{color:Posts}; transition:2s ease-in-out all; }
+
+.exit {  font-size:15px; text-align:center;margin:0px 10px;  width:25px; height:25px; background:{color:Posts}; line-height:25px; border-radius:100%; margin-left:-50px; margin-top:-12px; position:fixed; } .exit:hover { cursor:pointer; }
+
+#question { margin:25px; border-radius:25px; background:{color:Background}; padding:30px; } #asker { float:right; padding-bottom:10px; font-size:15px; font-family:'Neothic'; color:{color:Accent One}; }
+
+ #notes { margin:0 auto; margin-top:40px;  width:400px; }
+    
+#notes ol, .notes-bottom ul { margin:0px; padding:0; list-style: none; background:transparent; }
+
+#notes li:before { display:none; }
+
+#notes li { position:relative; display:block; padding:10px 25px;  margin-top:-15px; margin-bottom:25px; font-weight:bold; font-size:8px; text-transform:uppercase; text-align:center; background:{color:Borders}; width:400px;box-sizing:border-box;border-radius:5px;}
+
+#notes li img.avatar { border:none; width:0; padding:0; }
+
+#notes .retags { padding-bottom:0px; margin-bottom:0px; }
+
+#notes .retags a { font-size:7px; font-weight:normal; padding-bottom:0px; margin-bottom:0px; }
+
+#postinfo { margin:-50px -25px; margin-bottom:25px; padding:10px; padding-top:12px; font-family:'Neothic';border-top-left-radius:5px; border-top-right-radius:5px; color:{color:Accent Two}; text-align:center; font-size:9px; background:{color:Background};} #dot { width:10px; height:10px; border-radius:100%; background:{color:Accent One}; margin:0px 3px; margin-top:2px; display:inline-block;} #dot.dot { background:{color:Accent Two}; }
+
+#sugarhoney { position:fixed; bottom:0; left:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+</style>
+
+
+<script> 
+    $(document).ready(function() {      
+    $('#pop').click(function() {
+        $('#pop').fadeOut();
+        $('#contain').fadeIn();
+        
+    });
+    
+    $('#contain .exit').click(function() {
+        $('#contain').fadeOut();
+        $('#posts').fadeIn();
+        $('#entries').fadeIn();
+        $('#pop').fadeIn();
+    });
+ });  
+</script>
+
+
+<body>
+
+    
+<div id="sugarhoney"><a title="theme by sugar" href="https://ctrlsugar.tumblr.com/"><i class="fa-solid fa-heart"></i></a></div> 
+
+<!-- DO NOT REMOVE CREDIT!! -->
+
+
+<div id="contain">
+<div class="exit"> <i class="fas fa-times"></i> </div>   
+<h2>navigation</h2>
+
+<div id="links">
+    <a href="{text:Link One URL}"><div id="link">{text:Link One}</div></a>
+    <a href="{text:Link Two URL}"><div id="link">{text:Link Two}</div></a>
+    <a href="{text:Link Three URL}"><div id="link">{text:Link Three}</div></a>
+    <a href="{text:Link Four URL}"><div id="link">{text:Link Four}</div></a>
+    <a href="{text:Link Five URL}"><div id="link">{text:Link Five}</div></a>
+    <a href="{text:Link Six URL}"><div id="link">{text:Link Six}</div></a>
+</div>
+ 
+</div>
+
+
+
+<div id="container">
+<div id="sidebar">
+
+<img src="{image:Sidebar}">
+        <div id="description">{text:Description}</div>
+
+
+<a title="+ more!!"><div id="pop"><i class="fas fa-plus"></i></div></a>
+        <div id="search">
+    <form action="/search" method="get" class="sfm" name="theform">
+    <input type="text" name="q" placeholder="search blog" id="sf"/>
+   </form>
+</div>
+    
+</div>
+
+<div id="pagination">
+{block:PreviousPage}<a href="{PreviousPage}">backward /&nbsp;</a>{/block:PreviousPage}{block:NextPage}<a href="{NextPage}">forward</a>{/block:NextPage}
+</div>
+
+<div id="entries">
+    {block:Posts}
+<div id="posts">
+{block:Date}
+<div id="postinfo">
+<a href="{Permalink}" title="posted {timeago}"><div id="dot"></div></a> <a href="{Permalink}" title="{NoteCount} notes"><div id="dot"></div></a> <a href="{ReblogURL}" title="Reblog Post"><div id="dot"></div></a>{block:ContentSource} <a href="{SourceURL}" title="source link"><div id="dot" class="dot"></div></a> {/block:ContentSource}</div>
+{/block:Date}
+
+{block:Title}<h1>{Title}</h1>{/block:Title}
+
+{block:Text}{Body}{/block:Text}
+
+{block:Quote}<div class="ql">&ldquo;</div><div class="quote">{Quote}</div>
+{block:Source}<div class="source">{Source}</div>{/block:Source}{/block:Quote}
+ 
+{block:Link}<h1><a href="{URL}" {Target}>{Name}</a></h1>{block:Description}{Description}{/block:Description}{/block:Link}
+
+{block:Photo}<center><img src="{PhotoURL-HighRes}"/></center>{/block:Photo}
+  
+{block:Photoset}<div class="photoset-grid" photoset-layout="{PhotosetLayout}">{block:Photos}<div><img src="{PhotoURL-HighRes}" /></div>{/block:Photos}</div>{/block:Photoset}
+
+{block:Chat}<div class="chat">{block:Lines}<div class="{Alt}">{block:Label}<span class="label">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</span>{/block:Label}{Line}</div>{/block:Lines}</div>{/block:Chat} 
+
+{block:Video}{Video-400}{/block:Video}
+ 
+{block:Audio}{block:AudioPlayer}<div id="audio">{block:AlbumArt}<div id="audioimg"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}<div id="player">{AudioPlayerWhite}</div><div id="trackdetails">{block:TrackName}<b>Track:</b> {TrackName} <br/>{/block:TrackName}{block:Artist}<b>Artist:</b> {Artist} <br/>{/block:Artist}{block:Album}<b>Album:</b> {Album} <br/>{/block:Album}</div></div>{/block:AudioPlayer}<br><br>{block:Caption}{Caption}{/block:Caption}{/block:Audio} 
+
+    
+{block:Answer}<div id="question">{Question} <div id="asker">{Asker}</div></div>
+        {Answer}
+{/block:Answer}
+    
+
+{block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
+
+{block:More} <a href="{Permalink}"><div class="more">continue to post</div></a> {/block:More}  
+
+
+<div id="tags"> <b>filed under:</b> {block:Tags}<a href="{TagURL}">{Tag}</a>{/block:Tags}</div>
+
+{block:PermalinkPage}
+   
+{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+{/block:PermalinkPage}
+</div>
+{/block:Posts}
+    
+</div>    
+        
+</div>
+</body>
+</html>
