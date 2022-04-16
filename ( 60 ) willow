@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+         WILLOW / 060 / CTRLSUGAR / TUMBLR
+         CREATED & DESIGNED BY SUGAR
+       
+        - icons by fontawesome
+        - fonts from google fonts
+        - style my tootltips by malihu (https://manos.malihu.gr)
+        - css photoset & fix by annasthms and espoirthemes
+       
+FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - CTRLSUGAR.TUMBLR.COM - BY USING THIS THEME YOU ACCEPT OUR TERMS OF SERVICE.
+   
+   - this work is not to be redistributed
+   - do not remove the credit - no exceptions.
+   - do not use as a base code
+   - you may edit the code - but credit must stay in tact    
+   
+ 
+ 
+-->
+
+    
+<head>
+    <title>{Title}</title>
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+    {block:Description}
+        <meta name="description" content="{MetaDescription}" />
+    {/block:Description}
+    
+
+         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script><script src="https://dl.dropbox.com/s/idz205ivncbofw0/smt.js"></script>
+    
+<link href="https://static.tumblr.com/0podkko/oDSpg7y88/photosets.css" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family={text:Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+   
+   <meta name="select:Sidebar Icon" content="star"/>
+   <meta name="select:Sidebar Icon" content="heart"/>
+   <meta name="select:Sidebar Icon" content="ghost"/>
+   <meta name="select:Sidebar Icon" content="moon"/>
+   <meta name="select:Sidebar Icon" content="bomb"/>
+   <meta name="select:Sidebar Icon" content="cloud"/>
+   <meta name="select:Sidebar Icon" content="fire"/>
+   <meta name="select:Sidebar Icon" content="glasses"/>
+   <meta name="select:Sidebar Icon" content="headphones"/>
+   
+       <meta name="text:Font Size" content="12px"/>
+    <meta name="text:Font" content="Questrial"/>
+    
+    <meta name="color:Background" content=""/>
+    <meta name="color:Container" content=""/>
+    <meta name="color:Borders" content=""/>
+    <meta name="color:Posts" content=""/>
+    <meta name="color:Text" content=""/>
+    <meta name="color:Accent One" content=""/>
+    <meta name="color:Accent Two" content=""/>
+    <meta name="color:Accent Three" content=""/>
+    
+    <meta name="image:Background" content=""/>
+    <meta name="image:Tab Image" content="https://placehold.it/200x500"/> 
+  
+    <meta name="text:Description" content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."/>
+    
+    <meta name="text:Title" content="Title Here"/>
+    <meta name="text:Tab Description" content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."/>
+    
+    <meta name="text:Extra Link One" content="one"/>
+    <meta name="text:Extra Link Two" content="two"/>
+    <meta name="text:Extra Link Three" content="three"/>
+    <meta name="text:Extra Link Four" content="four"/>
+    <meta name="text:Extra Link Five" content="five"/>
+    <meta name="text:Extra Link Six" content="six"/>
+    
+    <meta name="text:Statistic One" content="statistic one"/>
+    <meta name="text:Statistic Two" content="statistic two"/>
+    <meta name="text:Statistic Three" content="statistic three"/>
+    
+        
+</head>
+<style type="text/css">
+
+body { font-family:'{text:Font}', sans-serif; font-size:{text:Font Size}; font-weight:300; letter-spacing:1px; line-height:20px; color:{color:Text}; text-align:justify; background:{color:Background};  background-image:url('{image:Background}'); background-attachment:fixed; background-size:cover; }
+
+::-webkit-scrollbar { width:0px; }
+
+ small, big { font-size:{text:Font Size}; }
+    
+    img { max-width:100%; height:auto; }
+    
+    blockquote { margin:10px; padding:0px; padding-left:15px; border-left:2px solid {color:Accent One}; }
+    
+    blockquote blockquote { padding-left:15px; margin-left:0px; border-color:{color:Accent Three}; }
+    
+    #s-m-t-tooltip { max-width:200px; margin:15px; text-align:center; font-weight:500; text-transform:lowercase; padding:7px 30px; z-index:999999999999999999999; color:{color:Accent One}; border-radius:3px; background:{color:Container}; font-size:{text:Font Size};}
+    
+    h1 { font-family:'{text:Font}'; text-align:center; font-size:25px; color:{color:Accent Three};  }
+
+h2 { font-family:'{text:Font}'; font-size:18px; color:{color:Accent One}; text-align:center; }
+
+b, strong { font-size:10px; font-family:'{text:Font}'; color:{color:Accent One}; text-transform:uppercase; font-weight:800; } i, em { color:{color:Accent Two}; }
+a { text-decoration:none; color:{color:Accent Three}; }
+    
+    a:hover { transition:all 2s linear; cursor:pointer; color:{color:Accent Two}; }
+
+    small, big { font-size:{text:Font Size}; }
+    
+    img { max-width:100%; height:auto; }
+    
+       ul, ol { list-style:none; }
+   
+   ol li:before { font-family:"Font Awesome 6 Free"; font-weight: 900; content:'\f00c'; margin-right:10px; font-size:9px; color:{color:Accent One}; }
+   
+      ul li:before { font-weight: 900; content:'━'; margin-right:10px; font-size:9px; color:{color:Accent One}; }
+      
+      pre { background:{color:Background}; width:calc({select:Posts Width}px - 20px); padding:10px; word-break:break-all; font-size:{text:Font Size}; font-family:'{text:Font}', sans-serif; font-weight:bold; text-align:center;}
+      
+      hr { width:150px; margin:0 auto; margin-top:25px; margin-bottom:25px; text-align:center; float:center; border-width: 5px 0px 0px 0px; border-style: solid; border-color:{color:Container}; }
+
+#container { width:910px; height:500px; position:fixed; top:50%; left:50%; background:{color:Container}; margin-left:-455px; margin-top:-250px; border-radius:5px; }
+
+#entries { width:500px; margin-left:385px; height:450px; overflow:auto; position:fixed; margin-top:0px; padding-top:50px;}
+
+#posts { width:400px; padding:25px; margin:0 auto; padding-top:50px; background:{color:Posts}; border-radius:5px; margin-bottom:30px; }
+
+    .ql { font-family:serif; font-size:55px; padding:35px; font-weight:800; text-align:center; }
+    
+    .quote { text-align:center; font-size:25px; padding:0px 50px; margin-top:-10px; font-weight:bold; color:{color:Accent Two}; }
+    
+    .source { text-align:right; margin-top:25px; }
+    
+    iframe#youtube_iframe { width:{select:Posts Width}px; max-height:100%; border-top-width:0px; border-right-width:0px; border-bottom-width:0px; border-left-width:0px; }
+    
+iframe.spotify_audio_player { width:{select:Posts Width}px; max-height:80px; }
+
+.label { font-size:10px; text-transform:uppercase; font-family:'Mont'; font-weight:bold; color:{color:Accent One}; letter-spacing:2px; }
+
+.even .label  { color:{color:Accent Two}; } 
+
+[photoset-layout] {  grid-gap: 5px; }
+
+#question { margin:25px; border-radius:25px; background:{color:Background}; padding:30px; } #asker { float:right; padding-bottom:10px; font-size:15px; font-family:'{text:Font}'; color:{color:Accent One}; }
+
+ #notes { margin:0 auto; margin-top:40px;  width:400px; }
+    
+#notes ol, .notes-bottom ul { margin:0px; padding:0; list-style: none; background:transparent; }
+
+#notes li:before { display:none; }
+
+#notes li { position:relative; display:block; padding:10px 25px;  margin-top:-15px; margin-bottom:25px; font-weight:bold; font-size:8px; text-transform:uppercase; text-align:center; background:{color:Borders}; width:400px;box-sizing:border-box;border-radius:5px;}
+
+#notes li img.avatar { border:none; width:0; padding:0; }
+
+#notes .retags { padding-bottom:0px; margin-bottom:0px; }
+
+#notes .retags a { font-size:7px; font-weight:normal; padding-bottom:0px; margin-bottom:0px; }
+
+
+#tags { margin:-25px; margin-top:25px; background:{color:Background}; padding:15px; border-bottom-left-radius:5px; border-bottom-right-radius:5px; } #tags a { font-size:10px; margin:0px 5px; color:{color:text}; } #tags b { font-family:'{text:Font}'; }
+
+#postinfo { margin:-50px -25px; margin-bottom:25px; padding:15px; padding-top:17px; font-family:'{text:Font}';border-top-left-radius:5px; border-top-right-radius:5px; color:{color:Accent Two}; text-align:center; font-size:9px; background:{color:Background};} #dot { width:10px; height:10px; border-radius:100%; background:{color:Accent One}; margin:0px 3px; margin-top:2px; display:inline-block;} #dot.dot { background:{color:Accent Two}; }
+
+#sugarhoney { position:fixed; bottom:0; left:0;  margin:15px; z-index:999;} #sugarhoney a { border:none; color:{color:Accent One}; font-size:15px; }
+
+#sidebar {width:410px; height:500px; position:fixed; clip-path: polygon(0 0, 72% 0, 100% 100%, 0% 100%);  background:{color:Accent Three};  border-top-left-radius:5px; border-bottom-left-radius:5px; }
+
+#sideimage {width:400px; height:501px; position:fixed; background:{color:Accent Two};  clip-path: polygon(0 0, 71% 0, 100% 100%, 0% 100%); border-top-left-radius:5px; border-bottom-left-radius:5px;}
+
+#icon { width:100px; height:100px; line-height:100px; text-align:center; font-size:40px; color:{color:Posts}; margin:0 auto; margin-top:130px; border-radius:100%; position:fixed; margin-left:115px;} 
+
+#description { width:225px; box-sizing:border-box; padding:0px; text-align:justify; height:95px; overflow:auto; position:fixed; margin-left:65px; margin-top:245px; color:{color:Posts};}
+
+#pagination {width:250px; height:auto; border-radius:5px; position:fixed;  margin-top:360px; margin-left:50px; text-align:center; box-sizing:border-box; padding:5px 15px; }
+
+#contain { width:605px; height:500px; position:fixed; top:50%; left:50%; margin-left:-150px; margin-top:-250px;display:none;z-index:9999999999999999999999999999999999; overflow:hidden; text-align:center; background:{color:Posts}; border-top-right-radius:5px; border-bottom-right-radius:5px; clip-path: polygon(0 0, 100% 0, 100% 100%, 19% 100%); }
+
+#links { margin-left:320px; margin-top:440px; transform:rotate(77deg); position:fixed; } #link, #pop { display:inline-block; margin:0px 7px; width:10px; height:10px; border-radius:100%; background:{color:Accent Three};} #pop:hover, #link:hover { background:{color:Accent One}; transition:2s all ease-in-out; cursor:pointer; }
+
+.exit { font-weight:800; font-size:10px; text-align:center; text-transform:uppercase; font-family:'Poppins'; color:{color:Accent Two}; margin:5px;  position:fixed; transform:rotate(77deg); margin-top:50px; margin-left:-20px;} .exit:hover { cursor:pointer; } 
+
+#tabimage { position:fixed; margin:35px; margin-left:410px; } #tabimage img { width:165px; height:250px; border-radius:5px; object-fit:cover; }
+
+#boxone { width:300px; height:175px; background:{color:Container}; border-radius:5px; position:fixed; margin:75px 125px; }
+
+#tababout { width:250px; height:85px; margin:25px; position:fixed; margin-top:65px; text-align:justify; overflow:auto;}
+
+#boxtwo { width:250px; height:150px; background:{color:Container}; border-radius:5px; position:fixed; margin:225px 300px; } #boxtwo #head { width:250px; }
+
+#head { position:absolute; background:{color:Borders}; padding:15px; border-top-left-radius:5px; border-top-right-radius:5px; box-sizing:border-box; width:300px; }
+
+#navigate { margin-top:62px; }
+
+#tag { width:63px; padding:5px 0px; font-size:9px; color:{color:Posts}; background:{color:Accent Three}; border-radius:5px; margin:3px; margin-bottom:5px; display:inline-block; } #tag:hover { background:{color:Accent One}; transition:2s ease-in-out all; cursor:pointer; }
+
+#title { font-family:'{text:Font}'; font-size:80px; position:fixed;margin-top:375px; height:auto; color:{color:Accent One}; font-style:italic;}
+
+#morestuff { width:150px; height:150px; position:fixed; margin-top:-90px; margin-left:-170px; } #stat { background:{color:Accent Two}; padding:7px 0px; border-radius:5px; width:150px; text-align:center; color:{color:Posts}; margin-bottom:10px; }
+
+</style>
+
+
+<script> 
+    $(document).ready(function() {      
+    $('#pop').click(function() {
+        $('#entries').fadeOut();
+        $('#contain').fadeIn();
+        
+    });
+    
+    $('#contain .exit').click(function() {
+        $('#contain').fadeOut();
+        $('#posts').fadeIn();
+        $('#entries').fadeIn();
+        $('#pop').fadeIn();
+    });
+ });  
+</script>
+
+
+<body>
+
+    
+<div id="sugarhoney"><a title="theme by sugar" href="https://ctrlsugar.tumblr.com/"><i class="fa-solid fa-heart"></i></a></div> 
+
+<!-- DO NOT REMOVE CREDIT!! -->
+
+
+<div id="contain">
+<div class="exit"><span class="fas fa-times"></span> close this tab</div>
+
+<div id="boxone"><div id="head"><div id="dot"></div><div id="dot"></div><div id="dot"></div></div>
+
+<div id="title">{text:Title}</div>
+
+<div id="tababout">
+   {text:Tab Description}
+</div>
+</div>
+
+<div id="tabimage">
+    <img src="{image:Tab Image}">
+</div>
+<div id="boxtwo"><div id="head"><div id="dot"></div><div id="dot"></div><div id="dot"></div></div>
+
+<div id="navigate">
+    <a href="{text:Extra Link One}"><div id="tag">one</div></a>
+    <a href="{text:Extra Link Two}"><div id="tag">two</div></a>
+    <a href="{text:Extra Link Three}"><div id="tag">three</div></a>
+    <a href="{text:Extra Link Four}"><div id="tag">four</div></a>
+    <a href="{text:Extra Link Five}"><div id="tag">five</div></a>
+    <a href="{text:Extra Link Six}"><div id="tag">six</div></a>
+    
+</div>
+
+<div id="morestuff">
+    <div id="stat">{text:Statistic One}</div>
+    <div id="stat">{text:Statistic Two}</div>
+    <div id="stat">{text:Statistic Three}</div>
+    
+</div>
+
+
+</div>
+ 
+</div>
+
+
+
+<div id="container">
+<div id="sidebar">
+
+<div id="sideimage"></div>
+
+<div id="icon"><span class="fas fa-{select:Sidebar Icon}"></span></div>
+        <div id="description">{text:Description}</div>
+<div id="links">
+    <a href="/" title="refresh"><div id="link"></div></a>
+    <a href="/ask" title="message"><div id="link"></div></a>
+    <a title="+ more"><div id="pop"></div></a>
+    
+</div>
+
+        
+    
+</div>
+
+<div id="pagination">
+{block:PreviousPage}<a href="{PreviousPage}">backward /&nbsp;</a>{/block:PreviousPage}{block:NextPage}<a href="{NextPage}">forward</a>{/block:NextPage}
+</div>
+
+<div id="entries">
+    {block:Posts}
+<div id="posts">
+{block:Date}
+<div id="postinfo">
+<a href="{Permalink}" title="posted {timeago}"><div id="dot"></div></a> <a href="{Permalink}" title="{NoteCount} notes"><div id="dot"></div></a> <a href="{ReblogURL}" title="Reblog Post"><div id="dot"></div></a>{block:ContentSource} <a href="{SourceURL}" title="source link"><div id="dot" class="dot"></div></a> {/block:ContentSource}</div>
+{/block:Date}
+
+{block:Title}<h1>{Title}</h1>{/block:Title}
+
+{block:Text}{Body}{/block:Text}
+
+{block:Quote}<div class="ql">&ldquo;</div><div class="quote">{Quote}</div>
+{block:Source}<div class="source">{Source}</div>{/block:Source}{/block:Quote}
+ 
+{block:Link}<h1><a href="{URL}" {Target}>{Name}</a></h1>{block:Description}{Description}{/block:Description}{/block:Link}
+
+{block:Photo}<center><img src="{PhotoURL-HighRes}"/></center>{/block:Photo}
+  
+{block:Photoset}<div class="photoset-grid" photoset-layout="{PhotosetLayout}">{block:Photos}<div><img src="{PhotoURL-HighRes}" /></div>{/block:Photos}</div>{/block:Photoset}
+
+{block:Chat}<div class="chat">{block:Lines}<div class="{Alt}">{block:Label}<span class="label">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</span>{/block:Label}{Line}</div>{/block:Lines}</div>{/block:Chat} 
+
+{block:Video}{Video-400}{/block:Video}
+ 
+{block:Audio}{block:AudioPlayer}<div id="audio">{block:AlbumArt}<div id="audioimg"><img src="{AlbumArtURL}"></div>{/block:AlbumArt}<div id="player">{AudioPlayerWhite}</div><div id="trackdetails">{block:TrackName}<b>Track:</b> {TrackName} <br/>{/block:TrackName}{block:Artist}<b>Artist:</b> {Artist} <br/>{/block:Artist}{block:Album}<b>Album:</b> {Album} <br/>{/block:Album}</div></div>{/block:AudioPlayer}<br><br>{block:Caption}{Caption}{/block:Caption}{/block:Audio} 
+
+    
+{block:Answer}<div id="question">{Question} <div id="asker">{Asker}</div></div>
+        {Answer}
+{/block:Answer}
+    
+
+{block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
+
+{block:More} <a href="{Permalink}"><div class="more">continue to post</div></a> {/block:More}  
+
+
+<div id="tags"> <b>filed under:</b> {block:Tags}<a href="{TagURL}">{Tag}</a>{/block:Tags}</div>
+
+{block:PermalinkPage}
+   
+{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+{/block:PermalinkPage}
+</div>
+{/block:Posts}
+    
+</div>    
+        
+</div>
+</body>
+</html>
