@@ -52,7 +52,7 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - CTRLSUGAR.TUMBLR.COM - B
 <script src="https://kit.fontawesome.com/e45a4660e7.js" crossorigin="anonymous"></script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family={text:Font}:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">
 
@@ -89,6 +89,7 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - CTRLSUGAR.TUMBLR.COM - B
     <meta name="color:Text" content="#b9b9b9"/>
         
     <meta name="text:Font Size" content="11px"/>
+    <meta name="text:Font" content="Poppins"/>
 
     <meta name="image:Background" content="" />
     <meta name="image:Sidebar" content="https://static.tumblr.com/blgwozc/5zZr4ixs3/90.png" />
@@ -187,7 +188,7 @@ ul li:before { font-family:"Font Awesome 6 Free"; font-weight: 900;  content:'\f
       
       .more:hover { background:{color:Accent Three}; transition:2s all linear; cursor:pointer; }
     
-    body { font-family:'Poppins', sans-serif; font-size:{text:Font Size}; font-weight:300; letter-spacing:1px; line-height:200%; color:{color:Text}; text-align:justify; background:{color:Background}; background-image:url({image:Background}); background-position:top left; background-attachment:fixed; background-size:cover repeat;  }
+    body { font-family:'{text:Font}', sans-serif; font-size:{text:Font Size}; font-weight:300; letter-spacing:1px; line-height:200%; color:{color:Text}; text-align:justify; background:{color:Background}; background-image:url({image:Background}); background-position:top left; background-attachment:fixed; background-size:cover repeat;  }
     
     
                        /* CONTAINER */
@@ -229,7 +230,7 @@ cursor: pointer; }
 
 .quoted {font-family:"Playfair Display"; color:{color:Accent Three}; font-size:2em; text-align: center; font-style: italic; }
 
-.quote-source { text-align:right; font-family:'Poppins'; margin-top: 12px;}
+.quote-source { text-align:right; font-family:'{text:Font}'; margin-top: 12px;}
 
 .audio > iframe { border-radius:15px; width: 100%; max-width: 100%; }
 
@@ -329,7 +330,7 @@ a.userlink { margin-top:-4px; color:{color:Accent One}; }
 
 #about {  position:fixed; margin-left:165px; width:185px; height:150px; margin-top:100px; overflow:auto; text-align:justify; line-height:150%;} #about::-webkit-scrollbar { width:0px; }
 
-#socials { position:fixed; transform:rotate(-5deg); margin-left:165px; margin-top:265px; height:100px; width:185px; padding:15px; box-sizing:border-box; } #social { font-family:'Licorice'; color:{color:Accent Three}; font-size:40px; font-weight:bold;} #social span { font-family:'Poppins'; font-weight:500; padding:5px 15px; font-size:11px; border-radius:5px; background:{color:Borders}; color:{color:Accent Two};}
+#socials { position:fixed; transform:rotate(-5deg); margin-left:165px; margin-top:265px; height:100px; width:185px; padding:15px; box-sizing:border-box; } #social { font-family:'Licorice'; color:{color:Accent Three}; font-size:40px; font-weight:bold;} #social span { font-family:'{text:Font}'; font-weight:500; padding:5px 15px; font-size:11px; border-radius:5px; background:{color:Borders}; color:{color:Accent Two};}
 
 #muse { margin:7px; width:65px; height:65px; display:inline-block; background:{color:Accent One}; text-align:center;border:2px solid {color:Accent Two}; border-radius:5px;} #muse img { width:65px; object-fit:cover; height:65px; box-sizing:border-box;  border-radius:5px;}
 
@@ -351,7 +352,6 @@ a.userlink { margin-top:-4px; color:{color:Accent One}; }
 
 .popup_block #fade { display:none; }
 .popup_block{ display:none; background:{color:Background}; position:absolute; top:0; margin-top:25px; padding:25px; box-sizing:border-box; height:355px; z-index:9999999; } #m { z-index:999999999; }
-
 </style>
 
 <script>
