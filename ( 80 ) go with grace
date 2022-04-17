@@ -323,7 +323,7 @@ a.userlink { margin-top:-4px; color:{color:Accent One}; }
 
 #popcontain { width:350px; height:350px; z-index:999; padding:25px; border-box:box-sizing; background:{color:Posts}; position:fixed; text-align:center; border-radius:5px; } .muses { overflow:auto; height:350px; } .muses::-webkit-scrollbar { width:0px; }
 
-#image { width:150px; height:350px; background:{color:Background}; position:fixed; border-radius:5px;} #image img { object-fit:cover; }
+#image { width:150px; height:350px; background:{color:Background}; position:fixed; border-radius:5px;} #image img { object-fit:cover;   width:150px; height:350px; border-radius:5px;}
 
 #tagged { position:fixed; margin-left:165px;  width:225px; } #tag { width:40px; float:left; display:inline-block; height:40px; margin-right:9px; margin-bottom:10px;background:{color:Accent One}; border-radius:5px; line-height:40px; font-size:15px; text-align:center; } #tag i {color:{color:Posts}; }
 
