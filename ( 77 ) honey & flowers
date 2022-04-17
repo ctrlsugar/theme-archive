@@ -443,9 +443,9 @@ h4 {text-align:left; font-family:"Playfair Display"; font-style:italic; text-tra
 <a class="userlink" href="{SubmitterURL}" title="submitted by {Submitter}"><img class="cimg" src="{SubmitterPortraitURL-64}" alt="{Submitter}'s Icon">{Submitter}</a>{/block:Submission}{Caption}</div>{/block:NotReblog}{block:RebloggedFrom}{block:Reblogs}<div class="caption"><div class="username"><div class="usericon"><img class="cimg" src="{PortraitURL-64}"></div>{block:HasPermalink}<a target="_blank" class="userlink" href="{Permalink}"><div class="user {block:IsDeactivated} inactive deactivated {/block:IsDeactivated}">{Username}</div></a>{/block:HasPermalink}{block:HasNoPermalink}<span class="user {block:IsDeactivated} inactive deactivated {/block:IsDeactivated}">{Username}</span>{/block:HasNoPermalink}</div><div class="text">{Body}</div></div>{/block:Reblogs}{/block:RebloggedFrom}{/block:Caption}{/block:Video}
 
 <!--POST INFORMATION-->
-<div class="postinfo"><div id="line"></div><a href="{Permalink}" title="permalink page"><div class="info"><i class="cp cp-link"></i></div></a>
+<div class="postinfo"><div id="line"></div><a href="{Permalink}" title="permalink page"><div class="info"><i class="fas fa-link"></i></div></a>
 
-<div class="tagged"><i class="cp cp-tags"></i></div>
+<div class="tagged"><i class="fas fa-tags"></i></div>
 {block:HasTags}<div class="tags">{block:Tags} <a href="{TagURL}">#{Tag},</a>  {/block:Tags}</div> {/block:HasTags} 
 
 {block:Permalink}  <a href="{Permalink}"> {block:Date} {ShortMonth} {DayOfMonth}{DayOfMonthSuffix} {12Hour}:{Minutes} {AmPm} {/block:Date} </a> {block:NoteCount} <a href="{Permalink}"> + {NoteCount} </a>  {/block:NoteCount} {block:RebloggedFrom} ( <a href="{ReblogParentURL}">Via</a> {/block:RebloggedFrom} {block:ContentSource} & <a href="{SourceURL}">Source</a> {/block:ContentSource} {block:RebloggedFrom} ){/block:RebloggedFrom}
