@@ -523,7 +523,7 @@ h2 {font-family:'{text:Bold Font}'; color:{color:Accent Six}; text-align:center;
      
  </div>
   
-  <div id="ten"> <div id="footer"> {text:Footer} <br> <span><i class="fal fa-copyright"></i> {Name} {CopyrightYears} | All Rights Reserved</span></div>     </div><div id="foot"></div>
+  <div id="ten"> <div id="footer"> {text:Footer} <br> <span><i class="far fa-copyright"></i> {Name} {CopyrightYears} | All Rights Reserved</span></div>     </div><div id="foot"></div>
 </div>
 
 
