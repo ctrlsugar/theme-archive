@@ -371,7 +371,7 @@ z-index: 999999999999; }
 
 #updates { width:225px; height:300px; top:50%; margin-top:-205px; right:0; margin-right:50px; position:fixed; text-align:right;} #updates span { padding-left:50px; }
 
-#updates img { margin-bottom:25px; border-radius:15px; max-width:225px; height:auto; }
+#updates img { margin-bottom:25px; object-fit:cover; border-radius:15px; max-width:225px; height:auto; }
 
 #update {  } #update::-webkit-scrollbar { width:0px; }
 
