@@ -74,7 +74,7 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - CTRLSUGAR.TUMBLR.COM - B
     
     <meta name="text:Font Size" content="12px"/>
     <meta name="text:Font" content="Questrial"/>
-    <meta name="text:Bold Font" content={text:Font}/>
+    <meta name="text:Bold Font" content="Playfair Display SC"/>
     
     <meta name="text:Roleplay Location" content="city, state"/>
     <meta name="text:Update Box One" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt."/>
