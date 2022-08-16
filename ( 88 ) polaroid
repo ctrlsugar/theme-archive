@@ -333,7 +333,7 @@ li.more_notes_link_container:before { content: ""; }
 
 .popup .close { cursor:pointer; width:440px; position:absolute;bottom:0px; background:{color:borders}; margin-left:-50px; padding:10px 25px; height:40px; box-sizing:border-box; text-align:center; cursor:pointer; color:{color:accent one}; font-weight:700; }
 
-#muses {text-align:center; width:340px; height:185px; position:fixed; overflow:auto;} #muses::-webkit-scrollbar { width:0px; } #muse { display:inline-block; width:60px; background:white; height:72px; margin:7px; margin-bottom:10px; transform:rotate(-3deg);} #muse img { margin:5px; } #muse:hover { transform:rotate(0deg); transition:all ease-in-out 1s;}
+#muses {text-align:center; width:340px; height:185px; position:fixed; overflow:auto;} #muses::-webkit-scrollbar { width:0px; } #muse { display:inline-block; width:60px; background:white; height:72px; margin:7px; margin-bottom:10px; transform:rotate(-3deg);} #muse img { margin:5px; width:60px; height:60px; object-fit:cover } #muse:hover { transform:rotate(0deg); transition:all ease-in-out 1s;}
 
 #navigate { width:350px; position:fixed; text-align:center; margin-top:208px; }
     
