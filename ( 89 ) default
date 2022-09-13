@@ -123,13 +123,13 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - CTRLSUGAR.TUMBLR.COM - B
     <meta name="select:background" content="no-repeat"/>
     
     <meta name="color:background" content="#121212"/>
-    <meta name="color:text" content=""/>
+    <meta name="color:text" content="#e7e7e7"/>
     <meta name="color:borders" content="#0f0f0f"/>
     <meta name="color:container" content="#000000"/>
     <meta name="color:posts" content="#151515"/>
-    <meta name="color:accent one" content=""/>
-    <meta name="color:accent two" content=""/>
-    <meta name="color:accent three" content=""/>
+    <meta name="color:accent one" content="#9f6868"/>
+    <meta name="color:accent two" content="#572f2f"/>
+    <meta name="color:accent three" content="#c39d6b"/>
     
     <meta name="text:posts width" content="500px"/>
     
