@@ -179,10 +179,9 @@ hr { width:50%; height:4px; margin:25px auto; border:none; background-color:{col
 ol { list-style-type: decimal; }
 ul { list-style-type: circle; }
 
-a.read_more { margin:25px auto; float:right; }
-p.tmblr-attribution { text-align: center; margin-top:10px; }
-a.read_more, p.tmblr-attribution a { text-transform:uppercase; font-weight:900; font-size:9px; background-color:{color:borders}; padding:7px 25px; }
-a.read_more:hover, p.tmblr-attribution a:hover { background-color:{color:accent one}; color:{color:posts}; }
+p.tmblr-attribution { text-align: center; margin-top:10px;  }
+a.read_more, p.tmblr-attribution a { text-transform:uppercase; box-sizing:border-box; width:100%; font-weight:900; margin-bottom:25px; font-size:9px; background:{color:accent one}; color:{color:posts}; text-align:right; padding:7px 25px; }
+a.read_more:hover, p.tmblr-attribution a:hover { color:{color:posts}; }
 a.read_more, a.read_more:hover, p.tmblr-attribution a, p.tmblr-attribution a:hover { border: none; transition: 2s; -moz-transition: 2s; -o-transition: 2s; -webkit-transition: 2s;}
 
 .title, h1 { font-size:2em; text-align: center; background:{color:background}; padding:10px; font-weight:900; color:{color:accent two}; }
