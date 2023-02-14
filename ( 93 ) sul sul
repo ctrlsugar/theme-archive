@@ -235,7 +235,7 @@ article h1 {margin:0px -25px; padding-bottom:25px; margin-bottom:25px; text-alig
 article {background:var(--posts); width:540px; border:1px solid var(--borders); border-top-left-radius:var(--spacing-sm);border-top-right-radius:var(--spacing-sm); margin:calc(var(--spacing-lg) * 4) auto;}
 
 ol.notes { margin:0px -40px; margin-top:85px; }
-ol.notes li { padding:10px; list-style:none;margin-bottom:10px;  background:var(--posts); border:1px solid var(--borders); border-radius:3px;}
+ol.notes li { box-sizing:border-box;width:540px; padding:10px; list-style:none;margin-bottom:10px;  background:var(--posts); border:1px solid var(--borders); border-radius:3px;}
 
 ol.notes img {display:none;}
 
