@@ -112,7 +112,7 @@ $(document).ready(function() {
     <meta name="text:font size" content="13px"/>
     
     <meta name="image:Background" content="" />
-    <meta name="image:Sidebar Icon" content="{portraiturl-96}" />
+    <meta name="image:Sidebar Icon" content="{Favicon}" />
     <meta name="text:Title" content="title here."/>
 
     <meta name="text:Link 1 Title" content="link 1" />
@@ -142,23 +142,19 @@ $(document).ready(function() {
     <meta name="text:Extra Link 8 Title" content="extra link" />
     <meta name="text:Extra Link 8 Url" content="#" />
     
-    <meta name="image:Featured One" content="https://static.tumblr.com/yxudzje/wrurpot38/250x150.png" />
-    <meta name="image:Featured Two" content="https://static.tumblr.com/yxudzje/wrurpot38/250x150.png" />
-    <meta name="image:Featured Three" content="https://static.tumblr.com/yxudzje/wrurpot38/250x150.png" />
-    <meta name="image:Featured Four" content="https://static.tumblr.com/yxudzje/wrurpot38/250x150.png" />
+    <meta name="image:Featured 1" content="https://static.tumblr.com/yxudzje/wrurpot38/250x150.png" />
+    <meta name="image:Featured 2" content="https://static.tumblr.com/yxudzje/wrurpot38/250x150.png" />
+    <meta name="image:Featured 3" content="https://static.tumblr.com/yxudzje/wrurpot38/250x150.png" />
+    <meta name="image:Featured 4" content="https://static.tumblr.com/yxudzje/wrurpot38/250x150.png" />
     
-    <meta name="text:Featured One Url" content="#" />
-    <meta name="text:Featured One Title" content="Title" />
-    <meta name="text:Featured One Subtitle" content="subtitle" />
-    <meta name="text:Featured Two Url" content="#" />
-    <meta name="text:Featured Two Title" content="Title" />
-    <meta name="text:Featured Two Subtitle" content="subtitle" />
-    <meta name="text:Featured Three Url" content="#" />
-    <meta name="text:Featured Three Title" content="Title" />
-    <meta name="text:Featured Three Subtitle" content="subtitle" />
-    <meta name="text:Featured Four Url" content="#" />
-    <meta name="text:Featured Four Title" content="Title" />
-    <meta name="text:Featured Four Subtitle" content="subtitle" />
+    <meta name="text:Featured 1 Url" content="#" />
+    <meta name="text:Featured 1 Title" content="Title" />
+    <meta name="text:Featured 2 Url" content="#" />
+    <meta name="text:Featured 2 Title" content="Title" />
+    <meta name="text:Featured 3 Url" content="#" />
+    <meta name="text:Featured 3 Title" content="Title" />
+    <meta name="text:Featured 4 Url" content="#" />
+    <meta name="text:Featured 4 Title" content="Title" />
     
 
 
@@ -286,7 +282,11 @@ margin-top:10px; margin-left:25px;}
 
 .sugarhoney .slider {height: 100%; white-space: nowrap; font-size: 0; transition:2s; }
 
+.slider img { width:248px;height:150px;object-fit:cover;border-radius:10px; }
+
 .sugarhoney .slider > * { font-size: 1rem;display: inline-block;white-space: normal;vertical-align: top; border:1px solid var(--borders); width:250px; border-radius:10px; height:150px; background: none 50% no-repeat; background-size:fit cover; object-fit:cover; }
+
+.sugarhoney a { border:none;}
 
 h4 { position:relative; margin-top:105px; text-transform:uppercase; text-align:left; font-weight:700; padding-left:15px; font-size:25px;letter-spacing:1px; color:white; width:250px; z-index:9999;}
 
@@ -405,7 +405,7 @@ article { padding-bottom:0px; }
 
 img.poplight { width:60px; display:inline-block; height:60px; margin:5px 7px;object-fit:cover; cursor:pointer; border-radius:100%; padding:5px; border:2px solid var(--accent);}
 
-.popup_block{ display:none; background:var(--container); position:fixed; top:0; margin-left:-30px; margin-top:490px;padding:25px; box-sizing:border-box; height:325px; z-index:9999999; overflow:auto; font-weight:normal; }
+.popup_block{ display:none; background:var(--container); position:fixed; top:0; margin-left:-30px; margin-top:460px;padding:25px; box-sizing:border-box; height:325px; z-index:9999999; overflow:auto; font-weight:normal;}
 
 #left {font-size:12px;  position:fixed; width:130px; height:325px; background:var(--borders); margin:-25px;} #left img { width:80px; height:80px; border-radius:5px; margin:25px; margin-bottom:7px;} #t { padding:5px; margin:0px 20px; margin-bottom:8px; border-radius:5px;width:90px; color:var(--posts); background:var(--accent);  }
 
@@ -416,7 +416,7 @@ img.poplight { width:60px; display:inline-block; height:60px; margin:5px 7px;obj
 *html #fade {position: absolute;}
 #fade { display:none;}
 
-#guide { background:var(--container);width:450px; position:fixed; top:0; margin-left:-15px; margin-top:493px; box-sizing:border-box; height:315px; z-index:999; overflow:auto;   }
+#guide { background:var(--container);width:450px; position:fixed; top:0; margin-left:-15px; margin-top:464px; box-sizing:border-box; height:315px; z-index:999; overflow:auto;   }
 
 #tnav {position:fixed; width:150px; height:323px; margin-top:-2px; padding:25px; background:var(--background); padding-top:20px;}
 
@@ -487,30 +487,27 @@ img.poplight { width:60px; display:inline-block; height:60px; margin:5px 7px;obj
 
   <div class="slider">
 
-
-<div style="background:url('{image:Featured One}');margin-right:10px;">
-<a title="learn more." href="{text:Featured One Url}">
-    <h4>{text:Featured One Title}</h4>
-    <h5>{text:Featured One Subtitle}</h5>
+<div style="margin-right:10px;">
+<a title="{text:Featured 1 Title}" href="{text:Featured 1 Url}">
+<img src="{image:Featured 1}">
 </a></div>
 
-<div style="background-image:url('{image:Featured Two}');margin-right:10px;">
-<a title="learn more." href="{text:Featured Two Url}">
-        <h4>{text:Featured Two Title}</h4>
-        <h5>{text:Featured Two Subtitle}</h5>
+<div style="margin-right:10px;">
+<a title="{text:Featured 2 Title}" href="{text:Featured 2 Url}">
+<img src="{image:Featured 2}">
 </a></div>
 
-<div style="background-image:url('{image:Featured Three}');margin-right:10px;"><a title="learn more." href="{text:Featured Three Url}">
- <h4>{text:Featured Three Title}</h4>
- <h5>{text:Featured Three Subtitle}</h5></a>
-</div>
+<div style="margin-right:10px;">
+<a title="{text:Featured 3 Title}" href="{text:Featured 3 Url}">
+<img src="{image:Featured 3}">
+</a></div>
+
+<div style="margin-right:10px;">
+<a title="{text:Featured 4 Title}" href="{text:Featured 4 Url}">
+<img src="{image:Featured 4}">
+</a></div>
 
 
-<div style="background-image:url('{image:Featured Four}')">
-    <a title="learn more." href="{text:Featured Four Url}">
-    <h4>{text:Featured Four Title}</h4>
-    <h5>{text:Featured Four Subtitle}</h5></a>
-</div>
 
 </div>
   <div class="bullets">
