@@ -445,10 +445,10 @@ img.poplight { width:60px; display:inline-block; height:60px; margin:5px 7px;obj
         <a href="/ask">message</a>{/block:askenabled} &nbsp; 
         <span style="color:var(--accent);">×</span> &nbsp;
         
-        <a id="{text:Link 1 Url}">{text:Link 1 Title}</a> &nbsp; 
+        <a href="{text:Link 1 Url}">{text:Link 1 Title}</a> &nbsp; 
         <span style="color:var(--accent);">×</span> &nbsp;
         
-        <a id="{text:Link 2 Url}">{text:Link 2 Title}</a> &nbsp; 
+        <a href="{text:Link 2 Url}">{text:Link 2 Title}</a> &nbsp; 
         <span style="color:var(--accent);">×</span> &nbsp;
         
         {block:ifPopUpTab}
