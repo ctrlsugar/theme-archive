@@ -111,7 +111,7 @@ $(document).ready(function() {
     <meta name="text:Title" content="title here."/>
     <meta name="text:Subtitle" content="subtitle here."/>
 
-    <meta name="text:Description" content="lorem ipsum dolor sit amet, consectetuer adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna." />
+    <meta name="text:Description" content="be sure to reset all the options by turning them on & off at least once before setting them up permanently!! if you don't want a single muse or multimuse tab - just turn them both off and only the navigation tab will appear." />
     
     <meta name="text:Link One" content="Link One" />
     <meta name="text:Link One Url" content="" />
