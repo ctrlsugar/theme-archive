@@ -59,12 +59,12 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
 
 {block:Options}
 <meta name="image:Sidebar" content=""/>
-<meta name="image:Right Image" content=""/>
+<meta name="text:Subtitle" content="a subtitle for the top bar goes here!"/>
 <meta name="text:Description" content=""/>
 
-<meta name="color:Accent 1" content="#f5a79c"/>
-<meta name="color:Accent 2" content="#f5a79c"/>
-<meta name="color:Accent 3" content="#f5a79c"/>
+<meta name="color:Accent 1" content="#d4a1a9"/>
+<meta name="color:Accent 2" content="#94646d"/>
+<meta name="color:Accent 3" content="#92aaad"/>
 
 <meta name="select:Font size" content="1.1rem" title="1.1rem (11px)"/>
 <meta name="select:Font size" content="1.2rem" title="1.2rem (12px)"/> 
@@ -81,6 +81,7 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
 <meta name="text:Extra Link Two Url" content="#"/>
 <meta name="text:Link Three Title" content="link three"/>
 <meta name="text:Extra Link Three Url" content="#"/>
+<meta name="text:Updates" content="updates go here!"/>
 
 <meta name="select:Post width" content="350px"/>
 <meta name="select:Post width" content="400px"/>
@@ -111,14 +112,7 @@ FOR TROUBLESHOOTING AND OTHER INQUIRES PLEASE CONTACT - SUGARCODES.TUMBLR.COM - 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
   <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
- <script>
-  $( function() {
-    $( "#update-window" ).draggable();
-    $( "#releases-window" ).draggable();
-    $( "#wip-window" ).draggable();
-  } );
-  </script>
-  
+
 
 
 <style>
@@ -173,7 +167,7 @@ html[data-theme='dark'] {
      --text:#eeeeee;
      --search:#202124;
      --tab:#1b1b1c;
-     --background: #000;
+     --background: #181818;
     --container:#202124;
     --container-2:#3f3f3f;
     --posts:#262627;
@@ -206,16 +200,6 @@ html.theme-transition *:after {
     scrollbar-color: var(--accent-2) var(--container); /* firefox scrollbar */
 }
 
-/*  Why is the font-size: 62.5%?
-    - this will make using rem for the theme easier to calculate.
-      1.1rem = 11px and 2.5rem = 25px etc.
-    
-    - See more at:
-      sitepoint.com/understanding-and-using-rem-units-in-css/
-    
-    - I use rem for everything margins/paddings in the CSS variables,
-      and em to increase size depending on the rem-font-size the
-      user have chosen */
     
 html {
     height: 100%;
@@ -323,9 +307,6 @@ blockquote {border-left:3px solid var(--borders);padding-left:var(--gap1); margi
 
 /* -------------------------------------  dark/light toggles*/
 
-/* these classes are used to toggle anything that changes with
-   the mode, from the dark/light toggles to the sidebar image. */
-
 .light-on {
     display: var(--light-on);
 }
@@ -358,7 +339,7 @@ aside nav.menu { margin-left:0px; }
 
 .side-subtitle {margin-top:5px; margin-left:15px; font-size:12px;width:150px; text-align:left; float:left;  }
 
-.description { margin-top:25px; font-size:var(--font-size); line-height:175%;text-align:justify; }
+.description { margin-top:25px;padding-top:35px; font-size:var(--font-size); line-height:175%;text-align:justify; }
 
 :where(.left, .right) .sb-inner { gap: var(--gap1); position: sticky; top: var(--gap-top-bottom); }
 /* -------------------------------------  topnav */
@@ -564,7 +545,7 @@ div.npf-link-block .bottom .site-name { color: var(--links); font-size: inherit;
 /* -------------------------------------  corners */
 .top-corner { position: fixed; flex-direction: column; top: var(--gap2); right: var(--gap2); margin-top:40px; z-index: 2; align-items: flex-end; }
 
-.right-icon { padding: 0.5rem; font-size:1.5em; background-color: var(--posts); border: 1px solid var(--borders); color: rgb(var(--text)); border-radius: var(--round2); }
+.right-icon { padding: 0.5rem; font-size:1.5em; background-color: var(--posts); border: 1px solid var(--borders); color: var(--text); border-radius: var(--round2); }
 
 iframe.tmblr-iframe, .tmblr-iframe { z-index: 99!important; opacity: 0; visibility: hidden; top: 1rem; margin-top:40px; right: 5rem!important; transform: scale(0.8); transform-origin: 100% 0; transition: all 0.3s ease; }
 
@@ -578,11 +559,14 @@ iframe.tmblr-iframe, .tmblr-iframe { z-index: 99!important; opacity: 0; visibili
 .updates.active { opacity: 1; visibility: visible; } .updates-icon { display:none; } .updates-icon.active { display:inline-flex; }
 
 button.scroll-to-top { display:inline-flex; bottom: var(--gap2); right: var(--gap2); position: fixed; } button.scroll-to-top { color: var(--text); cursor: default; } button.scroll-to-top.visible { cursor: pointer; color: var(--text); }
+#options { position:fixed; margin:150px 50px; }
+.tablinks, #snav, #mnav { cursor:pointer;}
+
+.tabcontent { }
+
+.content-plink { display:none; }
 /* ------------------------------------------------- responsive */
 
-/* {select:Post width} in the Media Query makes the first lines of
-code look a bit wonky but it works, I promise. it just a simple
-calc() with post width + however wide the sidebar is + 100px or so.*/
 
 @media only screen and (max-width: calc({select:Post width} + 350px)) {
     :root {
@@ -651,7 +635,7 @@ calc() with post width + however wide the sidebar is + 100px or so.*/
             
             
             <nav class="menu flex gap1 wrap">
-                <a href="/">{Title}</a>
+ <a href="/" style="color:var(--accent-3);font-style:italic;">{text:Subtitle}</a>
                 
    </nav>
         </div>
@@ -1011,24 +995,18 @@ calc() with post width + however wide the sidebar is + 100px or so.*/
         <i class="ph ph-moon light-off"></i>
     </button>
    
+    
+    
 
-</div>
-
-<div class="top-corner flex gap1">
-    <button class="controls right-icon" title="tumblr controls" type="button" aria-label="open tumblr controls">
-        <i class="ph ph-gear spin"></i>
-    </button>
-    <button class="theme-toggle right-icon" type="button" aria-label="toggle dark or light mode"> <!-- tooltips are taken care of in the script -->
-        <i class="ph ph-sun light-on"></i>
-        <i class="ph ph-moon light-off"></i>
-    </button>
+    
     <div class="updates-container flex gap2">
         <button class="update-toggle right-icon" title="update tab" type="button" aria-label="open or close update tab">
                 <i class="ph ph-bell updates-icon active"></i>
                 <i class="ph ph-bell-simple-slash updates-icon"></i>
         </button>
+        
         <div class="updates">
-            updates container
+            {text:updates}
         </div>
     </div>
 </div>
@@ -1037,7 +1015,8 @@ calc() with post width + however wide the sidebar is + 100px or so.*/
             <nav class="pagi">
             
             
-             <a href="/page/2" title="next page"><i class="ph ph-caret-right"></i></a>
+{block:nextpage}<a href="{NextPage}" title="next page"><i class="ph ph-caret-right"></i></a>{block:nextpage}
+{block:previouspage}<a href="{PreviousPage}" title="previous page"><i class="ph ph-caret-left"></i></a>{block:previouspage}
             
 <a href="https://ctrlsugar.tumblr.com" title="a theme by sugar"><i class="ph ph-butterfly"></i></a>
 
@@ -1061,7 +1040,9 @@ calc() with post width + however wide the sidebar is + 100px or so.*/
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
 <script>
+
 document.addEventListener("DOMContentLoaded", function () {
+    
     
     // ------------------- toggle tumblr controls
     const control = document.querySelector(".controls");
